@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nederlands -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Hoofdscherm -->
+    <string name="title_interval">Interval (minuten)</string>
+    <string name="title_timeout">Time-out (seconden)</string>
+    <string name="title_position">Knoppositie</string>
+    <string name="title_language">Taal</string>
+    <string name="lang_system">Systeemstandaard</string>
+    <string name="btn_start">Starten</string>
+    <string name="btn_stop">Stoppen</string>
+    <string name="btn_support">Ontwikkeling steunen</string>
+    <string name="support_no_browser">Geen browser gevonden om de link te openen.</string>
+    <string name="status_running">SleepGuard is actief</string>
+    <string name="status_stopped">SleepGuard is gestopt</string>
+
+    <!-- Posities -->
+    <string name="pos_right_center">Rechterrand, midden</string>
+    <string name="pos_left_center">Linkerrand, midden</string>
+    <string name="pos_top_center">Bovenrand, midden</string>
+    <string name="pos_bottom_center">Onderrand, midden</string>
+    <string name="pos_top_right">Rechtsboven</string>
+    <string name="pos_top_left">Linksboven</string>
+    <string name="pos_bottom_right">Rechtsonder</string>
+    <string name="pos_bottom_left">Linksonder</string>
+
+    <!-- Machtigingen -->
+    <string name="permission_overlay_needed">Overlay-toestemming vereist. Schakel deze in bij de instellingen.</string>
+    <string name="permission_admin_needed">Apparaatbeheerder-toestemming vereist om het scherm te vergrendelen.</string>
+    <string name="permission_battery_needed">Schakel batterijoptimalisatie voor SleepGuard uit zodat de knop betrouwbaar op de achtergrond verschijnt.</string>
+    <string name="admin_description">SleepGuard heeft deze toestemming alleen nodig om het scherm te vergrendelen (zoals de aan-uitknop) wanneer je in slaap valt.</string>
+
+    <!-- Melding -->
+    <string name="notification_channel">SleepGuard-service</string>
+    <string name="notification_title">SleepGuard is actief</string>
+    <string name="notification_text">Controle elke %d minuten</string>
+</resources>

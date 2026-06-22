@@ -1,0 +1,8 @@
+Erste Veröffentlichung.
+
+* Regelmäßiger Kontroll-Button über jeder Video- oder Streaming-App
+* Automatische Bildschirmsperre, wenn du einschläfst
+* Einstellbares Intervall, Reaktionszeit und Button-Position
+* Zuverlässiges Timing im Hintergrund über den System-Alarm
+* 9 Oberflächensprachen
+* Keine Werbung, kein Tracking, kein Internetzugriff

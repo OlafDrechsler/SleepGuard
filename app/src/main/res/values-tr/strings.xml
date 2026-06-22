@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Türkçe -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Ana ekran -->
+    <string name="title_interval">Aralık (dakika)</string>
+    <string name="title_timeout">Zaman aşımı (saniye)</string>
+    <string name="title_position">Düğme konumu</string>
+    <string name="title_language">Dil</string>
+    <string name="lang_system">Sistem varsayılanı</string>
+    <string name="btn_start">Başlat</string>
+    <string name="btn_stop">Durdur</string>
+    <string name="btn_support">Geliştirmeyi destekle</string>
+    <string name="support_no_browser">Bağlantıyı açmak için tarayıcı bulunamadı.</string>
+    <string name="status_running">SleepGuard etkin</string>
+    <string name="status_stopped">SleepGuard durduruldu</string>
+
+    <!-- Konumlar -->
+    <string name="pos_right_center">Sağ kenar, orta</string>
+    <string name="pos_left_center">Sol kenar, orta</string>
+    <string name="pos_top_center">Üst kenar, orta</string>
+    <string name="pos_bottom_center">Alt kenar, orta</string>
+    <string name="pos_top_right">Sağ üst</string>
+    <string name="pos_top_left">Sol üst</string>
+    <string name="pos_bottom_right">Sağ alt</string>
+    <string name="pos_bottom_left">Sol alt</string>
+
+    <!-- İzinler -->
+    <string name="permission_overlay_needed">Yer paylaşımı izni gerekli. Lütfen ayarlardan etkinleştirin.</string>
+    <string name="permission_admin_needed">Ekranı kilitlemek için cihaz yöneticisi izni gerekli.</string>
+    <string name="permission_battery_needed">Düğmenin arka planda güvenilir şekilde görünmesi için SleepGuard için pil optimizasyonunu devre dışı bırakın.</string>
+    <string name="admin_description">SleepGuard bu izne yalnızca uykuya daldığınızda ekranı kilitlemek için (güç düğmesi gibi) ihtiyaç duyar.</string>
+
+    <!-- Bildirim -->
+    <string name="notification_channel">SleepGuard hizmeti</string>
+    <string name="notification_title">SleepGuard etkin</string>
+    <string name="notification_text">Her %d dakikada bir kontrol</string>
+</resources>

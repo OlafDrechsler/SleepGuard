@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Español -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Pantalla principal -->
+    <string name="title_interval">Intervalo (minutos)</string>
+    <string name="title_timeout">Tiempo de espera (segundos)</string>
+    <string name="title_position">Posición del botón</string>
+    <string name="title_language">Idioma</string>
+    <string name="lang_system">Predeterminado del sistema</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="btn_stop">Detener</string>
+    <string name="btn_support">Apoyar el desarrollo</string>
+    <string name="support_no_browser">No se encontró ningún navegador para abrir el enlace.</string>
+    <string name="status_running">SleepGuard está activo</string>
+    <string name="status_stopped">SleepGuard está detenido</string>
+
+    <!-- Posiciones -->
+    <string name="pos_right_center">Borde derecho, centro</string>
+    <string name="pos_left_center">Borde izquierdo, centro</string>
+    <string name="pos_top_center">Borde superior, centro</string>
+    <string name="pos_bottom_center">Borde inferior, centro</string>
+    <string name="pos_top_right">Arriba a la derecha</string>
+    <string name="pos_top_left">Arriba a la izquierda</string>
+    <string name="pos_bottom_right">Abajo a la derecha</string>
+    <string name="pos_bottom_left">Abajo a la izquierda</string>
+
+    <!-- Permisos -->
+    <string name="permission_overlay_needed">Se requiere permiso de superposición. Actívalo en los ajustes.</string>
+    <string name="permission_admin_needed">Se requiere permiso de administrador del dispositivo para bloquear la pantalla.</string>
+    <string name="permission_battery_needed">Desactiva la optimización de batería para SleepGuard para que el botón aparezca de forma fiable en segundo plano.</string>
+    <string name="admin_description">SleepGuard necesita este permiso únicamente para bloquear la pantalla (como el botón de encendido) cuando te quedas dormido.</string>
+
+    <!-- Notificación -->
+    <string name="notification_channel">Servicio SleepGuard</string>
+    <string name="notification_title">SleepGuard está activo</string>
+    <string name="notification_text">Comprobación cada %d minutos</string>
+</resources>

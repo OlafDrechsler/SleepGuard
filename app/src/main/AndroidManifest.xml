@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        SICHERHEITSHINWEIS: Diese App verwendet NUR zwei Berechtigungen:
+        1. SYSTEM_ALERT_WINDOW  - um den roten Kreis ueber anderen Apps anzuzeigen
+        2. FOREGROUND_SERVICE   - damit der Timer im Hintergrund laeuft
+        3. BIND_DEVICE_ADMIN    - um den Bildschirm zu sperren (wie Power-Taste)
+
+        KEINE Internet-Berechtigung! Die App kann KEINE Daten senden oder empfangen.
+    -->
+
+    <!-- Overlay ueber anderen Apps anzeigen -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- Hintergrunddienst fuer den Timer -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <!-- Ab Android 14 (SDK 34) zusaetzlich noetig fuer foregroundServiceType="specialUse" -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+
+    <!--
+        Exakte Alarme: noetig, damit der rote Kreis ueber den AlarmManager
+        zuverlaessig zur richtigen Zeit erscheint, auch wenn MIUI/Xiaomi den
+        App-Prozess im Hintergrund einfriert. USE_EXACT_ALARM (ab Android 13)
+        passt zur Wecker-/Alarm-Funktion der App und wird automatisch gewaehrt;
+        SCHEDULE_EXACT_ALARM deckt Android 12 ab.
+    -->
+    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM"
+        android:maxSdkVersion="32" />
+
+    <!-- Ausnahme von der Akku-Optimierung anfragen, damit der Dienst nicht
+         eingefroren/beendet wird, waehrend eine andere App laeuft. -->
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        tools:targetApi="31">
+
+        <!-- Hauptbildschirm mit Einstellungen -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Hintergrunddienst fuer Timer und Overlay -->
+        <service
+            android:name=".OverlayService"
+            android:foregroundServiceType="specialUse"
+            android:exported="false" />
+
+        <!-- Speichert die per-App gewaehlte Sprache dauerhaft (AppCompat 1.6+),
+             damit sie auch nach App-Neustart und auf Android < 13 erhalten bleibt. -->
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+
+        <!-- Device Admin Empfaenger zum Bildschirm-Sperren -->
+        <receiver
+            android:name=".SleepGuardDeviceAdmin"
+            android:exported="true"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

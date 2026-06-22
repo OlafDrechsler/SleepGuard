@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Italiano -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Schermata principale -->
+    <string name="title_interval">Intervallo (minuti)</string>
+    <string name="title_timeout">Timeout (secondi)</string>
+    <string name="title_position">Posizione del pulsante</string>
+    <string name="title_language">Lingua</string>
+    <string name="lang_system">Predefinito di sistema</string>
+    <string name="btn_start">Avvia</string>
+    <string name="btn_stop">Ferma</string>
+    <string name="btn_support">Sostieni lo sviluppo</string>
+    <string name="support_no_browser">Nessun browser trovato per aprire il link.</string>
+    <string name="status_running">SleepGuard è attivo</string>
+    <string name="status_stopped">SleepGuard è fermo</string>
+
+    <!-- Posizioni -->
+    <string name="pos_right_center">Bordo destro, centro</string>
+    <string name="pos_left_center">Bordo sinistro, centro</string>
+    <string name="pos_top_center">Bordo superiore, centro</string>
+    <string name="pos_bottom_center">Bordo inferiore, centro</string>
+    <string name="pos_top_right">In alto a destra</string>
+    <string name="pos_top_left">In alto a sinistra</string>
+    <string name="pos_bottom_right">In basso a destra</string>
+    <string name="pos_bottom_left">In basso a sinistra</string>
+
+    <!-- Autorizzazioni -->
+    <string name="permission_overlay_needed">Autorizzazione di sovrapposizione necessaria. Attivala nelle impostazioni.</string>
+    <string name="permission_admin_needed">Autorizzazione di amministratore del dispositivo necessaria per bloccare lo schermo.</string>
+    <string name="permission_battery_needed">Disattiva l\'ottimizzazione della batteria per SleepGuard affinché il pulsante appaia in modo affidabile in background.</string>
+    <string name="admin_description">SleepGuard necessita di questa autorizzazione esclusivamente per bloccare lo schermo (come il tasto di accensione) quando ti addormenti.</string>
+
+    <!-- Notifica -->
+    <string name="notification_channel">Servizio SleepGuard</string>
+    <string name="notification_title">SleepGuard è attivo</string>
+    <string name="notification_text">Controllo ogni %d minuti</string>
+</resources>

@@ -1,0 +1,8 @@
+First release.
+
+* Periodic check button over any video or streaming app
+* Automatic screen lock if you fall asleep
+* Adjustable interval, reaction time and button position
+* Reliable background timing via the system alarm
+* 9 interface languages
+* No ads, no tracking, no internet access

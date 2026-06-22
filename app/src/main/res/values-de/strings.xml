@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Deutsch -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Hauptbildschirm -->
+    <string name="title_interval">Intervall (Minuten)</string>
+    <string name="title_timeout">Timeout (Sekunden)</string>
+    <string name="title_position">Button-Position</string>
+    <string name="title_language">Sprache</string>
+    <string name="lang_system">System-Standard</string>
+    <string name="btn_start">Starten</string>
+    <string name="btn_stop">Stoppen</string>
+    <string name="btn_support">Entwicklung unterstützen</string>
+    <string name="support_no_browser">Kein Browser gefunden, um den Link zu öffnen.</string>
+    <string name="status_running">SleepGuard ist aktiv</string>
+    <string name="status_stopped">SleepGuard ist gestoppt</string>
+
+    <!-- Positionen -->
+    <string name="pos_right_center">Rechter Rand, Mitte</string>
+    <string name="pos_left_center">Linker Rand, Mitte</string>
+    <string name="pos_top_center">Oberer Rand, Mitte</string>
+    <string name="pos_bottom_center">Unterer Rand, Mitte</string>
+    <string name="pos_top_right">Oben rechts</string>
+    <string name="pos_top_left">Oben links</string>
+    <string name="pos_bottom_right">Unten rechts</string>
+    <string name="pos_bottom_left">Unten links</string>
+
+    <!-- Berechtigungen -->
+    <string name="permission_overlay_needed">Overlay-Berechtigung erforderlich. Bitte in den Einstellungen erlauben.</string>
+    <string name="permission_admin_needed">Geräteadministrator-Berechtigung erforderlich, um den Bildschirm zu sperren.</string>
+    <string name="permission_battery_needed">Bitte die Akku-Optimierung für SleepGuard deaktivieren, damit der Button auch im Hintergrund zuverlässig erscheint.</string>
+    <string name="admin_description">SleepGuard benötigt diese Berechtigung ausschließlich, um den Bildschirm zu sperren (wie die Power-Taste), wenn du einschläfst.</string>
+
+    <!-- Benachrichtigung -->
+    <string name="notification_channel">SleepGuard Dienst</string>
+    <string name="notification_title">SleepGuard ist aktiv</string>
+    <string name="notification_text">Prüfung alle %d Minuten</string>
+</resources>

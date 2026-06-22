@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Français -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Écran principal -->
+    <string name="title_interval">Intervalle (minutes)</string>
+    <string name="title_timeout">Délai (secondes)</string>
+    <string name="title_position">Position du bouton</string>
+    <string name="title_language">Langue</string>
+    <string name="lang_system">Système (par défaut)</string>
+    <string name="btn_start">Démarrer</string>
+    <string name="btn_stop">Arrêter</string>
+    <string name="btn_support">Soutenir le développement</string>
+    <string name="support_no_browser">Aucun navigateur trouvé pour ouvrir le lien.</string>
+    <string name="status_running">SleepGuard est actif</string>
+    <string name="status_stopped">SleepGuard est arrêté</string>
+
+    <!-- Positions -->
+    <string name="pos_right_center">Bord droit, centre</string>
+    <string name="pos_left_center">Bord gauche, centre</string>
+    <string name="pos_top_center">Bord supérieur, centre</string>
+    <string name="pos_bottom_center">Bord inférieur, centre</string>
+    <string name="pos_top_right">En haut à droite</string>
+    <string name="pos_top_left">En haut à gauche</string>
+    <string name="pos_bottom_right">En bas à droite</string>
+    <string name="pos_bottom_left">En bas à gauche</string>
+
+    <!-- Autorisations -->
+    <string name="permission_overlay_needed">Autorisation de superposition requise. Veuillez l\'activer dans les paramètres.</string>
+    <string name="permission_admin_needed">Autorisation d\'administrateur de l\'appareil requise pour verrouiller l\'écran.</string>
+    <string name="permission_battery_needed">Veuillez désactiver l\'optimisation de la batterie pour SleepGuard afin que le bouton apparaisse de manière fiable en arrière-plan.</string>
+    <string name="admin_description">SleepGuard a besoin de cette autorisation uniquement pour verrouiller l\'écran (comme le bouton d\'alimentation) lorsque vous vous endormez.</string>
+
+    <!-- Notification -->
+    <string name="notification_channel">Service SleepGuard</string>
+    <string name="notification_title">SleepGuard est actif</string>
+    <string name="notification_text">Vérification toutes les %d minutes</string>
+</resources>
