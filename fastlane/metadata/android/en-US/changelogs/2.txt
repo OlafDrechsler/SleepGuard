@@ -1,0 +1,4 @@
+Maintenance release.
+
+* Updated to target Android 15 (API 35) for Play Store compatibility
+* No functional changes

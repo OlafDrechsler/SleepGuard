@@ -1,0 +1,4 @@
+Wartungs-Release.
+
+* Aktualisiert auf Android 15 (API 35) für die Kompatibilität mit dem Play Store
+* Keine funktionalen Änderungen

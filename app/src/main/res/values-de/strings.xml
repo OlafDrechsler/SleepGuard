@@ -36,4 +36,22 @@
     <string name="notification_channel">SleepGuard Dienst</string>
     <string name="notification_title">SleepGuard ist aktiv</string>
     <string name="notification_text">Prüfung alle %d Minuten</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Sprache wählen</string>
+    <string name="onb_welcome_title">Willkommen bei SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard sperrt dein Handy, wenn du beim Videoschauen einschläfst — damit der Akku morgens nicht leer ist und du deine Stelle im Film nicht verlierst.</string>
+    <string name="onb_overlay_title">Über anderen Apps anzeigen</string>
+    <string name="onb_overlay_body">SleepGuard zeigt einen kleinen Button über deinem Video. Dafür braucht es die Berechtigung, über anderen Apps angezeigt zu werden.</string>
+    <string name="onb_admin_title">Bildschirm sperren</string>
+    <string name="onb_admin_body">Um den Bildschirm beim Einschlafen auszuschalten — wie die Power-Taste — braucht SleepGuard die Geräteadministrator-Berechtigung. Sie wird ausschließlich zum Sperren verwendet.</string>
+    <string name="onb_battery_title">Zuverlässig laufen</string>
+    <string name="onb_battery_body">Damit der Kontroll-Button auch pünktlich erscheint, während eine andere App im Vordergrund ist, erlaube SleepGuard bitte, die Akku-Optimierung zu ignorieren.</string>
+    <string name="onb_done_title">Alles bereit!</string>
+    <string name="onb_done_body">Fertig. Stelle dein Intervall ein, tippe auf Starten und schau weiter.</string>
+    <string name="onb_grant">Erlauben</string>
+    <string name="onb_granted">Erteilt</string>
+    <string name="onb_next">Weiter</string>
+    <string name="onb_back">Zurück</string>
+    <string name="onb_finish">Los geht\'s</string>
 </resources>

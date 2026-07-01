@@ -36,4 +36,22 @@
     <string name="notification_channel">SleepGuard Service</string>
     <string name="notification_title">SleepGuard is active</string>
     <string name="notification_text">Monitoring every %d minutes</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Choose your language</string>
+    <string name="onb_welcome_title">Welcome to SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard locks your phone when you fall asleep watching videos — so the battery isn\'t empty by morning and you never lose your place in a film.</string>
+    <string name="onb_overlay_title">Show over other apps</string>
+    <string name="onb_overlay_body">SleepGuard shows a small button on top of your video. For that it needs permission to display over other apps.</string>
+    <string name="onb_admin_title">Lock the screen</string>
+    <string name="onb_admin_body">To turn the screen off when you fall asleep — just like the power button — SleepGuard needs device administrator permission. It is used only to lock the screen.</string>
+    <string name="onb_battery_title">Run reliably</string>
+    <string name="onb_battery_body">So the check button still appears on time while another app is in the foreground, please allow SleepGuard to ignore battery optimization.</string>
+    <string name="onb_done_title">All set!</string>
+    <string name="onb_done_body">You\'re ready. Set your interval, tap Start, and keep watching.</string>
+    <string name="onb_grant">Grant</string>
+    <string name="onb_granted">Granted</string>
+    <string name="onb_next">Next</string>
+    <string name="onb_back">Back</string>
+    <string name="onb_finish">Get started</string>
 </resources>

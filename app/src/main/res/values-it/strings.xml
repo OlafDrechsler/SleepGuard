@@ -36,4 +36,22 @@
     <string name="notification_channel">Servizio SleepGuard</string>
     <string name="notification_title">SleepGuard è attivo</string>
     <string name="notification_text">Controllo ogni %d minuti</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Scegli la tua lingua</string>
+    <string name="onb_welcome_title">Benvenuto in SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard blocca il telefono quando ti addormenti guardando video — così la batteria non è scarica al mattino e non perdi mai il punto del film.</string>
+    <string name="onb_overlay_title">Mostra sopra le altre app</string>
+    <string name="onb_overlay_body">SleepGuard mostra un piccolo pulsante sopra il tuo video. Per farlo serve l\'autorizzazione a sovrapporsi alle altre app.</string>
+    <string name="onb_admin_title">Bloccare lo schermo</string>
+    <string name="onb_admin_body">Per spegnere lo schermo quando ti addormenti — come il tasto di accensione — SleepGuard richiede l\'autorizzazione di amministratore del dispositivo. Serve solo a bloccare lo schermo.</string>
+    <string name="onb_battery_title">Funzionare in modo affidabile</string>
+    <string name="onb_battery_body">Affinché il pulsante di controllo compaia in tempo anche mentre un\'altra app è in primo piano, consenti a SleepGuard di ignorare l\'ottimizzazione della batteria.</string>
+    <string name="onb_done_title">Tutto pronto!</string>
+    <string name="onb_done_body">Sei pronto. Imposta l\'intervallo, tocca Avvia e continua a guardare.</string>
+    <string name="onb_grant">Consenti</string>
+    <string name="onb_granted">Consentito</string>
+    <string name="onb_next">Avanti</string>
+    <string name="onb_back">Indietro</string>
+    <string name="onb_finish">Inizia</string>
 </resources>

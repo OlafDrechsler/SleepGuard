@@ -36,4 +36,22 @@
     <string name="notification_channel">SleepGuard hizmeti</string>
     <string name="notification_title">SleepGuard etkin</string>
     <string name="notification_text">Her %d dakikada bir kontrol</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Dilinizi seçin</string>
+    <string name="onb_welcome_title">SleepGuard\'a hoş geldiniz</string>
+    <string name="onb_welcome_body">SleepGuard, video izlerken uyuyakaldığınızda telefonunuzu kilitler — böylece sabah pil bitmez ve filmde kaldığınız yeri asla kaybetmezsiniz.</string>
+    <string name="onb_overlay_title">Diğer uygulamaların üzerinde göster</string>
+    <string name="onb_overlay_body">SleepGuard, videonuzun üzerinde küçük bir düğme gösterir. Bunun için diğer uygulamaların üzerinde görünme izni gerekir.</string>
+    <string name="onb_admin_title">Ekranı kilitle</string>
+    <string name="onb_admin_body">Uyuyakaldığınızda ekranı kapatmak için — tıpkı güç düğmesi gibi — SleepGuard cihaz yöneticisi iznine ihtiyaç duyar. Yalnızca ekranı kilitlemek için kullanılır.</string>
+    <string name="onb_battery_title">Güvenilir çalışma</string>
+    <string name="onb_battery_body">Başka bir uygulama ön plandayken bile kontrol düğmesinin zamanında görünmesi için SleepGuard\'ın pil optimizasyonunu yok saymasına izin verin.</string>
+    <string name="onb_done_title">Her şey hazır!</string>
+    <string name="onb_done_body">Hazırsınız. Aralığınızı ayarlayın, Başlat\'a dokunun ve izlemeye devam edin.</string>
+    <string name="onb_grant">İzin ver</string>
+    <string name="onb_granted">Verildi</string>
+    <string name="onb_next">İleri</string>
+    <string name="onb_back">Geri</string>
+    <string name="onb_finish">Başla</string>
 </resources>

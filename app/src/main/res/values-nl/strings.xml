@@ -36,4 +36,22 @@
     <string name="notification_channel">SleepGuard-service</string>
     <string name="notification_title">SleepGuard is actief</string>
     <string name="notification_text">Controle elke %d minuten</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Kies je taal</string>
+    <string name="onb_welcome_title">Welkom bij SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard vergrendelt je telefoon wanneer je in slaap valt tijdens het kijken van video\'s — zodat de batterij \'s ochtends niet leeg is en je nooit je plek in een film kwijtraakt.</string>
+    <string name="onb_overlay_title">Over andere apps tonen</string>
+    <string name="onb_overlay_body">SleepGuard toont een kleine knop over je video. Daarvoor is toestemming nodig om over andere apps te worden weergegeven.</string>
+    <string name="onb_admin_title">Scherm vergrendelen</string>
+    <string name="onb_admin_body">Om het scherm uit te zetten wanneer je in slaap valt — net als de aan-uitknop — heeft SleepGuard apparaatbeheerder-toestemming nodig. Deze wordt alleen gebruikt om het scherm te vergrendelen.</string>
+    <string name="onb_battery_title">Betrouwbaar werken</string>
+    <string name="onb_battery_body">Zodat de controleknop op tijd verschijnt terwijl een andere app op de voorgrond staat, sta je SleepGuard toe om batterijoptimalisatie te negeren.</string>
+    <string name="onb_done_title">Helemaal klaar!</string>
+    <string name="onb_done_body">Je bent klaar. Stel je interval in, tik op Starten en blijf kijken.</string>
+    <string name="onb_grant">Toestaan</string>
+    <string name="onb_granted">Toegestaan</string>
+    <string name="onb_next">Volgende</string>
+    <string name="onb_back">Terug</string>
+    <string name="onb_finish">Aan de slag</string>
 </resources>

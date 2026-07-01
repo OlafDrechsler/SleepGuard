@@ -36,4 +36,22 @@
     <string name="notification_channel">Servicio SleepGuard</string>
     <string name="notification_title">SleepGuard está activo</string>
     <string name="notification_text">Comprobación cada %d minutos</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Elige tu idioma</string>
+    <string name="onb_welcome_title">Bienvenido a SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard bloquea tu teléfono cuando te quedas dormido viendo vídeos, para que la batería no esté vacía por la mañana y nunca pierdas el punto de la película.</string>
+    <string name="onb_overlay_title">Mostrar sobre otras apps</string>
+    <string name="onb_overlay_body">SleepGuard muestra un pequeño botón sobre tu vídeo. Para ello necesita permiso para mostrarse sobre otras aplicaciones.</string>
+    <string name="onb_admin_title">Bloquear la pantalla</string>
+    <string name="onb_admin_body">Para apagar la pantalla cuando te quedas dormido —como el botón de encendido— SleepGuard necesita permiso de administrador del dispositivo. Se usa únicamente para bloquear la pantalla.</string>
+    <string name="onb_battery_title">Funcionar de forma fiable</string>
+    <string name="onb_battery_body">Para que el botón de comprobación aparezca a tiempo aunque otra app esté en primer plano, permite que SleepGuard ignore la optimización de batería.</string>
+    <string name="onb_done_title">¡Todo listo!</string>
+    <string name="onb_done_body">Ya está. Ajusta tu intervalo, pulsa Iniciar y sigue viendo.</string>
+    <string name="onb_grant">Permitir</string>
+    <string name="onb_granted">Concedido</string>
+    <string name="onb_next">Siguiente</string>
+    <string name="onb_back">Atrás</string>
+    <string name="onb_finish">Empezar</string>
 </resources>

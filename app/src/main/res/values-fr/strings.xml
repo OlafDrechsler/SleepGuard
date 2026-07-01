@@ -36,4 +36,22 @@
     <string name="notification_channel">Service SleepGuard</string>
     <string name="notification_title">SleepGuard est actif</string>
     <string name="notification_text">Vérification toutes les %d minutes</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Choisissez votre langue</string>
+    <string name="onb_welcome_title">Bienvenue dans SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard verrouille votre téléphone lorsque vous vous endormez en regardant des vidéos — pour que la batterie ne soit pas vide au matin et que vous ne perdiez jamais votre place dans un film.</string>
+    <string name="onb_overlay_title">Afficher par-dessus les autres applis</string>
+    <string name="onb_overlay_body">SleepGuard affiche un petit bouton par-dessus votre vidéo. Pour cela, il a besoin de l\'autorisation de s\'afficher par-dessus les autres applications.</string>
+    <string name="onb_admin_title">Verrouiller l\'écran</string>
+    <string name="onb_admin_body">Pour éteindre l\'écran quand vous vous endormez — comme le bouton d\'alimentation — SleepGuard a besoin de l\'autorisation d\'administrateur de l\'appareil. Elle sert uniquement à verrouiller l\'écran.</string>
+    <string name="onb_battery_title">Fonctionner de façon fiable</string>
+    <string name="onb_battery_body">Pour que le bouton de contrôle apparaisse à l\'heure même lorsqu\'une autre application est au premier plan, autorisez SleepGuard à ignorer l\'optimisation de la batterie.</string>
+    <string name="onb_done_title">Tout est prêt !</string>
+    <string name="onb_done_body">Vous êtes prêt. Réglez votre intervalle, appuyez sur Démarrer et continuez à regarder.</string>
+    <string name="onb_grant">Autoriser</string>
+    <string name="onb_granted">Autorisé</string>
+    <string name="onb_next">Suivant</string>
+    <string name="onb_back">Retour</string>
+    <string name="onb_finish">Commencer</string>
 </resources>

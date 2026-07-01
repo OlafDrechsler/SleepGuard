@@ -36,4 +36,22 @@
     <string name="notification_channel">Usługa SleepGuard</string>
     <string name="notification_title">SleepGuard jest aktywny</string>
     <string name="notification_text">Sprawdzanie co %d min</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Wybierz język</string>
+    <string name="onb_welcome_title">Witaj w SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard blokuje telefon, gdy zaśniesz podczas oglądania filmów — aby rano bateria nie była pusta i abyś nigdy nie zgubił miejsca w filmie.</string>
+    <string name="onb_overlay_title">Wyświetlanie nad innymi aplikacjami</string>
+    <string name="onb_overlay_body">SleepGuard wyświetla mały przycisk nad Twoim filmem. Potrzebuje do tego uprawnienia do wyświetlania nad innymi aplikacjami.</string>
+    <string name="onb_admin_title">Blokowanie ekranu</string>
+    <string name="onb_admin_body">Aby wyłączyć ekran, gdy zaśniesz — tak jak przycisk zasilania — SleepGuard potrzebuje uprawnienia administratora urządzenia. Służy ono wyłącznie do blokowania ekranu.</string>
+    <string name="onb_battery_title">Niezawodne działanie</string>
+    <string name="onb_battery_body">Aby przycisk kontrolny pojawiał się na czas, gdy inna aplikacja jest na pierwszym planie, zezwól SleepGuard na ignorowanie optymalizacji baterii.</string>
+    <string name="onb_done_title">Wszystko gotowe!</string>
+    <string name="onb_done_body">Gotowe. Ustaw interwał, naciśnij Uruchom i oglądaj dalej.</string>
+    <string name="onb_grant">Zezwól</string>
+    <string name="onb_granted">Przyznano</string>
+    <string name="onb_next">Dalej</string>
+    <string name="onb_back">Wstecz</string>
+    <string name="onb_finish">Rozpocznij</string>
 </resources>

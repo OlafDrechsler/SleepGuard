@@ -1,0 +1,26 @@
+Categories:
+  - System
+License: GPL-3.0-or-later
+AuthorName: Olaf Drechsler
+AuthorEmail: oleobjekt@gmail.com
+SourceCode: https://github.com/OlafDrechsler/SleepGuard
+IssueTracker: https://github.com/OlafDrechsler/SleepGuard/issues
+Donate: https://paypal.me/OLEobjekt
+
+AutoName: SleepGuard
+
+RepoType: git
+Repo: https://github.com/OlafDrechsler/SleepGuard.git
+
+Builds:
+  - versionName: '1.0'
+    versionCode: 1
+    commit: ffd4f4187614af7aad0cd663739f4bdd1d57569f
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0'
+CurrentVersionCode: 1
