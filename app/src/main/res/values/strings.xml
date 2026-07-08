@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Choose your language</string>
     <string name="onb_welcome_title">Welcome to SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard locks your phone when you fall asleep watching videos — so the battery isn\'t empty by morning and you never lose your place in a film.</string>
+    <string name="onb_welcome_body">SleepGuard locks your phone when you fall asleep watching videos — so the battery isn\'t empty by morning and you never lose your place in a film.\n\nSleepGuard will keep showing you a button that you have to tap. If you don\'t tap it, the phone gets locked. You set the interval between the buttons in minutes — and how long you have to tap, in seconds.</string>
+    <string name="onb_notif_title">Show notification</string>
+    <string name="onb_notif_body">Allow notifications so you can always see that SleepGuard is active while it runs in the background.</string>
     <string name="onb_overlay_title">Show over other apps</string>
     <string name="onb_overlay_body">SleepGuard shows a small button on top of your video. For that it needs permission to display over other apps.</string>
     <string name="onb_admin_title">Lock the screen</string>

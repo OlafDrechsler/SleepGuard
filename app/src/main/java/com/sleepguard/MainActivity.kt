@@ -11,6 +11,7 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.os.PowerManager
 import android.provider.Settings
@@ -94,6 +95,10 @@ class MainActivity : AppCompatActivity() {
     private lateinit var overlayPermissionLauncher: ActivityResultLauncher<Intent>
     private lateinit var deviceAdminLauncher: ActivityResultLauncher<Intent>
     private lateinit var batteryOptLauncher: ActivityResultLauncher<Intent>
+    private lateinit var notificationPermissionLauncher: ActivityResultLauncher<String>
+
+    // Wie batteryOptRequested: pro Sitzung hoechstens einmal fragen.
+    private var notificationRequested = false
 
     companion object {
         private const val PREFS_NAME = "sleepguard_prefs"
@@ -116,6 +121,13 @@ class MainActivity : AppCompatActivity() {
         batteryOptLauncher = registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()
         ) { onPermissionResult() }
+        notificationPermissionLauncher = registerForActivityResult(
+            ActivityResultContracts.RequestPermission()
+        ) {
+            // Egal ob gewaehrt oder abgelehnt — der Dienst funktioniert auch
+            // ohne sichtbare Benachrichtigung; danach normal weitermachen.
+            onPermissionResult()
+        }
 
         loadSettings()
         isRunning = OverlayService.isRunning
@@ -132,10 +144,12 @@ class MainActivity : AppCompatActivity() {
                         isOverlayGranted = { Settings.canDrawOverlays(this) },
                         isAdminGranted = { isDeviceAdminActive() },
                         isBatteryGranted = { isIgnoringBatteryOptimizations() },
+                        isNotifGranted = { isNotificationGranted() },
                         onPickLanguage = { onPickLanguage(it) },
                         onRequestOverlay = { requestOverlayPermission() },
                         onRequestAdmin = { requestDeviceAdmin() },
                         onRequestBattery = { requestBatteryExemption() },
+                        onRequestNotif = { requestNotificationPermission() },
                         onFinish = { finishOnboarding() }
                     )
                 } else {
@@ -214,6 +228,21 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
+    /** Vor Android 13 gibt es die Laufzeit-Berechtigung nicht — gilt als erteilt. */
+    private fun isNotificationGranted(): Boolean {
+        return Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU ||
+            checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) ==
+            android.content.pm.PackageManager.PERMISSION_GRANTED
+    }
+
+    private fun requestNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+        } else {
+            permissionTick++
+        }
+    }
+
     private fun onPickLanguage(index: Int) {
         getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE).edit()
             .putBoolean(KEY_LANG_CHOSEN, true).apply()
@@ -290,6 +319,20 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.permission_battery_needed, Toast.LENGTH_LONG).show()
             pendingStart = true
             requestBatteryExemption()
+            return
+        }
+
+        // Ab Android 13 ist die Foreground-Notification nur mit dieser
+        // Laufzeit-Berechtigung sichtbar. Ohne sie merkt der Benutzer nicht,
+        // dass SleepGuard noch aktiv ist -> einmal pro Sitzung anfragen.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+            !notificationRequested &&
+            checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) !=
+            android.content.pm.PackageManager.PERMISSION_GRANTED
+        ) {
+            notificationRequested = true
+            pendingStart = true
+            notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
             return
         }
 

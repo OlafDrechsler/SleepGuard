@@ -7,6 +7,7 @@
 package com.sleepguard
 
 import android.app.AlarmManager
+import android.app.KeyguardManager
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -22,6 +23,7 @@ import android.media.AudioManager
 import android.os.Build
 import android.os.CountDownTimer
 import android.os.IBinder
+import android.os.PowerManager
 import android.os.SystemClock
 import android.view.Gravity
 import android.view.KeyEvent
@@ -97,14 +99,31 @@ class OverlayService : Service() {
         isRunning = true
 
         if (intent?.action == ACTION_SHOW_OVERLAY) {
-            // Der AlarmManager hat den Dienst geweckt -> Kreis jetzt anzeigen.
-            showOverlay()
+            // Der AlarmManager hat den Dienst geweckt.
+            if (isScreenUsable()) {
+                showOverlay()
+            } else {
+                // Bildschirm aus oder gesperrt: Der Kreis waere unsichtbar,
+                // ein Countdown wuerde "aus dem Nichts" sperren und den Dienst
+                // beenden. Stattdessen still das naechste Intervall planen.
+                scheduleOverlay()
+            }
         } else {
             // Normaler Start -> naechste Anzeige planen.
             scheduleOverlay()
         }
 
         return START_NOT_STICKY
+    }
+
+    /**
+     * Nur wenn der Bildschirm an und entsperrt ist, kann der Benutzer den
+     * roten Kreis ueberhaupt sehen und antippen.
+     */
+    private fun isScreenUsable(): Boolean {
+        val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
+        val keyguardManager = getSystemService(Context.KEYGUARD_SERVICE) as KeyguardManager
+        return powerManager.isInteractive && !keyguardManager.isKeyguardLocked
     }
 
     /**
@@ -171,6 +190,11 @@ class OverlayService : Service() {
      * angetippt wird, wird der Bildschirm gesperrt.
      */
     private fun showOverlay() {
+        // Schutz vor doppeltem Overlay (z.B. doppelt zugestellter Alarm):
+        // sonst liefe der alte Countdown unsichtbar weiter und wuerde sperren,
+        // obwohl der Benutzer den neuen Kreis antippt.
+        if (overlayView != null) return
+
         // Overlay-View erstellen: ein runder roter Kreis
         val circleView = ImageView(this).apply {
             setImageResource(R.drawable.red_circle)
@@ -202,9 +226,16 @@ class OverlayService : Service() {
             scheduleOverlay() // naechste Anzeige planen
         }
 
-        // Overlay anzeigen
+        // Overlay anzeigen. Schlaegt das fehl (z.B. Overlay-Berechtigung
+        // zwischenzeitlich entzogen), NICHT sperren — der Benutzer koennte
+        // den Kreis ja gar nicht sehen. Stattdessen naechstes Intervall planen.
+        try {
+            windowManager.addView(circleView, params)
+        } catch (e: Exception) {
+            scheduleOverlay()
+            return
+        }
         overlayView = circleView
-        windowManager.addView(circleView, params)
 
         // Countdown starten: wenn nicht angetippt, Bildschirm sperren
         startCountdown()

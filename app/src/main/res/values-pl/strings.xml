@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Wybierz język</string>
     <string name="onb_welcome_title">Witaj w SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard blokuje telefon, gdy zaśniesz podczas oglądania filmów — aby rano bateria nie była pusta i abyś nigdy nie zgubił miejsca w filmie.</string>
+    <string name="onb_welcome_body">SleepGuard blokuje telefon, gdy zaśniesz podczas oglądania filmów — aby rano bateria nie była pusta i abyś nigdy nie zgubił miejsca w filmie.\n\nSleepGuard będzie raz po raz pokazywać przycisk, który musisz dotknąć. Jeśli tego nie zrobisz, telefon zostanie zablokowany. Odstęp między przyciskami ustawiasz w minutach — a czas na dotknięcie w sekundach.</string>
+    <string name="onb_notif_title">Pokazuj powiadomienie</string>
+    <string name="onb_notif_body">Zezwól na powiadomienia, aby zawsze widzieć, że SleepGuard jest aktywny w tle.</string>
     <string name="onb_overlay_title">Wyświetlanie nad innymi aplikacjami</string>
     <string name="onb_overlay_body">SleepGuard wyświetla mały przycisk nad Twoim filmem. Potrzebuje do tego uprawnienia do wyświetlania nad innymi aplikacjami.</string>
     <string name="onb_admin_title">Blokowanie ekranu</string>

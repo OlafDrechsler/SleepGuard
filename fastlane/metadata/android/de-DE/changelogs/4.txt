@@ -1,0 +1,4 @@
+* Einrichtung fragt jetzt auch die Benachrichtigungs-Berechtigung ab (Android 13+) — so ist immer sichtbar, wenn SleepGuard aktiv ist
+* Willkommensseite erklärt die Funktionsweise und erlaubt die Rückkehr zur Sprachauswahl
+* Keine überraschenden Sperren mehr: Der Kontroll-Button erscheint nur bei eingeschaltetem, entsperrtem Bildschirm
+* Stabilitätsverbesserungen beim Overlay

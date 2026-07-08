@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Scegli la tua lingua</string>
     <string name="onb_welcome_title">Benvenuto in SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard blocca il telefono quando ti addormenti guardando video — così la batteria non è scarica al mattino e non perdi mai il punto del film.</string>
+    <string name="onb_welcome_body">SleepGuard blocca il telefono quando ti addormenti guardando video — così la batteria non è scarica al mattino e non perdi mai il punto del film.\n\nSleepGuard ti mostrerà ripetutamente un pulsante che devi toccare. Se non lo tocchi, il telefono si blocca. Imposti l\'intervallo tra le comparse in minuti — e il tempo per toccare, in secondi.</string>
+    <string name="onb_notif_title">Mostrare la notifica</string>
+    <string name="onb_notif_body">Consenti le notifiche per vedere sempre che SleepGuard è attivo in background.</string>
     <string name="onb_overlay_title">Mostra sopra le altre app</string>
     <string name="onb_overlay_body">SleepGuard mostra un piccolo pulsante sopra il tuo video. Per farlo serve l\'autorizzazione a sovrapporsi alle altre app.</string>
     <string name="onb_admin_title">Bloccare lo schermo</string>

@@ -25,6 +25,7 @@ import androidx.compose.material.icons.rounded.Bedtime
 import androidx.compose.material.icons.rounded.CheckCircle
 import androidx.compose.material.icons.rounded.Language
 import androidx.compose.material.icons.rounded.Layers
+import androidx.compose.material.icons.rounded.Notifications
 import androidx.compose.material3.Button
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
@@ -52,7 +53,8 @@ import androidx.compose.ui.unit.dp
  * Berechtigungen mit Erklärung. Nicht-blockierend — jede Seite lässt sich auch
  * ohne Erteilen weiterklicken (der Hauptscreen prüft beim Start erneut).
  *
- * Seiten: 0 Sprache · 1 Willkommen · 2 Overlay · 3 Geräteadmin · 4 Akku · 5 Fertig
+ * Seiten: 0 Sprache · 1 Willkommen · 2 Overlay · 3 Geräteadmin · 4 Akku ·
+ * 5 Benachrichtigung · 6 Fertig
  */
 @Composable
 fun OnboardingScreen(
@@ -62,10 +64,12 @@ fun OnboardingScreen(
     isOverlayGranted: () -> Boolean,
     isAdminGranted: () -> Boolean,
     isBatteryGranted: () -> Boolean,
+    isNotifGranted: () -> Boolean,
     onPickLanguage: (Int) -> Unit,
     onRequestOverlay: () -> Unit,
     onRequestAdmin: () -> Unit,
     onRequestBattery: () -> Unit,
+    onRequestNotif: () -> Unit,
     onFinish: () -> Unit
 ) {
     var page by rememberSaveable { mutableIntStateOf(startPage) }
@@ -124,6 +128,15 @@ fun OnboardingScreen(
                         onGrant = onRequestBattery
                     )
 
+                    5 -> PermissionPage(
+                        icon = Icons.Rounded.Notifications,
+                        title = stringResource(R.string.onb_notif_title),
+                        body = stringResource(R.string.onb_notif_body),
+                        permissionTick = permissionTick,
+                        isGranted = isNotifGranted,
+                        onGrant = onRequestNotif
+                    )
+
                     else -> InfoPage(
                         icon = Icons.Rounded.CheckCircle,
                         title = stringResource(R.string.onb_done_title),
@@ -139,14 +152,11 @@ fun OnboardingScreen(
                     horizontalArrangement = Arrangement.SpaceBetween,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    if (page > 1) {
-                        TextButton(onClick = { page-- }) {
-                            Text(stringResource(R.string.onb_back))
-                        }
-                    } else {
-                        Spacer(Modifier.width(1.dp))
+                    // Zurueck fuehrt von Seite 1 aus zur Sprachauswahl (Seite 0).
+                    TextButton(onClick = { page-- }) {
+                        Text(stringResource(R.string.onb_back))
                     }
-                    if (page >= 5) {
+                    if (page >= 6) {
                         Button(onClick = onFinish) {
                             Text(stringResource(R.string.onb_finish))
                         }

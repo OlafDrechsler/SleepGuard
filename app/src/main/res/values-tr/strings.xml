@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Dilinizi seçin</string>
     <string name="onb_welcome_title">SleepGuard\'a hoş geldiniz</string>
-    <string name="onb_welcome_body">SleepGuard, video izlerken uyuyakaldığınızda telefonunuzu kilitler — böylece sabah pil bitmez ve filmde kaldığınız yeri asla kaybetmezsiniz.</string>
+    <string name="onb_welcome_body">SleepGuard, video izlerken uyuyakaldığınızda telefonunuzu kilitler — böylece sabah pil bitmez ve filmde kaldığınız yeri asla kaybetmezsiniz.\n\nSleepGuard size tekrar tekrar dokunmanız gereken bir düğme gösterecek. Dokunmazsanız telefon kilitlenir. Düğmeler arasındaki süreyi dakika olarak — dokunma süresini ise saniye olarak siz ayarlarsınız.</string>
+    <string name="onb_notif_title">Bildirimi göster</string>
+    <string name="onb_notif_body">SleepGuard\'ın arka planda etkin olduğunu her zaman görebilmek için bildirimlere izin verin.</string>
     <string name="onb_overlay_title">Diğer uygulamaların üzerinde göster</string>
     <string name="onb_overlay_body">SleepGuard, videonuzun üzerinde küçük bir düğme gösterir. Bunun için diğer uygulamaların üzerinde görünme izni gerekir.</string>
     <string name="onb_admin_title">Ekranı kilitle</string>

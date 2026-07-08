@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Kies je taal</string>
     <string name="onb_welcome_title">Welkom bij SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard vergrendelt je telefoon wanneer je in slaap valt tijdens het kijken van video\'s — zodat de batterij \'s ochtends niet leeg is en je nooit je plek in een film kwijtraakt.</string>
+    <string name="onb_welcome_body">SleepGuard vergrendelt je telefoon wanneer je in slaap valt tijdens het kijken van video\'s — zodat de batterij \'s ochtends niet leeg is en je nooit je plek in een film kwijtraakt.\n\nSleepGuard toont steeds opnieuw een knop die je moet aantikken. Doe je dat niet, dan wordt de telefoon vergrendeld. Het interval tussen de knoppen stel je in minuten in — de tijd om te tikken in seconden.</string>
+    <string name="onb_notif_title">Melding tonen</string>
+    <string name="onb_notif_body">Sta meldingen toe zodat je altijd ziet dat SleepGuard actief is op de achtergrond.</string>
     <string name="onb_overlay_title">Over andere apps tonen</string>
     <string name="onb_overlay_body">SleepGuard toont een kleine knop over je video. Daarvoor is toestemming nodig om over andere apps te worden weergegeven.</string>
     <string name="onb_admin_title">Scherm vergrendelen</string>

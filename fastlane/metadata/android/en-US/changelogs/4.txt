@@ -1,0 +1,4 @@
+* Guided setup now also asks for notification permission (Android 13+), so you can always see when SleepGuard is active
+* Welcome screen explains how SleepGuard works and lets you go back to the language selection
+* No more surprise locks: the check button is only shown while the screen is on and unlocked
+* Reliability fixes for the overlay

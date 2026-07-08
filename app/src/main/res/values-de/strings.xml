@@ -40,7 +40,9 @@
     <!-- Onboarding -->
     <string name="onb_language_title">Sprache wählen</string>
     <string name="onb_welcome_title">Willkommen bei SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard sperrt dein Handy, wenn du beim Videoschauen einschläfst — damit der Akku morgens nicht leer ist und du deine Stelle im Film nicht verlierst.</string>
+    <string name="onb_welcome_body">SleepGuard sperrt dein Handy, wenn du beim Videoschauen einschläfst — damit der Akku morgens nicht leer ist und du deine Stelle im Film nicht verlierst.\n\nSleepGuard zeigt dir immer wieder einen Button an, den du antippen musst. Tust du es nicht, wird das Handy gesperrt. Das Zeitintervall zwischen den Anzeigen stellst du in Minuten ein — die Zeit zum Antippen in Sekunden.</string>
+    <string name="onb_notif_title">Benachrichtigung anzeigen</string>
+    <string name="onb_notif_body">Erlaube Benachrichtigungen, damit du jederzeit siehst, dass SleepGuard im Hintergrund aktiv ist.</string>
     <string name="onb_overlay_title">Über anderen Apps anzeigen</string>
     <string name="onb_overlay_body">SleepGuard zeigt einen kleinen Button über deinem Video. Dafür braucht es die Berechtigung, über anderen Apps angezeigt zu werden.</string>
     <string name="onb_admin_title">Bildschirm sperren</string>
