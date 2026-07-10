@@ -1,0 +1,2 @@
+* New: Audio mode — a sleep timer for music, audiobooks and podcasts that stops playback after the interval, even with the screen off
+* Choose Video or Audio mode; a matching explanation is shown in the app and during the guided setup

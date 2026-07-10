@@ -1,14 +1,17 @@
 # SleepGuard
 
-**Locks your phone when you fall asleep watching videos — so the battery isn't
-empty by morning and you never lose your place in a film again.**
+**Stops your phone from running all night when you fall asleep to videos or
+audio — so the battery isn't empty by morning and you don't lose your place.**
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-SleepGuard shows a small red circle on top of whatever you are watching, at an
-interval you choose. Tap it and playback continues. Don't tap it — because you
-have fallen asleep — and SleepGuard locks the screen, just like pressing the
-power button.
+SleepGuard has two modes:
+
+- **Video:** a small red circle appears on top of whatever you are watching, at
+  an interval you choose. Tap it to confirm you are awake. Don't tap it — because
+  you have fallen asleep — and SleepGuard locks the screen, like the power button.
+- **Audio:** a plain sleep timer for music, audiobooks and podcasts. After the
+  interval, playback simply stops — also with the screen off.
 
 ## Why?
 
@@ -21,10 +24,11 @@ power button.
 
 ## Features
 
-- Works on top of any video or streaming app
-- Adjustable interval and reaction time
-- Eight button positions
+- Two modes: **Video** (wake-check button) and **Audio** (sleep timer that stops playback, even with the screen off)
+- Guided first-run setup that explains each permission
+- Adjustable interval and reaction time; eight button positions
 - Reliable background timing via the system `AlarmManager`
+- Material 3 interface with dynamic colours and dark mode
 - 9 interface languages (EN, DE, FR, ES, IT, PT, NL, PL, TR)
 - No ads, no tracking, **no internet permission at all**
 
@@ -41,6 +45,7 @@ _Screenshots: see `fastlane/metadata/android/en-US/images/`._
 | Device admin (screen lock only) | Lock the screen like the power button |
 | Foreground service / exact alarm | Make the button appear on time |
 | Ignore battery optimization (optional) | Keep the timer reliable in the background |
+| Notifications (Android 13+) | Show the "SleepGuard is active" ongoing notification |
 
 The app collects **no data** — see [Privacy Policy](docs/privacy-policy.md).
 
@@ -58,8 +63,9 @@ The app collects **no data** — see [Privacy Policy](docs/privacy-policy.md).
 On Windows use `.\gradlew.bat` instead of `./gradlew`, run from the project root
 in PowerShell or cmd.
 
-Requirements: Android SDK with `compileSdk 34`. Only Apache-2.0-licensed AndroidX
-libraries are used — no proprietary dependencies.
+Requirements: Android SDK with `compileSdk 35`, JDK 17. Built with Kotlin and
+Jetpack Compose; only Apache-2.0-licensed AndroidX libraries are used — no
+proprietary dependencies.
 
 ## Releases
 

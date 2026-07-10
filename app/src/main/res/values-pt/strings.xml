@@ -7,6 +7,10 @@
     <string name="title_interval">Intervalo (minutos)</string>
     <string name="title_timeout">Tempo limite (segundos)</string>
     <string name="title_position">Posição do botão</string>
+    <string name="title_mode">Modo</string>
+    <string name="mode_video_desc">Aparece um botão que você toca para confirmar que está acordado. Se não o fizer, o ecrã é bloqueado.</string>
+    <string name="mode_audio_desc">A reprodução simplesmente para após o intervalo, também com o ecrã desligado (música, audiolivros, podcasts).</string>
+    <string name="onb_mode_title">Escolha um modo</string>
     <string name="title_language">Idioma</string>
     <string name="lang_system">Padrão do sistema</string>
     <string name="btn_start">Iniciar</string>

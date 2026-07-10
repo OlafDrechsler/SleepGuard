@@ -1,6 +1,6 @@
 # Privacy Policy for SleepGuard
 
-_Last updated: 2026-06-21_
+_Last updated: 2026-07-08_
 
 SleepGuard is designed to respect your privacy completely.
 
@@ -16,8 +16,8 @@ or receiving any data over a network.
 
 ## Settings stored on your device
 
-The app saves only your own preferences (interval, timeout, button position and
-language) locally on your device using Android's standard storage. This data
+The app saves only your own preferences (mode, interval, timeout, button position
+and language) locally on your device using Android's standard storage. This data
 never leaves the device and is removed when you uninstall the app.
 
 ## Permissions
@@ -31,10 +31,12 @@ solely for the stated purpose:
 - **Foreground service / exact alarm** – to make the check button appear on time.
 - **Ignore battery optimization (optional)** – so the timer keeps working
   reliably while another app is in the foreground.
+- **Notifications (Android 13+)** – only to show the ongoing "SleepGuard is
+  active" notification while the service runs. No other notifications are sent.
 
-To stop video playback when you fall asleep, SleepGuard sends a standard "pause"
-media-button event (the same as a headset pause button). This requires no special
-permission and does not access any personal data.
+To pause video or audio playback when you fall asleep, SleepGuard sends a standard
+"pause" media-button event (the same as a headset pause button). This requires no
+special permission and does not access any personal data.
 
 None of these permissions are used to access, collect, or transmit personal
 information.

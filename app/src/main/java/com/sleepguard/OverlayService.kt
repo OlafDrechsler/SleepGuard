@@ -54,6 +54,9 @@ class OverlayService : Service() {
     private var intervalMinutes = 5
     private var timeoutSeconds = 15
     private var position = "right_center"
+    // false = Video (Button + Sperre), true = Audio (Einschlaf-Timer: pausiert
+    // nach dem Intervall die Wiedergabe, auch bei ausgeschaltetem Bildschirm).
+    private var audioMode = false
 
     private lateinit var windowManager: WindowManager
     private var overlayView: View? = null
@@ -87,6 +90,7 @@ class OverlayService : Service() {
             intervalMinutes = it.getIntExtra("interval_minutes", intervalMinutes)
             timeoutSeconds = it.getIntExtra("timeout_seconds", timeoutSeconds)
             position = it.getStringExtra("position") ?: position
+            audioMode = it.getBooleanExtra("audio_mode", audioMode)
         }
 
         // Foreground-Notification erstellen (Android verlangt das fuer
@@ -100,12 +104,17 @@ class OverlayService : Service() {
 
         if (intent?.action == ACTION_SHOW_OVERLAY) {
             // Der AlarmManager hat den Dienst geweckt.
-            if (isScreenUsable()) {
+            if (audioMode) {
+                // Audio-Modus (Einschlaf-Timer): Wiedergabe pausieren und
+                // fertig — unabhaengig vom Bildschirmzustand, kein Button,
+                // keine Sperre.
+                pauseMediaAndFinish()
+            } else if (isScreenUsable()) {
                 showOverlay()
             } else {
-                // Bildschirm aus oder gesperrt: Der Kreis waere unsichtbar,
-                // ein Countdown wuerde "aus dem Nichts" sperren und den Dienst
-                // beenden. Stattdessen still das naechste Intervall planen.
+                // Video-Modus, Bildschirm aus/gesperrt: Der Kreis waere
+                // unsichtbar, ein Countdown wuerde "aus dem Nichts" sperren.
+                // Stattdessen still das naechste Intervall planen.
                 scheduleOverlay()
             }
         } else {
@@ -124,6 +133,16 @@ class OverlayService : Service() {
         val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
         val keyguardManager = getSystemService(Context.KEYGUARD_SERVICE) as KeyguardManager
         return powerManager.isInteractive && !keyguardManager.isKeyguardLocked
+    }
+
+    /**
+     * Audio-Modus: Wiedergabe pausieren (Pause-Tastenereignis + Audio-Fokus)
+     * und den Dienst beenden. Kein Overlay, keine Bildschirmsperre.
+     */
+    private fun pauseMediaAndFinish() {
+        pauseViaMediaButton()
+        pauseOtherMedia()
+        stopSelf()
     }
 
     /**
@@ -169,6 +188,7 @@ class OverlayService : Service() {
             putExtra("interval_minutes", intervalMinutes)
             putExtra("timeout_seconds", timeoutSeconds)
             putExtra("position", position)
+            putExtra("audio_mode", audioMode)
         }
         return PendingIntent.getService(
             this, ALARM_REQUEST_CODE, intent,

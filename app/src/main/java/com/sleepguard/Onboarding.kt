@@ -26,6 +26,7 @@ import androidx.compose.material.icons.rounded.CheckCircle
 import androidx.compose.material.icons.rounded.Language
 import androidx.compose.material.icons.rounded.Layers
 import androidx.compose.material.icons.rounded.Notifications
+import androidx.compose.material.icons.rounded.Tune
 import androidx.compose.material3.Button
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
@@ -61,6 +62,8 @@ fun OnboardingScreen(
     startPage: Int,
     permissionTick: Int,
     languageLabels: List<String>,
+    audioMode: Boolean,
+    onModeChange: (Boolean) -> Unit,
     isOverlayGranted: () -> Boolean,
     isAdminGranted: () -> Boolean,
     isBatteryGranted: () -> Boolean,
@@ -101,7 +104,9 @@ fun OnboardingScreen(
                         body = stringResource(R.string.onb_welcome_body)
                     )
 
-                    2 -> PermissionPage(
+                    2 -> ModePage(audioMode = audioMode, onModeChange = onModeChange)
+
+                    3 -> PermissionPage(
                         icon = Icons.Rounded.Layers,
                         title = stringResource(R.string.onb_overlay_title),
                         body = stringResource(R.string.onb_overlay_body),
@@ -110,7 +115,7 @@ fun OnboardingScreen(
                         onGrant = onRequestOverlay
                     )
 
-                    3 -> PermissionPage(
+                    4 -> PermissionPage(
                         icon = Icons.Rounded.AdminPanelSettings,
                         title = stringResource(R.string.onb_admin_title),
                         body = stringResource(R.string.onb_admin_body),
@@ -119,7 +124,7 @@ fun OnboardingScreen(
                         onGrant = onRequestAdmin
                     )
 
-                    4 -> PermissionPage(
+                    5 -> PermissionPage(
                         icon = Icons.Rounded.BatteryFull,
                         title = stringResource(R.string.onb_battery_title),
                         body = stringResource(R.string.onb_battery_body),
@@ -128,7 +133,7 @@ fun OnboardingScreen(
                         onGrant = onRequestBattery
                     )
 
-                    5 -> PermissionPage(
+                    6 -> PermissionPage(
                         icon = Icons.Rounded.Notifications,
                         title = stringResource(R.string.onb_notif_title),
                         body = stringResource(R.string.onb_notif_body),
@@ -156,7 +161,7 @@ fun OnboardingScreen(
                     TextButton(onClick = { page-- }) {
                         Text(stringResource(R.string.onb_back))
                     }
-                    if (page >= 6) {
+                    if (page >= 7) {
                         Button(onClick = onFinish) {
                             Text(stringResource(R.string.onb_finish))
                         }
@@ -200,6 +205,46 @@ private fun LanguagePage(
             Text(label)
         }
     }
+}
+
+@Composable
+private fun ModePage(audioMode: Boolean, onModeChange: (Boolean) -> Unit) {
+    Icon(
+        Icons.Rounded.Tune,
+        contentDescription = null,
+        modifier = Modifier.size(64.dp),
+        tint = MaterialTheme.colorScheme.primary
+    )
+    Spacer(Modifier.height(16.dp))
+    Text(
+        text = stringResource(R.string.onb_mode_title),
+        style = MaterialTheme.typography.headlineSmall,
+        fontWeight = FontWeight.Bold,
+        textAlign = TextAlign.Center
+    )
+    Spacer(Modifier.height(24.dp))
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        if (!audioMode) {
+            Button(onClick = { onModeChange(false) }, modifier = Modifier.weight(1f)) { Text("Video") }
+        } else {
+            OutlinedButton(onClick = { onModeChange(false) }, modifier = Modifier.weight(1f)) { Text("Video") }
+        }
+        if (audioMode) {
+            Button(onClick = { onModeChange(true) }, modifier = Modifier.weight(1f)) { Text("Audio") }
+        } else {
+            OutlinedButton(onClick = { onModeChange(true) }, modifier = Modifier.weight(1f)) { Text("Audio") }
+        }
+    }
+    Spacer(Modifier.height(16.dp))
+    Text(
+        text = stringResource(if (audioMode) R.string.mode_audio_desc else R.string.mode_video_desc),
+        style = MaterialTheme.typography.bodyLarge,
+        textAlign = TextAlign.Center,
+        color = MaterialTheme.colorScheme.onSurfaceVariant
+    )
 }
 
 @Composable

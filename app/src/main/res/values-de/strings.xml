@@ -7,6 +7,10 @@
     <string name="title_interval">Intervall (Minuten)</string>
     <string name="title_timeout">Timeout (Sekunden)</string>
     <string name="title_position">Button-Position</string>
+    <string name="title_mode">Modus</string>
+    <string name="mode_video_desc">Es erscheint ein Button, den du antippst um zu bestätigen, dass du wach bist. Tust du es nicht, wird der Bildschirm gesperrt.</string>
+    <string name="mode_audio_desc">Die Wiedergabe stoppt einfach nach dem Intervall, auch bei ausgeschaltetem Bildschirm (Musik, Hörbücher, Podcasts).</string>
+    <string name="onb_mode_title">Modus wählen</string>
     <string name="title_language">Sprache</string>
     <string name="lang_system">System-Standard</string>
     <string name="btn_start">Starten</string>

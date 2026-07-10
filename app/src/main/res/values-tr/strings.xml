@@ -7,6 +7,10 @@
     <string name="title_interval">Aralık (dakika)</string>
     <string name="title_timeout">Zaman aşımı (saniye)</string>
     <string name="title_position">Düğme konumu</string>
+    <string name="title_mode">Mod</string>
+    <string name="mode_video_desc">Uyanık olduğunuzu onaylamak için dokunduğunuz bir düğme görünür. Dokunmazsanız ekran kilitlenir.</string>
+    <string name="mode_audio_desc">Oynatma, aralık sonunda ekran kapalıyken bile durur (müzik, sesli kitaplar, podcast\'ler).</string>
+    <string name="onb_mode_title">Bir mod seçin</string>
     <string name="title_language">Dil</string>
     <string name="lang_system">Sistem varsayılanı</string>
     <string name="btn_start">Başlat</string>

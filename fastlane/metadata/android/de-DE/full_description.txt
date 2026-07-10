@@ -2,6 +2,8 @@ Schläfst du oft ein, während du auf dem Handy Videos schaust? SleepGuard sorgt
 
 In einem von dir gewählten Intervall erscheint ein kleiner roter Kreis über dem, was gerade läuft. Tippst du ihn an, läuft die Wiedergabe normal weiter. Tippst du ihn innerhalb weniger Sekunden nicht an (z.B. weil du eingeschlafen bist), sperrt SleepGuard den Bildschirm, genau wie ein Druck auf die Power-Taste. Dein Video stoppt und dein Handy ist für den Rest der Nacht geschützt.
 
+Es gibt außerdem einen Audio-Modus für Musik, Hörbücher und Podcasts: Statt eines Buttons arbeitet SleepGuard als einfacher Einschlaf-Timer, der die Wiedergabe nach dem gewählten Intervall stoppt — auch bei ausgeschaltetem Bildschirm.
+
 WARUM DU SIE BRAUCHST
 
 * YouTube und andere Apps mit Autoplay: Ohne SleepGuard startet ein Video das nächste und das nächste bis zum Morgen. Im schlimmsten Fall ist der Akku leer und dein Wecker kann nicht mehr klingeln, wenn du ihn brauchst. SleepGuard durchbricht diese Kette, sobald du nicht mehr reagierst.
@@ -17,7 +19,7 @@ SO FUNKTIONIERT'S
 
 FUNKTIONEN
 
-* Funktioniert über jeder Video- oder Streaming-App
+* Zwei Modi: Video (Wach-Check-Button über jeder App) und Audio (Einschlaf-Timer für Musik, Hörbücher und Podcasts, auch bei ausgeschaltetem Bildschirm)
 * Einstellbares Intervall und einstellbare Reaktionszeit
 * Acht wählbare Button-Positionen
 * Zuverlässiges Timing auch im Hintergrund (nutzt den System-Alarm)
@@ -34,6 +36,7 @@ BERECHTIGUNGEN ERKLÄRT
 * Geräteadministrator (nur Bildschirmsperre): um den Bildschirm wie mit der Power-Taste zu sperren.
 * Vordergrunddienst & exakter Alarm: damit der Kontroll-Button pünktlich erscheint.
 * Akku-Optimierung ignorieren (optional): damit der Button auch zuverlässig funktioniert, während eine andere App im Vordergrund ist.
+* Benachrichtigungen (Android 13+): um die dauerhafte „SleepGuard ist aktiv"-Benachrichtigung anzuzeigen.
 
 OPEN SOURCE
 

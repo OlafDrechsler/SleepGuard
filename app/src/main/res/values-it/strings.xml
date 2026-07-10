@@ -7,6 +7,10 @@
     <string name="title_interval">Intervallo (minuti)</string>
     <string name="title_timeout">Timeout (secondi)</string>
     <string name="title_position">Posizione del pulsante</string>
+    <string name="title_mode">Modalità</string>
+    <string name="mode_video_desc">Compare un pulsante che tocchi per confermare di essere sveglio. Se non lo fai, lo schermo si blocca.</string>
+    <string name="mode_audio_desc">La riproduzione si ferma semplicemente dopo l\'intervallo, anche a schermo spento (musica, audiolibri, podcast).</string>
+    <string name="onb_mode_title">Scegli una modalità</string>
     <string name="title_language">Lingua</string>
     <string name="lang_system">Predefinito di sistema</string>
     <string name="btn_start">Avvia</string>

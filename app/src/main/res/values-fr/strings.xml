@@ -7,6 +7,10 @@
     <string name="title_interval">Intervalle (minutes)</string>
     <string name="title_timeout">Délai (secondes)</string>
     <string name="title_position">Position du bouton</string>
+    <string name="title_mode">Mode</string>
+    <string name="mode_video_desc">Un bouton apparaît, que vous touchez pour confirmer que vous êtes éveillé. Sinon, l\'écran se verrouille.</string>
+    <string name="mode_audio_desc">La lecture s\'arrête simplement après l\'intervalle, même écran éteint (musique, livres audio, podcasts).</string>
+    <string name="onb_mode_title">Choisissez un mode</string>
     <string name="title_language">Langue</string>
     <string name="lang_system">Système (par défaut)</string>
     <string name="btn_start">Démarrer</string>

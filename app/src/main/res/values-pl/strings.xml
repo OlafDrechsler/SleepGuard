@@ -7,6 +7,10 @@
     <string name="title_interval">Interwał (minuty)</string>
     <string name="title_timeout">Limit czasu (sekundy)</string>
     <string name="title_position">Pozycja przycisku</string>
+    <string name="title_mode">Tryb</string>
+    <string name="mode_video_desc">Pojawia się przycisk, który dotykasz, aby potwierdzić, że nie śpisz. Jeśli tego nie zrobisz, ekran zostanie zablokowany.</string>
+    <string name="mode_audio_desc">Odtwarzanie po prostu zatrzymuje się po upływie interwału, także przy wyłączonym ekranie (muzyka, audiobooki, podcasty).</string>
+    <string name="onb_mode_title">Wybierz tryb</string>
     <string name="title_language">Język</string>
     <string name="lang_system">Domyślny systemu</string>
     <string name="btn_start">Uruchom</string>

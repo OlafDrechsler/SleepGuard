@@ -7,6 +7,10 @@
     <string name="title_interval">Interval (minutes)</string>
     <string name="title_timeout">Timeout (seconds)</string>
     <string name="title_position">Button position</string>
+    <string name="title_mode">Mode</string>
+    <string name="mode_video_desc">A button appears that you tap to confirm you are awake. If you don\'t, the screen locks.</string>
+    <string name="mode_audio_desc">Playback simply stops after the interval, also with the screen off (music, audiobooks, podcasts).</string>
+    <string name="onb_mode_title">Choose a mode</string>
     <string name="title_language">Language</string>
     <string name="lang_system">System default</string>
     <string name="btn_start">Start</string>

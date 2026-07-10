@@ -7,6 +7,10 @@
     <string name="title_interval">Interval (minuten)</string>
     <string name="title_timeout">Time-out (seconden)</string>
     <string name="title_position">Knoppositie</string>
+    <string name="title_mode">Modus</string>
+    <string name="mode_video_desc">Er verschijnt een knop die je aantikt om te bevestigen dat je wakker bent. Doe je dat niet, dan wordt het scherm vergrendeld.</string>
+    <string name="mode_audio_desc">Het afspelen stopt gewoon na het interval, ook met het scherm uit (muziek, luisterboeken, podcasts).</string>
+    <string name="onb_mode_title">Kies een modus</string>
     <string name="title_language">Taal</string>
     <string name="lang_system">Systeemstandaard</string>
     <string name="btn_start">Starten</string>

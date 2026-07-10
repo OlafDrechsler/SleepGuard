@@ -2,6 +2,8 @@ Do you often fall asleep while watching videos on your phone? SleepGuard makes s
 
 At an interval you choose, a small red circle appears on top of whatever you are watching. Tap it and playback continues as normal. Don't tap it within a few seconds — because you have fallen asleep — and SleepGuard locks the screen, just like pressing the power button. Your video stops and your phone is protected for the rest of the night.
 
+There is also an Audio mode for music, audiobooks and podcasts: instead of a button, SleepGuard works as a simple sleep timer that stops playback after your chosen interval — even with the screen off.
+
 WHY YOU NEED IT
 
 * YouTube and other apps with autoplay: Without SleepGuard, one video starts the next, and the next, until morning. In the worst case the battery is drained empty and your alarm can no longer go off when you need it. SleepGuard stops the chain as soon as you stop responding.
@@ -17,7 +19,7 @@ HOW IT WORKS
 
 FEATURES
 
-* Works on top of any video or streaming app
+* Two modes: Video (wake-check button over any app) and Audio (sleep timer for music, audiobooks and podcasts, also with the screen off)
 * Adjustable interval and reaction time
 * Eight button positions to choose from
 * Reliable timing even in the background (uses the system alarm)
@@ -34,6 +36,7 @@ PERMISSIONS EXPLAINED
 * Device admin (screen lock only): to lock the screen like the power button.
 * Foreground service & exact alarm: to make the check button appear on time.
 * Ignore battery optimization (optional): so the button still works reliably while another app is in the foreground.
+* Notifications (Android 13+): to show the ongoing "SleepGuard is active" notification.
 
 OPEN SOURCE
 

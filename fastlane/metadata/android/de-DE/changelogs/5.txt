@@ -1,0 +1,2 @@
+* Neu: Audio-Modus — ein Einschlaf-Timer für Musik, Hörbücher und Podcasts, der die Wiedergabe nach dem Intervall stoppt, auch bei ausgeschaltetem Bildschirm
+* Wähle Video- oder Audio-Modus; die passende Erklärung erscheint in der App und beim Einrichten

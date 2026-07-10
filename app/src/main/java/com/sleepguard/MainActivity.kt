@@ -79,6 +79,8 @@ class MainActivity : AppCompatActivity() {
     private var isRunning by mutableStateOf(false)
     private var showOnboarding by mutableStateOf(false)
     private var permissionTick by mutableIntStateOf(0)
+    // false = Video (Button + Sperre), true = Audio (Einschlaf-Timer, stoppt Wiedergabe)
+    private var audioMode by mutableStateOf(false)
 
     private var batteryOptRequested = false
     private var pendingStart = false
@@ -105,6 +107,7 @@ class MainActivity : AppCompatActivity() {
         private const val KEY_INTERVAL = "interval_minutes"
         private const val KEY_TIMEOUT = "timeout_seconds"
         private const val KEY_POSITION = "position_index"
+        private const val KEY_MODE = "audio_mode"
         private const val KEY_ONBOARDING_DONE = "onboarding_done"
         private const val KEY_LANG_CHOSEN = "onboarding_lang_chosen"
     }
@@ -141,6 +144,8 @@ class MainActivity : AppCompatActivity() {
                         startPage = if (prefs.getBoolean(KEY_LANG_CHOSEN, false)) 1 else 0,
                         permissionTick = permissionTick,
                         languageLabels = languageLabelsNative,
+                        audioMode = audioMode,
+                        onModeChange = { audioMode = it; saveSettings() },
                         isOverlayGranted = { Settings.canDrawOverlays(this) },
                         isAdminGranted = { isDeviceAdminActive() },
                         isBatteryGranted = { isIgnoringBatteryOptimizations() },
@@ -165,7 +170,9 @@ class MainActivity : AppCompatActivity() {
                         onPositionChange = { positionIndex = it; saveSettings() },
                         onToggle = { if (isRunning) stopService() else startService() },
                         onLanguageChange = { changeLanguage(it) },
-                        onSupport = { openSupport() }
+                        onSupport = { openSupport() },
+                        audioMode = audioMode,
+                        onModeChange = { audioMode = it; saveSettings() }
                     )
                 }
             }
@@ -342,6 +349,7 @@ class MainActivity : AppCompatActivity() {
             putExtra("interval_minutes", intervalMinutes)
             putExtra("timeout_seconds", timeoutSeconds)
             putExtra("position", positionKeys[positionIndex])
+            putExtra("audio_mode", audioMode)
         }
         startForegroundService(intent)
         isRunning = true
@@ -357,6 +365,7 @@ class MainActivity : AppCompatActivity() {
             putInt(KEY_INTERVAL, intervalMinutes)
             putInt(KEY_TIMEOUT, timeoutSeconds)
             putInt(KEY_POSITION, positionIndex)
+            putBoolean(KEY_MODE, audioMode)
             apply()
         }
     }
@@ -366,6 +375,7 @@ class MainActivity : AppCompatActivity() {
         intervalMinutes = prefs.getInt(KEY_INTERVAL, 5)
         timeoutSeconds = prefs.getInt(KEY_TIMEOUT, 15)
         positionIndex = prefs.getInt(KEY_POSITION, 0)
+        audioMode = prefs.getBoolean(KEY_MODE, false)
     }
 }
 
@@ -388,7 +398,9 @@ private fun MainScreen(
     onPositionChange: (Int) -> Unit,
     onToggle: () -> Unit,
     onLanguageChange: (Int) -> Unit,
-    onSupport: () -> Unit
+    onSupport: () -> Unit,
+    audioMode: Boolean,
+    onModeChange: (Boolean) -> Unit
 ) {
     Scaffold { innerPadding ->
         Column(
@@ -415,27 +427,36 @@ private fun MainScreen(
 
             Spacer(Modifier.height(24.dp))
 
+            ModeSelector(audioMode = audioMode, onModeChange = onModeChange)
+
+            Spacer(Modifier.height(24.dp))
+
             StepperCard(
                 label = stringResource(R.string.title_interval),
                 value = intervalMinutes.toString(),
                 onMinus = { onIntervalChange(intervalMinutes - 1) },
                 onPlus = { onIntervalChange(intervalMinutes + 1) }
             )
-            Spacer(Modifier.height(16.dp))
-            StepperCard(
-                label = stringResource(R.string.title_timeout),
-                value = timeoutSeconds.toString(),
-                onMinus = { onTimeoutChange(timeoutSeconds - 5) },
-                onPlus = { onTimeoutChange(timeoutSeconds + 5) }
-            )
 
-            Spacer(Modifier.height(16.dp))
-            DropdownField(
-                label = stringResource(R.string.title_position),
-                options = positionLabels,
-                selectedIndex = positionIndex,
-                onSelect = onPositionChange
-            )
+            // Timeout und Position sind nur im Video-Modus relevant
+            // (im Audio-Modus gibt es keinen Button und keine Sperre).
+            if (!audioMode) {
+                Spacer(Modifier.height(16.dp))
+                StepperCard(
+                    label = stringResource(R.string.title_timeout),
+                    value = timeoutSeconds.toString(),
+                    onMinus = { onTimeoutChange(timeoutSeconds - 5) },
+                    onPlus = { onTimeoutChange(timeoutSeconds + 5) }
+                )
+
+                Spacer(Modifier.height(16.dp))
+                DropdownField(
+                    label = stringResource(R.string.title_position),
+                    options = positionLabels,
+                    selectedIndex = positionIndex,
+                    onSelect = onPositionChange
+                )
+            }
 
             Spacer(Modifier.height(28.dp))
             Button(
@@ -465,6 +486,36 @@ private fun MainScreen(
                 Text(stringResource(R.string.btn_support))
             }
         }
+    }
+}
+
+@Composable
+private fun ModeSelector(audioMode: Boolean, onModeChange: (Boolean) -> Unit) {
+    Column(modifier = Modifier.fillMaxWidth()) {
+        Text(text = stringResource(R.string.title_mode), style = MaterialTheme.typography.labelLarge)
+        Spacer(Modifier.height(8.dp))
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            ModeButton("Video", selected = !audioMode, onClick = { onModeChange(false) }, modifier = Modifier.weight(1f))
+            ModeButton("Audio", selected = audioMode, onClick = { onModeChange(true) }, modifier = Modifier.weight(1f))
+        }
+        Spacer(Modifier.height(8.dp))
+        Text(
+            text = stringResource(if (audioMode) R.string.mode_audio_desc else R.string.mode_video_desc),
+            style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+    }
+}
+
+@Composable
+private fun ModeButton(text: String, selected: Boolean, onClick: () -> Unit, modifier: Modifier = Modifier) {
+    if (selected) {
+        Button(onClick = onClick, modifier = modifier) { Text(text) }
+    } else {
+        OutlinedButton(onClick = onClick, modifier = modifier) { Text(text) }
     }
 }
 
