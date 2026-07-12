@@ -1,0 +1,30 @@
+# Zeilenenden repo-weit deterministisch regeln.
+# Standard: Git normalisiert Textdateien beim Commit auf LF.
+* text=auto
+
+# Skripte brauchen feste Zeilenenden:
+gradlew        text eol=lf
+*.sh           text eol=lf
+*.bat          text eol=crlf
+*.cmd          text eol=crlf
+
+# Explizite Textformate (belt & suspenders)
+*.kt           text
+*.java         text
+*.xml          text
+*.gradle       text
+*.pro          text
+*.properties   text
+*.md           text
+*.txt          text
+*.yml          text
+*.yaml         text
+
+# Binärdateien: niemals Zeilenenden anfassen
+*.png          binary
+*.jpg          binary
+*.jpeg         binary
+*.webp         binary
+*.jar          binary
+*.jks          binary
+*.keystore     binary
