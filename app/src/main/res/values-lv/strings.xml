@@ -7,15 +7,15 @@
     <string name="title_timeout">Noildze (sekundes)</string>
     <string name="title_position">Pogas novietojums</string>
     <string name="title_mode">Režīms</string>
-    <string name="mode_video_desc">Parādās poga, kurai pieskaroties apstipriniet, ka esat nomodā. Ja nepieskaraties, ekrāns tiek bloķēts.</string>
-    <string name="mode_audio_desc">Atskaņošana pēc intervāla vienkārši apstājas, arī ar izslēgtu ekrānu (mūzika, audiogrāmatas, podkāsti).</string>
+    <string name="mode_video_desc">Parādās poga, uz kuru jāpieskaras, lai apstiprinātu, ka esat nomodā. Ja to neizdarīsiet, ekrāns tiks bloķēts.</string>
+    <string name="mode_audio_desc">Atskaņošana vienkārši apstājas pēc intervāla beigām, arī tad, ja ekrāns ir izslēgts (mūzika, audiogrāmatas, podkāsti).</string>
     <string name="onb_mode_title">Izvēlieties režīmu</string>
     <string name="title_language">Valoda</string>
     <string name="lang_system">Sistēmas noklusējums</string>
     <string name="btn_start">Sākt</string>
     <string name="btn_stop">Apturēt</string>
     <string name="btn_support">Atbalstiet izstrādi</string>
-    <string name="support_no_browser">Nav atrasta pārlūkprogramma saites atvēršanai.</string>
+    <string name="support_no_browser">Nav atrasts pārlūks, lai atvērtu saiti.</string>
     <string name="status_running">SleepGuard ir aktīvs</string>
     <string name="status_stopped">SleepGuard ir apturēts</string>
 
@@ -28,28 +28,28 @@
     <string name="pos_bottom_right">Apakšējais labais stūris</string>
     <string name="pos_bottom_left">Apakšējais kreisais stūris</string>
 
-    <string name="permission_overlay_needed">Nepieciešama pārklājuma atļauja. Piešķiriet to iestatījumos.</string>
-    <string name="permission_admin_needed">Ekrāna bloķēšanai nepieciešama ierīces administratora atļauja.</string>
-    <string name="permission_battery_needed">Atspējojiet SleepGuard akumulatora optimizāciju, lai poga uzticami parādītos fonā.</string>
-    <string name="admin_description">SleepGuard izmanto šo atļauju tikai ekrāna bloķēšanai (tāpat kā barošanas poga), kad aizmiegat.</string>
+    <string name="permission_overlay_needed">Nepieciešama pārklājuma atļauja. Lūdzu, piešķiriet to iestatījumos.</string>
+    <string name="permission_admin_needed">Lai bloķētu ekrānu, nepieciešama ierīces administratora atļauja.</string>
+    <string name="permission_battery_needed">Lūdzu, atspējojiet akumulatora optimizāciju SleepGuard lietojumprogrammai, lai poga droši parādītos fonā.</string>
+    <string name="admin_description">SleepGuard šī atļauja ir nepieciešama vienīgi, lai bloķētu ekrānu (tāpat kā nospiežot ieslēgšanas pogu), kad jūs aizmiegat.</string>
 
     <string name="notification_channel">SleepGuard pakalpojums</string>
     <string name="notification_title">SleepGuard ir aktīvs</string>
-    <string name="notification_text">Pārbaude ik pēc %d minūtēm</string>
+    <string name="notification_text">Uzrauga ik pēc %d minūtēm</string>
 
-    <string name="onb_language_title">Izvēlieties savu valodu</string>
-    <string name="onb_welcome_title">Laipni lūdzam SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard bloķē jūsu tālruni, kad aizmiegat, skatoties video — lai no rīta akumulators nebūtu tukšs un jūs nekad nezaudētu vietu filmā.\n\nSleepGuard atkal un atkal rādīs pogu, kurai jums jāpieskaras. Ja nepieskaraties, tālrunis tiek bloķēts. Intervālu starp pogām iestatāt minūtēs — bet laiku pieskārienam sekundēs.</string>
-    <string name="onb_notif_title">Rādīt paziņojumu</string>
-    <string name="onb_notif_body">Atļaujiet paziņojumus, lai vienmēr redzētu, ka SleepGuard ir aktīvs, kamēr tas darbojas fonā.</string>
+    <string name="onb_language_title">Izvēlieties valodu</string>
+    <string name="onb_welcome_title">Laipni lūgti SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard bloķē jūsu tālruni, kad jūs aizmiegat, skatoties video — tādējādi līdz rītam akumulators nebūs izlādējies un jūs nekad nezaudēsiet vietu filmā.\n\nSleepGuard turpinās rādīt pogu, uz kuras jums jāpieskaras. Ja jūs to nepiesitīsiet, tālrunis tiks bloķēts. Jūs varat iestatīt laika intervālu starp pogu parādīšanos minūtēs — un to, cik ilgi jums jāpieskaras, sekundēs.</string>
+    <string name="onb_notif_title">Rādīt paziņojumus</string>
+    <string name="onb_notif_body">Atļaujiet paziņojumus, lai jūs vienmēr varētu redzēt, ka SleepGuard ir aktīvs, kamēr tas darbojas fonā.</string>
     <string name="onb_overlay_title">Rādīt virs citām lietotnēm</string>
-    <string name="onb_overlay_body">SleepGuard rāda nelielu pogu virs jūsu video. Tam nepieciešama atļauja rādīt virs citām lietotnēm.</string>
+    <string name="onb_overlay_body">SleepGuard rāda nelielu pogu virs jūsu video. Tam ir nepieciešama atļauja rādīties virs citām lietotnēm.</string>
     <string name="onb_admin_title">Bloķēt ekrānu</string>
-    <string name="onb_admin_body">Lai izslēgtu ekrānu, kad aizmiegat — tāpat kā barošanas poga — SleepGuard nepieciešama ierīces administratora atļauja. To izmanto tikai ekrāna bloķēšanai.</string>
-    <string name="onb_battery_title">Uzticama darbība</string>
-    <string name="onb_battery_body">Lai pārbaudes poga parādītos laikā, kamēr priekšplānā ir cita lietotne, atļaujiet SleepGuard ignorēt akumulatora optimizāciju.</string>
+    <string name="onb_admin_body">Lai izslēgtu ekrānu, kad jūs aizmiegat — tieši tāpat kā ieslēgšanas poga — SleepGuard ir nepieciešama ierīces administratora atļauja. Tā tiek izmantota tikai ekrāna bloķēšanai.</string>
+    <string name="onb_battery_title">Darbojas uzticami</string>
+    <string name="onb_battery_body">Lai pārbaudes poga joprojām parādītos laicīgi, kamēr priekšplānā darbojas cita lietotne, lūdzu, atļaujiet SleepGuard ignorēt akumulatora optimizāciju.</string>
     <string name="onb_done_title">Viss gatavs!</string>
-    <string name="onb_done_body">Esat gatavs. Iestatiet intervālu, pieskarieties Sākt un turpiniet skatīties.</string>
+    <string name="onb_done_body">Jūs esat gatavs. Iestatiet intervālu, pieskarieties „Sākt“ un turpiniet skatīties.</string>
     <string name="onb_grant">Atļaut</string>
     <string name="onb_granted">Atļauts</string>
     <string name="onb_next">Tālāk</string>

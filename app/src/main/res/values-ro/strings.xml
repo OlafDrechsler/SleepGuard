@@ -4,16 +4,16 @@
     <string name="app_name">SleepGuard</string>
 
     <string name="title_interval">Interval (minute)</string>
-    <string name="title_timeout">Timp de expirare (secunde)</string>
+    <string name="title_timeout">Timp de așteptare (secunde)</string>
     <string name="title_position">Poziția butonului</string>
     <string name="title_mode">Mod</string>
-    <string name="mode_video_desc">Apare un buton pe care îl atingi pentru a confirma că ești treaz. Dacă nu îl atingi, ecranul se blochează.</string>
-    <string name="mode_audio_desc">Redarea se oprește pur și simplu după interval, chiar și cu ecranul stins (muzică, cărți audio, podcasturi).</string>
+    <string name="mode_video_desc">Apare un buton pe care trebuie să-l atingi pentru a confirma că ești treaz. Dacă nu faci acest lucru, ecranul se blochează.</string>
+    <string name="mode_audio_desc">Redarea se oprește pur și simplu după expirarea intervalului, chiar și cu ecranul oprit (muzică, cărți audio, podcasturi).</string>
     <string name="onb_mode_title">Alege un mod</string>
-    <string name="title_language">Limbă</string>
-    <string name="lang_system">Implicit al sistemului</string>
-    <string name="btn_start">Pornește</string>
-    <string name="btn_stop">Oprește</string>
+    <string name="title_language">Limba</string>
+    <string name="lang_system">Implicit în sistem</string>
+    <string name="btn_start">Pornire</string>
+    <string name="btn_stop">Oprire</string>
     <string name="btn_support">Susține dezvoltarea</string>
     <string name="support_no_browser">Nu s-a găsit niciun browser pentru a deschide linkul.</string>
     <string name="status_running">SleepGuard este activ</string>
@@ -28,31 +28,31 @@
     <string name="pos_bottom_right">Colțul din dreapta jos</string>
     <string name="pos_bottom_left">Colțul din stânga jos</string>
 
-    <string name="permission_overlay_needed">Este necesară permisiunea de suprapunere. Acord-o în Setări.</string>
-    <string name="permission_admin_needed">Este necesară permisiunea de administrator de dispozitiv pentru blocarea ecranului.</string>
-    <string name="permission_battery_needed">Dezactivează optimizarea bateriei pentru SleepGuard, astfel încât butonul să apară fiabil în fundal.</string>
-    <string name="admin_description">SleepGuard are nevoie de această permisiune exclusiv pentru a bloca ecranul (ca butonul de pornire) când adormi.</string>
+    <string name="permission_overlay_needed">Este necesară permisiunea de suprapunere. Te rugăm să o acorzi din Setări.</string>
+    <string name="permission_admin_needed">Este necesară permisiunea de administrator al dispozitivului pentru a bloca ecranul.</string>
+    <string name="permission_battery_needed">Te rugăm să dezactivezi optimizarea bateriei pentru SleepGuard, astfel încât butonul să apară în mod fiabil în fundal.</string>
+    <string name="admin_description">SleepGuard are nevoie de această permisiune exclusiv pentru a bloca ecranul (la fel ca atunci când apeși butonul de pornire) atunci când adormi.</string>
 
     <string name="notification_channel">Serviciul SleepGuard</string>
     <string name="notification_title">SleepGuard este activ</string>
-    <string name="notification_text">Verificare la fiecare %d minute</string>
+    <string name="notification_text">Monitorizare la fiecare %d minute</string>
 
-    <string name="onb_language_title">Alege-ți limba</string>
+    <string name="onb_language_title">Alege limba</string>
     <string name="onb_welcome_title">Bine ai venit la SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard îți blochează telefonul când adormi uitându-te la videoclipuri — ca bateria să nu fie goală dimineața și să nu pierzi niciodată locul dintr-un film.\n\nSleepGuard îți va afișa mereu un buton pe care trebuie să îl atingi. Dacă nu îl atingi, telefonul se blochează. Intervalul dintre butoane îl setezi în minute — iar timpul pentru atingere, în secunde.</string>
-    <string name="onb_notif_title">Afișează notificarea</string>
-    <string name="onb_notif_body">Permite notificările ca să vezi mereu că SleepGuard este activ în timp ce rulează în fundal.</string>
+    <string name="onb_welcome_body">SleepGuard blochează telefonul atunci când adormi în timp ce vizionezi videoclipuri — astfel încât bateria să nu se descarce până dimineața și să nu pierzi niciodată locul în care ai rămas în film.\n\nSleepGuard îți va afișa în continuare un buton pe care trebuie să îl atingi. Dacă nu îl atingi, telefonul se blochează. Tu setezi intervalul dintre aparițiile butonului în minute — și durata în care trebuie să îl atingi, în secunde.</string>
+    <string name="onb_notif_title">Afișează notificări</string>
+    <string name="onb_notif_body">Permite notificările pentru a putea vedea întotdeauna că SleepGuard este activ în timp ce rulează în fundal.</string>
     <string name="onb_overlay_title">Afișare peste alte aplicații</string>
-    <string name="onb_overlay_body">SleepGuard afișează un buton mic peste videoclipul tău. Pentru asta are nevoie de permisiunea de a se afișa peste alte aplicații.</string>
-    <string name="onb_admin_title">Blochează ecranul</string>
-    <string name="onb_admin_body">Pentru a stinge ecranul când adormi — la fel ca butonul de pornire — SleepGuard are nevoie de permisiunea de administrator de dispozitiv. Este folosită doar pentru blocarea ecranului.</string>
+    <string name="onb_overlay_body">SleepGuard afișează un buton mic deasupra videoclipului. Pentru aceasta, are nevoie de permisiunea de a se afișa peste alte aplicații.</string>
+    <string name="onb_admin_title">Blocarea ecranului</string>
+    <string name="onb_admin_body">Pentru a opri ecranul când adormi — la fel ca butonul de pornire — SleepGuard are nevoie de permisiunea de administrator al dispozitivului. Aceasta este utilizată doar pentru a bloca ecranul.</string>
     <string name="onb_battery_title">Funcționare fiabilă</string>
-    <string name="onb_battery_body">Pentru ca butonul de verificare să apară la timp în timp ce o altă aplicație este în prim-plan, permite ca SleepGuard să ignore optimizarea bateriei.</string>
+    <string name="onb_battery_body">Pentru ca butonul de verificare să apară la timp chiar și când o altă aplicație se află în prim-plan, te rugăm să permiți aplicației SleepGuard să ignore optimizarea bateriei.</string>
     <string name="onb_done_title">Gata!</string>
-    <string name="onb_done_body">Ești pregătit. Setează intervalul, atinge Pornește și continuă să te uiți.</string>
-    <string name="onb_grant">Permite</string>
-    <string name="onb_granted">Permis</string>
-    <string name="onb_next">Înainte</string>
+    <string name="onb_done_body">Ești pregătit. Setează intervalul, atinge „Start” și continuă să vizionezi.</string>
+    <string name="onb_grant">Acordă</string>
+    <string name="onb_granted">Acordat</string>
+    <string name="onb_next">Următorul</string>
     <string name="onb_back">Înapoi</string>
     <string name="onb_finish">Începe</string>
 </resources>

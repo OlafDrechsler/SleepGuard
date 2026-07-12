@@ -7,15 +7,15 @@
     <string name="title_timeout">Ajalõpp (sekundid)</string>
     <string name="title_position">Nupu asukoht</string>
     <string name="title_mode">Režiim</string>
-    <string name="mode_video_desc">Ilmub nupp, mida vajutades kinnitate, et olete ärkvel. Kui te ei vajuta, lukustatakse ekraan.</string>
-    <string name="mode_audio_desc">Taasesitus lihtsalt peatub pärast intervalli, ka väljalülitatud ekraaniga (muusika, audioraamatud, taskuhäälingud).</string>
-    <string name="onb_mode_title">Valige režiim</string>
+    <string name="mode_video_desc">Ekraanile ilmub nupp, millele tuleb puudutada, et kinnitada, et oled ärkvel. Kui seda ei tee, lukustub ekraan.</string>
+    <string name="mode_audio_desc">Taasesitus peatub lihtsalt intervalli möödudes, ka siis, kui ekraan on välja lülitatud (muusika, audioraamatud, podcastid).</string>
+    <string name="onb_mode_title">Vali režiim</string>
     <string name="title_language">Keel</string>
     <string name="lang_system">Süsteemi vaikeseade</string>
     <string name="btn_start">Alusta</string>
     <string name="btn_stop">Peata</string>
     <string name="btn_support">Toeta arendust</string>
-    <string name="support_no_browser">Linki avamiseks ei leitud brauserit.</string>
+    <string name="support_no_browser">Linki avamiseks sobivat brauserit ei leitud.</string>
     <string name="status_running">SleepGuard on aktiivne</string>
     <string name="status_stopped">SleepGuard on peatatud</string>
 
@@ -28,31 +28,31 @@
     <string name="pos_bottom_right">Alumine parem nurk</string>
     <string name="pos_bottom_left">Alumine vasak nurk</string>
 
-    <string name="permission_overlay_needed">Vajalik on ülekatte luba. Andke see seadetes.</string>
-    <string name="permission_admin_needed">Ekraani lukustamiseks on vajalik seadme administraatori luba.</string>
-    <string name="permission_battery_needed">Lülitage SleepGuardi aku optimeerimine välja, et nupp ilmuks taustal usaldusväärselt.</string>
-    <string name="admin_description">SleepGuard kasutab seda luba ainult ekraani lukustamiseks (nagu toitenupp), kui te uinute.</string>
+    <string name="permission_overlay_needed">Vajalik on ülekatteõigus. Palun anna see luba seadete menüüs.</string>
+    <string name="permission_admin_needed">Ekraani lukustamiseks on vajalik seadme administraatori õigus.</string>
+    <string name="permission_battery_needed">Palun lülita SleepGuardi jaoks aku optimeerimine välja, et nupp ilmuks usaldusväärselt taustal.</string>
+    <string name="admin_description">SleepGuard vajab seda luba ainult selleks, et lukustada ekraan (nagu toitenupu vajutamisel), kui sa magama jääd.</string>
 
     <string name="notification_channel">SleepGuardi teenus</string>
     <string name="notification_title">SleepGuard on aktiivne</string>
-    <string name="notification_text">Kontroll iga %d minuti järel</string>
+    <string name="notification_text">Jälgib iga %d minuti järel</string>
 
-    <string name="onb_language_title">Valige oma keel</string>
+    <string name="onb_language_title">Vali keel</string>
     <string name="onb_welcome_title">Tere tulemast SleepGuardi</string>
-    <string name="onb_welcome_body">SleepGuard lukustab teie telefoni, kui te videoid vaadates uinute — et aku ei oleks hommikuks tühi ja te ei kaotaks kunagi oma kohta filmis.\n\nSleepGuard näitab teile ikka ja jälle nuppu, mida peate vajutama. Kui te ei vajuta, telefon lukustatakse. Nuppude vahelise intervalli määrate minutites — ja vajutamiseks jääva aja sekundites.</string>
-    <string name="onb_notif_title">Näita teadet</string>
-    <string name="onb_notif_body">Lubage teated, et näeksite alati, kui SleepGuard on taustal töötades aktiivne.</string>
-    <string name="onb_overlay_title">Kuva teiste rakenduste peal</string>
-    <string name="onb_overlay_body">SleepGuard kuvab teie video peal väikese nupu. Selleks on vaja luba kuvamiseks teiste rakenduste peal.</string>
+    <string name="onb_welcome_body">SleepGuard lukustab su telefoni, kui sa jääd videote vaatamise ajal magama – nii ei ole aku hommikuks tühi ja sa ei kaota kunagi oma kohta filmis.\n\nSleepGuard näitab sulle pidevalt nuppu, millele pead puudutama. Kui sa seda ei puuduta, lukustub telefon. Saad määrata nuppude vahelise intervalli minutites – ja kui kaua pead nuppu puudutama, sekundites.</string>
+    <string name="onb_notif_title">Näita teavitust</string>
+    <string name="onb_notif_body">Luba teavitused, et saaksid alati näha, et SleepGuard on aktiivne, kui see töötab taustal.</string>
+    <string name="onb_overlay_title">Näita teiste rakenduste peal</string>
+    <string name="onb_overlay_body">SleepGuard kuvab video peal väikese nupu. Selleks vajab ta luba kuvada teiste rakenduste peal.</string>
     <string name="onb_admin_title">Lukusta ekraan</string>
-    <string name="onb_admin_body">Et ekraani välja lülitada, kui te uinute — nagu toitenupp — vajab SleepGuard seadme administraatori luba. Seda kasutatakse ainult ekraani lukustamiseks.</string>
-    <string name="onb_battery_title">Töötab usaldusväärselt</string>
-    <string name="onb_battery_body">Et kontrollnupp ilmuks õigel ajal, kui esiplaanil on teine rakendus, lubage SleepGuardil aku optimeerimist eirata.</string>
+    <string name="onb_admin_body">Et ekraan magamajäämisel välja lülitada – täpselt nagu toitenupp – vajab SleepGuard seadme administraatori õigusi. Neid kasutatakse ainult ekraani lukustamiseks.</string>
+    <string name="onb_battery_title">Usaldusväärne töö</string>
+    <string name="onb_battery_body">Et kontrollnupp ilmuks õigel ajal ka siis, kui esiplaanil on mõni teine rakendus, luba SleepGuardil eirata aku optimeerimist.</string>
     <string name="onb_done_title">Kõik valmis!</string>
-    <string name="onb_done_body">Olete valmis. Määrake intervall, vajutage Alusta ja jätkake vaatamist.</string>
+    <string name="onb_done_body">Oled valmis. Määra intervall, puuduta nuppu „Alusta“ ja vaata edasi.</string>
     <string name="onb_grant">Luba</string>
     <string name="onb_granted">Lubatud</string>
-    <string name="onb_next">Edasi</string>
+    <string name="onb_next">Järgmine</string>
     <string name="onb_back">Tagasi</string>
     <string name="onb_finish">Alusta</string>
 </resources>

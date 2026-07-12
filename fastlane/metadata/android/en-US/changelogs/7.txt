@@ -1,0 +1,2 @@
+* Professionally refined translations (via DeepL) for 18 of the newer languages, for more natural wording
+* Fixed a few wording and consistency issues in several languages

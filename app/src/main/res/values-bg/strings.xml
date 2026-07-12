@@ -4,18 +4,18 @@
     <string name="app_name">SleepGuard</string>
 
     <string name="title_interval">Интервал (минути)</string>
-    <string name="title_timeout">Таймаут (секунди)</string>
+    <string name="title_timeout">Време за изчакване (секунди)</string>
     <string name="title_position">Позиция на бутона</string>
     <string name="title_mode">Режим</string>
-    <string name="mode_video_desc">Появява се бутон, който натискате, за да потвърдите, че сте будни. Ако не го натиснете, екранът се заключва.</string>
-    <string name="mode_audio_desc">Възпроизвеждането просто спира след интервала, дори при изключен екран (музика, аудиокниги, подкасти).</string>
+    <string name="mode_video_desc">Появява се бутон, който трябва да натиснете, за да потвърдите, че сте будни. Ако не го направите, екранът се заключва.</string>
+    <string name="mode_audio_desc">Възпроизвеждането просто спира след изтичане на интервала, дори и при изключен екран (музика, аудиокниги, подкасти).</string>
     <string name="onb_mode_title">Изберете режим</string>
     <string name="title_language">Език</string>
-    <string name="lang_system">Системна настройка</string>
+    <string name="lang_system">Системна настройка по подразбиране</string>
     <string name="btn_start">Старт</string>
     <string name="btn_stop">Стоп</string>
     <string name="btn_support">Подкрепете разработката</string>
-    <string name="support_no_browser">Не е намерен браузър за отваряне на връзката.</string>
+    <string name="support_no_browser">Не е намерен браузър, с който да се отвори връзката.</string>
     <string name="status_running">SleepGuard е активен</string>
     <string name="status_stopped">SleepGuard е спрян</string>
 
@@ -28,28 +28,28 @@
     <string name="pos_bottom_right">Долен десен ъгъл</string>
     <string name="pos_bottom_left">Долен ляв ъгъл</string>
 
-    <string name="permission_overlay_needed">Изисква се разрешение за наслагване. Разрешете го в Настройки.</string>
-    <string name="permission_admin_needed">За заключване на екрана се изисква разрешение за администратор на устройството.</string>
-    <string name="permission_battery_needed">Изключете оптимизацията на батерията за SleepGuard, за да се появява бутонът надеждно на заден план.</string>
-    <string name="admin_description">SleepGuard използва това разрешение единствено за заключване на екрана (като бутона за захранване), когато заспите.</string>
+    <string name="permission_overlay_needed">Необходимо е разрешение за наслагване. Моля, дайте го в „Настройки“.</string>
+    <string name="permission_admin_needed">Необходимо е разрешение за администратор на устройството, за да се заключи екранът.</string>
+    <string name="permission_battery_needed">Моля, деактивирайте оптимизацията на батерията за SleepGuard, за да се показва бутонът надеждно на заден план.</string>
+    <string name="admin_description">SleepGuard се нуждае от това разрешение единствено, за да заключи екрана (като при натискане на бутона за включване), когато заспите.</string>
 
     <string name="notification_channel">Услуга SleepGuard</string>
     <string name="notification_title">SleepGuard е активен</string>
-    <string name="notification_text">Проверка на всеки %d минути</string>
+    <string name="notification_text">Наблюдение на всеки %d минути</string>
 
-    <string name="onb_language_title">Изберете вашия език</string>
+    <string name="onb_language_title">Изберете език</string>
     <string name="onb_welcome_title">Добре дошли в SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard заключва телефона ви, когато заспите докато гледате видео — така че батерията да не е празна сутрин и никога да не губите мястото си във филма.\n\nSleepGuard постоянно ще ви показва бутон, който трябва да натискате. Ако не го натиснете, телефонът се заключва. Интервалът между бутоните задавате в минути — а времето за натискане, в секунди.</string>
-    <string name="onb_notif_title">Показване на известие</string>
-    <string name="onb_notif_body">Разрешете известията, за да виждате винаги, че SleepGuard е активен, докато работи на заден план.</string>
+    <string name="onb_welcome_body">SleepGuard заключва телефона ви, когато заспите, докато гледате видеоклипове — така батерията няма да е изтощена на сутринта и никога няма да загубите мястото си във филма.\n\nSleepGuard ще продължава да ви показва бутон, който трябва да натиснете. Ако не го натиснете, телефонът се заключва. Вие задавате интервала между появата на бутоните в минути — и колко дълго трябва да го натискате, в секунди.</string>
+    <string name="onb_notif_title">Показване на известия</string>
+    <string name="onb_notif_body">Разрешете известията, за да можете винаги да виждате, че SleepGuard е активен, докато работи на заден план.</string>
     <string name="onb_overlay_title">Показване върху други приложения</string>
-    <string name="onb_overlay_body">SleepGuard показва малък бутон върху вашето видео. За това е необходимо разрешение за показване върху други приложения.</string>
+    <string name="onb_overlay_body">SleepGuard показва малък бутон върху видеото ви. За целта му е необходимо разрешение да се показва върху други приложения.</string>
     <string name="onb_admin_title">Заключване на екрана</string>
-    <string name="onb_admin_body">За да изключва екрана, когато заспите — точно като бутона за захранване — SleepGuard се нуждае от разрешение за администратор на устройството. Използва се само за заключване на екрана.</string>
-    <string name="onb_battery_title">Надеждна работа</string>
-    <string name="onb_battery_body">За да се появява бутонът за проверка навреме, докато друго приложение е на преден план, разрешете на SleepGuard да пренебрегва оптимизацията на батерията.</string>
+    <string name="onb_admin_body">За да изключи екрана, когато заспите — точно като бутона за включване/изключване — SleepGuard се нуждае от разрешение за администратор на устройството. То се използва единствено за заключване на екрана.</string>
+    <string name="onb_battery_title">Работи надеждно</string>
+    <string name="onb_battery_body">За да се показва бутонът за проверка навреме, дори когато друго приложение е на преден план, моля, разрешете на SleepGuard да игнорира оптимизацията на батерията.</string>
     <string name="onb_done_title">Всичко е готово!</string>
-    <string name="onb_done_body">Готови сте. Задайте интервала, натиснете „Старт“ и продължете да гледате.</string>
+    <string name="onb_done_body">Готови сте. Настройте интервала си, натиснете „Старт“ и продължете да гледате.</string>
     <string name="onb_grant">Разреши</string>
     <string name="onb_granted">Разрешено</string>
     <string name="onb_next">Напред</string>

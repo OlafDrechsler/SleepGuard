@@ -4,20 +4,20 @@
     <string name="app_name">SleepGuard</string>
 
     <string name="title_interval">Intervall (minuter)</string>
-    <string name="title_timeout">Tidsgräns (sekunder)</string>
-    <string name="title_position">Knappens position</string>
+    <string name="title_timeout">Timeout (sekunder)</string>
+    <string name="title_position">Knappens placering</string>
     <string name="title_mode">Läge</string>
     <string name="mode_video_desc">En knapp visas som du trycker på för att bekräfta att du är vaken. Om du inte gör det låses skärmen.</string>
-    <string name="mode_audio_desc">Uppspelningen stoppas helt enkelt efter intervallet, även med skärmen avstängd (musik, ljudböcker, poddar).</string>
-    <string name="onb_mode_title">Välj ett läge</string>
+    <string name="mode_audio_desc">Uppspelningen avbryts helt enkelt efter intervallet, även när skärmen är avstängd (musik, ljudböcker, poddar).</string>
+    <string name="onb_mode_title">Välj läge</string>
     <string name="title_language">Språk</string>
     <string name="lang_system">Systemstandard</string>
-    <string name="btn_start">Starta</string>
-    <string name="btn_stop">Stoppa</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stopp</string>
     <string name="btn_support">Stöd utvecklingen</string>
     <string name="support_no_browser">Ingen webbläsare hittades för att öppna länken.</string>
-    <string name="status_running">SleepGuard är aktiv</string>
-    <string name="status_stopped">SleepGuard är stoppad</string>
+    <string name="status_running">SleepGuard är aktivt</string>
+    <string name="status_stopped">SleepGuard är avstängt</string>
 
     <string name="pos_right_center">Höger kant, mitten</string>
     <string name="pos_left_center">Vänster kant, mitten</string>
@@ -28,30 +28,30 @@
     <string name="pos_bottom_right">Nedre högra hörnet</string>
     <string name="pos_bottom_left">Nedre vänstra hörnet</string>
 
-    <string name="permission_overlay_needed">Behörighet för överlägg krävs. Bevilja den i inställningarna.</string>
-    <string name="permission_admin_needed">Behörighet som enhetsadministratör krävs för att låsa skärmen.</string>
-    <string name="permission_battery_needed">Inaktivera batterioptimeringen för SleepGuard så att knappen visas tillförlitligt i bakgrunden.</string>
-    <string name="admin_description">SleepGuard behöver denna behörighet enbart för att låsa skärmen (som strömknappen) när du somnar.</string>
+    <string name="permission_overlay_needed">Överlagringsbehörighet krävs. Bevilja den i Inställningar.</string>
+    <string name="permission_admin_needed">Enhetsadministratörsbehörighet krävs för att låsa skärmen.</string>
+    <string name="permission_battery_needed">Inaktivera batterioptimering för SleepGuard så att knappen visas pålitligt i bakgrunden.</string>
+    <string name="admin_description">SleepGuard behöver denna behörighet enbart för att låsa skärmen (precis som när du trycker på strömbrytaren) när du somnar.</string>
 
     <string name="notification_channel">SleepGuard-tjänst</string>
-    <string name="notification_title">SleepGuard är aktiv</string>
-    <string name="notification_text">Kontroll var %d:e minut</string>
+    <string name="notification_title">SleepGuard är aktivt</string>
+    <string name="notification_text">Övervakar var %d:e minut</string>
 
-    <string name="onb_language_title">Välj ditt språk</string>
+    <string name="onb_language_title">Välj språk</string>
     <string name="onb_welcome_title">Välkommen till SleepGuard</string>
-    <string name="onb_welcome_body">SleepGuard låser telefonen när du somnar framför videor — så att batteriet inte är tomt på morgonen och du aldrig tappar bort var du var i en film.\n\nSleepGuard visar dig gång på gång en knapp som du måste trycka på. Om du inte gör det låses telefonen. Intervallet mellan knapparna ställer du in i minuter — och hur lång tid du har på dig att trycka, i sekunder.</string>
+    <string name="onb_welcome_body">SleepGuard låser din telefon när du somnar medan du tittar på videor – så att batteriet inte är tomt på morgonen och du aldrig tappar bort var du var i filmen.\n\nSleepGuard visar hela tiden en knapp som du måste trycka på. Om du inte trycker på den låses telefonen. Du ställer in intervallet mellan knapparna i minuter – och hur länge du måste trycka, i sekunder.</string>
     <string name="onb_notif_title">Visa avisering</string>
-    <string name="onb_notif_body">Tillåt aviseringar så att du alltid ser att SleepGuard är aktiv medan den körs i bakgrunden.</string>
+    <string name="onb_notif_body">Tillåt aviseringar så att du alltid kan se att SleepGuard är aktivt medan det körs i bakgrunden.</string>
     <string name="onb_overlay_title">Visa över andra appar</string>
-    <string name="onb_overlay_body">SleepGuard visar en liten knapp ovanpå din video. För det behövs behörighet att visas över andra appar.</string>
+    <string name="onb_overlay_body">SleepGuard visar en liten knapp ovanpå din video. För det behöver den behörighet att visas över andra appar.</string>
     <string name="onb_admin_title">Lås skärmen</string>
-    <string name="onb_admin_body">För att stänga av skärmen när du somnar — precis som strömknappen — behöver SleepGuard behörighet som enhetsadministratör. Den används enbart för att låsa skärmen.</string>
-    <string name="onb_battery_title">Kör tillförlitligt</string>
-    <string name="onb_battery_body">För att kontrollknappen ska visas i tid medan en annan app är i förgrunden, tillåt att SleepGuard ignorerar batterioptimeringen.</string>
-    <string name="onb_done_title">Klart!</string>
-    <string name="onb_done_body">Du är redo. Ställ in intervallet, tryck på Starta och fortsätt titta.</string>
-    <string name="onb_grant">Tillåt</string>
-    <string name="onb_granted">Beviljad</string>
+    <string name="onb_admin_body">För att stänga av skärmen när du somnar – precis som strömbrytaren – behöver SleepGuard behörighet som enhetsadministratör. Den används endast för att låsa skärmen.</string>
+    <string name="onb_battery_title">Fungera pålitligt</string>
+    <string name="onb_battery_body">För att kontrollknappen fortfarande ska visas i tid även när en annan app är i förgrunden, vänligen tillåt SleepGuard att ignorera batterioptimeringen.</string>
+    <string name="onb_done_title">Allt klart!</string>
+    <string name="onb_done_body">Du är redo. Ställ in ditt intervall, tryck på Start och fortsätt titta.</string>
+    <string name="onb_grant">Bevilja</string>
+    <string name="onb_granted">Beviljat</string>
     <string name="onb_next">Nästa</string>
     <string name="onb_back">Tillbaka</string>
     <string name="onb_finish">Kom igång</string>
