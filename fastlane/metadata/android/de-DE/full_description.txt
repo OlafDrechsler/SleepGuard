@@ -1,19 +1,19 @@
-Schläfst du oft ein, während du auf dem Handy Videos schaust? SleepGuard sorgt dafür, dass dein Gerät nicht die ganze Nacht weiterläuft.
+Schläfst du oft ein, während du auf dem Handy Videos schaust oder Musik hörst? SleepGuard sorgt dafür, dass dein Gerät nicht die ganze Nacht weiterläuft.
 
 In einem von dir gewählten Intervall erscheint ein kleiner roter Kreis über dem, was gerade läuft. Tippst du ihn an, läuft die Wiedergabe normal weiter. Tippst du ihn innerhalb weniger Sekunden nicht an (z.B. weil du eingeschlafen bist), sperrt SleepGuard den Bildschirm, genau wie ein Druck auf die Power-Taste. Dein Video stoppt und dein Handy ist für den Rest der Nacht geschützt.
 
-Es gibt außerdem einen Audio-Modus für Musik, Hörbücher und Podcasts: Statt eines Buttons arbeitet SleepGuard als einfacher Einschlaf-Timer, der die Wiedergabe nach dem gewählten Intervall stoppt — auch bei ausgeschaltetem Bildschirm.
+Es gibt außerdem einen Audio-Modus für Musik, Hörbücher und Podcasts: Statt eines Buttons arbeitet SleepGuard als einfacher Einschlaf-Timer, der die Wiedergabe nach dem gewählten Intervall stoppt - auch bei ausgeschaltetem Bildschirm.
 
 WARUM DU SIE BRAUCHST
 
 * YouTube und andere Apps mit Autoplay: Ohne SleepGuard startet ein Video das nächste und das nächste bis zum Morgen. Im schlimmsten Fall ist der Akku leer und dein Wecker kann nicht mehr klingeln, wenn du ihn brauchst. SleepGuard durchbricht diese Kette, sobald du nicht mehr reagierst.
 
-* Netflix, Prime Video und andere Streaming-Apps: Du schläfst mitten in einer Folge ein und weißt beim Aufwachen nicht mehr, wo du weggenickt bist. Du verlierst Zeit mit dem Zurückspulen — und musst dir schlimmstenfalls immer wieder lange Werbung ansehen. SleepGuard sperrt den Bildschirm genau dann, wenn du nicht reagierst und deine Streaming-App weiß, wo es weitergeht.
+* Netflix, Prime Video und andere Streaming-Apps: Du schläfst mitten in einem Film ein und weißt beim Aufwachen nicht mehr, wo du weggenickt bist. Du verlierst Zeit mit dem Zurückspulen - und musst dir schlimmstenfalls immer wieder lange Werbung ansehen. SleepGuard sperrt den Bildschirm genau dann, wenn du nicht reagierst und deine Streaming-App weiß, wo es weitergeht.
 
 SO FUNKTIONIERT'S
 
-1. Stelle ein, wie oft der Kontroll-Button erscheinen soll (z. B. alle 5 Minuten).
-2. Stelle ein, wie viele Sekunden du Zeit hast zu reagieren, bevor der Bildschirm sperrt.
+1. Stelle ein, wie oft der Kontroll-Button erscheinen soll (z.B. alle 5 Minuten).
+2. Stelle ein, wie viele Sekunden du Zeit hast zu reagieren, bevor der Bildschirm sperrt (z.B. 30 Sekunden).
 3. Wähle, wo auf dem Bildschirm der Button erscheint.
 4. Starte SleepGuard und schau weiter.
 
@@ -44,4 +44,4 @@ SleepGuard ist freie Software unter der GNU General Public License v3. Der volls
 
 UNTERSTÜTZUNG
 
-SleepGuard ist kostenlos und bleibt kostenlos. Wenn es dir hilft, kannst du den Entwickler mit einer freiwilligen Spende direkt aus der App heraus unterstützen. Eine Gegenleistung gibt es dafür bewusst nicht — es ist einfach ein Dankeschön.
+SleepGuard ist kostenlos und bleibt kostenlos. Wenn es dir hilft, kannst du den Entwickler mit einer freiwilligen Spende direkt aus der App heraus unterstützen. Eine Gegenleistung gibt es dafür bewusst nicht - es ist einfach ein Dankeschön.

@@ -1,25 +1,25 @@
-Do you often fall asleep while watching videos on your phone? SleepGuard makes sure your device doesn't keep running all night long.
+Do you often fall asleep while watching videos or listening to music on your phone? SleepGuard makes sure your device doesn't keep running all night long.
 
-At an interval you choose, a small red circle appears on top of whatever you are watching. Tap it and playback continues as normal. Don't tap it within a few seconds — because you have fallen asleep — and SleepGuard locks the screen, just like pressing the power button. Your video stops and your phone is protected for the rest of the night.
+At an interval you choose, a small red circle appears on top of whatever you are watching. Tap it and playback continues as normal. Don't tap it within a few seconds - because you have fallen asleep - and SleepGuard locks the screen, just like pressing the power button. Your video stops and your phone is protected for the rest of the night.
 
 There is also an Audio mode for music, audiobooks and podcasts: instead of a button, SleepGuard works as a simple sleep timer that stops playback after your chosen interval — even with the screen off.
 
 WHY YOU NEED IT
 
-* YouTube and other apps with autoplay: Without SleepGuard, one video starts the next, and the next, until morning. In the worst case the battery is drained empty and your alarm can no longer go off when you need it. SleepGuard stops the chain as soon as you stop responding.
+* YouTube and other apps with autoplay: Without SleepGuard, one video starts the next and the next and the next ... until morning. In the worst case the battery is drained empty and your alarm can no longer go off when you need it. SleepGuard stops the chain as soon as you stop responding.
 
-* Netflix, Prime Video and other streaming apps: Fall asleep mid-episode and you wake up not knowing where you dozed off. You waste time scrubbing back to find the spot — sometimes sitting through long ads again and again. SleepGuard locks the screen right when you don't respond, so your streaming app knows where to continue.
+* Netflix, Prime Video and other streaming apps: Fall asleep mid-episode and you wake up not knowing where you dozed off. You waste time scrubbing back to find the spot - sometimes sitting through long ads again and again. SleepGuard locks the screen right when you don't respond, so your streaming app knows where to continue.
 
 HOW IT WORKS
 
 1. Set how often the check button should appear (e.g. every 5 minutes).
-2. Set how many seconds you have to react before the screen locks.
+2. Set how many seconds you have to react before the screen locks (e.g. 30 seconds).
 3. Choose where on the screen the button appears.
 4. Start SleepGuard and keep watching.
 
 FEATURES
 
-* Two modes: Video (wake-check button over any app) and Audio (sleep timer for music, audiobooks and podcasts, also with the screen off)
+* Two modes: Video (wake-check button over any app) and Audio (sleep timer for music, audiobooks and podcasts, works also with the screen off)
 * Adjustable interval and reaction time
 * Eight button positions to choose from
 * Reliable timing even in the background (uses the system alarm)
@@ -44,4 +44,4 @@ SleepGuard is free software, licensed under the GNU General Public License v3. T
 
 SUPPORT
 
-SleepGuard is free and will stay free. If it helps you, you can support it's developer with a voluntary donation from within the app. There is deliberately no reward in return — it is simply a thank-you.
+SleepGuard is free and will stay free. If it helps you, you can support it's developer with a voluntary donation from within the app. There is deliberately no reward in return - it is simply a thank-you.

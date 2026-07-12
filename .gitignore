@@ -23,3 +23,7 @@ Thumbs.db
 
 # Lokale Claude-Code-Einstellungen
 .claude/settings.local.json
+
+# Lokale Roh-/Arbeitsversionen von Screenshots (NICHT fuer den Store).
+# Finale Store-Screenshots gehoeren nach fastlane/metadata/.../phoneScreenshots/
+screenshots-raw/
