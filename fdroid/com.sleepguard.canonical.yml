@@ -36,9 +36,16 @@ Builds:
     gradle:
       - yes
 
+  - versionName: '1.4'
+    versionCode: 6
+    commit: a3a17fd5660d164766f6dbd495055a642634cb33
+    subdir: app
+    gradle:
+      - yes
+
 AllowedAPKSigningKeys: 937eb89c4fc4356477d6cf6953a31b772408482c8702fbca467b5858d8867b01
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
-CurrentVersion: '1.3'
-CurrentVersionCode: 5
+CurrentVersion: '1.4'
+CurrentVersionCode: 6
