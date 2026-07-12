@@ -1,0 +1,2 @@
+* 20 new interface languages: now 29 in total, covering all official EU languages plus Russian, Japanese and Chinese (Simplified & Traditional)
+* Pick any of them from the language menu or let the app follow your device language

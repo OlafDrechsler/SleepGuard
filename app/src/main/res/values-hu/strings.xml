@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Magyar -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Időköz (perc)</string>
+    <string name="title_timeout">Időkorlát (másodperc)</string>
+    <string name="title_position">Gomb helye</string>
+    <string name="title_mode">Mód</string>
+    <string name="mode_video_desc">Megjelenik egy gomb, amelyre koppintva megerősíted, hogy ébren vagy. Ha nem koppintasz, a képernyő zárolódik.</string>
+    <string name="mode_audio_desc">A lejátszás az időköz után egyszerűen leáll, kikapcsolt képernyővel is (zene, hangoskönyvek, podcastok).</string>
+    <string name="onb_mode_title">Válassz módot</string>
+    <string name="title_language">Nyelv</string>
+    <string name="lang_system">Rendszer alapértelmezése</string>
+    <string name="btn_start">Indítás</string>
+    <string name="btn_stop">Leállítás</string>
+    <string name="btn_support">Támogasd a fejlesztést</string>
+    <string name="support_no_browser">Nem található böngésző a link megnyitásához.</string>
+    <string name="status_running">A SleepGuard aktív</string>
+    <string name="status_stopped">A SleepGuard leállt</string>
+
+    <string name="pos_right_center">Jobb szél, középen</string>
+    <string name="pos_left_center">Bal szél, középen</string>
+    <string name="pos_top_center">Felső szél, középen</string>
+    <string name="pos_bottom_center">Alsó szél, középen</string>
+    <string name="pos_top_right">Jobb felső sarok</string>
+    <string name="pos_top_left">Bal felső sarok</string>
+    <string name="pos_bottom_right">Jobb alsó sarok</string>
+    <string name="pos_bottom_left">Bal alsó sarok</string>
+
+    <string name="permission_overlay_needed">Átfedési engedély szükséges. Engedélyezd a Beállításokban.</string>
+    <string name="permission_admin_needed">A képernyő zárolásához eszközrendszergazdai engedély szükséges.</string>
+    <string name="permission_battery_needed">Kapcsold ki a SleepGuard akkumulátor-optimalizálását, hogy a gomb megbízhatóan megjelenjen a háttérben.</string>
+    <string name="admin_description">A SleepGuardnak erre az engedélyre kizárólag a képernyő zárolásához van szüksége (mint a bekapcsológomb), amikor elalszol.</string>
+
+    <string name="notification_channel">SleepGuard szolgáltatás</string>
+    <string name="notification_title">A SleepGuard aktív</string>
+    <string name="notification_text">Ellenőrzés %d percenként</string>
+
+    <string name="onb_language_title">Válaszd ki a nyelvedet</string>
+    <string name="onb_welcome_title">Üdvözöl a SleepGuard</string>
+    <string name="onb_welcome_body">A SleepGuard zárolja a telefonodat, amikor videózás közben elalszol — hogy reggelre ne merüljön le az akkumulátor, és soha ne veszítsd el a helyed a filmben.\n\nA SleepGuard újra és újra megjelenít egy gombot, amelyre koppintanod kell. Ha nem koppintasz, a telefon zárolódik. A gombok közötti időközt percben állítod be — a koppintásra rendelkezésre álló időt pedig másodpercben.</string>
+    <string name="onb_notif_title">Értesítés megjelenítése</string>
+    <string name="onb_notif_body">Engedélyezd az értesítéseket, hogy mindig lásd, a SleepGuard aktív, miközben a háttérben fut.</string>
+    <string name="onb_overlay_title">Megjelenítés más alkalmazások felett</string>
+    <string name="onb_overlay_body">A SleepGuard egy kis gombot jelenít meg a videód felett. Ehhez engedély szükséges a más alkalmazások feletti megjelenítéshez.</string>
+    <string name="onb_admin_title">Képernyő zárolása</string>
+    <string name="onb_admin_body">Ahhoz, hogy elalváskor kikapcsolja a képernyőt — akárcsak a bekapcsológomb — a SleepGuardnak eszközrendszergazdai engedélyre van szüksége. Csak a képernyő zárolására használja.</string>
+    <string name="onb_battery_title">Megbízható működés</string>
+    <string name="onb_battery_body">Hogy az ellenőrző gomb időben megjelenjen, miközben egy másik alkalmazás van előtérben, engedélyezd, hogy a SleepGuard figyelmen kívül hagyja az akkumulátor-optimalizálást.</string>
+    <string name="onb_done_title">Minden kész!</string>
+    <string name="onb_done_body">Készen állsz. Állítsd be az időközt, koppints az Indításra, és nézz tovább.</string>
+    <string name="onb_grant">Engedélyezés</string>
+    <string name="onb_granted">Engedélyezve</string>
+    <string name="onb_next">Tovább</string>
+    <string name="onb_back">Vissza</string>
+    <string name="onb_finish">Kezdés</string>
+</resources>

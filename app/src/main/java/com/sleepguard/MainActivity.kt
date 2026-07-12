@@ -92,7 +92,11 @@ class MainActivity : AppCompatActivity() {
     )
 
     // BCP-47-Tags parallel zu den Eintraegen im Sprach-Dropdown ("" = System)
-    private val languageTags = arrayOf("", "de", "en", "es", "fr", "it", "nl", "pl", "tr")
+    private val languageTags = arrayOf(
+        "", "de", "en", "es", "fr", "it", "nl", "pl", "tr",
+        "bg", "cs", "da", "el", "et", "fi", "ga", "hr", "hu", "lt", "lv",
+        "mt", "ro", "ru", "sk", "sl", "sv", "ja", "zh-CN", "zh-TW"
+    )
 
     private lateinit var overlayPermissionLauncher: ActivityResultLauncher<Intent>
     private lateinit var deviceAdminLauncher: ActivityResultLauncher<Intent>
@@ -110,6 +114,7 @@ class MainActivity : AppCompatActivity() {
         private const val KEY_MODE = "audio_mode"
         private const val KEY_ONBOARDING_DONE = "onboarding_done"
         private const val KEY_LANG_CHOSEN = "onboarding_lang_chosen"
+        private const val KEY_LANG_INDEX = "language_index"
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -274,17 +279,28 @@ class MainActivity : AppCompatActivity() {
     )
 
     private fun currentLanguageIndex(): Int {
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        if (prefs.contains(KEY_LANG_INDEX)) {
+            return prefs.getInt(KEY_LANG_INDEX, 0).coerceIn(0, languageTags.size - 1)
+        }
+        // Fallback fuer Upgrades ohne gespeicherten Index: aus aktiver Locale ableiten.
         val locales = AppCompatDelegate.getApplicationLocales()
-        val tag = if (locales.isEmpty) "" else locales[0]?.language ?: ""
-        return languageTags.indexOf(tag).takeIf { it >= 0 } ?: 0
+        if (locales.isEmpty) return 0
+        val active = locales[0] ?: return 0
+        return languageTags.indexOfFirst { tag ->
+            tag.isNotEmpty() && java.util.Locale.forLanguageTag(tag).let { l ->
+                l.language == active.language &&
+                    (l.country.isEmpty() || l.country.equals(active.country, ignoreCase = true))
+            }
+        }.takeIf { it >= 0 } ?: 0
     }
 
     private fun changeLanguage(index: Int) {
-        val newTag = languageTags[index]
-        val activeTag = AppCompatDelegate.getApplicationLocales()
-            .takeIf { !it.isEmpty }?.get(0)?.language ?: ""
-        if (newTag == activeTag) return
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        if (prefs.getInt(KEY_LANG_INDEX, 0) == index) return
+        prefs.edit().putInt(KEY_LANG_INDEX, index).apply()
         saveSettings()
+        val newTag = languageTags[index]
         val locales = if (newTag.isEmpty()) {
             LocaleListCompat.getEmptyLocaleList()
         } else {
@@ -382,7 +398,11 @@ class MainActivity : AppCompatActivity() {
 // Native Sprachnamen (Autonyme) parallel zu languageTags; sprachunabhaengig.
 private val languageLabelsNative = listOf(
     "System", "Deutsch", "English", "Español", "Français",
-    "Italiano", "Nederlands", "Polski", "Türkçe"
+    "Italiano", "Nederlands", "Polski", "Türkçe",
+    "Български", "Čeština", "Dansk", "Ελληνικά", "Eesti", "Suomi",
+    "Gaeilge", "Hrvatski", "Magyar", "Lietuvių", "Latviešu",
+    "Malti", "Română", "Русский", "Slovenčina", "Slovenščina",
+    "Svenska", "日本語", "中文 (简体)", "中文 (繁體)"
 )
 
 @Composable

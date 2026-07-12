@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Malti -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Intervall (minuti)</string>
+    <string name="title_timeout">Ħin ta\' skadenza (sekondi)</string>
+    <string name="title_position">Pożizzjoni tal-buttuna</string>
+    <string name="title_mode">Modalità</string>
+    <string name="mode_video_desc">Tidher buttuna li tagħfasha biex tikkonferma li int imqajjem. Jekk ma tagħfashiex, l-iskrin jiġi msakkar.</string>
+    <string name="mode_audio_desc">Il-plejbek sempliċement jieqaf wara l-intervall, anke bl-iskrin mitfi (mużika, awdjokotba, podcasts).</string>
+    <string name="onb_mode_title">Agħżel modalità</string>
+    <string name="title_language">Lingwa</string>
+    <string name="lang_system">Default tas-sistema</string>
+    <string name="btn_start">Ibda</string>
+    <string name="btn_stop">Ieqaf</string>
+    <string name="btn_support">Appoġġja l-iżvilupp</string>
+    <string name="support_no_browser">Ma nstab l-ebda browser biex jinfetaħ il-link.</string>
+    <string name="status_running">SleepGuard huwa attiv</string>
+    <string name="status_stopped">SleepGuard huwa mwaqqaf</string>
+
+    <string name="pos_right_center">Tarf tal-lemin, fiċ-ċentru</string>
+    <string name="pos_left_center">Tarf tax-xellug, fiċ-ċentru</string>
+    <string name="pos_top_center">Tarf ta\' fuq, fiċ-ċentru</string>
+    <string name="pos_bottom_center">Tarf t\'isfel, fiċ-ċentru</string>
+    <string name="pos_top_right">Rokna ta\' fuq lemin</string>
+    <string name="pos_top_left">Rokna ta\' fuq xellug</string>
+    <string name="pos_bottom_right">Rokna t\'isfel lemin</string>
+    <string name="pos_bottom_left">Rokna t\'isfel xellug</string>
+
+    <string name="permission_overlay_needed">Hemm bżonn permess ta\' overlay. Agħtih fis-Settings.</string>
+    <string name="permission_admin_needed">Hemm bżonn permess ta\' amministratur tal-apparat biex jissakkar l-iskrin.</string>
+    <string name="permission_battery_needed">Iddiżattiva l-ottimizzazzjoni tal-batterija għal SleepGuard biex il-buttuna tidher b\'mod affidabbli fl-isfond.</string>
+    <string name="admin_description">SleepGuard juża dan il-permess biss biex isakkar l-iskrin (bħall-buttuna tal-power) meta torqod.</string>
+
+    <string name="notification_channel">Servizz SleepGuard</string>
+    <string name="notification_title">SleepGuard huwa attiv</string>
+    <string name="notification_text">Verifika kull %d minuti</string>
+
+    <string name="onb_language_title">Agħżel il-lingwa tiegħek</string>
+    <string name="onb_welcome_title">Merħba f\'SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard isakkar il-mowbajl tiegħek meta torqod tara vidjows — biex il-batterija ma tkunx vojta filgħodu u qatt ma titlef postok f\'film.\n\nSleepGuard se jkompli jurik buttuna li trid tagħfas. Jekk ma tagħfashiex, il-mowbajl jiġi msakkar. L-intervall bejn il-buttuni tissettjah f\'minuti — u l-ħin biex tagħfas f\'sekondi.</string>
+    <string name="onb_notif_title">Uri notifika</string>
+    <string name="onb_notif_body">Ippermetti n-notifiki biex dejjem tara li SleepGuard huwa attiv waqt li jaħdem fl-isfond.</string>
+    <string name="onb_overlay_title">Uri fuq apps oħra</string>
+    <string name="onb_overlay_body">SleepGuard juri buttuna żgħira fuq il-vidjow tiegħek. Għal dan hemm bżonn permess biex jidher fuq apps oħra.</string>
+    <string name="onb_admin_title">Issakkar l-iskrin</string>
+    <string name="onb_admin_body">Biex jitfi l-iskrin meta torqod — bħall-buttuna tal-power — SleepGuard jeħtieġ permess ta\' amministratur tal-apparat. Jintuża biss biex isakkar l-iskrin.</string>
+    <string name="onb_battery_title">Aħdem b\'mod affidabbli</string>
+    <string name="onb_battery_body">Biex il-buttuna ta\' verifika xorta tidher fil-ħin waqt li app oħra tkun quddiem, ippermetti li SleepGuard jinjora l-ottimizzazzjoni tal-batterija.</string>
+    <string name="onb_done_title">Kollox lest!</string>
+    <string name="onb_done_body">Int lest. Issettja l-intervall, agħfas Ibda, u kompli tara.</string>
+    <string name="onb_grant">Ippermetti</string>
+    <string name="onb_granted">Mogħti</string>
+    <string name="onb_next">Li jmiss</string>
+    <string name="onb_back">Lura</string>
+    <string name="onb_finish">Ibda</string>
+</resources>

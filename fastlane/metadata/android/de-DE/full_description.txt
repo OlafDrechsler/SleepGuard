@@ -23,7 +23,7 @@ FUNKTIONEN
 * Einstellbares Intervall und einstellbare Reaktionszeit
 * Acht wählbare Button-Positionen
 * Zuverlässiges Timing auch im Hintergrund (nutzt den System-Alarm)
-* 9 Oberflächensprachen: Englisch, Deutsch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Türkisch
+* 29 Oberflächensprachen: alle 24 EU-Amtssprachen plus Russisch, Japanisch, Chinesisch (vereinfacht & traditionell) und Türkisch
 * Komplett kostenlos, keine Werbung, kein Tracking, keine Konten
 
 DATENSCHUTZ

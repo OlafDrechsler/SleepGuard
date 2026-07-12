@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Gaeilge -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Eatramh (nóiméid)</string>
+    <string name="title_timeout">Teorainn ama (soicindí)</string>
+    <string name="title_position">Suíomh an chnaipe</string>
+    <string name="title_mode">Mód</string>
+    <string name="mode_video_desc">Taispeántar cnaipe a bhrúnn tú chun a dhearbhú go bhfuil tú i do dhúiseacht. Mura mbrúnn tú é, glasálfar an scáileán.</string>
+    <string name="mode_audio_desc">Stopann an seinm go simplí tar éis an eatraimh, fiú agus an scáileán múchta (ceol, closleabhair, podchraoltaí).</string>
+    <string name="onb_mode_title">Roghnaigh mód</string>
+    <string name="title_language">Teanga</string>
+    <string name="lang_system">Réamhshocrú an chórais</string>
+    <string name="btn_start">Tosaigh</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_support">Tacaigh leis an bhforbairt</string>
+    <string name="support_no_browser">Níor aimsíodh brabhsálaí chun an nasc a oscailt.</string>
+    <string name="status_running">Tá SleepGuard gníomhach</string>
+    <string name="status_stopped">Tá SleepGuard stoptha</string>
+
+    <string name="pos_right_center">Imeall deas, lár</string>
+    <string name="pos_left_center">Imeall clé, lár</string>
+    <string name="pos_top_center">Imeall barr, lár</string>
+    <string name="pos_bottom_center">Imeall bun, lár</string>
+    <string name="pos_top_right">Cúinne barr ar dheis</string>
+    <string name="pos_top_left">Cúinne barr ar chlé</string>
+    <string name="pos_bottom_right">Cúinne bun ar dheis</string>
+    <string name="pos_bottom_left">Cúinne bun ar chlé</string>
+
+    <string name="permission_overlay_needed">Tá cead forleagain ag teastáil. Deonaigh é sna Socruithe.</string>
+    <string name="permission_admin_needed">Tá cead riarthóra gléis ag teastáil chun an scáileán a ghlasáil.</string>
+    <string name="permission_battery_needed">Díchumasaigh optamú ceallraí do SleepGuard ionas go dtaispeánfar an cnaipe go hiontaofa sa chúlra.</string>
+    <string name="admin_description">Ní úsáideann SleepGuard an cead seo ach chun an scáileán a ghlasáil (cosúil leis an gcnaipe cumhachta) nuair a thiteann tú i do chodladh.</string>
+
+    <string name="notification_channel">Seirbhís SleepGuard</string>
+    <string name="notification_title">Tá SleepGuard gníomhach</string>
+    <string name="notification_text">Seiceáil gach %d nóiméad</string>
+
+    <string name="onb_language_title">Roghnaigh do theanga</string>
+    <string name="onb_welcome_title">Fáilte go SleepGuard</string>
+    <string name="onb_welcome_body">Glasálann SleepGuard do ghuthán nuair a thiteann tú i do chodladh agus físeáin á bhféachaint agat — ionas nach mbeidh an cheallraí folamh ar maidin agus nach gcaillfidh tú d\'áit i scannán riamh.\n\nTaispeánfaidh SleepGuard cnaipe duit arís agus arís eile a chaithfidh tú a bhrú. Mura mbrúnn tú é, glasálfar an guthán. Socraíonn tú an t-eatramh idir na cnaipí i nóiméid — agus an t-am chun brú i soicindí.</string>
+    <string name="onb_notif_title">Taispeáin fógra</string>
+    <string name="onb_notif_body">Ceadaigh fógraí ionas go bhfeicfidh tú i gcónaí go bhfuil SleepGuard gníomhach agus é ag rith sa chúlra.</string>
+    <string name="onb_overlay_title">Taispeáin thar aipeanna eile</string>
+    <string name="onb_overlay_body">Taispeánann SleepGuard cnaipe beag os cionn do fhíseáin. Chuige sin tá cead ag teastáil chun taispeáint thar aipeanna eile.</string>
+    <string name="onb_admin_title">Glasáil an scáileán</string>
+    <string name="onb_admin_body">Chun an scáileán a mhúchadh nuair a thiteann tú i do chodladh — cosúil leis an gcnaipe cumhachta — tá cead riarthóra gléis ag teastáil ó SleepGuard. Úsáidtear é chun an scáileán a ghlasáil amháin.</string>
+    <string name="onb_battery_title">Rith go hiontaofa</string>
+    <string name="onb_battery_body">Ionas go dtaispeánfar an cnaipe seiceála in am agus aip eile chun tosaigh, ceadaigh do SleepGuard optamú ceallraí a neamhaird.</string>
+    <string name="onb_done_title">Gach rud réidh!</string>
+    <string name="onb_done_body">Tá tú réidh. Socraigh d\'eatramh, brúigh Tosaigh, agus lean ort ag féachaint.</string>
+    <string name="onb_grant">Deonaigh</string>
+    <string name="onb_granted">Deonaithe</string>
+    <string name="onb_next">Ar aghaidh</string>
+    <string name="onb_back">Siar</string>
+    <string name="onb_finish">Tosaigh</string>
+</resources>

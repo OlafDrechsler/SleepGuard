@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Suomi -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Väli (minuuttia)</string>
+    <string name="title_timeout">Aikakatkaisu (sekuntia)</string>
+    <string name="title_position">Painikkeen sijainti</string>
+    <string name="title_mode">Tila</string>
+    <string name="mode_video_desc">Näkyviin tulee painike, jota napautat vahvistaaksesi, että olet hereillä. Jos et napauta, näyttö lukitaan.</string>
+    <string name="mode_audio_desc">Toisto pysähtyy yksinkertaisesti välin jälkeen, myös näytön ollessa sammuksissa (musiikki, äänikirjat, podcastit).</string>
+    <string name="onb_mode_title">Valitse tila</string>
+    <string name="title_language">Kieli</string>
+    <string name="lang_system">Järjestelmän oletus</string>
+    <string name="btn_start">Käynnistä</string>
+    <string name="btn_stop">Pysäytä</string>
+    <string name="btn_support">Tue kehitystä</string>
+    <string name="support_no_browser">Linkin avaamiseen ei löytynyt selainta.</string>
+    <string name="status_running">SleepGuard on aktiivinen</string>
+    <string name="status_stopped">SleepGuard on pysäytetty</string>
+
+    <string name="pos_right_center">Oikea reuna, keskellä</string>
+    <string name="pos_left_center">Vasen reuna, keskellä</string>
+    <string name="pos_top_center">Yläreuna, keskellä</string>
+    <string name="pos_bottom_center">Alareuna, keskellä</string>
+    <string name="pos_top_right">Oikea yläkulma</string>
+    <string name="pos_top_left">Vasen yläkulma</string>
+    <string name="pos_bottom_right">Oikea alakulma</string>
+    <string name="pos_bottom_left">Vasen alakulma</string>
+
+    <string name="permission_overlay_needed">Päällekkäisnäytön lupa vaaditaan. Myönnä se asetuksissa.</string>
+    <string name="permission_admin_needed">Näytön lukitsemiseen vaaditaan laitteen järjestelmänvalvojan lupa.</string>
+    <string name="permission_battery_needed">Poista SleepGuardin akun optimointi käytöstä, jotta painike ilmestyy luotettavasti taustalla.</string>
+    <string name="admin_description">SleepGuard käyttää tätä lupaa vain näytön lukitsemiseen (kuten virtapainike), kun nukahdat.</string>
+
+    <string name="notification_channel">SleepGuard-palvelu</string>
+    <string name="notification_title">SleepGuard on aktiivinen</string>
+    <string name="notification_text">Tarkistus %d minuutin välein</string>
+
+    <string name="onb_language_title">Valitse kielesi</string>
+    <string name="onb_welcome_title">Tervetuloa SleepGuardiin</string>
+    <string name="onb_welcome_body">SleepGuard lukitsee puhelimesi, kun nukahdat videoita katsellessa — jotta akku ei ole tyhjä aamulla etkä menetä kohtaasi elokuvassa.\n\nSleepGuard näyttää sinulle yhä uudelleen painikkeen, jota sinun on napautettava. Jos et napauta, puhelin lukitaan. Painikkeiden väli asetetaan minuutteina — ja aika napauttamiseen sekunteina.</string>
+    <string name="onb_notif_title">Näytä ilmoitus</string>
+    <string name="onb_notif_body">Salli ilmoitukset, jotta näet aina, että SleepGuard on aktiivinen sen toimiessa taustalla.</string>
+    <string name="onb_overlay_title">Näytä muiden sovellusten päällä</string>
+    <string name="onb_overlay_body">SleepGuard näyttää pienen painikkeen videosi päällä. Siihen tarvitaan lupa näkyä muiden sovellusten päällä.</string>
+    <string name="onb_admin_title">Lukitse näyttö</string>
+    <string name="onb_admin_body">Näytön sammuttamiseen nukahtaessasi — aivan kuten virtapainike — SleepGuard tarvitsee laitteen järjestelmänvalvojan luvan. Sitä käytetään vain näytön lukitsemiseen.</string>
+    <string name="onb_battery_title">Toimi luotettavasti</string>
+    <string name="onb_battery_body">Jotta tarkistuspainike ilmestyy ajoissa toisen sovelluksen ollessa etualalla, salli SleepGuardin ohittaa akun optimointi.</string>
+    <string name="onb_done_title">Valmista!</string>
+    <string name="onb_done_body">Olet valmis. Aseta väli, napauta Käynnistä ja jatka katselua.</string>
+    <string name="onb_grant">Salli</string>
+    <string name="onb_granted">Myönnetty</string>
+    <string name="onb_next">Seuraava</string>
+    <string name="onb_back">Takaisin</string>
+    <string name="onb_finish">Aloita</string>
+</resources>

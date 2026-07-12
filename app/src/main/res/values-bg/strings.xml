@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Български -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Интервал (минути)</string>
+    <string name="title_timeout">Таймаут (секунди)</string>
+    <string name="title_position">Позиция на бутона</string>
+    <string name="title_mode">Режим</string>
+    <string name="mode_video_desc">Появява се бутон, който натискате, за да потвърдите, че сте будни. Ако не го натиснете, екранът се заключва.</string>
+    <string name="mode_audio_desc">Възпроизвеждането просто спира след интервала, дори при изключен екран (музика, аудиокниги, подкасти).</string>
+    <string name="onb_mode_title">Изберете режим</string>
+    <string name="title_language">Език</string>
+    <string name="lang_system">Системна настройка</string>
+    <string name="btn_start">Старт</string>
+    <string name="btn_stop">Стоп</string>
+    <string name="btn_support">Подкрепете разработката</string>
+    <string name="support_no_browser">Не е намерен браузър за отваряне на връзката.</string>
+    <string name="status_running">SleepGuard е активен</string>
+    <string name="status_stopped">SleepGuard е спрян</string>
+
+    <string name="pos_right_center">Десен ръб, център</string>
+    <string name="pos_left_center">Ляв ръб, център</string>
+    <string name="pos_top_center">Горен ръб, център</string>
+    <string name="pos_bottom_center">Долен ръб, център</string>
+    <string name="pos_top_right">Горен десен ъгъл</string>
+    <string name="pos_top_left">Горен ляв ъгъл</string>
+    <string name="pos_bottom_right">Долен десен ъгъл</string>
+    <string name="pos_bottom_left">Долен ляв ъгъл</string>
+
+    <string name="permission_overlay_needed">Изисква се разрешение за наслагване. Разрешете го в Настройки.</string>
+    <string name="permission_admin_needed">За заключване на екрана се изисква разрешение за администратор на устройството.</string>
+    <string name="permission_battery_needed">Изключете оптимизацията на батерията за SleepGuard, за да се появява бутонът надеждно на заден план.</string>
+    <string name="admin_description">SleepGuard използва това разрешение единствено за заключване на екрана (като бутона за захранване), когато заспите.</string>
+
+    <string name="notification_channel">Услуга SleepGuard</string>
+    <string name="notification_title">SleepGuard е активен</string>
+    <string name="notification_text">Проверка на всеки %d минути</string>
+
+    <string name="onb_language_title">Изберете вашия език</string>
+    <string name="onb_welcome_title">Добре дошли в SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard заключва телефона ви, когато заспите докато гледате видео — така че батерията да не е празна сутрин и никога да не губите мястото си във филма.\n\nSleepGuard постоянно ще ви показва бутон, който трябва да натискате. Ако не го натиснете, телефонът се заключва. Интервалът между бутоните задавате в минути — а времето за натискане, в секунди.</string>
+    <string name="onb_notif_title">Показване на известие</string>
+    <string name="onb_notif_body">Разрешете известията, за да виждате винаги, че SleepGuard е активен, докато работи на заден план.</string>
+    <string name="onb_overlay_title">Показване върху други приложения</string>
+    <string name="onb_overlay_body">SleepGuard показва малък бутон върху вашето видео. За това е необходимо разрешение за показване върху други приложения.</string>
+    <string name="onb_admin_title">Заключване на екрана</string>
+    <string name="onb_admin_body">За да изключва екрана, когато заспите — точно като бутона за захранване — SleepGuard се нуждае от разрешение за администратор на устройството. Използва се само за заключване на екрана.</string>
+    <string name="onb_battery_title">Надеждна работа</string>
+    <string name="onb_battery_body">За да се появява бутонът за проверка навреме, докато друго приложение е на преден план, разрешете на SleepGuard да пренебрегва оптимизацията на батерията.</string>
+    <string name="onb_done_title">Всичко е готово!</string>
+    <string name="onb_done_body">Готови сте. Задайте интервала, натиснете „Старт“ и продължете да гледате.</string>
+    <string name="onb_grant">Разреши</string>
+    <string name="onb_granted">Разрешено</string>
+    <string name="onb_next">Напред</string>
+    <string name="onb_back">Назад</string>
+    <string name="onb_finish">Започнете</string>
+</resources>

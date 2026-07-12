@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dansk -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Interval (minutter)</string>
+    <string name="title_timeout">Tidsgrænse (sekunder)</string>
+    <string name="title_position">Knappens placering</string>
+    <string name="title_mode">Tilstand</string>
+    <string name="mode_video_desc">Der vises en knap, som du trykker på for at bekræfte, at du er vågen. Hvis du ikke gør det, låses skærmen.</string>
+    <string name="mode_audio_desc">Afspilningen stopper ganske enkelt efter intervallet, også med skærmen slukket (musik, lydbøger, podcasts).</string>
+    <string name="onb_mode_title">Vælg en tilstand</string>
+    <string name="title_language">Sprog</string>
+    <string name="lang_system">Systemstandard</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_stop">Stop</string>
+    <string name="btn_support">Støt udviklingen</string>
+    <string name="support_no_browser">Ingen browser fundet til at åbne linket.</string>
+    <string name="status_running">SleepGuard er aktiv</string>
+    <string name="status_stopped">SleepGuard er stoppet</string>
+
+    <string name="pos_right_center">Højre kant, midten</string>
+    <string name="pos_left_center">Venstre kant, midten</string>
+    <string name="pos_top_center">Øverste kant, midten</string>
+    <string name="pos_bottom_center">Nederste kant, midten</string>
+    <string name="pos_top_right">Øverste højre hjørne</string>
+    <string name="pos_top_left">Øverste venstre hjørne</string>
+    <string name="pos_bottom_right">Nederste højre hjørne</string>
+    <string name="pos_bottom_left">Nederste venstre hjørne</string>
+
+    <string name="permission_overlay_needed">Tilladelse til overlejring kræves. Giv den i Indstillinger.</string>
+    <string name="permission_admin_needed">Tilladelse som enhedsadministrator kræves for at låse skærmen.</string>
+    <string name="permission_battery_needed">Deaktiver batterioptimering for SleepGuard, så knappen pålideligt vises i baggrunden.</string>
+    <string name="admin_description">SleepGuard bruger kun denne tilladelse til at låse skærmen (som tænd/sluk-knappen), når du falder i søvn.</string>
+
+    <string name="notification_channel">SleepGuard-tjeneste</string>
+    <string name="notification_title">SleepGuard er aktiv</string>
+    <string name="notification_text">Kontrol hvert %d. minut</string>
+
+    <string name="onb_language_title">Vælg dit sprog</string>
+    <string name="onb_welcome_title">Velkommen til SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard låser din telefon, når du falder i søvn under videoer — så batteriet ikke er tomt om morgenen, og du aldrig mister, hvor du var i en film.\n\nSleepGuard viser dig igen og igen en knap, som du skal trykke på. Hvis du ikke gør det, låses telefonen. Intervallet mellem knapperne indstiller du i minutter — og hvor lang tid du har til at trykke, i sekunder.</string>
+    <string name="onb_notif_title">Vis notifikation</string>
+    <string name="onb_notif_body">Tillad notifikationer, så du altid kan se, at SleepGuard er aktiv, mens den kører i baggrunden.</string>
+    <string name="onb_overlay_title">Vis over andre apps</string>
+    <string name="onb_overlay_body">SleepGuard viser en lille knap oven på din video. Til det kræves tilladelse til at vises over andre apps.</string>
+    <string name="onb_admin_title">Lås skærmen</string>
+    <string name="onb_admin_body">For at slukke skærmen, når du falder i søvn — ligesom tænd/sluk-knappen — kræver SleepGuard tilladelse som enhedsadministrator. Den bruges kun til at låse skærmen.</string>
+    <string name="onb_battery_title">Kør pålideligt</string>
+    <string name="onb_battery_body">For at kontrolknappen stadig vises til tiden, mens en anden app er i forgrunden, skal du tillade, at SleepGuard ignorerer batterioptimering.</string>
+    <string name="onb_done_title">Alt er klar!</string>
+    <string name="onb_done_body">Du er klar. Indstil dit interval, tryk på Start, og fortsæt med at se.</string>
+    <string name="onb_grant">Tillad</string>
+    <string name="onb_granted">Tilladt</string>
+    <string name="onb_next">Næste</string>
+    <string name="onb_back">Tilbage</string>
+    <string name="onb_finish">Kom i gang</string>
+</resources>

@@ -23,7 +23,7 @@ FEATURES
 * Adjustable interval and reaction time
 * Eight button positions to choose from
 * Reliable timing even in the background (uses the system alarm)
-* 9 interface languages: English, German, French, Spanish, Italian, Portuguese, Dutch, Polish, Turkish
+* 29 interface languages: all 24 official EU languages plus Russian, Japanese, Chinese (Simplified & Traditional) and Turkish
 * Completely free, no ads, no tracking, no accounts
 
 PRIVACY

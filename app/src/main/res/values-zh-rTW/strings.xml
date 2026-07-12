@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文 (繁體) -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">間隔（分鐘）</string>
+    <string name="title_timeout">逾時（秒）</string>
+    <string name="title_position">按鈕位置</string>
+    <string name="title_mode">模式</string>
+    <string name="mode_video_desc">會出現一個按鈕，點按它以確認你醒著。若不點按，螢幕將鎖定。</string>
+    <string name="mode_audio_desc">間隔結束後播放會直接停止，即使螢幕關閉也是如此（音樂、有聲書、Podcast）。</string>
+    <string name="onb_mode_title">選擇模式</string>
+    <string name="title_language">語言</string>
+    <string name="lang_system">系統預設</string>
+    <string name="btn_start">開始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_support">支持開發</string>
+    <string name="support_no_browser">找不到可開啟連結的瀏覽器。</string>
+    <string name="status_running">SleepGuard 正在執行</string>
+    <string name="status_stopped">SleepGuard 已停止</string>
+
+    <string name="pos_right_center">右邊緣，置中</string>
+    <string name="pos_left_center">左邊緣，置中</string>
+    <string name="pos_top_center">上邊緣，置中</string>
+    <string name="pos_bottom_center">下邊緣，置中</string>
+    <string name="pos_top_right">右上角</string>
+    <string name="pos_top_left">左上角</string>
+    <string name="pos_bottom_right">右下角</string>
+    <string name="pos_bottom_left">左下角</string>
+
+    <string name="permission_overlay_needed">需要懸浮視窗權限。請在設定中授予。</string>
+    <string name="permission_admin_needed">鎖定螢幕需要裝置管理員權限。</string>
+    <string name="permission_battery_needed">請關閉 SleepGuard 的電池最佳化，讓按鈕在背景可靠地出現。</string>
+    <string name="admin_description">SleepGuard 僅在你睡著時使用此權限來鎖定螢幕（如同電源鍵）。</string>
+
+    <string name="notification_channel">SleepGuard 服務</string>
+    <string name="notification_title">SleepGuard 正在執行</string>
+    <string name="notification_text">每 %d 分鐘檢查一次</string>
+
+    <string name="onb_language_title">選擇你的語言</string>
+    <string name="onb_welcome_title">歡迎使用 SleepGuard</string>
+    <string name="onb_welcome_body">當你看影片睡著時，SleepGuard 會鎖定手機——這樣早上電池不會耗盡，你也不會遺失在影片中的位置。\n\nSleepGuard 會不斷向你顯示一個需要點按的按鈕。如果不點按，手機就會鎖定。按鈕之間的間隔以分鐘設定，點按的時限以秒設定。</string>
+    <string name="onb_notif_title">顯示通知</string>
+    <string name="onb_notif_body">允許通知，以便在 SleepGuard 於背景執行時始終能看到它處於使用中狀態。</string>
+    <string name="onb_overlay_title">顯示在其他應用程式上層</string>
+    <string name="onb_overlay_body">SleepGuard 會在你的影片上層顯示一個小按鈕。為此需要在其他應用程式上層顯示的權限。</string>
+    <string name="onb_admin_title">鎖定螢幕</string>
+    <string name="onb_admin_body">為了在你睡著時關閉螢幕——如同電源鍵——SleepGuard 需要裝置管理員權限。它僅用於鎖定螢幕。</string>
+    <string name="onb_battery_title">可靠執行</string>
+    <string name="onb_battery_body">為了在其他應用程式位於前景時檢查按鈕仍能準時出現，請允許 SleepGuard 忽略電池最佳化。</string>
+    <string name="onb_done_title">全部就緒！</string>
+    <string name="onb_done_body">準備就緒。設定間隔，點按「開始」，然後繼續觀看。</string>
+    <string name="onb_grant">授予</string>
+    <string name="onb_granted">已授予</string>
+    <string name="onb_next">下一步</string>
+    <string name="onb_back">返回</string>
+    <string name="onb_finish">開始使用</string>
+</resources>

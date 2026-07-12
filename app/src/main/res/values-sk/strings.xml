@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Slovenčina -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Interval (minúty)</string>
+    <string name="title_timeout">Časový limit (sekundy)</string>
+    <string name="title_position">Poloha tlačidla</string>
+    <string name="title_mode">Režim</string>
+    <string name="mode_video_desc">Zobrazí sa tlačidlo, ktorým potvrdíte, že ste bdelí. Ak ho nestlačíte, obrazovka sa uzamkne.</string>
+    <string name="mode_audio_desc">Prehrávanie sa po uplynutí intervalu jednoducho zastaví, aj pri vypnutej obrazovke (hudba, audioknihy, podcasty).</string>
+    <string name="onb_mode_title">Vyberte režim</string>
+    <string name="title_language">Jazyk</string>
+    <string name="lang_system">Predvolené nastavenie systému</string>
+    <string name="btn_start">Spustiť</string>
+    <string name="btn_stop">Zastaviť</string>
+    <string name="btn_support">Podporte vývoj</string>
+    <string name="support_no_browser">Nenašiel sa žiadny prehliadač na otvorenie odkazu.</string>
+    <string name="status_running">SleepGuard je aktívny</string>
+    <string name="status_stopped">SleepGuard je zastavený</string>
+
+    <string name="pos_right_center">Pravý okraj, stred</string>
+    <string name="pos_left_center">Ľavý okraj, stred</string>
+    <string name="pos_top_center">Horný okraj, stred</string>
+    <string name="pos_bottom_center">Dolný okraj, stred</string>
+    <string name="pos_top_right">Pravý horný roh</string>
+    <string name="pos_top_left">Ľavý horný roh</string>
+    <string name="pos_bottom_right">Pravý dolný roh</string>
+    <string name="pos_bottom_left">Ľavý dolný roh</string>
+
+    <string name="permission_overlay_needed">Vyžaduje sa povolenie na prekrytie. Udeľte ho v Nastaveniach.</string>
+    <string name="permission_admin_needed">Na uzamknutie obrazovky sa vyžaduje povolenie správcu zariadenia.</string>
+    <string name="permission_battery_needed">Vypnite pre SleepGuard optimalizáciu batérie, aby sa tlačidlo spoľahlivo zobrazovalo na pozadí.</string>
+    <string name="admin_description">SleepGuard potrebuje toto povolenie výhradne na uzamknutie obrazovky (ako tlačidlo napájania), keď zaspíte.</string>
+
+    <string name="notification_channel">Služba SleepGuard</string>
+    <string name="notification_title">SleepGuard je aktívny</string>
+    <string name="notification_text">Kontrola každých %d minút</string>
+
+    <string name="onb_language_title">Vyberte svoj jazyk</string>
+    <string name="onb_welcome_title">Vitajte v SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard uzamkne váš telefón, keď zaspíte pri videách — aby batéria ráno nebola vybitá a nikdy ste nestratili miesto vo filme.\n\nSleepGuard vám bude stále dokola zobrazovať tlačidlo, ktoré musíte stlačiť. Ak ho nestlačíte, telefón sa uzamkne. Interval medzi tlačidlami nastavíte v minútach — a čas na stlačenie v sekundách.</string>
+    <string name="onb_notif_title">Zobraziť oznámenie</string>
+    <string name="onb_notif_body">Povoľte oznámenia, aby ste vždy videli, že SleepGuard je aktívny, keď beží na pozadí.</string>
+    <string name="onb_overlay_title">Zobrazenie cez iné aplikácie</string>
+    <string name="onb_overlay_body">SleepGuard zobrazuje malé tlačidlo cez vaše video. Na to potrebuje povolenie zobrazovať sa cez iné aplikácie.</string>
+    <string name="onb_admin_title">Uzamknúť obrazovku</string>
+    <string name="onb_admin_body">Aby SleepGuard vypol obrazovku, keď zaspíte — rovnako ako tlačidlo napájania — potrebuje povolenie správcu zariadenia. Používa sa iba na uzamknutie obrazovky.</string>
+    <string name="onb_battery_title">Spoľahlivá prevádzka</string>
+    <string name="onb_battery_body">Aby sa kontrolné tlačidlo zobrazovalo včas, aj keď je v popredí iná aplikácia, povoľte SleepGuardu ignorovať optimalizáciu batérie.</string>
+    <string name="onb_done_title">Všetko pripravené!</string>
+    <string name="onb_done_body">Ste pripravení. Nastavte interval, ťuknite na Spustiť a pokračujte v sledovaní.</string>
+    <string name="onb_grant">Povoliť</string>
+    <string name="onb_granted">Udelené</string>
+    <string name="onb_next">Ďalej</string>
+    <string name="onb_back">Späť</string>
+    <string name="onb_finish">Začať</string>
+</resources>

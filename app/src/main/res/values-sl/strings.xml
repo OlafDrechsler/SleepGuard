@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Slovenščina -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Interval (minute)</string>
+    <string name="title_timeout">Časovna omejitev (sekunde)</string>
+    <string name="title_position">Položaj gumba</string>
+    <string name="title_mode">Način</string>
+    <string name="mode_video_desc">Prikaže se gumb, ki ga pritisnete za potrditev, da ste budni. Če ga ne pritisnete, se zaslon zaklene.</string>
+    <string name="mode_audio_desc">Predvajanje se po intervalu preprosto ustavi, tudi ob izklopljenem zaslonu (glasba, zvočne knjige, podkasti).</string>
+    <string name="onb_mode_title">Izberite način</string>
+    <string name="title_language">Jezik</string>
+    <string name="lang_system">Privzeto v sistemu</string>
+    <string name="btn_start">Začni</string>
+    <string name="btn_stop">Ustavi</string>
+    <string name="btn_support">Podprite razvoj</string>
+    <string name="support_no_browser">Ni najdenega brskalnika za odpiranje povezave.</string>
+    <string name="status_running">SleepGuard je aktiven</string>
+    <string name="status_stopped">SleepGuard je ustavljen</string>
+
+    <string name="pos_right_center">Desni rob, sredina</string>
+    <string name="pos_left_center">Levi rob, sredina</string>
+    <string name="pos_top_center">Zgornji rob, sredina</string>
+    <string name="pos_bottom_center">Spodnji rob, sredina</string>
+    <string name="pos_top_right">Zgornji desni kot</string>
+    <string name="pos_top_left">Zgornji levi kot</string>
+    <string name="pos_bottom_right">Spodnji desni kot</string>
+    <string name="pos_bottom_left">Spodnji levi kot</string>
+
+    <string name="permission_overlay_needed">Potrebno je dovoljenje za prekrivanje. Odobrite ga v Nastavitvah.</string>
+    <string name="permission_admin_needed">Za zaklepanje zaslona je potrebno dovoljenje skrbnika naprave.</string>
+    <string name="permission_battery_needed">Onemogočite optimizacijo baterije za SleepGuard, da se gumb zanesljivo prikaže v ozadju.</string>
+    <string name="admin_description">SleepGuard to dovoljenje uporablja izključno za zaklepanje zaslona (kot gumb za vklop), ko zaspite.</string>
+
+    <string name="notification_channel">Storitev SleepGuard</string>
+    <string name="notification_title">SleepGuard je aktiven</string>
+    <string name="notification_text">Preverjanje vsakih %d minut</string>
+
+    <string name="onb_language_title">Izberite svoj jezik</string>
+    <string name="onb_welcome_title">Dobrodošli v SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard zaklene vaš telefon, ko zaspite med gledanjem videoposnetkov — da baterija zjutraj ni prazna in nikoli ne izgubite mesta v filmu.\n\nSleepGuard vam bo znova in znova prikazoval gumb, ki ga morate pritisniti. Če ga ne pritisnete, se telefon zaklene. Interval med gumbi nastavite v minutah — čas za pritisk pa v sekundah.</string>
+    <string name="onb_notif_title">Prikaži obvestilo</string>
+    <string name="onb_notif_body">Dovolite obvestila, da boste vedno videli, da je SleepGuard aktiven, medtem ko teče v ozadju.</string>
+    <string name="onb_overlay_title">Prikaz nad drugimi aplikacijami</string>
+    <string name="onb_overlay_body">SleepGuard prikaže majhen gumb nad vašim videoposnetkom. Za to potrebuje dovoljenje za prikaz nad drugimi aplikacijami.</string>
+    <string name="onb_admin_title">Zakleni zaslon</string>
+    <string name="onb_admin_body">Za izklop zaslona, ko zaspite — tako kot gumb za vklop — SleepGuard potrebuje dovoljenje skrbnika naprave. Uporablja se samo za zaklepanje zaslona.</string>
+    <string name="onb_battery_title">Zanesljivo delovanje</string>
+    <string name="onb_battery_body">Da se kontrolni gumb pravočasno prikaže, medtem ko je v ospredju druga aplikacija, dovolite, da SleepGuard prezre optimizacijo baterije.</string>
+    <string name="onb_done_title">Vse pripravljeno!</string>
+    <string name="onb_done_body">Pripravljeni ste. Nastavite interval, pritisnite Začni in nadaljujte z gledanjem.</string>
+    <string name="onb_grant">Dovoli</string>
+    <string name="onb_granted">Dovoljeno</string>
+    <string name="onb_next">Naprej</string>
+    <string name="onb_back">Nazaj</string>
+    <string name="onb_finish">Začni</string>
+</resources>

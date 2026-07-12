@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 日本語 -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">間隔（分）</string>
+    <string name="title_timeout">タイムアウト（秒）</string>
+    <string name="title_position">ボタンの位置</string>
+    <string name="title_mode">モード</string>
+    <string name="mode_video_desc">起きていることを確認するためにタップするボタンが表示されます。タップしないと画面がロックされます。</string>
+    <string name="mode_audio_desc">間隔の経過後、画面がオフでも再生が停止します（音楽、オーディオブック、ポッドキャスト）。</string>
+    <string name="onb_mode_title">モードを選択</string>
+    <string name="title_language">言語</string>
+    <string name="lang_system">システムの既定</string>
+    <string name="btn_start">開始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_support">開発を支援</string>
+    <string name="support_no_browser">リンクを開くブラウザが見つかりません。</string>
+    <string name="status_running">SleepGuard は動作中です</string>
+    <string name="status_stopped">SleepGuard は停止しています</string>
+
+    <string name="pos_right_center">右端・中央</string>
+    <string name="pos_left_center">左端・中央</string>
+    <string name="pos_top_center">上端・中央</string>
+    <string name="pos_bottom_center">下端・中央</string>
+    <string name="pos_top_right">右上</string>
+    <string name="pos_top_left">左上</string>
+    <string name="pos_bottom_right">右下</string>
+    <string name="pos_bottom_left">左下</string>
+
+    <string name="permission_overlay_needed">オーバーレイの許可が必要です。設定で許可してください。</string>
+    <string name="permission_admin_needed">画面をロックするにはデバイス管理者の許可が必要です。</string>
+    <string name="permission_battery_needed">ボタンがバックグラウンドで確実に表示されるよう、SleepGuard のバッテリー最適化を無効にしてください。</string>
+    <string name="admin_description">SleepGuard はこの許可を、眠ってしまったときに画面をロックする（電源ボタンと同様）ためだけに使用します。</string>
+
+    <string name="notification_channel">SleepGuard サービス</string>
+    <string name="notification_title">SleepGuard は動作中です</string>
+    <string name="notification_text">%d 分ごとに確認</string>
+
+    <string name="onb_language_title">言語を選択してください</string>
+    <string name="onb_welcome_title">SleepGuard へようこそ</string>
+    <string name="onb_welcome_body">SleepGuard は動画を見ながら眠ってしまったときにスマートフォンをロックします。朝にバッテリーが空になったり、映画の続きの場所を見失ったりしません。\n\nSleepGuard は繰り返しタップすべきボタンを表示します。タップしないとスマートフォンがロックされます。ボタンを表示する間隔は分単位で、タップに使える時間は秒単位で設定できます。</string>
+    <string name="onb_notif_title">通知を表示</string>
+    <string name="onb_notif_body">バックグラウンドで実行中に SleepGuard が動作していることが常にわかるよう、通知を許可してください。</string>
+    <string name="onb_overlay_title">他のアプリの上に表示</string>
+    <string name="onb_overlay_body">SleepGuard は動画の上に小さなボタンを表示します。そのために他のアプリの上に表示する許可が必要です。</string>
+    <string name="onb_admin_title">画面をロック</string>
+    <string name="onb_admin_body">眠ってしまったときに画面をオフにする（電源ボタンと同様）ために、SleepGuard はデバイス管理者の許可を必要とします。画面のロックのみに使用します。</string>
+    <string name="onb_battery_title">確実に動作</string>
+    <string name="onb_battery_body">他のアプリが前面にあるときでも確認ボタンが時間どおりに表示されるよう、SleepGuard がバッテリー最適化を無視することを許可してください。</string>
+    <string name="onb_done_title">準備完了！</string>
+    <string name="onb_done_body">準備ができました。間隔を設定し、「開始」をタップして視聴を続けてください。</string>
+    <string name="onb_grant">許可</string>
+    <string name="onb_granted">許可済み</string>
+    <string name="onb_next">次へ</string>
+    <string name="onb_back">戻る</string>
+    <string name="onb_finish">始める</string>
+</resources>

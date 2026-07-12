@@ -29,7 +29,7 @@ SleepGuard has two modes:
 - Adjustable interval and reaction time; eight button positions
 - Reliable background timing via the system `AlarmManager`
 - Material 3 interface with dynamic colours and dark mode
-- 9 interface languages (EN, DE, FR, ES, IT, PT, NL, PL, TR)
+- 29 interface languages (all 24 official EU languages plus RU, JA, ZH-Hans, ZH-Hant, TR)
 - No ads, no tracking, **no internet permission at all**
 
 ## Screenshots

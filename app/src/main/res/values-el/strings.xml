@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ελληνικά -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">Διάστημα (λεπτά)</string>
+    <string name="title_timeout">Χρονικό όριο (δευτερόλεπτα)</string>
+    <string name="title_position">Θέση κουμπιού</string>
+    <string name="title_mode">Λειτουργία</string>
+    <string name="mode_video_desc">Εμφανίζεται ένα κουμπί που πατάτε για να επιβεβαιώσετε ότι είστε ξύπνιοι. Αν δεν το πατήσετε, η οθόνη κλειδώνει.</string>
+    <string name="mode_audio_desc">Η αναπαραγωγή απλώς σταματά μετά το διάστημα, ακόμα και με την οθόνη κλειστή (μουσική, ηχητικά βιβλία, podcast).</string>
+    <string name="onb_mode_title">Επιλέξτε λειτουργία</string>
+    <string name="title_language">Γλώσσα</string>
+    <string name="lang_system">Προεπιλογή συστήματος</string>
+    <string name="btn_start">Έναρξη</string>
+    <string name="btn_stop">Διακοπή</string>
+    <string name="btn_support">Υποστηρίξτε την ανάπτυξη</string>
+    <string name="support_no_browser">Δεν βρέθηκε πρόγραμμα περιήγησης για το άνοιγμα του συνδέσμου.</string>
+    <string name="status_running">Το SleepGuard είναι ενεργό</string>
+    <string name="status_stopped">Το SleepGuard έχει σταματήσει</string>
+
+    <string name="pos_right_center">Δεξιά άκρη, κέντρο</string>
+    <string name="pos_left_center">Αριστερή άκρη, κέντρο</string>
+    <string name="pos_top_center">Επάνω άκρη, κέντρο</string>
+    <string name="pos_bottom_center">Κάτω άκρη, κέντρο</string>
+    <string name="pos_top_right">Επάνω δεξιά γωνία</string>
+    <string name="pos_top_left">Επάνω αριστερά γωνία</string>
+    <string name="pos_bottom_right">Κάτω δεξιά γωνία</string>
+    <string name="pos_bottom_left">Κάτω αριστερά γωνία</string>
+
+    <string name="permission_overlay_needed">Απαιτείται άδεια επικάλυψης. Παραχωρήστε την στις Ρυθμίσεις.</string>
+    <string name="permission_admin_needed">Απαιτείται άδεια διαχειριστή συσκευής για το κλείδωμα της οθόνης.</string>
+    <string name="permission_battery_needed">Απενεργοποιήστε τη βελτιστοποίηση μπαταρίας για το SleepGuard, ώστε το κουμπί να εμφανίζεται αξιόπιστα στο παρασκήνιο.</string>
+    <string name="admin_description">Το SleepGuard χρειάζεται αυτήν την άδεια αποκλειστικά για να κλειδώνει την οθόνη (όπως το κουμπί λειτουργίας) όταν αποκοιμιέστε.</string>
+
+    <string name="notification_channel">Υπηρεσία SleepGuard</string>
+    <string name="notification_title">Το SleepGuard είναι ενεργό</string>
+    <string name="notification_text">Έλεγχος κάθε %d λεπτά</string>
+
+    <string name="onb_language_title">Επιλέξτε τη γλώσσα σας</string>
+    <string name="onb_welcome_title">Καλώς ήρθατε στο SleepGuard</string>
+    <string name="onb_welcome_body">Το SleepGuard κλειδώνει το τηλέφωνό σας όταν αποκοιμιέστε βλέποντας βίντεο — ώστε η μπαταρία να μην είναι άδεια το πρωί και να μη χάνετε ποτέ το σημείο σας σε μια ταινία.\n\nΤο SleepGuard θα σας δείχνει ξανά και ξανά ένα κουμπί που πρέπει να πατάτε. Αν δεν το πατήσετε, το τηλέφωνο κλειδώνει. Το διάστημα μεταξύ των κουμπιών το ορίζετε σε λεπτά — και τον χρόνο για το πάτημα σε δευτερόλεπτα.</string>
+    <string name="onb_notif_title">Εμφάνιση ειδοποίησης</string>
+    <string name="onb_notif_body">Επιτρέψτε τις ειδοποιήσεις ώστε να βλέπετε πάντα ότι το SleepGuard είναι ενεργό ενώ εκτελείται στο παρασκήνιο.</string>
+    <string name="onb_overlay_title">Εμφάνιση πάνω από άλλες εφαρμογές</string>
+    <string name="onb_overlay_body">Το SleepGuard εμφανίζει ένα μικρό κουμπί πάνω από το βίντεό σας. Για αυτό χρειάζεται άδεια εμφάνισης πάνω από άλλες εφαρμογές.</string>
+    <string name="onb_admin_title">Κλείδωμα οθόνης</string>
+    <string name="onb_admin_body">Για να σβήνει την οθόνη όταν αποκοιμιέστε — όπως το κουμπί λειτουργίας — το SleepGuard χρειάζεται άδεια διαχειριστή συσκευής. Χρησιμοποιείται μόνο για το κλείδωμα της οθόνης.</string>
+    <string name="onb_battery_title">Αξιόπιστη λειτουργία</string>
+    <string name="onb_battery_body">Για να εμφανίζεται το κουμπί ελέγχου εγκαίρως ενώ μια άλλη εφαρμογή είναι σε πρώτο πλάνο, επιτρέψτε στο SleepGuard να αγνοεί τη βελτιστοποίηση μπαταρίας.</string>
+    <string name="onb_done_title">Όλα έτοιμα!</string>
+    <string name="onb_done_body">Είστε έτοιμοι. Ορίστε το διάστημα, πατήστε Έναρξη και συνεχίστε να παρακολουθείτε.</string>
+    <string name="onb_grant">Παραχώρηση</string>
+    <string name="onb_granted">Παραχωρήθηκε</string>
+    <string name="onb_next">Επόμενο</string>
+    <string name="onb_back">Πίσω</string>
+    <string name="onb_finish">Ξεκινήστε</string>
+</resources>

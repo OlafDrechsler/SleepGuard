@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文 (简体) -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">间隔（分钟）</string>
+    <string name="title_timeout">超时（秒）</string>
+    <string name="title_position">按钮位置</string>
+    <string name="title_mode">模式</string>
+    <string name="mode_video_desc">会出现一个按钮，点按它以确认你醒着。若不点按，屏幕将锁定。</string>
+    <string name="mode_audio_desc">间隔结束后播放会直接停止，即使屏幕关闭也是如此（音乐、有声书、播客）。</string>
+    <string name="onb_mode_title">选择模式</string>
+    <string name="title_language">语言</string>
+    <string name="lang_system">系统默认</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_support">支持开发</string>
+    <string name="support_no_browser">找不到可打开链接的浏览器。</string>
+    <string name="status_running">SleepGuard 正在运行</string>
+    <string name="status_stopped">SleepGuard 已停止</string>
+
+    <string name="pos_right_center">右边缘，居中</string>
+    <string name="pos_left_center">左边缘，居中</string>
+    <string name="pos_top_center">上边缘，居中</string>
+    <string name="pos_bottom_center">下边缘，居中</string>
+    <string name="pos_top_right">右上角</string>
+    <string name="pos_top_left">左上角</string>
+    <string name="pos_bottom_right">右下角</string>
+    <string name="pos_bottom_left">左下角</string>
+
+    <string name="permission_overlay_needed">需要悬浮窗权限。请在设置中授予。</string>
+    <string name="permission_admin_needed">锁定屏幕需要设备管理员权限。</string>
+    <string name="permission_battery_needed">请关闭 SleepGuard 的电池优化，以便按钮在后台可靠地出现。</string>
+    <string name="admin_description">SleepGuard 仅在你睡着时使用此权限来锁定屏幕（如同电源键）。</string>
+
+    <string name="notification_channel">SleepGuard 服务</string>
+    <string name="notification_title">SleepGuard 正在运行</string>
+    <string name="notification_text">每 %d 分钟检查一次</string>
+
+    <string name="onb_language_title">选择你的语言</string>
+    <string name="onb_welcome_title">欢迎使用 SleepGuard</string>
+    <string name="onb_welcome_body">当你看视频睡着时，SleepGuard 会锁定手机——这样早上电池不会耗尽，你也不会丢失在影片中的位置。\n\nSleepGuard 会不断向你显示一个需要点按的按钮。如果不点按，手机就会锁定。按钮之间的间隔以分钟设置，点按的时限以秒设置。</string>
+    <string name="onb_notif_title">显示通知</string>
+    <string name="onb_notif_body">允许通知，以便在 SleepGuard 于后台运行时始终能看到它处于活动状态。</string>
+    <string name="onb_overlay_title">显示在其他应用上层</string>
+    <string name="onb_overlay_body">SleepGuard 会在你的视频上层显示一个小按钮。为此需要在其他应用上层显示的权限。</string>
+    <string name="onb_admin_title">锁定屏幕</string>
+    <string name="onb_admin_body">为了在你睡着时关闭屏幕——如同电源键——SleepGuard 需要设备管理员权限。它仅用于锁定屏幕。</string>
+    <string name="onb_battery_title">可靠运行</string>
+    <string name="onb_battery_body">为了在其他应用位于前台时检查按钮仍能准时出现，请允许 SleepGuard 忽略电池优化。</string>
+    <string name="onb_done_title">全部就绪！</string>
+    <string name="onb_done_body">准备就绪。设置间隔，点按“开始”，然后继续观看。</string>
+    <string name="onb_grant">授予</string>
+    <string name="onb_granted">已授予</string>
+    <string name="onb_next">下一步</string>
+    <string name="onb_back">返回</string>
+    <string name="onb_finish">开始使用</string>
+</resources>
