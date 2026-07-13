@@ -55,4 +55,7 @@
     <string name="onb_next">Li jmiss</string>
     <string name="onb_back">Lura</string>
     <string name="onb_finish">Ibda</string>
+    <string name="hint_interval_video">sakemm il-buttuna tidher</string>
+    <string name="hint_interval_audio">sakemm il-plejbek jieqaf</string>
+    <string name="hint_timeout">biex tikklikkja qabel l-iskrin jinblokka</string>
 </resources>

@@ -60,4 +60,7 @@
     <string name="onb_next">Seguinte</string>
     <string name="onb_back">Voltar</string>
     <string name="onb_finish">Começar</string>
+    <string name="hint_interval_video">até o botão aparecer</string>
+    <string name="hint_interval_audio">até a reprodução parar</string>
+    <string name="hint_timeout">para tocar antes de o ecrã bloquear</string>
 </resources>

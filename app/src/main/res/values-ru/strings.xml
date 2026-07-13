@@ -55,4 +55,7 @@
     <string name="onb_next">Далее</string>
     <string name="onb_back">Назад</string>
     <string name="onb_finish">Начать</string>
+    <string name="hint_interval_video">пока не появится кнопка</string>
+    <string name="hint_interval_audio">пока воспроизведение не приостановится</string>
+    <string name="hint_timeout">чтобы нажать, пока экран не заблокировался</string>
 </resources>

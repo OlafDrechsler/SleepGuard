@@ -55,4 +55,7 @@
     <string name="onb_next">下一步</string>
     <string name="onb_back">返回</string>
     <string name="onb_finish">开始使用</string>
+    <string name="hint_interval_video">直到按钮出现</string>
+    <string name="hint_interval_audio">直到播放暂停</string>
+    <string name="hint_timeout">在屏幕锁定前轻点</string>
 </resources>

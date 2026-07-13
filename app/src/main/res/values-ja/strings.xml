@@ -55,4 +55,7 @@
     <string name="onb_next">次へ</string>
     <string name="onb_back">戻る</string>
     <string name="onb_finish">開始する</string>
+    <string name="hint_interval_video">ボタンが表示されるまで</string>
+    <string name="hint_interval_audio">再生が一時停止するまで</string>
+    <string name="hint_timeout">画面がロックされる前にタップする</string>
 </resources>

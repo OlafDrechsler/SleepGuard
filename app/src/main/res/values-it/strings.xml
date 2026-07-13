@@ -60,4 +60,7 @@
     <string name="onb_next">Avanti</string>
     <string name="onb_back">Indietro</string>
     <string name="onb_finish">Inizia</string>
+    <string name="hint_interval_video">finché non compare il pulsante</string>
+    <string name="hint_interval_audio">finché la riproduzione non si mette in pausa</string>
+    <string name="hint_timeout">da toccare prima che lo schermo si blocchi</string>
 </resources>

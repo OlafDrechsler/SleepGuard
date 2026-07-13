@@ -55,4 +55,7 @@
     <string name="onb_next">Nästa</string>
     <string name="onb_back">Tillbaka</string>
     <string name="onb_finish">Kom igång</string>
+    <string name="hint_interval_video">tills knappen visas</string>
+    <string name="hint_interval_audio">tills uppspelningen pausas</string>
+    <string name="hint_timeout">för att trycka innan skärmen låses</string>
 </resources>

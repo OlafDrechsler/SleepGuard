@@ -55,4 +55,7 @@
     <string name="onb_next">Toliau</string>
     <string name="onb_back">Atgal</string>
     <string name="onb_finish">Pradėti</string>
+    <string name="hint_interval_video">kol pasirodys mygtukas</string>
+    <string name="hint_interval_audio">kol atkūrimas bus pristabdytas</string>
+    <string name="hint_timeout">kad spustelėtumėte prieš užsiblokuojant ekranui</string>
 </resources>

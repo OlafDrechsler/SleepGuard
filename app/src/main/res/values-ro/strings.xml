@@ -55,4 +55,7 @@
     <string name="onb_next">Următorul</string>
     <string name="onb_back">Înapoi</string>
     <string name="onb_finish">Începe</string>
+    <string name="hint_interval_video">până când apare butonul</string>
+    <string name="hint_interval_audio">până când redarea se oprește</string>
+    <string name="hint_timeout">pentru a atinge ecranul înainte ca acesta să se blocheze</string>
 </resources>

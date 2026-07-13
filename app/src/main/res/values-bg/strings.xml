@@ -55,4 +55,7 @@
     <string name="onb_next">Напред</string>
     <string name="onb_back">Назад</string>
     <string name="onb_finish">Започнете</string>
+    <string name="hint_interval_video">докато се появи бутонът</string>
+    <string name="hint_interval_audio">докато възпроизвеждането се прекъсне</string>
+    <string name="hint_timeout">да натиснете, преди екранът да се заключи</string>
 </resources>

@@ -55,4 +55,7 @@
     <string name="onb_next">Ar aghaidh</string>
     <string name="onb_back">Ar ais</string>
     <string name="onb_finish">Tosaigh</string>
+    <string name="hint_interval_video">go dtí go dtaispeánfaidh an cnaipe</string>
+    <string name="hint_interval_audio">go dtí go stadfaidh an athsheinm</string>
+    <string name="hint_timeout">le tapáil sula nglasáiltear an scáileán</string>
 </resources>

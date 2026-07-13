@@ -55,4 +55,7 @@
     <string name="onb_next">Tovább</string>
     <string name="onb_back">Vissza</string>
     <string name="onb_finish">Kezdés</string>
+    <string name="hint_interval_video">amíg meg nem jelenik a gomb</string>
+    <string name="hint_interval_audio">amíg a lejátszás szünetbe nem kerül</string>
+    <string name="hint_timeout">hogy megérintsd, mielőtt a képernyő lezárulna</string>
 </resources>

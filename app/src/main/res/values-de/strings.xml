@@ -8,6 +8,9 @@
     <string name="title_timeout">Timeout (Sekunden)</string>
     <string name="title_position">Button-Position</string>
     <string name="title_mode">Modus</string>
+    <string name="hint_interval_video">bis der Button erscheint</string>
+    <string name="hint_interval_audio">bis die Wiedergabe pausiert</string>
+    <string name="hint_timeout">zum Antippen, bevor der Bildschirm sperrt</string>
     <string name="mode_video_desc">Es erscheint ein Button, den du antippst um zu bestätigen, dass du wach bist. Tust du es nicht, wird der Bildschirm gesperrt.</string>
     <string name="mode_audio_desc">Die Wiedergabe stoppt einfach nach dem Intervall, auch bei ausgeschaltetem Bildschirm (Musik, Hörbücher, Podcasts).</string>
     <string name="onb_mode_title">Modus wählen</string>

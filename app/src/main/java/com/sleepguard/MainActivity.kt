@@ -57,8 +57,11 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.core.os.LocaleListCompat
 import com.sleepguard.ui.theme.SleepGuardTheme
@@ -455,7 +458,10 @@ private fun MainScreen(
                 label = stringResource(R.string.title_interval),
                 value = intervalMinutes.toString(),
                 onMinus = { onIntervalChange(intervalMinutes - 1) },
-                onPlus = { onIntervalChange(intervalMinutes + 1) }
+                onPlus = { onIntervalChange(intervalMinutes + 1) },
+                hint = stringResource(
+                    if (audioMode) R.string.hint_interval_audio else R.string.hint_interval_video
+                )
             )
 
             // Timeout und Position sind nur im Video-Modus relevant
@@ -466,7 +472,8 @@ private fun MainScreen(
                     label = stringResource(R.string.title_timeout),
                     value = timeoutSeconds.toString(),
                     onMinus = { onTimeoutChange(timeoutSeconds - 5) },
-                    onPlus = { onTimeoutChange(timeoutSeconds + 5) }
+                    onPlus = { onTimeoutChange(timeoutSeconds + 5) },
+                    hint = stringResource(R.string.hint_timeout)
                 )
 
                 Spacer(Modifier.height(16.dp))
@@ -544,11 +551,21 @@ private fun StepperCard(
     label: String,
     value: String,
     onMinus: () -> Unit,
-    onPlus: () -> Unit
+    onPlus: () -> Unit,
+    hint: String? = null
 ) {
+    val hintColor = MaterialTheme.colorScheme.onSurfaceVariant
     Card(modifier = Modifier.fillMaxWidth()) {
         Column(modifier = Modifier.padding(16.dp)) {
-            Text(text = label, style = MaterialTheme.typography.labelLarge)
+            Text(
+                text = buildAnnotatedString {
+                    append(label)
+                    if (!hint.isNullOrEmpty()) {
+                        withStyle(SpanStyle(color = hintColor)) { append("  –  $hint") }
+                    }
+                },
+                style = MaterialTheme.typography.labelLarge
+            )
             Spacer(Modifier.height(8.dp))
             Row(
                 modifier = Modifier.fillMaxWidth(),

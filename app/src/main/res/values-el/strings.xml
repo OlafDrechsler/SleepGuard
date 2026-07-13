@@ -55,4 +55,7 @@
     <string name="onb_next">Επόμενο</string>
     <string name="onb_back">Πίσω</string>
     <string name="onb_finish">Ξεκινήστε</string>
+    <string name="hint_interval_video">μέχρι να εμφανιστεί το κουμπί</string>
+    <string name="hint_interval_audio">μέχρι να διακοπεί η αναπαραγωγή</string>
+    <string name="hint_timeout">για να πατήσετε πριν κλειδώσει η οθόνη</string>
 </resources>

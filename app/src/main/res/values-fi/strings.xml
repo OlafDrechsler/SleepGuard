@@ -55,4 +55,7 @@
     <string name="onb_next">Seuraava</string>
     <string name="onb_back">Takaisin</string>
     <string name="onb_finish">Aloita</string>
+    <string name="hint_interval_video">kunnes painike tulee näkyviin</string>
+    <string name="hint_interval_audio">kunnes toisto keskeytyy</string>
+    <string name="hint_timeout">napauttamalla ennen kuin näyttö lukittuu</string>
 </resources>

@@ -8,6 +8,9 @@
     <string name="title_timeout">Timeout (seconds)</string>
     <string name="title_position">Button position</string>
     <string name="title_mode">Mode</string>
+    <string name="hint_interval_video">until the button appears</string>
+    <string name="hint_interval_audio">until playback pauses</string>
+    <string name="hint_timeout">to tap before the screen locks</string>
     <string name="mode_video_desc">A button appears that you tap to confirm you are awake. If you don\'t, the screen locks.</string>
     <string name="mode_audio_desc">Playback simply stops after the interval, also with the screen off (music, audiobooks, podcasts).</string>
     <string name="onb_mode_title">Choose a mode</string>

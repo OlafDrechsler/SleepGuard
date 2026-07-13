@@ -55,4 +55,7 @@
     <string name="onb_next">Tālāk</string>
     <string name="onb_back">Atpakaļ</string>
     <string name="onb_finish">Sākt</string>
+    <string name="hint_interval_video">līdz parādās poga</string>
+    <string name="hint_interval_audio">līdz atskaņošana tiek apturēta</string>
+    <string name="hint_timeout">jāpieskaras, pirms ekrāns tiek bloķēts</string>
 </resources>

@@ -55,4 +55,7 @@
     <string name="onb_next">Järgmine</string>
     <string name="onb_back">Tagasi</string>
     <string name="onb_finish">Alusta</string>
+    <string name="hint_interval_video">kuni nupp ilmub</string>
+    <string name="hint_interval_audio">kuni taasesitus peatub</string>
+    <string name="hint_timeout">et puudutada enne ekraani lukustumist</string>
 </resources>

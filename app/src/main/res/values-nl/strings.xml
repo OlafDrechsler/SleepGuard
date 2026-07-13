@@ -60,4 +60,7 @@
     <string name="onb_next">Volgende</string>
     <string name="onb_back">Terug</string>
     <string name="onb_finish">Aan de slag</string>
+    <string name="hint_interval_video">totdat de knop verschijnt</string>
+    <string name="hint_interval_audio">totdat het afspelen wordt gepauzeerd</string>
+    <string name="hint_timeout">om op te tikken voordat het scherm wordt vergrendeld</string>
 </resources>

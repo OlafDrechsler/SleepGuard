@@ -55,4 +55,7 @@
     <string name="onb_next">Sljedeće</string>
     <string name="onb_back">Natrag</string>
     <string name="onb_finish">Počni</string>
+    <string name="hint_interval_video">dok se ne pojavi gumb</string>
+    <string name="hint_interval_audio">dok se reprodukcija ne pauzira</string>
+    <string name="hint_timeout">da se dodirne prije zaključavanja zaslona</string>
 </resources>

@@ -1,0 +1,1 @@
+* The Interval and Timeout settings now show a short inline explanation of what they do, so it's clearer at a glance

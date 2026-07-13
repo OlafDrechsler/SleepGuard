@@ -60,4 +60,7 @@
     <string name="onb_next">İleri</string>
     <string name="onb_back">Geri</string>
     <string name="onb_finish">Başla</string>
+    <string name="hint_interval_video">düğme görünene kadar</string>
+    <string name="hint_interval_audio">oynatma duraklayana kadar</string>
+    <string name="hint_timeout">ekran kilitlenmeden önce dokunmak için</string>
 </resources>

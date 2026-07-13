@@ -60,4 +60,7 @@
     <string name="onb_next">Suivant</string>
     <string name="onb_back">Retour</string>
     <string name="onb_finish">Commencer</string>
+    <string name="hint_interval_video">jusqu\'à ce que le bouton apparaisse</string>
+    <string name="hint_interval_audio">jusqu\'à ce que la lecture soit mise en pause</string>
+    <string name="hint_timeout">pour appuyer avant que l\'écran ne se verrouille</string>
 </resources>

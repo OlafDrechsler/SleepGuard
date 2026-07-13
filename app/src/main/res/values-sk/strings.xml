@@ -55,4 +55,7 @@
     <string name="onb_next">Ďalej</string>
     <string name="onb_back">Späť</string>
     <string name="onb_finish">Začať</string>
+    <string name="hint_interval_video">kým sa nezobrazí tlačidlo</string>
+    <string name="hint_interval_audio">kým sa prehrávanie nezastaví</string>
+    <string name="hint_timeout">ťuknúť skôr, ako sa obrazovka zablokuje</string>
 </resources>
