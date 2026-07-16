@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
     private val languageTags = arrayOf(
         "", "de", "en", "es", "fr", "it", "nl", "pl", "tr",
         "bg", "cs", "da", "el", "et", "fi", "ga", "hr", "hu", "lt", "lv",
-        "mt", "ro", "ru", "sk", "sl", "sv", "ja", "zh-CN", "zh-TW"
+        "mt", "ro", "ru", "sk", "sl", "sv", "ja", "zh-CN", "zh-TW", "pt"
     )
 
     private lateinit var overlayPermissionLauncher: ActivityResultLauncher<Intent>
@@ -405,7 +405,7 @@ private val languageLabelsNative = listOf(
     "Български", "Čeština", "Dansk", "Ελληνικά", "Eesti", "Suomi",
     "Gaeilge", "Hrvatski", "Magyar", "Lietuvių", "Latviešu",
     "Malti", "Română", "Русский", "Slovenčina", "Slovenščina",
-    "Svenska", "日本語", "中文 (简体)", "中文 (繁體)"
+    "Svenska", "日本語", "中文 (简体)", "中文 (繁體)", "Português"
 )
 
 @Composable

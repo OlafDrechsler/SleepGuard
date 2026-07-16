@@ -1,0 +1,1 @@
+* Portuguese is now available in the in-app language selector
