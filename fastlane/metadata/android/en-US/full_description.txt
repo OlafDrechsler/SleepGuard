@@ -44,4 +44,8 @@ SleepGuard is free software, licensed under the GNU General Public License v3. T
 
 SUPPORT
 
-SleepGuard is free and will stay free. If it helps you, you can support it's developer with a voluntary donation from within the app. There is deliberately no reward in return - it is simply a thank-you.
+SleepGuard is free and will stay free. If it helps you, you can support its developer with a voluntary donation from within the app. There is deliberately no reward in return - it is simply a thank-you.
+
+THE IDEA / THE NAME
+
+The idea for the app comes from a safety system used on trains. In the driver’s cab, there is a button that the driver must press at regular intervals, otherwise the train will automatically stop. By pressing the button, the driver confirms that he or she is awake. Colloquially, this button is called a “dead man’s switch,” and so the app is also called “SleepGuard – dead man’s switch.” 

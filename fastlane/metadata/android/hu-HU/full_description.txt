@@ -1,0 +1,51 @@
+Gyakran elalszol, miközben videókat nézel vagy zenét hallgatsz a telefonodon? A SleepGuard gondoskodik arról, hogy a készüléked ne működjön egész éjjel.
+
+Az általad választott időközönként egy kis piros kör jelenik meg a lejátszott tartalom tetején. Érintsd meg, és a lejátszás normál módon folytatódik. Ha néhány másodpercen belül nem érinted meg – mert elaludtál –, a SleepGuard lezárja a képernyőt, mintha megnyomnád a bekapcsológombot. A videó leáll, és a telefonod az éjszaka hátralévő részében védett marad.
+
+Van egy Audio mód is a zene, hangoskönyvek és podcastok számára: gomb helyett a SleepGuard egyszerű alvási időzítőként működik, amely a választott időköz után leállítja a lejátszást – még kikapcsolt képernyő mellett is.
+
+MIÉRT VAN SZÜKSÉGED RÁ
+
+* YouTube és más, automatikus lejátszással rendelkező alkalmazások: A SleepGuard nélkül az egyik videó elindítja a következőt, az a következőt, az a következőt… egészen reggelig. A legrosszabb esetben az akkumulátor teljesen lemerül, és az ébresztő nem fog megszólalni, amikor szükséged lenne rá. A SleepGuard megszakítja a láncolatot, amint nem reagálsz.
+
+* Netflix, Prime Video és más streaming-alkalmazások: Ha egy epizód közepén elalszol, úgy ébredsz fel, hogy nem tudod, hol aludtál el. Időt pazarolsz azzal, hogy visszatekersz a megfelelő helyre – néha újra és újra végigülve a hosszú reklámokat. A SleepGuard pont akkor zárja le a képernyőt, amikor nem reagálsz, így a streaming-alkalmazás tudja, hol folytassa.
+
+HOGYAN MŰKÖDIK
+
+1. Állítsd be, milyen gyakran jelenjen meg az ellenőrző gomb (pl. 5 percenként).
+2. Állítsd be, hány másodperced van reagálni, mielőtt a képernyő lezárul (pl. 30 másodperc).
+3. Válaszd ki, hogy a képernyőn hol jelenjen meg a gomb.
+4. Indítsd el a SleepGuardot, és nézd tovább a műsort.
+
+JELLEMZŐK
+
+* Két üzemmód: Videó (éberségellenőrző gomb bármely alkalmazás felett) és Hang (alvási időzítő zene, hangoskönyvek és podcastokhoz, kikapcsolt képernyőn is működik)
+* Beállítható időköz és reakcióidő
+* Nyolc gombpozíció közül választhat
+* Megbízható időzítés háttérmódban is (a rendszer riasztóját használja)
+* 29 felületi nyelv: az EU mind a 24 hivatalos nyelve, valamint orosz, japán, kínai (egyszerűsített és hagyományos) és török
+* Teljesen ingyenes, hirdetésmentes, nyomkövetés nélkül, fiók nélkül
+
+ADATVÉDELEM
+
+A SleepGuard egyáltalán NEM rendelkezik internet-hozzáférési engedéllyel. Nem tud adatokat küldeni vagy fogadni. Pontosan két dolgot csinál: megjeleníti a gombot és lezárja a képernyőt. Semmit sem gyűjt.
+
+A HOZZÁJÁRULÁSOK MAGYARÁZATA
+
+* Megjelenítés más alkalmazások felett: a piros kör megjelenítése a videó tetején.
+* Eszközadminisztráció (csak képernyőzár): a képernyő zárolásához, hasonlóan a bekapcsológombhoz.
+* Előtérbeli szolgáltatás és pontos riasztás: hogy a gomb időben megjelenjen.
+* Az akkumulátor-optimalizálás figyelmen kívül hagyása (opcionális): így a gomb akkor is megbízhatóan működik, ha egy másik alkalmazás van az előtérben.
+* Értesítések (Android 13+): a folyamatos „A SleepGuard aktív” értesítés megjelenítéséhez.
+
+NYÍLT FORRÁSKÓD
+
+A SleepGuard ingyenes szoftver, amely a GNU General Public License v3 licenc alapján kerül forgalomba. A teljes forráskód elérhető, így bárki pontosan ellenőrizheti, hogy mit csinál az alkalmazás: https://github.com/OlafDrechsler/SleepGuard
+
+TÁMOGATÁS
+
+A SleepGuard ingyenes, és az is marad. Ha hasznosnak találod, az alkalmazáson belül önkéntes adománnyal támogathatod a fejlesztőt. Szándékosan nem jár érte semmilyen ellenszolgáltatás – ez egyszerűen csak egy köszönet.
+
+AZ ÖTLET / A NÉV
+
+Az alkalmazás ötlete a vonatokon használt biztonsági rendszerből származik. A mozdonyvezető fülkéjében van egy gomb, amelyet a mozdonyvezetőnek rendszeres időközönként meg kell nyomnia, különben a vonat automatikusan leáll. A gomb megnyomásával a mozdonyvezető megerősíti, hogy ébren van. Köznyelvben ezt a gombot „halott ember kapcsolójának” nevezik, ezért az alkalmazás neve is „SleepGuard - éberségi”. 

@@ -1,1 +1,1 @@
-SleepGuard
+SleepGuard - dead man's switch

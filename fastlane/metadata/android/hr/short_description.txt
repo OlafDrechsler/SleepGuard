@@ -1,0 +1,1 @@
+Zaključava telefon kad zaspite gledajući videozapise. Bez oglasa, otvoreni kod.

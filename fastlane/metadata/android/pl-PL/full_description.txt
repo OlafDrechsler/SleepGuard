@@ -1,0 +1,51 @@
+Czy często zasypiasz podczas oglądania filmów lub słuchania muzyki na telefonie? SleepGuard dba o to, by Twoje urządzenie nie działało przez całą noc.
+
+W wybranym przez Ciebie odstępie czasu na ekranie pojawi się małe czerwone kółko, niezależnie od tego, co właśnie oglądasz. Dotknij go, a odtwarzanie będzie kontynuowane jak zwykle. Jeśli nie dotkniesz go w ciągu kilku sekund – bo zasnąłeś – SleepGuard zablokuje ekran, tak jakbyś nacisnął przycisk zasilania. Film się zatrzyma, a Twój telefon będzie chroniony przez resztę nocy.
+
+Dostępny jest również tryb audio przeznaczony do odtwarzania muzyki, audiobooków i podcastów: zamiast przycisku SleepGuard działa jak prosty wyłącznik czasowy, który zatrzymuje odtwarzanie po upływie wybranego czasu — nawet przy wyłączonym ekranie.
+
+DLACZEGO JEST TO POTRZEBNE
+
+* YouTube i inne aplikacje z automatycznym odtwarzaniem: Bez SleepGuard jeden film uruchamia kolejny, a ten kolejny i kolejny… aż do rana. W najgorszym przypadku bateria zostanie całkowicie rozładowana, a budzik nie zadziała, gdy będzie to potrzebne. SleepGuard przerywa ten łańcuch, gdy tylko przestaniesz reagować.
+
+* Netflix, Prime Video i inne aplikacje streamingowe: zasypiasz w połowie odcinka i budzisz się, nie wiedząc, w którym momencie zasnąłeś. Marnujesz czas, przewijając do tyłu, aby znaleźć to miejsce — czasami oglądając w kółko długie reklamy. SleepGuard blokuje ekran dokładnie w momencie, gdy przestajesz reagować, dzięki czemu aplikacja streamingowa wie, od którego miejsca ma kontynuować odtwarzanie.
+
+JAK TO DZIAŁA
+
+1. Ustaw, jak często ma pojawiać się przycisk sprawdzający (np. co 5 minut).
+2. Ustaw, ile sekund masz na reakcję, zanim ekran się zablokuje (np. 30 sekund).
+3. Wybierz, w którym miejscu ekranu ma pojawiać się przycisk.
+4. Uruchom SleepGuard i oglądaj dalej.
+
+CECHY
+
+* Dwa tryby: Wideo (przycisk sprawdzający aktywność w dowolnej aplikacji) i Audio (timer uśpienia dla muzyki, audiobooków i podcastów, działa również przy wyłączonym ekranie)
+* Regulowany interwał i czas reakcji
+* Osiem pozycji przycisku do wyboru
+* Niezawodne działanie nawet w tle (wykorzystuje alarm systemowy)
+* 29 języków interfejsu: wszystkie 24 oficjalne języki UE oraz rosyjski, japoński, chiński (uproszczony i tradycyjny) oraz turecki
+* Całkowicie bezpłatna, bez reklam, bez śledzenia, bez konieczności zakładania konta
+
+PRYWATNOŚĆ
+
+Aplikacja SleepGuard nie posiada ŻADNYCH uprawnień internetowych. Nie może wysyłać ani odbierać żadnych danych. Wykonuje dokładnie dwie czynności: wyświetla przycisk i blokuje ekran. Nie gromadzi żadnych danych.
+
+WYJAŚNIENIE UPOWAŻNIEŃ
+
+* Wyświetlanie nad innymi aplikacjami: aby wyświetlić czerwone kółko na wierzchu odtwarzanego wideo.
+* Administrator urządzenia (tylko blokada ekranu): aby zablokować ekran tak samo jak przycisk zasilania.
+* Usługa działająca w tle i dokładny alarm: aby przycisk sprawdzania pojawiał się o odpowiedniej porze.
+* Ignorowanie optymalizacji baterii (opcjonalnie): aby przycisk nadal działał niezawodnie, gdy w tle działa inna aplikacja.
+* Powiadomienia (Android 13+): aby wyświetlać stałe powiadomienie „SleepGuard jest aktywny”.
+
+OPEN SOURCE
+
+SleepGuard to bezpłatne oprogramowanie na licencji GNU General Public License v3. Pełny kod źródłowy jest dostępny, dzięki czemu każdy może dokładnie sprawdzić, jak działa aplikacja: https://github.com/OlafDrechsler/SleepGuard
+
+WSPARCIE
+
+SleepGuard jest darmowy i pozostanie darmowy. Jeśli aplikacja Ci pomaga, możesz wesprzeć jej twórcę dobrowolną darowizną bezpośrednio z poziomu aplikacji. Celowo nie przewidujemy żadnej nagrody w zamian – jest to po prostu wyraz wdzięczności.
+
+POMYSŁ / NAZWA
+
+Pomysł na aplikację pochodzi z systemu bezpieczeństwa stosowanego w pociągach. W kabinie maszynisty znajduje się przycisk, który maszynista musi naciskać w regularnych odstępach czasu, w przeciwnym razie pociąg automatycznie się zatrzyma. Naciskając przycisk, maszynista potwierdza, że nie zasnął. Potocznie przycisk ten nazywany jest „przełącznikiem człowieka martwego”, stąd aplikacja nosi nazwę „SleepGuard - czuwak”. 

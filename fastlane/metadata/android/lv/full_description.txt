@@ -1,0 +1,51 @@
+Vai jums bieži gadās aizmigt, skatoties video vai klausoties mūziku savā tālrunī? SleepGuard nodrošina, ka jūsu ierīce nedarbojas visu nakti.
+
+Pēc jūsu izvēlēta laika intervāla virs skatāmā satura parādās mazs sarkans aplis. Pieskarieties tam, un atskaņošana turpināsies kā parasti. Ja dažās sekundēs nepieskarieties tam — jo esat aizmiguši —, SleepGuard bloķē ekrānu, tāpat kā nospiežot ieslēgšanas pogu. Videoklips apstājas, un jūsu tālrunis ir aizsargāts līdz rītam.
+
+Ir pieejams arī audio režīms mūzikai, audio grāmatām un podkastiem: tā vietā, lai izmantotu pogu, SleepGuard darbojas kā vienkāršs miega taimeris, kas aptur atskaņošanu pēc jūsu izvēlētā laika — pat ja ekrāns ir izslēgts.
+
+KĀPĒC TAS Jums IR NEPIECIEŠAMS
+
+* „YouTube” un citas lietotnes ar automātisko atskaņošanu: bez „SleepGuard” viens video sāk nākamo, un nākamo, un nākamo... līdz pat rītam. Sliktākajā gadījumā akumulators izlādējas pilnībā, un jūsu modinātājs vairs nevar ieslēgties, kad tas ir nepieciešams. „SleepGuard” pārtrauc šo ķēdi, tiklīdz jūs pārstājat reaģēt.
+
+* „Netflix”, „Prime Video” un citas straumēšanas lietotnes: ja aizmiegat epizodes vidū, pamodaties, nezinot, kurā brīdī esat aizmiguši. Jūs tērējat laiku, pārskatot atpakaļ, lai atrastu vajadzīgo vietu — dažkārt atkal un atkal noskatoties garas reklāmas. „SleepGuard” bloķē ekrānu tieši tad, kad jūs vairs nereaģējat, tādējādi jūsu straumēšanas lietotne zina, kur turpināt.
+
+KĀ TAS DARBOJAS
+
+1. Iestatiet, cik bieži jāparādās pārbaudes pogai (piemēram, ik pēc 5 minūtēm).
+2. Iestatiet, cik sekundes jums ir laika reaģēt, pirms ekrāns tiek bloķēts (piemēram, 30 sekundes).
+3. Izvēlieties, kurā ekrāna vietā parādīsies poga.
+4. Palaižiet SleepGuard un turpiniet skatīties.
+
+FUNKCIJAS
+
+* Divi režīmi: Video (pārbaudes poga virs jebkuras lietotnes) un Audio (miega taimeris mūzikai, audio grāmatām un podkastiem, darbojas arī ar izslēgtu ekrānu)
+* Regulējams intervāls un reakcijas laiks
+* Astoņas pogas novietojuma pozīcijas, no kurām izvēlēties
+* Uzticams laika mērījums pat fonā (izmanto sistēmas modinātāju)
+* 29 saskarnes valodas: visas 24 oficiālās ES valodas, kā arī krievu, japāņu, ķīniešu (vienkāršotā un tradicionālā) un turku valoda
+* Pilnīgi bezmaksas, bez reklāmām, bez izsekošanas, bez kontiem
+
+PRIVĀTUMS
+
+„SleepGuard“ vispār nav interneta atļauju. Tā nevar ne sūtīt, ne saņemt datus. Tā dara tieši divas lietas: parāda pogu un bloķē ekrānu. Tā neko neievāc.
+
+ATĻAUJU PASKAIDROJUMS
+
+* Parādīšana virs citām lietotnēm: lai parādītu sarkano apli virs jūsu video.
+* Ierīces administrators (tikai ekrāna bloķēšanai): lai bloķētu ekrānu tāpat kā ar ieslēgšanas pogu.
+* Pirmplāna pakalpojums un precīzs modinātājs: lai pārbaudes poga parādītos laikā.
+* Ignorēt akumulatora optimizāciju (pēc izvēles): lai poga joprojām darbotos uzticami, kamēr priekšplānā atrodas cita lietotne.
+* Paziņojumi (Android 13+): lai parādītu pastāvīgo paziņojumu „SleepGuard ir aktīvs”.
+
+ATVĒRTAIS KODS
+
+„SleepGuard“ ir bezmaksas programmatūra, kas licencēta saskaņā ar GNU Vispārējo publisko licenci v3. Pilnais avota kods ir pieejams, lai ikviens varētu pārbaudīt, ko tieši dara lietotne: https://github.com/OlafDrechsler/SleepGuard
+
+ATBALSTS
+
+SleepGuard ir bezmaksas un paliks bezmaksas. Ja tā jums palīdz, varat atbalstīt tās izstrādātāju, veicot brīvprātīgu ziedojumu no lietotnes. Apzināti nav paredzēta nekāda atlīdzība — tas ir vienkārši pateicības žests.
+
+IDEJA / NOSAUKUMS
+
+Ideja par šo lietotni cēlusies no drošības sistēmas, ko izmanto vilcienos. Mašīnista kabīnē atrodas poga, kuru mašīnists regulāriem intervāliem ir jānospiež, pretējā gadījumā vilciens automātiski apstāsies. Nospiežot pogu, mašīnists apstiprina, ka ir nomodā. Sarunvalodā šo pogu sauc par „mirušā vīra slēdzi”, tāpēc lietotne tiek dēvēta arī par „SleepGuard”. 

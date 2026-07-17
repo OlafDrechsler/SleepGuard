@@ -1,0 +1,51 @@
+Kas sa jääd tihti magama, kui vaatad telefonis videoid või kuulad muusikat? SleepGuard tagab, et su seade ei jää kogu ööks tööle.
+
+Teie valitud ajavahemiku järel ilmub vaatamisel oleva sisu peale väike punane ring. Puudutage seda ja taasesitus jätkub tavapäraselt. Kui te seda mõne sekundi jooksul ei puuduta – sest olete magama jäänud –, lukustab SleepGuard ekraani, just nagu toitenuppu vajutades. Video peatub ja teie telefon on ülejäänud öö jooksul kaitstud.
+
+Samuti on olemas helirežiim muusika, audioraamatute ja podcastide jaoks: nupu asemel toimib SleepGuard lihtsa uneajastina, mis peatab taasesituse teie valitud ajavahemiku järel – isegi kui ekraan on välja lülitatud.
+
+MIKS TE SEDA VAJATE
+
+* YouTube ja muud automaatse taasesitusega rakendused: ilma SleepGuardita käivitab üks video järgmise ja järgmise ja järgmise... kuni hommikuni. Halvimal juhul tühjeneb aku täielikult ja teie äratuskell ei pruugi enam heliseda, kui seda vaja on. SleepGuard peatab selle ahelreaktsiooni niipea, kui te enam ei reageeri.
+
+* Netflix, Prime Video ja muud voogesitusrakendused: kui jääte episoodi keskel magama, ärkate üles, teadmata, kus te just uinusite. Te raiskate aega, kerides tagasi, et leida õige koht – vahel tuleb teil ikka ja jälle läbi vaadata pikki reklaame. SleepGuard lukustab ekraani kohe, kui te ei reageeri, nii et teie voogesitusrakendus teab, kust jätkata.
+
+KUIDAS SEE TÖÖTAB
+
+1. Määra, kui tihti peaks kontrollnupp ilmuma (nt iga 5 minuti järel).
+2. Määra, mitu sekundit sul on aega reageerida, enne kui ekraan lukustub (nt 30 sekundit).
+3. Vali, kuhu ekraanil nupp ilmub.
+4. Käivita SleepGuard ja vaata edasi.
+
+OMADUSED
+
+* Kaks režiimi: Video (äratamisnupp mis tahes rakenduse peal) ja Audio (uneajastin muusika, audioraamatute ja podcastide jaoks, töötab ka ekraani väljalülitatuna)
+* Reguleeritav intervall ja reageerimisaeg
+* Valida on kaheksa nupu asukohta
+* Usaldusväärne ajastus isegi taustal töötades (kasutab süsteemi äratust)
+* 29 kasutajaliidese keelt: kõik 24 ametlikku ELi keelt ning vene, jaapani, hiina (lihtsustatud ja traditsiooniline) ja türgi keel
+* Täiesti tasuta, ilma reklaamideta, jälgimiseta ja kontodeta
+
+PRIVAATSUS
+
+SleepGuardil puudub igasugune internetiõigus. See ei saa saata ega vastu võtta mingeid andmeid. See teeb täpselt kahte asja: kuvab nuppu ja lukustab ekraani. See ei kogu midagi.
+
+LUBADE SELGITUS
+
+* Kuvamine teiste rakenduste peal: punase ringi kuvamiseks teie video peal.
+* Seadme administraator (ainult ekraani lukustamine): ekraani lukustamiseks nagu toitenuppu kasutades.
+* Esiplaaniteenus ja täpne äratus: et kontrollnupp ilmuks õigel ajal.
+* Aku optimeerimise ignoreerimine (valikuline): et nupp töötaks usaldusväärselt ka siis, kui teine rakendus on esiplaanil.
+* Teated (Android 13+): et kuvada pidevat teadet „SleepGuard on aktiivne“.
+
+AVATUD LÄHTEKOOD
+
+SleepGuard on vaba tarkvara, mis on litsentseeritud GNU üldise avaliku litsentsi versiooni 3 alusel. Kogu lähtekood on kättesaadav, nii et igaüks saab täpselt kontrollida, mida rakendus teeb: https://github.com/OlafDrechsler/SleepGuard
+
+TOETUS
+
+SleepGuard on tasuta ja jääb tasuta. Kui see teile abiks on, võite toetada selle arendajat vabatahtliku annetusega rakenduse kaudu. Selle eest ei ole teadlikult ette nähtud mingit tasu – see on lihtsalt tänuavaldus.
+
+IDEED / NIMI
+
+Rakenduse idee pärineb rongides kasutatavast ohutussüsteemist. Juhi kabiinis on nupp, mida juht peab regulaarsete vahedega vajutama, vastasel juhul peatub rong automaatselt. Nuppu vajutades kinnitab juht, et ta on ärkvel. Kõnekeeles nimetatakse seda nuppu „surnud mehe lülitiks“ ja seetõttu kannab rakendus nime „SleepGuard - surnumehe lüliti“. 

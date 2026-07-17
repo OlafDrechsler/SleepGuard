@@ -1,0 +1,51 @@
+Costumas adormecer enquanto vês vídeos ou ouves música no teu telemóvel? O SleepGuard garante que o teu dispositivo não fica ligado a funcionar a noite toda.
+
+Num intervalo que tu escolheres, aparece um pequeno círculo vermelho por cima do que estiveres a ver. Toca nele e a reprodução continua normalmente. Se não tocares nele dentro de alguns segundos — porque adormeceste —, o SleepGuard bloqueia o ecrã, tal como se tivesses premido o botão de ligar/desligar. O teu vídeo pára e o teu telemóvel fica protegido pelo resto da noite.
+
+Existe também um modo de áudio para música, audiolivros e podcasts: em vez de um botão, o SleepGuard funciona como um simples temporizador de sono que interrompe a reprodução após o intervalo que escolheu — mesmo com o ecrã desligado.
+
+PORQUE É QUE PRECISAS DISSO
+
+* YouTube e outras aplicações com reprodução automática: sem o SleepGuard, um vídeo dá lugar ao seguinte, e ao seguinte, e ao seguinte... até de manhã. Na pior das hipóteses, a bateria esgota-se e o teu alarme já não toca quando precisas. O SleepGuard interrompe a sequência assim que deixares de responder.
+
+* Netflix, Prime Video e outras aplicações de streaming: adormeça a meio de um episódio e acorda sem saber onde ficou. Perde tempo a recuar para encontrar o ponto certo — por vezes, tendo de assistir a longos anúncios repetidamente. O SleepGuard bloqueia o ecrã assim que não responde, para que a sua aplicação de streaming saiba onde continuar.
+
+COMO FUNCIONA
+
+1. Define a frequência com que o botão de verificação deve aparecer (por exemplo, a cada 5 minutos).
+2. Define quantos segundos tens para reagir antes de o ecrã bloquear (por exemplo, 30 segundos).
+3. Escolhe onde o botão aparece no ecrã.
+4. Inicia o SleepGuard e continua a ver.
+
+CARACTERÍSTICAS
+
+* Dois modos: Vídeo (botão de verificação de atividade em qualquer aplicação) e Áudio (temporizador de desligamento para música, audiolivros e podcasts; funciona também com o ecrã desligado)
+* Intervalo e tempo de reação ajustáveis
+* Oito posições do botão à escolha
+* Cronometragem fiável mesmo em segundo plano (utiliza o alarme do sistema)
+* 29 idiomas de interface: todos os 24 idiomas oficiais da UE, além de russo, japonês, chinês (simplificado e tradicional) e turco
+* Totalmente gratuito, sem anúncios, sem rastreamento, sem contas
+
+PRIVACIDADE
+
+O SleepGuard NÃO tem qualquer permissão de acesso à Internet. Não pode enviar nem receber quaisquer dados. Faz exatamente duas coisas: mostra um botão e bloqueia o ecrã. Não recolhe nada.
+
+EXPLICAÇÃO DAS PERMISSÕES
+
+* Exibir sobre outras aplicações: para mostrar o círculo vermelho por cima do seu vídeo.
+* Administrador do dispositivo (apenas bloqueio do ecrã): para bloquear o ecrã tal como o botão de alimentação.
+* Serviço em primeiro plano e alarme exato: para que o botão de verificação apareça na hora certa.
+* Ignorar otimização da bateria (opcional): para que o botão continue a funcionar de forma fiável enquanto outra aplicação estiver em primeiro plano.
+* Notificações (Android 13+): para mostrar a notificação contínua «O SleepGuard está ativo».
+
+CÓDIGO ABERTO
+
+O SleepGuard é um software livre, licenciado ao abrigo da Licença Pública Geral GNU v3. O código-fonte completo está disponível para que qualquer pessoa possa verificar exatamente o que a aplicação faz: https://github.com/OlafDrechsler/SleepGuard
+
+APOIO
+
+O SleepGuard é gratuito e continuará a sê-lo. Se o aplicativo o ajudar, pode apoiar o seu programador com uma doação voluntária a partir do próprio aplicativo. Não há, deliberadamente, qualquer recompensa em troca — trata-se simplesmente de um agradecimento.
+
+A IDÉIA / O NOME
+
+A ideia para a aplicação surgiu de um sistema de segurança utilizado nos comboios. Na cabina do maquinista, existe um botão que este deve premir a intervalos regulares; caso contrário, o comboio pára automaticamente. Ao premir o botão, o maquinista confirma que está acordado. Coloquialmente, este botão é chamado de «interruptor do homem morto» e, por isso, a aplicação também se chama «SleepGuard - homem morto». 

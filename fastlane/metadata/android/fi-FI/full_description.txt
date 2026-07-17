@@ -1,0 +1,51 @@
+Nukahdatko usein, kun katsot videoita tai kuuntelet musiikkia puhelimellasi? SleepGuard varmistaa, ettei laitteesi jää käyntiin koko yöksi.
+
+Valitsemasi aikavälin välein pieni punainen ympyrä ilmestyy katsomasi sisällön päälle. Napauta sitä, niin toisto jatkuu normaalisti. Jos et napauta sitä muutaman sekunnin kuluessa – koska olet nukahtanut – SleepGuard lukitsee näytön, aivan kuin painaisit virtapainiketta. Videosi pysähtyy ja puhelimesi on suojattu loppuyön ajan.
+
+Sovelluksessa on myös äänitila musiikkia, äänikirjoja ja podcasteja varten: painikkeen sijaan SleepGuard toimii yksinkertaisena uniajastimena, joka pysäyttää toiston valitsemasi aikavälin kuluttua – jopa näytön ollessa pois päältä.
+
+MIKSI TARVITSET SITÄ
+
+* YouTube ja muut automaattisen toiston sovellukset: Ilman SleepGuardia yksi video käynnistää seuraavan ja seuraavan ja seuraavan... aamuun asti. Pahimmassa tapauksessa akku tyhjenee kokonaan, eikä herätyskello enää soi silloin, kun sitä tarvitset. SleepGuard pysäyttää ketjun heti, kun lakkaat reagoimasta.
+
+* Netflix, Prime Video ja muut suoratoistosovellukset: Jos nukahdat kesken jakson, heräät tietämättä, mihin kohtaan jäit. Tuhlaat aikaa kelatessasi takaisin oikeaan kohtaan – ja joudut joskus katsomaan pitkiä mainoksia yhä uudelleen. SleepGuard lukitsee näytön heti, kun et reagoi, joten suoratoistosovelluksesi tietää, mistä jatkaa.
+
+Kuinka se toimii
+
+1. Aseta, kuinka usein tarkistuspainike tulee näkyviin (esim. 5 minuutin välein).
+2. Aseta, kuinka monta sekuntia sinulla on aikaa reagoida ennen kuin näyttö lukittuu (esim. 30 sekuntia).
+3. Valitse, mihin kohtaan näyttöä painike ilmestyy.
+4. Käynnistä SleepGuard ja jatka katsomista.
+
+OMINAISUUDET
+
+* Kaksi tilaa: Video (herätyspainike minkä tahansa sovelluksen päällä) ja Audio (uniajastin musiikille, äänikirjoille ja podcasteille, toimii myös näytön ollessa pois päältä)
+* Säädettävä aikaväli ja reaktioaika
+* Kahdeksan painikkeen sijaintivaihtoehtoa
+* Luotettava ajastus myös taustalla (käyttää järjestelmän herätystä)
+* 29 käyttöliittymäkieltä: kaikki 24 virallista EU-kieltä sekä venäjä, japani, kiina (yksinkertaistettu ja perinteinen) ja turkki
+* Täysin ilmainen, ei mainoksia, ei seurantaa, ei tilejä
+
+TIETOSUOJA
+
+SleepGuardilla ei ole lainkaan internet-käyttöoikeuksia. Se ei voi lähettää tai vastaanottaa mitään tietoja. Se tekee tarkalleen kaksi asiaa: näyttää painikkeen ja lukitsee näytön. Se ei kerää mitään tietoja.
+
+OIKEUDET SELITETTY
+
+* Näytä muiden sovellusten päällä: näyttää punaisen ympyrän videosi päällä.
+* Laitteen järjestelmänvalvoja (vain näytön lukitus): lukitsee näytön samalla tavalla kuin virtapainike.
+* Etualapalvelu ja tarkka hälytys: jotta tarkistuspainike ilmestyy oikeaan aikaan.
+* Ohita akun optimointi (valinnainen): jotta painike toimii luotettavasti myös silloin, kun toinen sovellus on etualalla.
+* Ilmoitukset (Android 13+): näyttää jatkuvan ”SleepGuard on aktiivinen” -ilmoituksen.
+
+AVOIN LÄHDEKODI
+
+SleepGuard on ilmainen ohjelmisto, joka on lisensoitu GNU General Public License v3 -lisenssillä. Koko lähdekoodi on saatavilla, jotta kuka tahansa voi tarkistaa tarkasti, mitä sovellus tekee: https://github.com/OlafDrechsler/SleepGuard
+
+TUKI
+
+SleepGuard on ilmainen ja pysyy ilmaisena. Jos sovellus on sinulle hyödyksi, voit tukea sen kehittäjää vapaaehtoisella lahjoituksella sovelluksen sisällä. Vastineeksi ei ole tarkoituksella mitään palkkiota – kyseessä on yksinkertaisesti kiitos.
+
+IDEA / NIMI
+
+Sovelluksen idea on peräisin junissa käytetystä turvajärjestelmästä. Kuljettajan ohjaamossa on painike, jota kuljettajan on painettava säännöllisin väliajoin, muuten juna pysähtyy automaattisesti. Painiketta painamalla kuljettaja vahvistaa olevansa hereillä. Kansankielessä tätä painiketta kutsutaan ”kuolleen miehen kytkimeksi”, ja siksi sovellusta kutsutaan myös nimellä ”SleepGuard - kuolleenmies”. 

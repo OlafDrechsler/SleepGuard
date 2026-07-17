@@ -1,0 +1,51 @@
+An mbíonn tú ag titim i do chodladh go minic agus tú ag féachaint ar fhíseáin nó ag éisteacht le ceol ar d'fhón? Cinntíonn SleepGuard nach bhfágann do ghléas ar siúl an oíche ar fad.
+
+Ag eatramh a roghnaíonn tú, tagann ciorcal beag dearg aníos ar bharr an ábhair atá á fheiceáil agat. Tapáil air agus leanann an athsheinm ar aghaidh mar is gnách. Ná tapáil air laistigh de chúpla soicind - toisc go bhfuil tú titim i do chodladh - agus déanann SleepGuard an scáileán a ghlasáil, díreach mar a dhéanfá an cnaipe cumhachta a bhrú. Stadann do fhíseán agus bíonn do ghuthán cosanta don chuid eile den oíche.
+
+Tá Mód Fuaime ann freisin do cheol, leabhair chlosamhairc agus podchraoltaí: in ionad cnaipe, feidhmíonn SleepGuard mar shimplí clogadóir codlata a stopann an athsheinm tar éis an eatraimh a roghnaíonn tú — fiú agus an scáileán múchta.
+
+CÉN FÁTH A BHFUIL SÉ DE DHÍTH ORT
+
+* YouTube agus aipeanna eile le huathsheinm: Gan SleepGuard, tosaíonn físeán amháin an chéad cheann eile agus an chéad cheann eile agus an chéad cheann eile ... go dtí an mhaidin. Sa chás is measa, ídítear an ceallra go hiomlán agus ní féidir le d'aláram a bheith ar siúl a thuilleadh nuair a bhíonn sé de dhíth ort. Cuireann SleepGuard stop leis an slabhra chomh luath agus a stopann tú ag freagairt.
+
+* Netflix, Prime Video agus aipeanna sruthaithe eile: Má thiteann tú i do chodladh i lár eipeasóide, dúisíonn tú gan a fhios agat cá háit ar thit tú i do chodladh. Caitheann tú am ag scrollú ar ais chun an áit a aimsiú - uaireanta ag féachaint ar fhógraí fada arís agus arís eile. Déanann SleepGuard an scáileán a ghlasáil díreach nuair nach bhfreagraíonn tú, ionas go mbeidh a fhios ag d'aip sruthaithe cá háit le leanúint ar aghaidh.
+
+CONAS A OIBRÍONN SÉ
+
+1. Socraigh cé chomh minic is a thaispeánfar an cnaipe seiceála (e.g. gach 5 nóiméad).
+2. Socraigh cé mhéad soicind atá agat le freagairt sula nglasáiltear an scáileán (e.g. 30 soicind).
+3. Roghnaigh an áit ar an scáileán a dtaispeánfar an cnaipe.
+4. Cuir tús le SleepGuard agus coinnigh ort ag féachaint.
+
+Gnéithe
+
+* Dhá mhodh: Físeán (cnaipe seiceála dúisigh os cionn aon aip) agus Fuaim (táimear codlata do cheol, leabhair chlosamhairc agus podchraoltaí, a oibríonn freisin agus an scáileán múchta)
+* Tréimhse agus am freagartha inchoigeartaithe
+* Ocht suíomh cnaipe le roghnú astu
+* Amú iontaofa fiú sa chúlra (úsáideann sé aláram an chórais)
+* 29 teanga comhéadain: an 24 teanga oifigiúil de chuid an AE ar fad chomh maith le Rúisis, Seapáinis, Síneis (Simplithe & Traidisiúnta) agus Tuircis
+* Go hiomlán saor in aisce, gan aon fhógraí, gan aon rianú, gan aon chuntais
+
+PRÍOBHÁIDEACHT
+
+NÍL cead slán idirlín ar bith ag SleepGuard. Ní féidir leis aon sonraí a sheoladh ná a fháil. Ní dhéanann sé ach dhá rud go díreach: cnaipe a thaispeáint agus an scáileán a ghlasáil. Ní bhailíonn sé aon rud.
+
+MÍNIÚ AR NA CEADÚNAIS
+
+* Taispeáint os cionn aipeanna eile: chun an ciorcal dearg a thaispeáint ar bharr do fhíseáin.
+* Riarthóir gléis (glasáil scáileáin amháin): chun an scáileán a ghlasáil mar a dhéanfadh an cnaipe cumhachta.
+* Seirbhís thosaigh & aláram cruinn: chun a chinntiú go dtaispeántar an cnaipe seiceála in am.
+* Neamhaird a dhéanamh ar bharrfheabhsú ceallraí (roghnach): ionas go n-oibríonn an cnaipe go hiontaofa fós agus aip eile sa tulra.
+* Fógraí (Android 13+): chun an fógra leanúnach "Tá SleepGuard gníomhach" a thaispeáint.
+
+FOINSE OSCAILTE
+
+Is bogearraí saor in aisce é SleepGuard, atá ceadúnaithe faoin GNU General Public License v3. Tá an cód foinseach iomlán ar fáil ionas gur féidir le duine ar bith a scrúdú go beacht cad a dhéanann an aip: https://github.com/OlafDrechsler/SleepGuard
+
+TACAÍOCHT
+
+Tá SleepGuard saor in aisce agus fanfaidh sé saor in aisce. Má chuidíonn sé leat, is féidir leat tacú lena fhorbróir le síntiús deonach ón aip. D'aon ghnó, níl aon luach saothair i gceist mar mhalairt – níl ann ach buíochas.
+
+AN SMAOINEAMH / AN T-AINM
+
+Tagann an smaoineamh don aip ó chóras sábháilteachta a úsáidtear ar thraenacha. I gcábán an tiománaí, tá cnaipe ann nach mór don tiománaí a bhrú go rialta, nó stopfaidh an traein go huathoibríoch. Tríd an gcnaipe a bhrú, dearbhaíonn an tiománaí go bhfuil sé nó sí ina ndúiseacht. Go coitianta, tugtar "lasc an mharbháin" ar an gcnaipe seo, agus dá bhrí sin tugtar "SleepGuard - fear marbh" ar an aip freisin. 

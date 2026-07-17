@@ -1,0 +1,51 @@
+Ar dažnai užmiegi, kai žiūri vaizdo įrašus ar klausaisi muzikos telefone? „SleepGuard“ užtikrina, kad tavo įrenginys neveiktų visą naktį.
+
+Jūsų pasirinktu intervalu virš to, ką žiūrite, pasirodo mažas raudonas ratas. Bakstelėkite jį, ir atkūrimas tęsis kaip įprasta. Jei per kelias sekundes jo nebakstelėsite – nes užmigote – „SleepGuard“ užrakins ekraną, lyg būtumėte paspaudę maitinimo mygtuką. Vaizdo įrašas sustos, o jūsų telefonas liks apsaugotas visą likusią naktį.
+
+Taip pat yra garso režimas, skirtas muzikai, garso knygoms ir podkastams: vietoj mygtuko „SleepGuard“ veikia kaip paprastas miego laikmatis, kuris sustabdo atkūrimą po jūsų pasirinktos trukmės – net ir išjungus ekraną.
+
+KODĖL JŪS TO REIKIA
+
+* „YouTube“ ir kitos programėlės su automatiniu atkūrimu: be „SleepGuard“ vienas vaizdo įrašas paleidžia kitą, o tas – dar kitą ir dar kitą... iki pat ryto. Blogiausiu atveju baterija visiškai išsikrauna, ir jūsų žadintuvas nebegalės suveikti, kai to reikės. „SleepGuard“ sustabdo šią grandinę, vos tik jūs nustojate reaguoti.
+
+* „Netflix“, „Prime Video“ ir kitos transliacijų programėlės: užsnūskite epizodo viduryje, o pabudę nežinosite, kur užsnūdate. Švaistote laiką, bandydami atsukti atgal, kad surastumėte tą vietą – kartais vėl ir vėl peržiūrėdami ilgus reklaminius intarpus. „SleepGuard“ užrakina ekraną, kai tik nereaguojate, todėl jūsų transliacijų programėlė žino, kur tęsti.
+
+KAIP VEIKIA
+
+1. Nustatykite, kaip dažnai turi pasirodyti patikrinimo mygtukas (pvz., kas 5 minutes).
+2. Nustatykite, per kiek sekundžių turite sureaguoti, kol ekranas užsiblokuos (pvz., 30 sekundžių).
+3. Pasirinkite, kurioje ekrano vietoje pasirodys mygtukas.
+4. Paleiskite „SleepGuard“ ir toliau žiūrėkite.
+
+SĄSAJOS
+
+* Du režimai: „Vaizdo“ (patikrinimo mygtukas virš bet kurios programėlės) ir „Garso“ (miego laikmatis muzikai, garso knygoms ir podkastams, veikia net ir išjungus ekraną)
+* Reguliuojamas intervalas ir reakcijos laikas
+* Aštuonios mygtuko pozicijos, iš kurių galima rinktis
+* Patikimas laiko matavimas net ir veikiant fone (naudoja sistemos žadintuvą)
+* 29 sąsajos kalbos: visos 24 oficialios ES kalbos, taip pat rusų, japonų, kinų (supaprastinta ir tradicinė) bei turkų
+* Visiškai nemokama, be reklamų, be sekimo, be paskyrų
+
+PRIVATUMAS
+
+„SleepGuard“ neturi JOKIŲ interneto leidimų. Ji negali siųsti ar gauti jokių duomenų. Ji atlieka tik dvi funkcijas: rodo mygtuką ir užrakina ekraną. Ji nerenka jokių duomenų.
+
+LEIDIMŲ PAAIŠKINIMAS
+
+* Rodymas virš kitų programų: kad raudonas ratas būtų rodomas virš jūsų vaizdo įrašo.
+* Įrenginio administratorius (tik ekrano užrakinimas): kad ekraną būtų galima užrakinti kaip maitinimo mygtuku.
+* Pirmame plane veikianti paslauga ir tikslus žadintuvas: kad patikrinimo mygtukas pasirodytų laiku.
+* Ignoruoti baterijos optimizavimą (pasirinktinai): kad mygtukas vis tiek veiktų patikimai, kai kitas programėlė veikia pirmame plane.
+* Pranešimai („Android“ 13 ir naujesnėse versijose): kad būtų rodomas nuolatinis pranešimas „SleepGuard veikia“.
+
+ATVIRO KODO
+
+„SleepGuard“ yra nemokama programinė įranga, licencijuota pagal GNU bendrąją viešąją licenciją v3. Visas šaltinio kodas yra prieinamas, todėl kiekvienas gali patikrinti, ką tiksliai daro programa: https://github.com/OlafDrechsler/SleepGuard
+
+PARAMA
+
+„SleepGuard“ yra nemokama ir liks nemokama. Jei ji jums padeda, galite paremti jos kūrėją savanoriška auka tiesiogiai iš programėlės. Sąmoningai nenumatoma jokia atlygio forma – tai tiesiog padėka.
+
+IDĖJA / PAVADINIMAS
+
+Programėlės idėja kilo iš traukiniuose naudojamos saugos sistemos. Mašinisto kabinoje yra mygtukas, kurį mašinistas privalo paspausti reguliariais intervalais, kitaip traukinys automatiškai sustos. Paspaudęs mygtuką, mašinistas patvirtina, kad yra pabudęs. Šnekamojoje kalboje šis mygtukas vadinamas „mirusiojo mygtuku“, todėl programėlė taip pat vadinama „SleepGuard“. 

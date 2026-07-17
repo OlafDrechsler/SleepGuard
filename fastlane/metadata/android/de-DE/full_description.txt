@@ -45,3 +45,7 @@ SleepGuard ist freie Software unter der GNU General Public License v3. Der volls
 UNTERSTÜTZUNG
 
 SleepGuard ist kostenlos und bleibt kostenlos. Wenn es dir hilft, kannst du den Entwickler mit einer freiwilligen Spende direkt aus der App heraus unterstützen. Eine Gegenleistung gibt es dafür bewusst nicht - es ist einfach ein Dankeschön.
+
+DIE IDEE / DER NAME
+
+Die Idee zur App kommt von einem Sicherheitssystem in Eisenbahnen. Dort gibt es im Cockpit einen Knopf, den der Fahrer in regelmäßigen Abständen drücken muss, weil sonst der Zug automatisch gestoppt wird. Mit dem Drücken des Knopfs bestätigt der Fahrer also, dass wach ist. Umgangssprachlich wird der Knopf Totmannschalter genannt, und so heißt die App dann auch "SleepGuard - Totmannschalter". 

@@ -1,0 +1,51 @@
+Val je vaak in slaap terwijl je video’s bekijkt of naar muziek luistert op je telefoon? SleepGuard zorgt ervoor dat je toestel niet de hele nacht blijft draaien.
+
+Na een door jou gekozen tijdsinterval verschijnt er een klein rood cirkeltje bovenop wat je ook aan het bekijken bent. Tik erop en het afspelen gaat gewoon door. Tik er niet op binnen een paar seconden – omdat je in slaap bent gevallen – en SleepGuard vergrendelt het scherm, net alsof je op de aan/uit-knop drukt. Je video stopt en je telefoon is de rest van de nacht beschermd.
+
+Er is ook een audiomodus voor muziek, audioboeken en podcasts: in plaats van een knop werkt SleepGuard als een eenvoudige slaaptimer die het afspelen stopt na het door jou gekozen interval — zelfs als het scherm uitstaat.
+
+WAAROM JE DIT NODIG HEBT
+
+* YouTube en andere apps met automatisch afspelen: zonder SleepGuard begint de ene video na de andere, en de volgende, en de volgende… tot de ochtend. In het ergste geval raakt de batterij helemaal leeg en gaat je wekker niet meer af wanneer je hem nodig hebt. SleepGuard stopt deze keten zodra je niet meer reageert.
+
+* Netflix, Prime Video en andere streaming-apps: val je halverwege een aflevering in slaap, dan word je wakker zonder te weten waar je in slaap bent gevallen. Je verspilt tijd met terugspoelen om de juiste plek te vinden – waarbij je soms keer op keer lange reclames moet doorzitten. SleepGuard vergrendelt het scherm zodra je niet reageert, zodat je streaming-app weet waar hij verder moet gaan.
+
+HOE HET WERKT
+
+1. Stel in hoe vaak de controleknop moet verschijnen (bijv. elke 5 minuten).
+2. Stel in hoeveel seconden je hebt om te reageren voordat het scherm wordt vergrendeld (bijv. 30 seconden).
+3. Kies waar op het scherm de knop verschijnt.
+4. Start SleepGuard en blijf kijken.
+
+FUNCTIES
+
+* Twee modi: Video (wekknop boven elke app) en Audio (slaaptimer voor muziek, audioboeken en podcasts, werkt ook met het scherm uit)
+* Instelbaar interval en reactietijd
+* Acht knopposities om uit te kiezen
+* Betrouwbare timing, zelfs op de achtergrond (maakt gebruik van het systeeralarm)
+* 29 interfacetalen: alle 24 officiële EU-talen plus Russisch, Japans, Chinees (vereenvoudigd en traditioneel) en Turks
+* Volledig gratis, geen advertenties, geen tracking, geen accounts
+
+PRIVACY
+
+SleepGuard heeft GEEN enkele internettoegang. Het kan geen gegevens verzenden of ontvangen. Het doet precies twee dingen: een knop weergeven en het scherm vergrendelen. Het verzamelt niets.
+
+TOEGANGSRECHTEN UITGELEGD
+
+* Weergave boven andere apps: om de rode cirkel bovenop je video te tonen.
+* Apparaatbeheer (alleen schermvergrendeling): om het scherm te vergrendelen, net als met de aan/uit-knop.
+* Voorgronddienst & exact alarm: om de controleknop op tijd te laten verschijnen.
+* Batterijoptimalisatie negeren (optioneel): zodat de knop nog steeds betrouwbaar werkt terwijl een andere app op de voorgrond draait.
+* Meldingen (Android 13+): om de doorlopende melding „SleepGuard is actief“ weer te geven.
+
+OPEN SOURCE
+
+SleepGuard is vrije software, onder de GNU General Public License v3. De volledige broncode is beschikbaar, zodat iedereen precies kan nagaan wat de app doet: https://github.com/OlafDrechsler/SleepGuard
+
+ONDERSTEUNING
+
+SleepGuard is gratis en blijft gratis. Als de app je helpt, kun je de ontwikkelaar steunen met een vrijwillige donatie vanuit de app. Er is bewust geen beloning in ruil – het is simpelweg een bedankje.
+
+HET IDEE / DE NAAM
+
+Het idee voor de app is afkomstig van een veiligheidssysteem dat in treinen wordt gebruikt. In de bestuurderscabine bevindt zich een knop die de bestuurder met regelmatige tussenpozen moet indrukken, anders stopt de trein automatisch. Door op de knop te drukken, bevestigt de bestuurder dat hij of zij wakker is. In de volksmond wordt deze knop een ‘dead man’s switch’ genoemd, en daarom heet de app ook ‘SleepGuard - dodemansknop’. 

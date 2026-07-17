@@ -1,0 +1,51 @@
+Telefonunuzda video izlerken veya müzik dinlerken sık sık uykuya dalıyor musunuz? SleepGuard, cihazınızın bütün gece boyunca çalışmaya devam etmemesini sağlar.
+
+Seçtiğiniz aralıkta, izlediğiniz içeriğin üstünde küçük kırmızı bir daire belirir. Buna dokunduğunuzda oynatma normal şekilde devam eder. Birkaç saniye içinde dokunmazsanız (çünkü uykuya dalmışsınızdır), SleepGuard, tıpkı güç düğmesine basmışsınız gibi ekranı kilitler. Videonuz durur ve telefonunuz gecenin geri kalanında korunur.
+
+Müzik, sesli kitaplar ve podcast'ler için bir Ses modu da mevcuttur: SleepGuard, bir düğme yerine, seçtiğiniz aralığın sonunda oynatmayı durduran basit bir uyku zamanlayıcısı olarak çalışır — ekran kapalıyken bile.
+
+NEDEN İHTİYACINIZ VAR?
+
+* YouTube ve otomatik oynatma özelliğine sahip diğer uygulamalar: SleepGuard olmadan, bir video biter bitmez bir sonraki başlar, sonra bir sonraki, sonra bir sonraki... sabaha kadar. En kötü durumda pil tamamen biter ve alarmınız ihtiyacınız olduğunda çalmayabilir. SleepGuard, tepki vermediğiniz anda bu zinciri durdurur.
+
+* Netflix, Prime Video ve diğer akış uygulamaları: Bir bölümün ortasında uykuya dalarsanız, uyuyakaldığınız yeri bilmeden uyanırsınız. O noktayı bulmak için geri sararak zaman kaybedersiniz; bazen uzun reklamları tekrar tekrar izlemek zorunda kalırsınız. SleepGuard, yanıt vermediğiniz anda ekranı kilitler, böylece akış uygulamanız nereden devam edeceğini bilir.
+
+NASIL ÇALIŞIR
+
+1. Kontrol düğmesinin ne sıklıkla görünmesini istediğinizi ayarlayın (ör. her 5 dakikada bir).
+2. Ekran kilitlenmeden önce tepki vermeniz için kaç saniyeniz olduğunu ayarlayın (ör. 30 saniye).
+3. Düğmenin ekranın neresinde görüneceğini seçin.
+4. SleepGuard'ı başlatın ve izlemeye devam edin.
+
+ÖZELLİKLER
+
+* İki mod: Video (herhangi bir uygulamanın üzerinde uyandırma-kontrol düğmesi) ve Ses (müzik, sesli kitaplar ve podcast'ler için uyku zamanlayıcısı; ekran kapalıyken de çalışır)
+* Ayarlanabilir aralık ve tepki süresi
+* Aralarından seçim yapabileceğiniz sekiz düğme konumu
+* Arka planda bile güvenilir zamanlama (sistem alarmını kullanır)
+* 29 arayüz dili: AB’nin 24 resmi dilinin yanı sıra Rusça, Japonca, Çince (Basitleştirilmiş ve Geleneksel) ve Türkçe
+* Tamamen ücretsiz, reklam yok, izleme yok, hesap gerektirmez
+
+GİZLİLİK
+
+SleepGuard’ın internet izni YOKTUR. Herhangi bir veri gönderemez veya alamaz. Tam olarak iki şey yapar: bir düğme gösterir ve ekranı kilitler. Hiçbir bilgi toplamaz.
+
+İZİNLERİN AÇIKLAMASI
+
+* Diğer uygulamaların üzerine görüntüleme: videonuzun üzerine kırmızı daireyi göstermek için.
+* Cihaz yöneticisi (sadece ekran kilidi): Ekranı güç düğmesi gibi kilitlemek için.
+* Ön plan hizmeti ve kesin alarm: Kontrol düğmesinin zamanında görünmesini sağlamak için.
+* Pil optimizasyonunu yok say (isteğe bağlı): Başka bir uygulama ön planda iken düğmenin yine de güvenilir şekilde çalışması için.
+* Bildirimler (Android 13+): Devam eden "SleepGuard aktif" bildirimini göstermek için.
+
+AÇIK KAYNAK
+
+SleepGuard, GNU Genel Kamu Lisansı v3 kapsamında lisanslanan ücretsiz bir yazılımdır. Uygulamanın tam olarak ne yaptığını herkesin inceleyebilmesi için tam kaynak kodu mevcuttur: https://github.com/OlafDrechsler/SleepGuard
+
+DESTEK
+
+SleepGuard ücretsizdir ve ücretsiz kalacaktır. Uygulama size yardımcı oluyorsa, uygulama içinden gönüllü bir bağış yaparak geliştiricisini destekleyebilirsiniz. Karşılığında kasıtlı olarak herhangi bir ödül verilmez; bu sadece bir teşekkür niteliğindedir.
+
+FİKİR / İSİM
+
+Uygulamanın fikri, trenlerde kullanılan bir güvenlik sisteminden gelmektedir. Sürücü kabininde, sürücünün belirli aralıklarla basması gereken bir düğme bulunur; aksi takdirde tren otomatik olarak durur. Sürücü, bu düğmeye basarak uyanık olduğunu teyit eder. Bu düğme halk arasında “ölü adam düğmesi” olarak adlandırılır; bu nedenle uygulamaya da “SleepGuard - ölü adam butonu” adı verilmiştir. 

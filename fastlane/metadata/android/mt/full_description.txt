@@ -1,0 +1,51 @@
+Spiss torqod waqt li qed tara vidjows jew tisma' mużika fuq it-telefon tiegħek? SleepGuard jiżgura li l-apparat tiegħek ma jibqax jaħdem tul il-lejl kollu.
+
+F'intervall li tagħżel, jidher ċirku żgħir aħmar fuq dak kollu li qed tara. Agħfas fuqu u l-plejbek jkompli kif inhu normali. M'għandekx tagħfas fuqu fi ftit sekondi – għax tkun irqadt – u SleepGuard jilloka l-iskrin, bħalma tagħmel meta tagħfas il-buttuna tal-enerġija. Il-vidjo tiegħek jieqaf u t-telefon tiegħek ikun protett għall-bqija tal-lejl.
+
+Hemm ukoll mod Audio għall-mużika, kotba awdjo u podcasts: minflok buttuna, SleepGuard jaħdem bħala timer sempliċi ta' rqad li jieqaf il-plejbek wara l-intervall magħżul tiegħek — anke meta l-iskrin ikun mitfi.
+
+GĦALIEX GĦANDEK BŻONNHA
+
+* YouTube u applikazzjonijiet oħra b'awtoplay: Mingħajr SleepGuard, vidjo wieħed jibda ieħor u ieħor u ieħor ... sakemm jasal filgħodu. Fil-każ l-agħar, il-batterija tinxfa u l-allarm tiegħek ma jistax jixgħel meta jkollok bżonnh. SleepGuard iwaqqaf il-katina hekk kif tieqaf tirrispondi.
+
+* Netflix, Prime Video u applikazzjonijiet oħra ta' streaming: Jekk torqod nofs l-episodju, tqum u ma tkunx taf fejn waqaft. Tqatta' żmien tfittex lura biex issib il-punt — kultant bilqiegħda tara reklami twal mill-ġdid u mill-ġdid. SleepGuard jimblokka l-iskrin eżatt meta tieqaf tirrispondi, sabiex l-applikazzjoni tiegħek ta' streaming tkun taf fejn għandha tkompli.
+
+KIF JAĦDEM
+
+1. Aġġusta kemm drabi għandu jidher il-buttuna tal-verifika (eż. kull 5 minuti).
+2. Aġġusta kemm sekondi għandek biex tirreaġixxi qabel ma l-iskrin jingħalaq (eż. 30 sekonda).
+3. Agħżel fejn fuq l-iskrin tidher il-buttuna.
+4. Ibda SleepGuard u kompli tara.
+
+KARATTERISTIĊI
+
+* Żewġ modi: Video (buttuna ta' verifika tal-qawmien fuq kwalunkwe app) u Awdjo (timer tal-irqad għall-mużika, kotba awdjo u podcasts, jaħdem ukoll meta l-iskrin ikun mitfi)
+* Intervall u żmien ta' reazzjoni aġġustabbli
+* Tmien pożizzjonijiet tal-buttuna minn fejn tagħżel
+* Timing affidabbli anke fl-isfond (juża l-allarm tas-sistema)
+* 29 lingwi għall-interface: l-24 lingwa uffiċjali tal-UE kollha, flimkien mar-Russu, il-Ġappuniż, iċ-Ċiniż (Simplifikat u Tradizzjonali) u t-Tork
+* B'xejn kompletament, mingħajr reklami, mingħajr traċċar, mingħajr kontijiet
+
+PRIVATĠA
+
+SleepGuard m'għandux ebda permess tal-internet. Ma jistax jibgħat jew jirċievi ebda data. Jagħmel eżatt żewġ affarijiet: juri buttuna u jilloka l-iskrin. Ma jiġbor xejn.
+
+PERMESSI SPIĠATI
+
+* Wiri fuq applikazzjonijiet oħra: biex turi ċ-ċirku aħmar fuq nett il-vidjo tiegħek.
+* Amministratur tat-tagħmir (għal-lock tal-iskrin biss): biex jilloka l-iskrin bħal buttuna tal-enerġija.
+* Servizz fil-foreground u allarm eżatt: biex il-buttuna tal-verifika tidher fil-ħin.
+* Ignora l-ottimizzazzjoni tal-batterija (optional): biex il-buttuna tibqa' taħdem b'mod affidabbli waqt li applikazzjoni oħra tkun fil-foreground.
+* Notifiki (Android 13+): biex turi n-notifika kontinwa "SleepGuard huwa attiv".
+
+SORSI MIFTUĦA
+
+SleepGuard huwa softwer b'xejn, liċenzjat taħt il-GNU General Public License v3. Il-kodiċi sors sħiħ huwa disponibbli sabiex kulħadd jista' jivverifika eżattament x'jagħmel l-app: https://github.com/OlafDrechsler/SleepGuard
+
+SAPPORT
+
+SleepGuard huwa b'xejn u se jibqa' b'xejn. Jekk jgħinek, tista' tappoġġja lill-iżviluppatur tiegħu b'donazzjoni volontarja minn ġewwa l-app. B'mod deliberat m'hemm l-ebda premju lura - huwa sempliċiment ringrazzjament.
+
+L-IDEA / L-ISEM
+
+L-idea għall-app ġejja minn sistema ta' sigurtà użata fuq it-treni. Fil-kabina tal-konduzzjoni, hemm buttuna li l-konduzzjonier irid jippressa f'intervalli regolari, inkella t-tren jitwaqqaf awtomatikament. Billi jippressa l-buttuna, il-konduzzjonier jikkonferma li hu jew hi għadhom svejja. B'mod kolokwjali, din il-buttuna tissejjaħ "dead man's switch," u għalhekk l-app tissejjaħ ukoll "SleepGuard - swiċċ mejjet." 

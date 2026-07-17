@@ -1,0 +1,51 @@
+Usínáte často při sledování videí nebo poslechu hudby na telefonu? SleepGuard zajistí, že vaše zařízení nebude běžet celou noc.
+
+V intervalu, který si zvolíte, se nad tím, co právě sledujete, objeví malý červený kruh. Klepnutím na něj přehrávání pokračuje jako obvykle. Pokud na něj během několika sekund neklepnete – protože jste usnuli – SleepGuard uzamkne obrazovku, stejně jako při stisknutí tlačítka napájení. Video se zastaví a váš telefon je po zbytek noci chráněn.
+
+K dispozici je také režim Audio pro hudbu, audioknihy a podcasty: místo tlačítka funguje SleepGuard jako jednoduchý časovač, který zastaví přehrávání po uplynutí vámi zvoleného intervalu – i při vypnuté obrazovce.
+
+PROČ TO POTŘEBUJETE
+
+* YouTube a další aplikace s automatickým přehráváním: Bez SleepGuardu jedno video spustí další a další a další... až do rána. V nejhorším případě se baterie úplně vybije a váš budík už nezazvoní, když ho budete potřebovat. SleepGuard tento řetězec zastaví, jakmile přestanete reagovat.
+
+* Netflix, Prime Video a další streamovací aplikace: Usnete uprostřed epizody a probudíte se, aniž byste věděli, kde jste usnuli. Ztrácíte čas přetáčením zpět, abyste našli správné místo – někdy přitom musíte znovu a znovu sledovat dlouhé reklamy. SleepGuard uzamkne obrazovku hned, jak přestanete reagovat, takže vaše streamovací aplikace ví, kde má pokračovat.
+
+JAK TO FUNGUJE
+
+1. Nastavte, jak často se má zobrazovat kontrolní tlačítko (např. každých 5 minut).
+2. Nastavte, kolik sekund máte na reakci, než se obrazovka uzamkne (např. 30 sekund).
+3. Vyberte, kde na obrazovce se má tlačítko zobrazovat.
+4. Spusťte SleepGuard a pokračujte ve sledování.
+
+FUNKCE
+
+* Dva režimy: Video (tlačítko pro kontrolu aktivity nad libovolnou aplikací) a Audio (časovač vypnutí pro hudbu, audioknihy a podcasty, funguje i při vypnuté obrazovce)
+* Nastavitelný interval a doba reakce
+* Osm pozic tlačítka na výběr
+* Spolehlivé časování i na pozadí (využívá systémový budík)
+* 29 jazyků rozhraní: všech 24 oficiálních jazyků EU plus ruština, japonština, čínština (zjednodušená i tradiční) a turečtina
+* Zcela zdarma, bez reklam, bez sledování, bez účtů
+
+OCHRANA OSOBNÍCH ÚDAJŮ
+
+Aplikace SleepGuard nemá ŽÁDNÁ oprávnění k přístupu k internetu. Nemůže odesílat ani přijímat žádná data. Dělá přesně dvě věci: zobrazuje tlačítko a uzamkne obrazovku. Nic neshromažďuje.
+
+VYSVĚTLENÍ OPRÁVNĚNÍ
+
+* Zobrazení nad jinými aplikacemi: pro zobrazení červeného kruhu přes vaše video.
+* Správce zařízení (pouze uzamčení obrazovky): k uzamčení obrazovky stejně jako tlačítkem napájení.
+* Služba na popředí a přesný budík: aby se kontrolní tlačítko zobrazilo včas.
+* Ignorovat optimalizaci baterie (volitelné): aby tlačítko fungovalo spolehlivě i tehdy, když je v popředí jiná aplikace.
+* Oznámení (Android 13 a vyšší): k zobrazení trvalého oznámení „SleepGuard je aktivní“.
+
+OPEN SOURCE
+
+SleepGuard je svobodný software, licencovaný pod GNU General Public License v3. K dispozici je kompletní zdrojový kód, takže si kdokoli může přesně ověřit, co aplikace dělá: https://github.com/OlafDrechsler/SleepGuard
+
+PODPORA
+
+SleepGuard je zdarma a zdarma zůstane. Pokud vám aplikace pomáhá, můžete jejího vývojáře podpořit dobrovolným příspěvkem přímo z aplikace. Záměrně za to není poskytována žádná odměna – jde pouze o projev vděčnosti.
+
+NÁPAD / NÁZEV
+
+Nápad na tuto aplikaci vychází z bezpečnostního systému používaného ve vlacích. V kabině strojvedoucího se nachází tlačítko, které musí strojvedoucí v pravidelných intervalech stisknout, jinak se vlak automaticky zastaví. Stisknutím tlačítka strojvedoucí potvrzuje, že je vzhůru. V běžné řeči se tomuto tlačítku říká „mrtvý mužův spínač“, a proto se aplikace také nazývá „SleepGuard - mrtvý muž“. 

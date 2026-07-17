@@ -1,0 +1,51 @@
+Zaspite li često dok gledate videozapise ili slušate glazbu na svom telefonu? SleepGuard pazi da se vaš uređaj ne napaja cijelu noć.
+
+U intervalu koji odaberete, iznad onoga što gledate pojavljuje se mali crveni krug. Dodirnite ga i reprodukcija se nastavlja normalno. Nemojte ga dodirnuti u roku od nekoliko sekundi – jer ste zaspali – i SleepGuard zaključava zaslon, baš kao da ste pritisnuli tipku za uključivanje/isključivanje. Vaš video se zaustavlja i vaš je telefon zaštićen do kraja noći.
+
+Postoji i Audio način za glazbu, audioknjige i podcaste: umjesto gumba, SleepGuard funkcionira kao jednostavan tajmer za spavanje koji zaustavlja reprodukciju nakon odabranog intervala — čak i kada je zaslon isključen.
+
+ZAŠTO VAM JE POTREBAN
+
+* YouTube i druge aplikacije s automatskim reproduciranjem: Bez SleepGuarda, jedan video pokreće sljedeći, a onaj sljedeći i sljedeći ... sve do jutra. U najgorem slučaju baterija se potpuno isprazni i vaš alarm se više ne može oglasiti kada vam je potreban. SleepGuard prekida lanac čim prestanete reagirati.
+
+* Netflix, Prime Video i druge aplikacije za streaming: Zaspite usred epizode i probudite se ne znajući gdje ste zaspali. Gubite vrijeme tražeći točno mjesto – ponekad gledajući dugačke reklame iznova i iznova. SleepGuard zaključava zaslon čim prestanete reagirati, tako da vaša aplikacija za streaming zna gdje nastaviti.
+
+KAKO FUNKCIONIRA
+
+1. Postavite koliko često se treba pojaviti gumb za provjeru (npr. svake 5 minuta).
+2. Postavite koliko sekundi imate za reakciju prije nego što se zaslon zaključa (npr. 30 sekundi).
+3. Odaberite gdje na zaslonu se gumb pojavljuje.
+4. Pokrenite SleepGuard i nastavite gledati.
+
+ZNAČAJKE
+
+* Dva načina rada: Video (gumb za provjeru budnosti iznad bilo koje aplikacije) i Audio (tajmer za spavanje za glazbu, audioknjige i podcaste, radi i sa zatvorenim zaslonom)
+* Podesiv interval i vrijeme reakcije
+* Osam pozicija gumba za odabir
+* Pouzdano vremensko određivanje čak i u pozadini (koristi sustavni alarm)
+* 29 jezika sučelja: svih 24 službena jezika EU-a, plus ruski, japanski, kineski (pojednostavljeni i tradicionalni) i turski
+* Potpuno besplatno, bez oglasa, bez praćenja, bez računa
+
+PRIVATNOST
+
+SleepGuard NEMA nikakvo dopuštenje za pristup internetu. Ne može slati niti primati nikakve podatke. Radi točno dvije stvari: prikazuje gumb i zaključava zaslon. Ne prikuplja ništa.
+
+OBJAŠNJENA OVLAŠTENJA
+
+* Prikaz iznad drugih aplikacija: za prikaz crvenog kruga iznad vašeg videozapisa.
+* Administrator uređaja (samo za zaključavanje zaslona): za zaključavanje zaslona kao gumbom za uključivanje/isključivanje.
+* Usluga u prvom planu i precizni alarm: kako bi se gumb za provjeru pojavio na vrijeme.
+* Ignoriranje optimizacije baterije (po želji): kako bi gumb i dalje pouzdano radio dok je druga aplikacija u prvom planu.
+* Obavijesti (Android 13+): za prikazivanje stalne obavijesti "SleepGuard je aktivan".
+
+OTVORENI KOD
+
+SleepGuard je besplatan softver, licenciran pod GNU General Public License v3. Cijeli izvorni kod dostupan je tako da svatko može provjeriti točno što aplikacija radi: https://github.com/OlafDrechsler/SleepGuard
+
+POMOĆ
+
+SleepGuard je besplatan i ostat će besplatan. Ako vam pomaže, možete podržati njegovog programera dobrovoljnim donacijom unutar aplikacije. Namjerno nema nikakve nagrade zauzvrat – to je jednostavno zahvala.
+
+IDEJA / IMENO
+
+Ideja za aplikaciju potječe iz sigurnosnog sustava koji se koristi u vlakovima. U kabini vozača nalazi se gumb koji vozač mora pritisknuti u redovitim intervalima, inače vlak automatski staje. Pritiskom na gumb vozač potvrđuje da je budan. U kolokvijalnom govoru taj se gumb naziva "prekidač mrtvog čovjeka", pa se aplikacija također naziva "SleepGuard - budnik". 

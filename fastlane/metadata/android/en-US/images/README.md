@@ -16,7 +16,7 @@ images/
 Hinweise:
 * Dateinamen exakt so verwenden (`icon.png`, `featureGraphic.png`).
 * Screenshots durchnummerieren (`1.png`, `2.png`, …) — die Reihenfolge
-  bestimmt die Anzeige im Store.
+  bestimmt die Anzeige in F-Droid.
 * Fuer weitere Sprachen einen Geschwister-Ordner anlegen, z.B.
   `fastlane/metadata/android/de-DE/images/` mit eigenen Screenshots.
 * Der Play Store verlangt zusaetzlich ein hochaufgeloestes Icon (512x512)
