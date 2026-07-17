@@ -1,14 +1,14 @@
 Czy często zasypiasz podczas oglądania filmów lub słuchania muzyki na telefonie? SleepGuard dba o to, by Twoje urządzenie nie działało przez całą noc.
 
-W wybranym przez Ciebie odstępie czasu na ekranie pojawi się małe czerwone kółko, niezależnie od tego, co właśnie oglądasz. Dotknij go, a odtwarzanie będzie kontynuowane jak zwykle. Jeśli nie dotkniesz go w ciągu kilku sekund – bo zasnąłeś – SleepGuard zablokuje ekran, tak jakbyś nacisnął przycisk zasilania. Film się zatrzyma, a Twój telefon będzie chroniony przez resztę nocy.
+W wybranym przez Ciebie odstępie czasu nad oglądanym materiałem pojawi się małe czerwone kółko. Dotknij go, a odtwarzanie będzie kontynuowane. Jeśli nie dotkniesz go w ciągu kilku sekund – bo zasnąłeś – SleepGuard zablokuje ekran, tak jak przycisk zasilania. Odtwarzanie wideo zostanie zatrzymane, a Twój telefon będzie chroniony przez resztę nocy.
 
-Dostępny jest również tryb audio przeznaczony do odtwarzania muzyki, audiobooków i podcastów: zamiast przycisku SleepGuard działa jak prosty wyłącznik czasowy, który zatrzymuje odtwarzanie po upływie wybranego czasu — nawet przy wyłączonym ekranie.
+Dostępny jest również tryb audio przeznaczony do odtwarzania muzyki, audiobooków i podcastów: zamiast przycisku działa prosty wyłącznik czasowy, który zatrzymuje odtwarzanie po upływie wybranego czasu – nawet przy wyłączonym ekranie.
 
-DLACZEGO JEST TO POTRZEBNE
+DLACZEGO TO POTRZEBUJESZ
 
-* YouTube i inne aplikacje z automatycznym odtwarzaniem: Bez SleepGuard jeden film uruchamia kolejny, a ten kolejny i kolejny… aż do rana. W najgorszym przypadku bateria zostanie całkowicie rozładowana, a budzik nie zadziała, gdy będzie to potrzebne. SleepGuard przerywa ten łańcuch, gdy tylko przestaniesz reagować.
+* Aplikacje z automatycznym odtwarzaniem (YouTube i inne): bez SleepGuard jeden film uruchamia kolejny, a ten kolejny… aż do rana, wyczerpując baterię, przez co budzik może nie zadziałać. SleepGuard przerywa ten łańcuch, gdy tylko przestaniesz reagować.
 
-* Netflix, Prime Video i inne aplikacje streamingowe: zasypiasz w połowie odcinka i budzisz się, nie wiedząc, w którym momencie zasnąłeś. Marnujesz czas, przewijając do tyłu, aby znaleźć to miejsce — czasami oglądając w kółko długie reklamy. SleepGuard blokuje ekran dokładnie w momencie, gdy przestajesz reagować, dzięki czemu aplikacja streamingowa wie, od którego miejsca ma kontynuować odtwarzanie.
+* Aplikacje streamingowe (Netflix, Prime Video i inne): zasypiasz w połowie odcinka i budzisz się, nie wiedząc, w którym momencie zasnąłeś. SleepGuard blokuje ekran, gdy nie reagujesz, dzięki czemu aplikacja wie, od którego momentu ma kontynuować odtwarzanie.
 
 JAK TO DZIAŁA
 
@@ -19,12 +19,12 @@ JAK TO DZIAŁA
 
 CECHY
 
-* Dwa tryby: Wideo (przycisk sprawdzający aktywność w dowolnej aplikacji) i Audio (timer uśpienia dla muzyki, audiobooków i podcastów, działa również przy wyłączonym ekranie)
+* Dwa tryby: Wideo (przycisk sprawdzający aktywność w dowolnej aplikacji) i Audio (timer uśpienia, działa przy wyłączonym ekranie)
 * Regulowany interwał i czas reakcji
-* Osiem pozycji przycisku do wyboru
-* Niezawodne działanie nawet w tle (wykorzystuje alarm systemowy)
+* Osiem pozycji przycisku
+* Niezawodne odmierzanie czasu nawet w tle (wykorzystuje alarm systemowy)
 * 29 języków interfejsu: wszystkie 24 oficjalne języki UE oraz rosyjski, japoński, chiński (uproszczony i tradycyjny) oraz turecki
-* Całkowicie bezpłatna, bez reklam, bez śledzenia, bez konieczności zakładania konta
+* Całkowicie bezpłatna, bez reklam, bez śledzenia, bez kont
 
 PRYWATNOŚĆ
 
@@ -32,10 +32,10 @@ Aplikacja SleepGuard nie posiada ŻADNYCH uprawnień internetowych. Nie może wy
 
 WYJAŚNIENIE UPOWAŻNIEŃ
 
-* Wyświetlanie nad innymi aplikacjami: aby wyświetlić czerwone kółko na wierzchu odtwarzanego wideo.
+* Wyświetlanie nad innymi aplikacjami: aby wyświetlić czerwone kółko na ekranie podczas odtwarzania wideo.
 * Administrator urządzenia (tylko blokada ekranu): aby zablokować ekran tak samo jak przycisk zasilania.
-* Usługa działająca w tle i dokładny alarm: aby przycisk sprawdzania pojawiał się o odpowiedniej porze.
-* Ignorowanie optymalizacji baterii (opcjonalnie): aby przycisk nadal działał niezawodnie, gdy w tle działa inna aplikacja.
+* Usługa działająca w tle i dokładny alarm: aby przycisk sprawdzający pojawiał się o odpowiedniej porze.
+* Ignorowanie optymalizacji baterii (opcjonalnie): aby przycisk działał niezawodnie, gdy na pierwszym planie działa inna aplikacja.
 * Powiadomienia (Android 13+): aby wyświetlać stałe powiadomienie „SleepGuard jest aktywny”.
 
 OPEN SOURCE
@@ -44,8 +44,8 @@ SleepGuard to bezpłatne oprogramowanie na licencji GNU General Public License v
 
 WSPARCIE
 
-SleepGuard jest darmowy i pozostanie darmowy. Jeśli aplikacja Ci pomaga, możesz wesprzeć jej twórcę dobrowolną darowizną bezpośrednio z poziomu aplikacji. Celowo nie przewidujemy żadnej nagrody w zamian – jest to po prostu wyraz wdzięczności.
+SleepGuard jest bezpłatny i pozostanie bezpłatny. Jeśli aplikacja Ci pomaga, możesz wesprzeć twórcę dobrowolną darowizną w aplikacji – celowo nie jest to wynagrodzenie, a po prostu podziękowanie.
 
 POMYSŁ / NAZWA
 
-Pomysł na aplikację pochodzi z systemu bezpieczeństwa stosowanego w pociągach. W kabinie maszynisty znajduje się przycisk, który maszynista musi naciskać w regularnych odstępach czasu, w przeciwnym razie pociąg automatycznie się zatrzyma. Naciskając przycisk, maszynista potwierdza, że nie zasnął. Potocznie przycisk ten nazywany jest „przełącznikiem człowieka martwego”, stąd aplikacja nosi nazwę „SleepGuard - czuwak”. 
+Pomysł wywodzi się z systemu bezpieczeństwa stosowanego w pociągach: w kabinie maszynisty należy w regularnych odstępach czasu naciskać przycisk, w przeciwnym razie pociąg zatrzymuje się automatycznie – co potwierdza, że maszynista nie zasnął. Potocznie nazywa się to „przełącznikiem człowieka martwego”, stąd aplikacja nosi również nazwę „SleepGuard - czuwak”.

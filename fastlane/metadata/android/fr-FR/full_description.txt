@@ -1,14 +1,14 @@
-Vous arrive-t-il souvent de vous endormir en regardant des vidéos ou en écoutant de la musique sur votre téléphone? SleepGuard veille à ce que votre appareil ne reste pas allumé toute la nuit.
+Vous vous endormez souvent en regardant des vidéos ou en écoutant de la musique sur votre téléphone? SleepGuard veille à ce que votre appareil ne reste pas allumé toute la nuit.
 
-À l'intervalle que vous aurez choisi, un petit cercle rouge apparaît par-dessus ce que vous êtes en train de regarder. Appuyez dessus pour que la lecture reprenne normalement. Si vous n'appuyez pas dessus dans les quelques secondes qui suivent (parce que vous vous êtes endormi), SleepGuard verrouille l'écran, comme si vous aviez appuyé sur le bouton d'alimentation. Votre vidéo s'arrête et votre téléphone est protégé pour le reste de la nuit.
+À l'intervalle que vous aurez choisi, un petit cercle rouge apparaît sur ce que vous êtes en train de regarder. Appuyez dessus pour reprendre la lecture. Si vous n'appuyez pas dessus dans les quelques secondes qui suivent (parce que vous vous êtes endormi), SleepGuard verrouille l'écran, exactement comme le ferait le bouton d'alimentation.
 
-Il existe également un mode Audio pour la musique, les livres audio et les podcasts: au lieu d’un bouton, SleepGuard fonctionne comme une simple minuterie de mise en veille qui arrête la lecture après l’intervalle que vous avez choisi, même lorsque l’écran est éteint.
+Il existe également un mode Audio pour la musique, les livres audio et les podcasts: au lieu d’un bouton, une simple minuterie d’arrêt automatique interrompt la lecture après l’intervalle que vous avez choisi, même lorsque l’écran est éteint.
 
 POURQUOI VOUS EN AVEZ BESOIN
 
-* YouTube et autres applications avec lecture automatique: sans SleepGuard, une vidéo enchaîne sur la suivante, puis la suivante, puis la suivante… jusqu’au matin. Dans le pire des cas, la batterie se vide complètement et votre réveil ne peut plus sonner quand vous en avez besoin. SleepGuard met fin à cette chaîne dès que vous cessez de réagir.
+* Applications à lecture automatique (YouTube et autres): sans SleepGuard, une vidéo enchaîne sur la suivante, puis sur la suivante… jusqu’au matin, vidant votre batterie au point que votre réveil ne puisse plus sonner. SleepGuard met fin à cette chaîne dès que vous cessez de réagir.
 
-* Netflix, Prime Video et autres applications de streaming: si vous vous endormez au milieu d’un épisode, vous vous réveillez sans savoir où vous vous êtes assoupi. Vous perdez du temps à revenir en arrière pour retrouver le passage où vous vous êtes arrêté — parfois en devant regarder de longues publicités encore et encore. SleepGuard verrouille l’écran dès que vous ne réagissez plus, afin que votre application de streaming sache où reprendre la lecture.
+* Applications de streaming (Netflix, Prime Video et autres): si vous vous endormez au milieu d’un épisode, vous vous réveillez sans savoir où vous vous êtes assoupi. SleepGuard verrouille l’écran lorsque vous ne réagissez pas, afin que votre application sache où reprendre la lecture.
 
 COMMENT ÇA MARCHE
 
@@ -19,11 +19,10 @@ COMMENT ÇA MARCHE
 
 FONCTIONNALITÉS
 
-* Deux modes: Vidéo (bouton de vérification au-dessus de n’importe quelle application) et Audio (minuterie de mise en veille pour la musique, les livres audio et les podcasts, fonctionne également lorsque l’écran est éteint)
+* Deux modes: Vidéo (bouton de vérification de l'éveil sur n'importe quelle application) et Audio (minuterie de mise en veille, fonctionne lorsque l'écran est éteint)
 * Intervalle et délai de réaction réglables
-* Huit emplacements de bouton au choix
-* Chronométrage fiable même en arrière-plan (utilise l’alarme système)
-* 29 langues d’interface: les 24 langues officielles de l’UE, plus le russe, le japonais, le chinois (simplifié et traditionnel) et le turc
+* Huit emplacements possibles pour le bouton
+* Chronométrage fiable même en arrière-plan (utilise l'alarme système)
 * Entièrement gratuit, sans publicité, sans suivi, sans compte
 
 CONFIDENTIALITÉ
@@ -33,19 +32,19 @@ SleepGuard ne dispose d’AUCUNE autorisation d’accès à Internet. Il ne peut
 EXPLICATION DES AUTORISATIONS
 
 * Affichage par-dessus d’autres applications: pour afficher le cercle rouge par-dessus votre vidéo.
-* Administrateur de l'appareil (verrouillage de l'écran uniquement): pour verrouiller l'écran comme le ferait le bouton d'alimentation.
+* Administrateur de l'appareil (verrouillage d'écran uniquement): pour verrouiller l'écran comme le ferait le bouton d'alimentation.
 * Service au premier plan et alarme précise: pour que le bouton de vérification s'affiche à l'heure prévue.
-* Ignorer l'optimisation de la batterie (facultatif): pour que le bouton continue de fonctionner de manière fiable lorsqu'une autre application est au premier plan.
+* Ignorer l'optimisation de la batterie (facultatif): pour que le bouton fonctionne de manière fiable lorsqu'une autre application est au premier plan.
 * Notifications (Android 13 et versions ultérieures): pour afficher la notification permanente « SleepGuard est actif ».
 
 OPEN SOURCE
 
-SleepGuard est un logiciel libre, distribué sous licence GNU General Public License v3. Le code source complet est disponible afin que chacun puisse vérifier exactement ce que fait l’application: https://github.com/OlafDrechsler/SleepGuard
+SleepGuard est un logiciel libre sous licence GNU General Public License v3. Le code source complet est disponible afin que chacun puisse vérifier exactement ce que fait l'application: https://github.com/OlafDrechsler/SleepGuard
 
 SOUTIEN
 
-SleepGuard est gratuit et le restera. Si cette application vous est utile, vous pouvez soutenir son développeur en effectuant un don volontaire depuis l’application. Il n’y a délibérément aucune contrepartie: il s’agit simplement d’un remerciement.
+SleepGuard est gratuit et le restera. Si cette application vous aide, vous pouvez soutenir le développeur en effectuant un don volontaire depuis l’application — il ne s’agit délibérément pas d’une récompense, mais simplement d’un remerciement.
 
 L'IDÉE / LE NOM
 
-L’idée de cette application vient d’un système de sécurité utilisé dans les trains. Dans la cabine du conducteur, il y a un bouton sur lequel celui-ci doit appuyer à intervalles réguliers, sans quoi le train s’arrête automatiquement. En appuyant sur ce bouton, le conducteur confirme qu’il est éveillé. Dans le langage courant, ce bouton est appelé « interrupteur de l’homme mort », d’où le nom de l’application: « SleepGuard - homme mort ». 
+L'idée vient d'un système de sécurité ferroviaire: dans la cabine du conducteur, un bouton doit être actionné à intervalles réguliers, sinon le train s'arrête automatiquement, ce qui permet de vérifier que le conducteur est bien éveillé. Dans le langage courant, on parle de « dispositif d'homme mort », c'est pourquoi l'application s'appelle également « SleepGuard - homme mort ».

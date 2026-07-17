@@ -1,29 +1,29 @@
 Adormi des în timp ce vizionezi videoclipuri sau asculți muzică pe telefon? SleepGuard se asigură că dispozitivul tău nu rămâne pornit toată noaptea.
 
-La un interval ales de tine, un mic cerc roșu apare deasupra conținutului pe care îl vizionezi. Atinge-l și redarea continuă ca de obicei. Dacă nu îl atingi în câteva secunde – pentru că ai adormit – SleepGuard blochează ecranul, exact ca și cum ai apăsa butonul de pornire. Videoclipul se oprește, iar telefonul tău este protejat pentru restul nopții.
+La un interval ales de tine, un mic cerc roșu apare peste ceea ce vizionezi. Atinge-l și redarea continuă. Dacă nu îl atingi în câteva secunde – pentru că ai adormit – SleepGuard blochează ecranul, la fel ca butonul de pornire. Videoclipul se oprește, iar telefonul tău este protejat pentru restul nopții.
 
-Există, de asemenea, un mod Audio pentru muzică, cărți audio și podcasturi: în loc de un buton, SleepGuard funcționează ca un simplu temporizator de repaus care oprește redarea după intervalul ales de tine — chiar și cu ecranul oprit.
+Există, de asemenea, un mod Audio pentru muzică, cărți audio și podcasturi: în loc de un buton, un simplu temporizator de repaus oprește redarea după intervalul ales de tine – chiar și cu ecranul oprit.
 
 DE CE AI NEVOIE DE EL
 
-* YouTube și alte aplicații cu redare automată: Fără SleepGuard, un videoclip îl pornește pe următorul, și pe următorul, și pe următorul... până dimineața. În cel mai rău caz, bateria se descarcă complet, iar alarma nu mai poate suna când ai nevoie de ea. SleepGuard oprește lanțul de redare imediat ce nu mai răspunzi.
+* Aplicații cu redare automată (YouTube și altele): fără SleepGuard, un videoclip îl pornește pe următorul și pe următorul... până dimineața, consumându-ți bateria, astfel încât alarma să nu poată suna. SleepGuard oprește lanțul de redare imediat ce nu mai răspunzi.
 
-* Netflix, Prime Video și alte aplicații de streaming: adormiți în mijlocul unui episod și vă treziți fără să știți unde ați adormit. Pierdeți timp derulând înapoi pentru a găsi locul respectiv — uneori fiind nevoiți să urmăriți reclame lungi de mai multe ori. SleepGuard blochează ecranul exact în momentul în care nu mai răspundeți, astfel încât aplicația de streaming să știe de unde să continue.
+* Aplicații de streaming (Netflix, Prime Video și altele): adormiți în mijlocul unui episod și vă treziți fără să știți unde ați adormit. SleepGuard blochează ecranul când nu răspundeți, astfel încât aplicația să știe de unde să continue.
 
 CUM FUNCȚIONEAZĂ
 
-1. Setează cât de des ar trebui să apară butonul de verificare (de exemplu, la fiecare 5 minute).
+1. Setează frecvența cu care apare butonul de verificare (de exemplu, la fiecare 5 minute).
 2. Setează câte secunde ai la dispoziție să reacționezi înainte ca ecranul să se blocheze (de exemplu, 30 de secunde).
-3. Alege unde pe ecran să apară butonul.
-4. Pornește SleepGuard și continuă să te uiți.
+3. Alege unde pe ecran apare butonul.
+4. Pornește SleepGuard și continuă să vizionezi.
 
 CARACTERISTICI
 
-* Două moduri: Video (buton de verificare a activității peste orice aplicație) și Audio (temporizator de repaus pentru muzică, cărți audio și podcasturi, funcționează și cu ecranul oprit)
+* Două moduri: Video (buton de verificare a stării de veghe peste orice aplicație) și Audio (temporizator de adormire, funcționează cu ecranul oprit)
 * Interval și timp de reacție reglabile
-* Opt poziții ale butonului din care poți alege
+* Opt poziții ale butonului
 * Cronometrare fiabilă chiar și în fundal (utilizează alarma sistemului)
-* 29 de limbi de interfață: toate cele 24 de limbi oficiale ale UE, plus rusă, japoneză, chineză (simplificată și tradițională) și turcă
+* 29 de limbi pentru interfață: toate cele 24 de limbi oficiale ale UE, plus rusă, japoneză, chineză (simplificată și tradițională) și turcă
 * Complet gratuit, fără reclame, fără urmărire, fără conturi
 
 CONFIDENȚIALITATE
@@ -35,17 +35,17 @@ EXPLICAȚII PRIVIND PERMISIUNILE
 * Afișare peste alte aplicații: pentru a afișa cercul roșu peste videoclipul dvs.
 * Administrator de dispozitiv (numai blocarea ecranului): pentru a bloca ecranul la fel ca butonul de pornire.
 * Serviciu în prim-plan și alarmă exactă: pentru ca butonul de verificare să apară la timp.
-* Ignorarea optimizării bateriei (opțional): astfel încât butonul să funcționeze în continuare în mod fiabil în timp ce o altă aplicație se află în prim-plan.
+* Ignorarea optimizării bateriei (opțional): astfel încât butonul să funcționeze fiabil în timp ce o altă aplicație este activă.
 * Notificări (Android 13+): pentru a afișa notificarea permanentă „SleepGuard este activ”.
 
 SURSA DESCHISĂ
 
-SleepGuard este un software gratuit, licențiat sub GNU General Public License v3. Codul sursă complet este disponibil, astfel încât oricine poate verifica exact ce face aplicația: https://github.com/OlafDrechsler/SleepGuard
+SleepGuard este un software gratuit sub licența GNU General Public License v3. Codul sursă complet este disponibil, astfel încât oricine poate verifica exact ce face aplicația: https://github.com/OlafDrechsler/SleepGuard
 
 SUPORT
 
-SleepGuard este gratuit și va rămâne gratuit. Dacă vă este de ajutor, puteți susține dezvoltatorul cu o donație voluntară din cadrul aplicației. În mod deliberat, nu există nicio recompensă în schimb – este pur și simplu un gest de mulțumire.
+SleepGuard este gratuit și va rămâne gratuit. Dacă vă este de ajutor, puteți susține dezvoltatorul cu o donație voluntară din aplicație – în mod deliberat, fără nicio recompensă, pur și simplu ca semn de mulțumire.
 
 IDEA / NUMELE
 
-Ideea aplicației provine de la un sistem de siguranță utilizat în trenuri. În cabina mecanicului există un buton pe care acesta trebuie să îl apese la intervale regulate; în caz contrar, trenul se va opri automat. Prin apăsarea butonului, mecanicul confirmă că este treaz. În limbajul popular, acest buton este denumit „comutatorul omului mort”, de aceea aplicația se numește și „SleepGuard - om mort”. 
+Ideea provine de la un sistem de siguranță pentru trenuri: în cabina mecanicului, trebuie apăsat un buton la intervale regulate, altfel trenul se oprește automat – confirmând astfel că mecanicul este treaz. În limbajul popular, acesta este un „comutator al omului mort”, de aceea aplicația se numește și „SleepGuard - om mort”.
