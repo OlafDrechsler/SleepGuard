@@ -48,4 +48,4 @@ PARAMA
 
 IDĖJA / PAVADINIMAS
 
-Programėlės idėja kilo iš traukiniuose naudojamos saugos sistemos. Mašinisto kabinoje yra mygtukas, kurį mašinistas privalo paspausti reguliariais intervalais, kitaip traukinys automatiškai sustos. Paspaudęs mygtuką, mašinistas patvirtina, kad yra pabudęs. Šnekamojoje kalboje šis mygtukas vadinamas „mirusiojo mygtuku“, todėl programėlė taip pat vadinama „SleepGuard“. 
+Programėlės idėja kilo iš traukiniuose naudojamos saugos sistemos. Mašinisto kabinoje yra mygtukas, kurį mašinistas privalo paspausti reguliariais intervalais, kitaip traukinys automatiškai sustos. Paspaudęs mygtuką, mašinistas patvirtina, kad yra pabudęs. Šnekamojoje kalboje šis mygtukas vadinamas „mirusiojo mygtuku“, todėl programėlė taip pat vadinama „SleepGuard - mirusiojo mygtuku“. 
