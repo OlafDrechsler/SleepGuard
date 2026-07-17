@@ -7,34 +7,47 @@ default_platform(:android)
 # Locales, die F-Droid nutzt, die Google Play aber NICHT unterstuetzt.
 UNSUPPORTED_PLAY_LOCALES = %w[ga mt].freeze
 
-METADATA_DIR = File.join("fastlane", "metadata", "android").freeze
-STASH_DIR    = File.join("fastlane", ".play_locale_stash").freeze
-MANIFEST     = File.join(STASH_DIR, "manifest.txt").freeze
+# --- Pfad-Aufloesung (CWD-unabhaengig) ---------------------------------------
+# WICHTIG: fastlane fuehrt Lanes u. U. mit dem "fastlane/"-Ordner als
+# Arbeitsverzeichnis aus, waehrend supply seine Pfade gegen die Repo-Wurzel
+# aufloest. Relative Pfade in eigenem Ruby-Code sind daher unzuverlaessig ->
+# hier immer zu absoluten Pfaden aufloesen.
 
-# --- Stash-Helfer ------------------------------------------------------------
-# Schiebt Pfade temporaer nach STASH_DIR und legt sie spaeter wieder zurueck.
-# Robust gegen Abbrueche: restore_stash() am Lane-Anfang raeumt Reste auf.
+def resolve_metadata_dir
+  ["fastlane/metadata/android", "metadata/android"]
+    .map { |p| File.expand_path(p) }
+    .find { |p| Dir.exist?(p) }
+end
 
-def stash_path(rel)
-  return unless File.exist?(rel)
-  dst = File.join(STASH_DIR, rel)
+def manifest_path(stash_dir)
+  File.join(stash_dir, "manifest.txt")
+end
+
+# Verschiebt <metadata_dir>/<rel> nach <stash_dir>/<rel> (Struktur bleibt erhalten,
+# daher keine Namenskollision zwischen mehreren "changelogs"-Ordnern).
+def stash_rel(rel, metadata_dir, stash_dir)
+  src = File.join(metadata_dir, rel)
+  return unless File.exist?(src)
+  dst = File.join(stash_dir, rel)
   FileUtils.mkdir_p(File.dirname(dst))
-  FileUtils.mv(rel, dst)
-  FileUtils.mkdir_p(STASH_DIR)
-  File.open(MANIFEST, "a") { |f| f.puts(rel) }
+  FileUtils.mv(src, dst)
+  FileUtils.mkdir_p(stash_dir)
+  File.open(manifest_path(stash_dir), "a") { |f| f.puts(rel) }
   UI.message("↪  #{rel} temporaer ausgeklammert")
 end
 
-def restore_stash
-  return unless File.exist?(MANIFEST)
-  File.readlines(MANIFEST).map(&:strip).reject(&:empty?).each do |rel|
-    src = File.join(STASH_DIR, rel)
+def restore_stash(metadata_dir, stash_dir)
+  mf = manifest_path(stash_dir)
+  return unless File.exist?(mf)
+  File.readlines(mf).map(&:strip).reject(&:empty?).each do |rel|
+    src = File.join(stash_dir, rel)
     next unless File.exist?(src)
-    FileUtils.mkdir_p(File.dirname(rel))
-    FileUtils.mv(src, rel)
+    dst = File.join(metadata_dir, rel)
+    FileUtils.mkdir_p(File.dirname(dst))
+    FileUtils.mv(src, dst)
     UI.message("↩  #{rel} wiederhergestellt")
   end
-  FileUtils.rm_rf(STASH_DIR)
+  FileUtils.rm_rf(stash_dir)
 end
 
 # --- Lanes -------------------------------------------------------------------
@@ -51,42 +64,55 @@ platform :android do
     validate = options.fetch(:validate, true)
 
     # Track + Versionscode eines EXISTIERENDEN Releases. supply koppelt den
-    # (app-weiten) Store-Listing-Upload leider an ein Release, um Release-Notes
-    # zu setzen. Ohne passenden Track/Versionscode -> "Could not find release
-    # for version code ''". Deine Releases liegen im geschlossenen Test-Track,
-    # daher hier per Parameter uebergeben:
-    #   fastlane upload_metadata track:"Track-Name" version_code:8
+    # (app-weiten) Store-Listing-Upload leider an ein Release. Ohne passenden
+    # Track/Versionscode -> "Could not find release for version code ''".
+    #   fastlane upload_metadata track:"alpha" version_code:8
     track        = options.fetch(:track, "production")
     version_code = options[:version_code]&.to_s
     UI.user_error!("Bitte version_code:<Nummer> und ggf. track:\"<Track-Name>\" angeben " \
                    "(Versionscode eines vorhandenen Releases).") if version_code.nil? || version_code.empty?
 
+    metadata_dir = resolve_metadata_dir
+    UI.user_error!("Metadaten-Ordner nicht gefunden (cwd=#{Dir.pwd}).") if metadata_dir.nil?
+    stash_dir = File.expand_path(File.join(metadata_dir, "..", "..", ".play_locale_stash"))
+
     # Reste eines evtl. abgebrochenen Laufs zuerst zuruecklegen.
-    restore_stash
+    restore_stash(metadata_dir, stash_dir)
 
     # 1) Von Play nicht unterstuetzte Locales ausklammern.
-    UNSUPPORTED_PLAY_LOCALES.each { |loc| stash_path(File.join(METADATA_DIR, loc)) }
-    # 2) Changelog-Ordner ausklammern: Release-Notes brauchen ein Release/Versionscode
-    #    und werden separat beim AAB-Upload gesetzt. Ihre Praesenz loest sonst den
-    #    Fehler "Could not find release for version code ''" aus.
-    Dir.glob(File.join(METADATA_DIR, "*", "changelogs")).each { |dir| stash_path(dir) }
+    UNSUPPORTED_PLAY_LOCALES.each { |loc| stash_rel(loc, metadata_dir, stash_dir) }
+    # 2) Changelog-Ordner ausklammern: Release-Notes brauchen ein Release/Versionscode.
+    Dir.glob(File.join(metadata_dir, "*", "changelogs")).each do |abs|
+      stash_rel(abs.sub(metadata_dir + File::SEPARATOR, ""), metadata_dir, stash_dir)
+    end
+
+    # HARTE Absicherung: ga/mt duerfen jetzt NICHT mehr im Metadaten-Ordner liegen,
+    # sonst wuerde supply sie an Play schicken ("<loc> - Invalid request"). Lieber
+    # abbrechen als einen fehlerhaften Upload ausloesen.
+    still_there = UNSUPPORTED_PLAY_LOCALES.select { |loc| Dir.exist?(File.join(metadata_dir, loc)) }
+    unless still_there.empty?
+      restore_stash(metadata_dir, stash_dir)
+      UI.user_error!("Konnte #{still_there.join(', ')} nicht ausklammern (in #{metadata_dir}). " \
+                     "Abbruch, um keinen Invalid-request-Upload auszuloesen.")
+    end
 
     begin
       supply(
+        metadata_path:          metadata_dir,   # explizit, damit alles auf denselben Ordner zeigt
         track:                  track,
         version_code:           version_code,
         validate_only:          validate,
-        skip_upload_apk:        true,   # reiner Metadaten-Upload
+        skip_upload_apk:        true,           # reiner Metadaten-Upload
         skip_upload_aab:        true,
         skip_upload_changelogs: true
       )
     ensure
       # Laeuft auch, wenn supply einen Fehler wirft.
-      restore_stash
+      restore_stash(metadata_dir, stash_dir)
     end
 
     if validate
-      UI.success("Validierung ok. Echter Upload:  bundle exec fastlane upload_metadata validate:false")
+      UI.success("Validierung ok. Echter Upload:  bundle exec fastlane upload_metadata track:\"#{track}\" version_code:#{version_code} validate:false")
     else
       UI.success("Metadaten hochgeladen. Sichtbar unter 'Veroeffentlichungen – Uebersicht' (muss zur Ueberpruefung eingereicht werden).")
     end
