@@ -1,0 +1,5 @@
+# Der Paketname Ihrer App aus der build.gradle
+package_name("com.sleepguard") 
+
+# Der relative Pfad zu Ihrem JSON-Schlüssel
+json_key_file("./fastlane/sleepguard-502608-8461de1bd8a1.json") 

@@ -1,3 +1,6 @@
+# Google Play Store Schlüssel absichern
+fastlane/*.json
+
 # Android / Gradle build output
 *.iml
 .gradle/
@@ -27,3 +30,11 @@ Thumbs.db
 # Lokale Roh-/Arbeitsversionen von Screenshots (NICHT fuer den Store).
 # Finale Store-Screenshots gehoeren nach fastlane/metadata/.../phoneScreenshots/
 screenshots-raw/
+
+# Ruby / Fastlane
+.bundle/
+vendor/bundle/
+Gemfile.lock
+fastlane/report.xml
+fastlane/README.md
+fastlane/.play_locale_stash/

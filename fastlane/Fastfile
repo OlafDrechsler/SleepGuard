@@ -1,0 +1,94 @@
+require "fileutils"
+
+default_platform(:android)
+
+# --- Konfiguration -----------------------------------------------------------
+
+# Locales, die F-Droid nutzt, die Google Play aber NICHT unterstuetzt.
+UNSUPPORTED_PLAY_LOCALES = %w[ga mt].freeze
+
+METADATA_DIR = File.join("fastlane", "metadata", "android").freeze
+STASH_DIR    = File.join("fastlane", ".play_locale_stash").freeze
+MANIFEST     = File.join(STASH_DIR, "manifest.txt").freeze
+
+# --- Stash-Helfer ------------------------------------------------------------
+# Schiebt Pfade temporaer nach STASH_DIR und legt sie spaeter wieder zurueck.
+# Robust gegen Abbrueche: restore_stash() am Lane-Anfang raeumt Reste auf.
+
+def stash_path(rel)
+  return unless File.exist?(rel)
+  dst = File.join(STASH_DIR, rel)
+  FileUtils.mkdir_p(File.dirname(dst))
+  FileUtils.mv(rel, dst)
+  FileUtils.mkdir_p(STASH_DIR)
+  File.open(MANIFEST, "a") { |f| f.puts(rel) }
+  UI.message("↪  #{rel} temporaer ausgeklammert")
+end
+
+def restore_stash
+  return unless File.exist?(MANIFEST)
+  File.readlines(MANIFEST).map(&:strip).reject(&:empty?).each do |rel|
+    src = File.join(STASH_DIR, rel)
+    next unless File.exist?(src)
+    FileUtils.mkdir_p(File.dirname(rel))
+    FileUtils.mv(src, rel)
+    UI.message("↩  #{rel} wiederhergestellt")
+  end
+  FileUtils.rm_rf(STASH_DIR)
+end
+
+# --- Lanes -------------------------------------------------------------------
+
+platform :android do
+  desc "Store-Texte + Grafiken zu Google Play hochladen (nur Metadaten, keine App-Datei)."
+  desc "Standard = nur Validierung. Fuer den echten Upload:  fastlane upload_metadata validate:false"
+  lane :upload_metadata do |options|
+    # UTF-8 erzwingen – wichtig fuer CJK/Kyrillisch/Griechisch/Umlaute.
+    ENV["LANG"]   = "en_US.UTF-8"
+    ENV["LC_ALL"] = "en_US.UTF-8"
+
+    # true = nur pruefen (nichts wird gesendet); false = wirklich hochladen.
+    validate = options.fetch(:validate, true)
+
+    # Track + Versionscode eines EXISTIERENDEN Releases. supply koppelt den
+    # (app-weiten) Store-Listing-Upload leider an ein Release, um Release-Notes
+    # zu setzen. Ohne passenden Track/Versionscode -> "Could not find release
+    # for version code ''". Deine Releases liegen im geschlossenen Test-Track,
+    # daher hier per Parameter uebergeben:
+    #   fastlane upload_metadata track:"Track-Name" version_code:8
+    track        = options.fetch(:track, "production")
+    version_code = options[:version_code]&.to_s
+    UI.user_error!("Bitte version_code:<Nummer> und ggf. track:\"<Track-Name>\" angeben " \
+                   "(Versionscode eines vorhandenen Releases).") if version_code.nil? || version_code.empty?
+
+    # Reste eines evtl. abgebrochenen Laufs zuerst zuruecklegen.
+    restore_stash
+
+    # 1) Von Play nicht unterstuetzte Locales ausklammern.
+    UNSUPPORTED_PLAY_LOCALES.each { |loc| stash_path(File.join(METADATA_DIR, loc)) }
+    # 2) Changelog-Ordner ausklammern: Release-Notes brauchen ein Release/Versionscode
+    #    und werden separat beim AAB-Upload gesetzt. Ihre Praesenz loest sonst den
+    #    Fehler "Could not find release for version code ''" aus.
+    Dir.glob(File.join(METADATA_DIR, "*", "changelogs")).each { |dir| stash_path(dir) }
+
+    begin
+      supply(
+        track:                  track,
+        version_code:           version_code,
+        validate_only:          validate,
+        skip_upload_apk:        true,   # reiner Metadaten-Upload
+        skip_upload_aab:        true,
+        skip_upload_changelogs: true
+      )
+    ensure
+      # Laeuft auch, wenn supply einen Fehler wirft.
+      restore_stash
+    end
+
+    if validate
+      UI.success("Validierung ok. Echter Upload:  bundle exec fastlane upload_metadata validate:false")
+    else
+      UI.success("Metadaten hochgeladen. Sichtbar unter 'Veroeffentlichungen – Uebersicht' (muss zur Ueberpruefung eingereicht werden).")
+    end
+  end
+end
