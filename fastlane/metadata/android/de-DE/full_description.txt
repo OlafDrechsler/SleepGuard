@@ -23,7 +23,6 @@ FUNKTIONEN
 * Einstellbares Intervall und einstellbare Reaktionszeit
 * Acht wählbare Button-Positionen
 * Zuverlässiges Timing auch im Hintergrund (nutzt den System-Alarm)
-* 29 Oberflächensprachen: alle 24 EU-Amtssprachen plus Russisch, Japanisch, Chinesisch (vereinfacht & traditionell) und Türkisch
 * Komplett kostenlos, keine Werbung, kein Tracking, keine Konten
 
 DATENSCHUTZ
@@ -35,7 +34,7 @@ BERECHTIGUNGEN ERKLÄRT
 * Über anderen Apps anzeigen: um den roten Kreis über deinem Video einzublenden.
 * Geräteadministrator (nur Bildschirmsperre): um den Bildschirm wie mit der Power-Taste zu sperren.
 * Vordergrunddienst & exakter Alarm: damit der Kontroll-Button pünktlich erscheint.
-* Akku-Optimierung ignorieren (optional): damit der Button auch zuverlässig funktioniert, während eine andere App im Vordergrund ist.
+* Akku-Optimierung ignorieren: damit der Button auch zuverlässig funktioniert, während eine andere App im Vordergrund ist.
 * Benachrichtigungen (Android 13+): um die dauerhafte „SleepGuard ist aktiv"-Benachrichtigung anzuzeigen.
 
 OPEN SOURCE

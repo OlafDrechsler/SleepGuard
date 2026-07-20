@@ -23,7 +23,6 @@ FUNKCE
 * Nastavitelný interval a doba reakce
 * Osm pozic tlačítka na výběr
 * Spolehlivé časování i na pozadí (využívá systémový budík)
-* 29 jazyků rozhraní: všech 24 oficiálních jazyků EU plus ruština, japonština, čínština (zjednodušená i tradiční) a turečtina
 * Zcela zdarma, bez reklam, bez sledování, bez účtů
 
 OCHRANA OSOBNÍCH ÚDAJŮ
@@ -35,7 +34,7 @@ VYSVĚTLENÍ OPRÁVNĚNÍ
 * Zobrazení nad jinými aplikacemi: pro zobrazení červeného kruhu přes vaše video.
 * Správce zařízení (pouze uzamčení obrazovky): k uzamčení obrazovky stejně jako tlačítkem napájení.
 * Služba na popředí a přesný budík: aby se kontrolní tlačítko zobrazilo včas.
-* Ignorovat optimalizaci baterie (volitelné): aby tlačítko fungovalo spolehlivě i tehdy, když je v popředí jiná aplikace.
+* Ignorovat optimalizaci baterie: aby tlačítko fungovalo spolehlivě i tehdy, když je v popředí jiná aplikace.
 * Oznámení (Android 13 a vyšší): k zobrazení trvalého oznámení „SleepGuard je aktivní“.
 
 OPEN SOURCE

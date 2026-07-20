@@ -23,7 +23,6 @@ NASIL ÇALIŞIR
 * Ayarlanabilir aralık ve tepki süresi
 * Aralarından seçim yapabileceğiniz sekiz düğme konumu
 * Arka planda bile güvenilir zamanlama (sistem alarmını kullanır)
-* 29 arayüz dili: AB’nin 24 resmi dilinin yanı sıra Rusça, Japonca, Çince (Basitleştirilmiş ve Geleneksel) ve Türkçe
 * Tamamen ücretsiz, reklam yok, izleme yok, hesap gerektirmez
 
 GİZLİLİK
@@ -35,7 +34,7 @@ SleepGuard’ın internet izni YOKTUR. Herhangi bir veri gönderemez veya alamaz
 * Diğer uygulamaların üzerine görüntüleme: videonuzun üzerine kırmızı daireyi göstermek için.
 * Cihaz yöneticisi (sadece ekran kilidi): Ekranı güç düğmesi gibi kilitlemek için.
 * Ön plan hizmeti ve kesin alarm: Kontrol düğmesinin zamanında görünmesini sağlamak için.
-* Pil optimizasyonunu yok say (isteğe bağlı): Başka bir uygulama ön planda iken düğmenin yine de güvenilir şekilde çalışması için.
+* Pil optimizasyonunu yok say: Başka bir uygulama ön planda iken düğmenin yine de güvenilir şekilde çalışması için.
 * Bildirimler (Android 13+): Devam eden "SleepGuard aktif" bildirimini göstermek için.
 
 AÇIK KAYNAK

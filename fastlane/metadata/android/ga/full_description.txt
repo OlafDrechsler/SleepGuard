@@ -23,7 +23,6 @@ Gnéithe
 * Tréimhse agus am freagartha inchoigeartaithe
 * Ocht suíomh cnaipe le roghnú astu
 * Amú iontaofa fiú sa chúlra (úsáideann sé aláram an chórais)
-* 29 teanga comhéadain: an 24 teanga oifigiúil de chuid an AE ar fad chomh maith le Rúisis, Seapáinis, Síneis (Simplithe & Traidisiúnta) agus Tuircis
 * Go hiomlán saor in aisce, gan aon fhógraí, gan aon rianú, gan aon chuntais
 
 PRÍOBHÁIDEACHT
@@ -35,7 +34,7 @@ MÍNIÚ AR NA CEADÚNAIS
 * Taispeáint os cionn aipeanna eile: chun an ciorcal dearg a thaispeáint ar bharr do fhíseáin.
 * Riarthóir gléis (glasáil scáileáin amháin): chun an scáileán a ghlasáil mar a dhéanfadh an cnaipe cumhachta.
 * Seirbhís thosaigh & aláram cruinn: chun a chinntiú go dtaispeántar an cnaipe seiceála in am.
-* Neamhaird a dhéanamh ar bharrfheabhsú ceallraí (roghnach): ionas go n-oibríonn an cnaipe go hiontaofa fós agus aip eile sa tulra.
+* Neamhaird a dhéanamh ar bharrfheabhsú ceallraí: ionas go n-oibríonn an cnaipe go hiontaofa fós agus aip eile sa tulra.
 * Fógraí (Android 13+): chun an fógra leanúnach "Tá SleepGuard gníomhach" a thaispeáint.
 
 FOINSE OSCAILTE

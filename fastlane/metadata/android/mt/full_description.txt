@@ -23,7 +23,6 @@ KARATTERISTIĊI
 * Intervall u żmien ta' reazzjoni aġġustabbli
 * Tmien pożizzjonijiet tal-buttuna minn fejn tagħżel
 * Timing affidabbli anke fl-isfond (juża l-allarm tas-sistema)
-* 29 lingwi għall-interface: l-24 lingwa uffiċjali tal-UE kollha, flimkien mar-Russu, il-Ġappuniż, iċ-Ċiniż (Simplifikat u Tradizzjonali) u t-Tork
 * B'xejn kompletament, mingħajr reklami, mingħajr traċċar, mingħajr kontijiet
 
 PRIVATĠA
@@ -35,7 +34,7 @@ PERMESSI SPIĠATI
 * Wiri fuq applikazzjonijiet oħra: biex turi ċ-ċirku aħmar fuq nett il-vidjo tiegħek.
 * Amministratur tat-tagħmir (għal-lock tal-iskrin biss): biex jilloka l-iskrin bħal buttuna tal-enerġija.
 * Servizz fil-foreground u allarm eżatt: biex il-buttuna tal-verifika tidher fil-ħin.
-* Ignora l-ottimizzazzjoni tal-batterija (optional): biex il-buttuna tibqa' taħdem b'mod affidabbli waqt li applikazzjoni oħra tkun fil-foreground.
+* Ignora l-ottimizzazzjoni tal-batterija: biex il-buttuna tibqa' taħdem b'mod affidabbli waqt li applikazzjoni oħra tkun fil-foreground.
 * Notifiki (Android 13+): biex turi n-notifika kontinwa "SleepGuard huwa attiv".
 
 SORSI MIFTUĦA

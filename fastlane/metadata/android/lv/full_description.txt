@@ -23,7 +23,6 @@ FUNKCIJAS
 * Regulējams intervāls un reakcijas laiks
 * Astoņas pogas novietojuma pozīcijas, no kurām izvēlēties
 * Uzticams laika mērījums pat fonā (izmanto sistēmas modinātāju)
-* 29 saskarnes valodas: visas 24 oficiālās ES valodas, kā arī krievu, japāņu, ķīniešu (vienkāršotā un tradicionālā) un turku valoda
 * Pilnīgi bezmaksas, bez reklāmām, bez izsekošanas, bez kontiem
 
 PRIVĀTUMS
@@ -35,7 +34,7 @@ ATĻAUJU PASKAIDROJUMS
 * Parādīšana virs citām lietotnēm: lai parādītu sarkano apli virs jūsu video.
 * Ierīces administrators (tikai ekrāna bloķēšanai): lai bloķētu ekrānu tāpat kā ar ieslēgšanas pogu.
 * Pirmplāna pakalpojums un precīzs modinātājs: lai pārbaudes poga parādītos laikā.
-* Ignorēt akumulatora optimizāciju (pēc izvēles): lai poga joprojām darbotos uzticami, kamēr priekšplānā atrodas cita lietotne.
+* Ignorēt akumulatora optimizāciju: lai poga joprojām darbotos uzticami, kamēr priekšplānā atrodas cita lietotne.
 * Paziņojumi (Android 13+): lai parādītu pastāvīgo paziņojumu „SleepGuard ir aktīvs”.
 
 ATVĒRTAIS KODS

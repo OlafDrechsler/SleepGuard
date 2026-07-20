@@ -23,7 +23,6 @@ FUNKCIE
 * Nastaviteľný interval a reakčný čas
 * Na výber je osem polôh tlačidla
 * Spoľahlivé časovanie aj na pozadí (využíva systémový budík)
-* 29 jazykov rozhrania: všetkých 24 oficiálnych jazykov EÚ plus ruština, japončina, čínština (zjednodušená a tradičná) a turečtina
 * Úplne zadarmo, bez reklám, bez sledovania, bez účtov
 
 SÚKROMIE
@@ -35,7 +34,7 @@ VYSVETLENIE OPRÁVNENÍ
 * Zobrazenie nad inými aplikáciami: na zobrazenie červeného kruhu nad vaším videom.
 * Správca zariadenia (len uzamknutie obrazovky): na uzamknutie obrazovky podobne ako tlačidlom napájania.
 * Služba v popredí a presný budík: aby sa tlačidlo kontroly zobrazilo včas.
-* Ignorovať optimalizáciu batérie (voliteľné): aby tlačidlo spoľahlivo fungovalo aj vtedy, keď je v popredí iná aplikácia.
+* Ignorovať optimalizáciu batérie: aby tlačidlo spoľahlivo fungovalo aj vtedy, keď je v popredí iná aplikácia.
 * Oznámenia (Android 13 a novšie): na zobrazenie trvalého oznámenia „SleepGuard je aktívny“.
 
 OTVORENÝ KÓD

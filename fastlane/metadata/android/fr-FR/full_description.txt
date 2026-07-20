@@ -34,7 +34,7 @@ EXPLICATION DES AUTORISATIONS
 * Affichage par-dessus d’autres applications: pour afficher le cercle rouge par-dessus votre vidéo.
 * Administrateur de l'appareil (verrouillage d'écran uniquement): pour verrouiller l'écran comme le ferait le bouton d'alimentation.
 * Service au premier plan et alarme précise: pour que le bouton de vérification s'affiche à l'heure prévue.
-* Ignorer l'optimisation de la batterie (facultatif): pour que le bouton fonctionne de manière fiable lorsqu'une autre application est au premier plan.
+* Ignorer l'optimisation de la batterie: pour que le bouton fonctionne de manière fiable lorsqu'une autre application est au premier plan.
 * Notifications (Android 13 et versions ultérieures): pour afficher la notification permanente « SleepGuard est actif ».
 
 OPEN SOURCE

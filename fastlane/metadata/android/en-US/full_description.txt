@@ -23,7 +23,6 @@ FEATURES
 * Adjustable interval and reaction time
 * Eight button positions to choose from
 * Reliable timing even in the background (uses the system alarm)
-* 29 interface languages: all 24 official EU languages plus Russian, Japanese, Chinese (Simplified & Traditional) and Turkish
 * Completely free, no ads, no tracking, no accounts
 
 PRIVACY
@@ -35,7 +34,7 @@ PERMISSIONS EXPLAINED
 * Display over other apps: to show the red circle on top of your video.
 * Device admin (screen lock only): to lock the screen like the power button.
 * Foreground service & exact alarm: to make the check button appear on time.
-* Ignore battery optimization (optional): so the button still works reliably while another app is in the foreground.
+* Ignore battery optimization: so the button still works reliably while another app is in the foreground.
 * Notifications (Android 13+): to show the ongoing "SleepGuard is active" notification.
 
 OPEN SOURCE

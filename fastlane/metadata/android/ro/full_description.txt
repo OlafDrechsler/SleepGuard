@@ -23,7 +23,6 @@ CARACTERISTICI
 * Interval și timp de reacție reglabile
 * Opt poziții ale butonului
 * Cronometrare fiabilă chiar și în fundal (utilizează alarma sistemului)
-* 29 de limbi pentru interfață: toate cele 24 de limbi oficiale ale UE, plus rusă, japoneză, chineză (simplificată și tradițională) și turcă
 * Complet gratuit, fără reclame, fără urmărire, fără conturi
 
 CONFIDENȚIALITATE
@@ -35,7 +34,7 @@ EXPLICAȚII PRIVIND PERMISIUNILE
 * Afișare peste alte aplicații: pentru a afișa cercul roșu peste videoclipul dvs.
 * Administrator de dispozitiv (numai blocarea ecranului): pentru a bloca ecranul la fel ca butonul de pornire.
 * Serviciu în prim-plan și alarmă exactă: pentru ca butonul de verificare să apară la timp.
-* Ignorarea optimizării bateriei (opțional): astfel încât butonul să funcționeze fiabil în timp ce o altă aplicație este activă.
+* Ignorarea optimizării bateriei: astfel încât butonul să funcționeze fiabil în timp ce o altă aplicație este activă.
 * Notificări (Android 13+): pentru a afișa notificarea permanentă „SleepGuard este activ”.
 
 SURSA DESCHISĂ

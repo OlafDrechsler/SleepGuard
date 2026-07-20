@@ -23,7 +23,6 @@ CARACTERÍSTICAS
 * Intervalo y tiempo de reacción ajustables
 * Ocho posiciones para el botón
 * Cronometraje fiable incluso en segundo plano (utiliza la alarma del sistema)
-* 29 idiomas de interfaz: las 24 lenguas oficiales de la UE, además de ruso, japonés, chino (simplificado y tradicional) y turco
 * Totalmente gratis, sin anuncios, sin seguimiento y sin necesidad de crear una cuenta
 
 PRIVACIDAD
@@ -35,7 +34,7 @@ EXPLICACIÓN DE LOS PERMISOS
 * Mostrar sobre otras aplicaciones: para mostrar el círculo rojo sobre tu vídeo.
 * Administrador del dispositivo (solo bloqueo de pantalla): para bloquear la pantalla igual que el botón de encendido.
 * Servicio en primer plano y alarma exacta: para que el botón de comprobación aparezca a tiempo.
-* Ignorar optimización de batería (opcional): para que el botón funcione de forma fiable mientras otra aplicación está en primer plano.
+* Ignorar optimización de batería: para que el botón funcione de forma fiable mientras otra aplicación está en primer plano.
 * Notificaciones (Android 13 y superior): para mostrar la notificación permanente «SleepGuard está activo».
 
 CÓDIGO ABIERTO

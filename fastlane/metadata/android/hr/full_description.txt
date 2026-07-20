@@ -23,7 +23,6 @@ ZNAČAJKE
 * Podesiv interval i vrijeme reakcije
 * Osam pozicija gumba za odabir
 * Pouzdano vremensko određivanje čak i u pozadini (koristi sustavni alarm)
-* 29 jezika sučelja: svih 24 službena jezika EU-a, plus ruski, japanski, kineski (pojednostavljeni i tradicionalni) i turski
 * Potpuno besplatno, bez oglasa, bez praćenja, bez računa
 
 PRIVATNOST
@@ -35,7 +34,7 @@ OBJAŠNJENA OVLAŠTENJA
 * Prikaz iznad drugih aplikacija: za prikaz crvenog kruga iznad vašeg videozapisa.
 * Administrator uređaja (samo za zaključavanje zaslona): za zaključavanje zaslona kao gumbom za uključivanje/isključivanje.
 * Usluga u prvom planu i precizni alarm: kako bi se gumb za provjeru pojavio na vrijeme.
-* Ignoriranje optimizacije baterije (po želji): kako bi gumb i dalje pouzdano radio dok je druga aplikacija u prvom planu.
+* Ignoriranje optimizacije baterije: kako bi gumb i dalje pouzdano radio dok je druga aplikacija u prvom planu.
 * Obavijesti (Android 13+): za prikazivanje stalne obavijesti "SleepGuard je aktivan".
 
 OTVORENI KOD

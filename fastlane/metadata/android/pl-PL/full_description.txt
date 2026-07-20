@@ -23,7 +23,6 @@ CECHY
 * Regulowany interwał i czas reakcji
 * Osiem pozycji przycisku
 * Niezawodne odmierzanie czasu nawet w tle (wykorzystuje alarm systemowy)
-* 29 języków interfejsu: wszystkie 24 oficjalne języki UE oraz rosyjski, japoński, chiński (uproszczony i tradycyjny) oraz turecki
 * Całkowicie bezpłatna, bez reklam, bez śledzenia, bez kont
 
 PRYWATNOŚĆ
@@ -35,7 +34,7 @@ WYJAŚNIENIE UPOWAŻNIEŃ
 * Wyświetlanie nad innymi aplikacjami: aby wyświetlić czerwone kółko na ekranie podczas odtwarzania wideo.
 * Administrator urządzenia (tylko blokada ekranu): aby zablokować ekran tak samo jak przycisk zasilania.
 * Usługa działająca w tle i dokładny alarm: aby przycisk sprawdzający pojawiał się o odpowiedniej porze.
-* Ignorowanie optymalizacji baterii (opcjonalnie): aby przycisk działał niezawodnie, gdy na pierwszym planie działa inna aplikacja.
+* Ignorowanie optymalizacji baterii: aby przycisk działał niezawodnie, gdy na pierwszym planie działa inna aplikacja.
 * Powiadomienia (Android 13+): aby wyświetlać stałe powiadomienie „SleepGuard jest aktywny”.
 
 OPEN SOURCE

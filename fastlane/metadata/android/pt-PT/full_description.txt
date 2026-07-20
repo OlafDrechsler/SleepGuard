@@ -23,7 +23,6 @@ CARACTERÍSTICAS
 * Intervalo e tempo de reação ajustáveis
 * Oito posições para o botão
 * Cronometragem fiável mesmo em segundo plano (utiliza o alarme do sistema)
-* 29 idiomas de interface: todos os 24 idiomas oficiais da UE, além de russo, japonês, chinês (simplificado e tradicional) e turco
 * Totalmente gratuito, sem anúncios, sem rastreamento, sem contas
 
 PRIVACIDADE
@@ -35,7 +34,7 @@ EXPLICAÇÃO DAS PERMISSÕES
 * Exibir sobre outras aplicações: para mostrar o círculo vermelho sobre o seu vídeo.
 * Administrador do dispositivo (apenas bloqueio do ecrã): para bloquear o ecrã tal como o botão de alimentação.
 * Serviço em primeiro plano e alarme exato: para fazer com que o botão de verificação apareça na hora certa.
-* Ignorar otimização da bateria (opcional): para que o botão funcione de forma fiável enquanto outra aplicação estiver em primeiro plano.
+* Ignorar otimização da bateria: para que o botão funcione de forma fiável enquanto outra aplicação estiver em primeiro plano.
 * Notificações (Android 13+): para mostrar a notificação contínua «O SleepGuard está ativo».
 
 CÓDIGO ABERTO

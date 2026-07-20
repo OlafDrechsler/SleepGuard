@@ -23,7 +23,6 @@ OMINAISUUDET
 * Säädettävä aikaväli ja reaktioaika
 * Kahdeksan painikkeen sijaintivaihtoehtoa
 * Luotettava ajastus myös taustalla (käyttää järjestelmän herätystä)
-* 29 käyttöliittymäkieltä: kaikki 24 virallista EU-kieltä sekä venäjä, japani, kiina (yksinkertaistettu ja perinteinen) ja turkki
 * Täysin ilmainen, ei mainoksia, ei seurantaa, ei tilejä
 
 TIETOSUOJA
@@ -35,7 +34,7 @@ OIKEUDET SELITETTY
 * Näytä muiden sovellusten päällä: näyttää punaisen ympyrän videosi päällä.
 * Laitteen järjestelmänvalvoja (vain näytön lukitus): lukitsee näytön samalla tavalla kuin virtapainike.
 * Etualapalvelu ja tarkka hälytys: jotta tarkistuspainike ilmestyy oikeaan aikaan.
-* Ohita akun optimointi (valinnainen): jotta painike toimii luotettavasti myös silloin, kun toinen sovellus on etualalla.
+* Ohita akun optimointi: jotta painike toimii luotettavasti myös silloin, kun toinen sovellus on etualalla.
 * Ilmoitukset (Android 13+): näyttää jatkuvan ”SleepGuard on aktiivinen” -ilmoituksen.
 
 AVOIN LÄHDEKODI

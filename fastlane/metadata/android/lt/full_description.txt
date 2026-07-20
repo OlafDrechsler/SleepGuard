@@ -23,7 +23,6 @@ SĄSAJOS
 * Reguliuojamas intervalas ir reakcijos laikas
 * Aštuonios mygtuko pozicijos, iš kurių galima rinktis
 * Patikimas laiko matavimas net ir veikiant fone (naudoja sistemos žadintuvą)
-* 29 sąsajos kalbos: visos 24 oficialios ES kalbos, taip pat rusų, japonų, kinų (supaprastinta ir tradicinė) bei turkų
 * Visiškai nemokama, be reklamų, be sekimo, be paskyrų
 
 PRIVATUMAS
@@ -35,7 +34,7 @@ LEIDIMŲ PAAIŠKINIMAS
 * Rodymas virš kitų programų: kad raudonas ratas būtų rodomas virš jūsų vaizdo įrašo.
 * Įrenginio administratorius (tik ekrano užrakinimas): kad ekraną būtų galima užrakinti kaip maitinimo mygtuku.
 * Pirmame plane veikianti paslauga ir tikslus žadintuvas: kad patikrinimo mygtukas pasirodytų laiku.
-* Ignoruoti baterijos optimizavimą (pasirinktinai): kad mygtukas vis tiek veiktų patikimai, kai kitas programėlė veikia pirmame plane.
+* Ignoruoti baterijos optimizavimą: kad mygtukas vis tiek veiktų patikimai, kai kitas programėlė veikia pirmame plane.
 * Pranešimai („Android“ 13 ir naujesnėse versijose): kad būtų rodomas nuolatinis pranešimas „SleepGuard veikia“.
 
 ATVIRO KODO

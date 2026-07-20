@@ -23,7 +23,6 @@ ZNAČILNOSTI
 * Nastavljiv interval in čas odziva
 * Osem položajev gumba na izbiro
 * Zanesljivo merjenje časa tudi v ozadju (uporablja sistemski alarm)
-* 29 jezikov vmesnika: vseh 24 uradnih jezikov EU ter ruščina, japonščina, kitajščina (poenostavljena in tradicionalna) ter turščina
 * Popolnoma brezplačno, brez oglasov, brez sledenja, brez računov
 
 ZASEBNOST
@@ -35,7 +34,7 @@ POJASNILO O DOVOLJENJIH
 * Prikaz nad drugimi aplikacijami: za prikaz rdečega kroga nad vašim videom.
 * Upravitelj naprave (samo zaklepanje zaslona): za zaklepanje zaslona na enak način kot z gumbom za vklop.
 * Storitev v ospredju in natančen alarm: da se gumb za preverjanje prikaže ob pravem času.
-* Preskoči optimizacijo baterije (neobvezno): da gumb še vedno zanesljivo deluje, medtem ko je v ospredju druga aplikacija.
+* Preskoči optimizacijo baterije: da gumb še vedno zanesljivo deluje, medtem ko je v ospredju druga aplikacija.
 * Obvestila (Android 13+): za prikaz stalnega obvestila »SleepGuard je aktiven«.
 
 ODPRTA KOD

@@ -23,7 +23,6 @@ CARATTERISTICHE
 * Intervallo e tempo di reazione regolabili
 * Otto posizioni del pulsante
 * Cronometraggio affidabile anche in background (utilizza la sveglia di sistema)
-* 29 lingue dell’interfaccia: tutte le 24 lingue ufficiali dell’UE più russo, giapponese, cinese (semplificato e tradizionale) e turco
 * Completamente gratuito, senza pubblicità, senza tracciamento, senza account
 
 PRIVACY
@@ -35,7 +34,7 @@ SPIEGAZIONE DELLE AUTORIZZAZIONI
 * Visualizzazione sopra altre app: per mostrare il cerchio rosso sopra il video.
 * Amministratore del dispositivo (solo blocco schermo): per bloccare lo schermo come il pulsante di accensione.
 * Servizio in primo piano e allarme esatto: per far apparire il pulsante di controllo all’ora giusta.
-* Ignora l’ottimizzazione della batteria (opzionale): affinché il pulsante funzioni in modo affidabile mentre un’altra app è in primo piano.
+* Ignora l’ottimizzazione della batteria: affinché il pulsante funzioni in modo affidabile mentre un’altra app è in primo piano.
 * Notifiche (Android 13+): per mostrare la notifica permanente “SleepGuard è attivo”.
 
 OPEN SOURCE

@@ -23,7 +23,6 @@ JELLEMZŐK
 * Beállítható időköz és reakcióidő
 * Nyolc gombpozíció közül választhat
 * Megbízható időzítés háttérmódban is (a rendszer riasztóját használja)
-* 29 felületi nyelv: az EU mind a 24 hivatalos nyelve, valamint orosz, japán, kínai (egyszerűsített és hagyományos) és török
 * Teljesen ingyenes, hirdetésmentes, nyomkövetés nélkül, fiók nélkül
 
 ADATVÉDELEM
@@ -35,7 +34,7 @@ A HOZZÁJÁRULÁSOK MAGYARÁZATA
 * Megjelenítés más alkalmazások felett: a piros kör megjelenítése a videó tetején.
 * Eszközadminisztráció (csak képernyőzár): a képernyő zárolásához, hasonlóan a bekapcsológombhoz.
 * Előtérbeli szolgáltatás és pontos riasztás: hogy a gomb időben megjelenjen.
-* Az akkumulátor-optimalizálás figyelmen kívül hagyása (opcionális): így a gomb akkor is megbízhatóan működik, ha egy másik alkalmazás van az előtérben.
+* Az akkumulátor-optimalizálás figyelmen kívül hagyása: így a gomb akkor is megbízhatóan működik, ha egy másik alkalmazás van az előtérben.
 * Értesítések (Android 13+): a folyamatos „A SleepGuard aktív” értesítés megjelenítéséhez.
 
 NYÍLT FORRÁSKÓD

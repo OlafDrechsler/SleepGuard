@@ -23,7 +23,6 @@ FUNKTIONER
 * Justerbart interval og reaktionstid
 * Otte knappositioner at vælge imellem
 * Pålidelig tidsstyring selv i baggrunden (bruger systemalarmen)
-* 29 sprog i brugergrænsefladen: alle 24 officielle EU-sprog plus russisk, japansk, kinesisk (forenklet og traditionelt) og tyrkisk
 * Helt gratis, ingen reklamer, ingen sporing, ingen konti
 
 PRIVATLIV
@@ -35,7 +34,7 @@ FORKLARING TIL TILLADELSER
 * Visning over andre apps: for at vise den røde cirkel oven på din video.
 * Enhedsadministrator (kun skærmlås): for at låse skærmen på samme måde som tænd/sluk-knappen.
 * Forgrundstjeneste og præcis alarm: for at få kontrolknappen til at vises til tiden.
-* Ignorer batterioptimering (valgfrit): så knappen stadig fungerer pålideligt, mens en anden app kører i forgrunden.
+* Ignorer batterioptimering: så knappen stadig fungerer pålideligt, mens en anden app kører i forgrunden.
 * Notifikationer (Android 13+): for at vise den løbende notifikation »SleepGuard er aktiv«.
 
 OPEN SOURCE

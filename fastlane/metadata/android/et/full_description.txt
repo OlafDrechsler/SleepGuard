@@ -23,7 +23,6 @@ OMADUSED
 * Reguleeritav intervall ja reageerimisaeg
 * Valida on kaheksa nupu asukohta
 * Usaldusväärne ajastus isegi taustal töötades (kasutab süsteemi äratust)
-* 29 kasutajaliidese keelt: kõik 24 ametlikku ELi keelt ning vene, jaapani, hiina (lihtsustatud ja traditsiooniline) ja türgi keel
 * Täiesti tasuta, ilma reklaamideta, jälgimiseta ja kontodeta
 
 PRIVAATSUS
@@ -35,7 +34,7 @@ LUBADE SELGITUS
 * Kuvamine teiste rakenduste peal: punase ringi kuvamiseks teie video peal.
 * Seadme administraator (ainult ekraani lukustamine): ekraani lukustamiseks nagu toitenuppu kasutades.
 * Esiplaaniteenus ja täpne äratus: et kontrollnupp ilmuks õigel ajal.
-* Aku optimeerimise ignoreerimine (valikuline): et nupp töötaks usaldusväärselt ka siis, kui teine rakendus on esiplaanil.
+* Aku optimeerimise ignoreerimine: et nupp töötaks usaldusväärselt ka siis, kui teine rakendus on esiplaanil.
 * Teated (Android 13+): et kuvada pidevat teadet „SleepGuard on aktiivne“.
 
 AVATUD LÄHTEKOOD
