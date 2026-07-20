@@ -49,6 +49,7 @@
     <string name="onb_notif_body">Autorisez les notifications pour toujours voir que SleepGuard est actif en arrière-plan.</string>
     <string name="onb_overlay_title">Afficher par-dessus les autres applis</string>
     <string name="onb_overlay_body">SleepGuard affiche un petit bouton par-dessus votre vidéo. Pour cela, il a besoin de l\'autorisation de s\'afficher par-dessus les autres applications.</string>
+    <string name="onb_overlay_list_hint">Si vous appuyez sur « %1$s » et qu\'une liste d\'applications s\'affiche, faites défiler jusqu\'à SleepGuard et accordez-lui l\'autorisation à cet endroit.</string>
     <string name="onb_admin_title">Verrouiller l\'écran</string>
     <string name="onb_admin_body">Pour éteindre l\'écran quand vous vous endormez — comme le bouton d\'alimentation — SleepGuard a besoin de l\'autorisation d\'administrateur de l\'appareil. Elle sert uniquement à verrouiller l\'écran.</string>
     <string name="onb_battery_title">Fonctionner de façon fiable</string>

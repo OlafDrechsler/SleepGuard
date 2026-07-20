@@ -49,6 +49,7 @@
     <string name="onb_notif_body">Consenti le notifiche per vedere sempre che SleepGuard è attivo in background.</string>
     <string name="onb_overlay_title">Mostra sopra le altre app</string>
     <string name="onb_overlay_body">SleepGuard mostra un piccolo pulsante sopra il tuo video. Per farlo serve l\'autorizzazione a sovrapporsi alle altre app.</string>
+    <string name="onb_overlay_list_hint">Se tocchi “%1$s” e compare un elenco di app, scorri fino a SleepGuard e concedigli l\'autorizzazione da lì.</string>
     <string name="onb_admin_title">Bloccare lo schermo</string>
     <string name="onb_admin_body">Per spegnere lo schermo quando ti addormenti — come il tasto di accensione — SleepGuard richiede l\'autorizzazione di amministratore del dispositivo. Serve solo a bloccare lo schermo.</string>
     <string name="onb_battery_title">Funzionare in modo affidabile</string>

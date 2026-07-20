@@ -44,6 +44,7 @@
     <string name="onb_notif_body">通知を許可すると、SleepGuardがバックグラウンドで実行されている間も、常にアクティブであることを確認できます。</string>
     <string name="onb_overlay_title">他のアプリの上に表示</string>
     <string name="onb_overlay_body">SleepGuardは動画画面の上に小さなボタンを表示します。そのため、他のアプリの上に表示する権限が必要です。</string>
+    <string name="onb_overlay_list_hint">「%1$s」をタップしてアプリのリストが表示されたら、SleepGuardまでスクロールし、そこで権限を許可してください。</string>
     <string name="onb_admin_title">画面をロック</string>
     <string name="onb_admin_body">眠ってしまったときに画面をオフにするため（電源ボタンと同じように）、SleepGuardにはデバイス管理者権限が必要です。これは画面をロックするためにのみ使用されます。</string>
     <string name="onb_battery_title">安定して動作させる</string>

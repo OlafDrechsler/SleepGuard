@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Leiskite rodyti pranešimus, kad visada matytumėte, jog „SleepGuard“ veikia, kol jis veikia fone.</string>
     <string name="onb_overlay_title">Rodyti virš kitų programų</string>
     <string name="onb_overlay_body">„SleepGuard“ rodo mažą mygtuką virš jūsų vaizdo įrašo. Tam jam reikalingas leidimas rodyti virš kitų programų.</string>
+    <string name="onb_overlay_list_hint">Jei bakstelėsite „%1$s“ ir pasirodys programėlių sąrašas, suraskite „SleepGuard“ ir ten suteikite jai leidimą.</string>
     <string name="onb_admin_title">Užrakinti ekraną</string>
     <string name="onb_admin_body">Kad ekranas išsijungtų, kai užmiegate – lygiai taip pat, kaip paspaudus maitinimo mygtuką – „SleepGuard“ reikia įrenginio administratoriaus leidimo. Jis naudojamas tik ekranui užrakinti.</string>
     <string name="onb_battery_title">Veikti patikimai</string>

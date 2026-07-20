@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Povolte oznámení, abyste vždy viděli, že je SleepGuard aktivní, zatímco běží na pozadí.</string>
     <string name="onb_overlay_title">Zobrazovat nad ostatními aplikacemi</string>
     <string name="onb_overlay_body">SleepGuard zobrazuje malé tlačítko nad vaším videem. K tomu potřebuje oprávnění k zobrazení nad ostatními aplikacemi.</string>
+    <string name="onb_overlay_list_hint">Pokud klepnete na „%1$s“ a zobrazí se seznam aplikací, přejděte na aplikaci SleepGuard a tam jí udělejte oprávnění.</string>
     <string name="onb_admin_title">Zamknout obrazovku</string>
     <string name="onb_admin_body">Aby se obrazovka vypnula, když usnete – stejně jako při stisknutí tlačítka napájení – potřebuje SleepGuard oprávnění správce zařízení. Používá se pouze k uzamčení obrazovky.</string>
     <string name="onb_battery_title">Spolehlivý chod</string>

@@ -52,6 +52,7 @@
     <string name="onb_notif_body">Allow notifications so you can always see that SleepGuard is active while it runs in the background.</string>
     <string name="onb_overlay_title">Show over other apps</string>
     <string name="onb_overlay_body">SleepGuard shows a small button on top of your video. For that it needs permission to display over other apps.</string>
+    <string name="onb_overlay_list_hint">If you tap “%1$s” and a list of apps appears, scroll to SleepGuard and give it the permission there.</string>
     <string name="onb_admin_title">Lock the screen</string>
     <string name="onb_admin_body">To turn the screen off when you fall asleep — just like the power button — SleepGuard needs device administrator permission. It is used only to lock the screen.</string>
     <string name="onb_battery_title">Run reliably</string>

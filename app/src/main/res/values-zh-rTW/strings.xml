@@ -44,6 +44,7 @@
     <string name="onb_notif_body">請允許通知，以便在 SleepGuard 於背景執行時，您隨時都能看到它正在運作。</string>
     <string name="onb_overlay_title">顯示於其他應用程式之上</string>
     <string name="onb_overlay_body">SleepGuard 會在影片畫面上方顯示一個小按鈕。為此，它需要「顯示於其他應用程式之上」的權限。</string>
+    <string name="onb_overlay_list_hint">如果您點選「%1$s」，並出現應用程式清單，請捲動至「SleepGuard」，並在該處授予其權限。</string>
     <string name="onb_admin_title">鎖定螢幕</string>
     <string name="onb_admin_body">為了在您睡著時關閉螢幕（就像電源按鈕一樣），SleepGuard 需要裝置管理員權限。此權限僅用於鎖定螢幕。</string>
     <string name="onb_battery_title">穩定運行</string>

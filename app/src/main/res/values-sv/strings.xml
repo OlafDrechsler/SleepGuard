@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Tillåt aviseringar så att du alltid kan se att SleepGuard är aktivt medan det körs i bakgrunden.</string>
     <string name="onb_overlay_title">Visa över andra appar</string>
     <string name="onb_overlay_body">SleepGuard visar en liten knapp ovanpå din video. För det behöver den behörighet att visas över andra appar.</string>
+    <string name="onb_overlay_list_hint">Om du trycker på ”%1$s” och en lista med appar visas, bläddra till SleepGuard och bevilja behörigheten där.</string>
     <string name="onb_admin_title">Lås skärmen</string>
     <string name="onb_admin_body">För att stänga av skärmen när du somnar – precis som strömbrytaren – behöver SleepGuard behörighet som enhetsadministratör. Den används endast för att låsa skärmen.</string>
     <string name="onb_battery_title">Fungera pålitligt</string>

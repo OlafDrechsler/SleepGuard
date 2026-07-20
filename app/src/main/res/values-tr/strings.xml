@@ -49,6 +49,7 @@
     <string name="onb_notif_body">SleepGuard\'ın arka planda etkin olduğunu her zaman görebilmek için bildirimlere izin verin.</string>
     <string name="onb_overlay_title">Diğer uygulamaların üzerinde göster</string>
     <string name="onb_overlay_body">SleepGuard, videonuzun üzerinde küçük bir düğme gösterir. Bunun için diğer uygulamaların üzerinde görünme izni gerekir.</string>
+    <string name="onb_overlay_list_hint">“%1$s” seçeneğine dokunduğunuzda bir uygulama listesi açılırsa, listede SleepGuard’ı bulun ve buradan izin verin.</string>
     <string name="onb_admin_title">Ekranı kilitle</string>
     <string name="onb_admin_body">Uyuyakaldığınızda ekranı kapatmak için — tıpkı güç düğmesi gibi — SleepGuard cihaz yöneticisi iznine ihtiyaç duyar. Yalnızca ekranı kilitlemek için kullanılır.</string>
     <string name="onb_battery_title">Güvenilir çalışma</string>

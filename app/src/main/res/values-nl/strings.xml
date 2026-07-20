@@ -49,6 +49,7 @@
     <string name="onb_notif_body">Sta meldingen toe zodat je altijd ziet dat SleepGuard actief is op de achtergrond.</string>
     <string name="onb_overlay_title">Over andere apps tonen</string>
     <string name="onb_overlay_body">SleepGuard toont een kleine knop over je video. Daarvoor is toestemming nodig om over andere apps te worden weergegeven.</string>
+    <string name="onb_overlay_list_hint">Als je op “%1$s” tikt en er verschijnt een lijst met apps, blader dan naar SleepGuard en verleen daar de toestemming.</string>
     <string name="onb_admin_title">Scherm vergrendelen</string>
     <string name="onb_admin_body">Om het scherm uit te zetten wanneer je in slaap valt — net als de aan-uitknop — heeft SleepGuard apparaatbeheerder-toestemming nodig. Deze wordt alleen gebruikt om het scherm te vergrendelen.</string>
     <string name="onb_battery_title">Betrouwbaar werken</string>

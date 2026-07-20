@@ -49,6 +49,7 @@
     <string name="onb_notif_body">Permita notificações para ver sempre que o SleepGuard está ativo em segundo plano.</string>
     <string name="onb_overlay_title">Mostrar sobre outras apps</string>
     <string name="onb_overlay_body">O SleepGuard mostra um pequeno botão sobre o seu vídeo. Para isso precisa de permissão para se sobrepor a outras aplicações.</string>
+    <string name="onb_overlay_list_hint">Se tocar em «%1$s» e aparecer uma lista de aplicações, percorra a lista até ao SleepGuard e conceda-lhe a autorização nessa lista.</string>
     <string name="onb_admin_title">Bloquear o ecrã</string>
     <string name="onb_admin_body">Para desligar o ecrã quando você adormece — tal como o botão de ligar — o SleepGuard precisa de permissão de administrador do dispositivo. É usada apenas para bloquear o ecrã.</string>
     <string name="onb_battery_title">Funcionar de forma fiável</string>

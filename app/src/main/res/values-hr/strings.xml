@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Omogućite obavijesti kako biste uvijek mogli vidjeti da je SleepGuard aktivan dok radi u pozadini.</string>
     <string name="onb_overlay_title">Prikaz preko drugih aplikacija</string>
     <string name="onb_overlay_body">SleepGuard prikazuje mali gumb iznad vašeg videa. Za to mu je potrebna dozvola za prikaz preko drugih aplikacija.</string>
+    <string name="onb_overlay_list_hint">Ako dodirnete \"%1$s\" i pojavi se popis aplikacija, pomaknite se do SleepGuarda i ondje mu dajte dopuštenje.</string>
     <string name="onb_admin_title">Zaključavanje zaslona</string>
     <string name="onb_admin_body">Kako bi isključio zaslon kada zaspite — baš kao i gumb za uključivanje/isključivanje — SleepGuardu je potrebna dozvola administratora uređaja. Ona se koristi isključivo za zaključavanje zaslona.</string>
     <string name="onb_battery_title">Pouzdan rad</string>

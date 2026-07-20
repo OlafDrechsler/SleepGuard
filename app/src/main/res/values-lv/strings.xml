@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Atļaujiet paziņojumus, lai jūs vienmēr varētu redzēt, ka SleepGuard ir aktīvs, kamēr tas darbojas fonā.</string>
     <string name="onb_overlay_title">Rādīt virs citām lietotnēm</string>
     <string name="onb_overlay_body">SleepGuard rāda nelielu pogu virs jūsu video. Tam ir nepieciešama atļauja rādīties virs citām lietotnēm.</string>
+    <string name="onb_overlay_list_hint">Ja pieskarieties „%1$s“ un parādās lietotņu saraksts, ritiniet to līdz „SleepGuard“ un tur piešķiriet tai atļauju.</string>
     <string name="onb_admin_title">Bloķēt ekrānu</string>
     <string name="onb_admin_body">Lai izslēgtu ekrānu, kad jūs aizmiegat — tieši tāpat kā ieslēgšanas poga — SleepGuard ir nepieciešama ierīces administratora atļauja. Tā tiek izmantota tikai ekrāna bloķēšanai.</string>
     <string name="onb_battery_title">Darbojas uzticami</string>

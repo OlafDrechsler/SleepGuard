@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Engedélyezd az értesítéseket, hogy mindig lásd, a SleepGuard aktív, miközben a háttérben fut.</string>
     <string name="onb_overlay_title">Megjelenítés más alkalmazások felett</string>
     <string name="onb_overlay_body">A SleepGuard egy kis gombot jelenít meg a videód felett. Ehhez engedély szükséges a más alkalmazások feletti megjelenítéshez.</string>
+    <string name="onb_overlay_list_hint">Ha rákattintasz a „%1$s” elemre, és megjelenik az alkalmazások listája, görgess le a SleepGuard alkalmazásig, és ott add meg neki az engedélyt.</string>
     <string name="onb_admin_title">Képernyő zárolása</string>
     <string name="onb_admin_body">Ahhoz, hogy elalváskor kikapcsolja a képernyőt — akárcsak a bekapcsológomb — a SleepGuardnak eszközrendszergazdai engedélyre van szüksége. Csak a képernyő zárolására használja.</string>
     <string name="onb_battery_title">Megbízható működés</string>

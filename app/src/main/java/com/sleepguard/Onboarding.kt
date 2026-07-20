@@ -109,7 +109,8 @@ fun OnboardingScreen(
                     3 -> PermissionPage(
                         icon = Icons.Rounded.Layers,
                         title = stringResource(R.string.onb_overlay_title),
-                        body = stringResource(R.string.onb_overlay_body),
+                        body = stringResource(R.string.onb_overlay_body) + "\n\n" +
+                            stringResource(R.string.onb_overlay_list_hint, stringResource(R.string.onb_grant)),
                         permissionTick = permissionTick,
                         isGranted = isOverlayGranted,
                         onGrant = onRequestOverlay

@@ -49,6 +49,7 @@
     <string name="onb_notif_body">Zezwól na powiadomienia, aby zawsze widzieć, że SleepGuard jest aktywny w tle.</string>
     <string name="onb_overlay_title">Wyświetlanie nad innymi aplikacjami</string>
     <string name="onb_overlay_body">SleepGuard wyświetla mały przycisk nad Twoim filmem. Potrzebuje do tego uprawnienia do wyświetlania nad innymi aplikacjami.</string>
+    <string name="onb_overlay_list_hint">Jeśli klikniesz „%1$s” i pojawi się lista aplikacji, przewiń do pozycji „SleepGuard” i nadaj jej tam uprawnienie.</string>
     <string name="onb_admin_title">Blokowanie ekranu</string>
     <string name="onb_admin_body">Aby wyłączyć ekran, gdy zaśniesz — tak jak przycisk zasilania — SleepGuard potrzebuje uprawnienia administratora urządzenia. Służy ono wyłącznie do blokowania ekranu.</string>
     <string name="onb_battery_title">Niezawodne działanie</string>

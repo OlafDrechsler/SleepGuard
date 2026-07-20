@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Permite notificările pentru a putea vedea întotdeauna că SleepGuard este activ în timp ce rulează în fundal.</string>
     <string name="onb_overlay_title">Afișare peste alte aplicații</string>
     <string name="onb_overlay_body">SleepGuard afișează un buton mic deasupra videoclipului. Pentru aceasta, are nevoie de permisiunea de a se afișa peste alte aplicații.</string>
+    <string name="onb_overlay_list_hint">Dacă atingi „%1$s” și apare o listă de aplicații, derulează până la SleepGuard și acordă-i permisiunea de acolo.</string>
     <string name="onb_admin_title">Blocarea ecranului</string>
     <string name="onb_admin_body">Pentru a opri ecranul când adormi — la fel ca butonul de pornire — SleepGuard are nevoie de permisiunea de administrator al dispozitivului. Aceasta este utilizată doar pentru a bloca ecranul.</string>
     <string name="onb_battery_title">Funcționare fiabilă</string>

@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Ippermetti n-notifiki biex dejjem tara li SleepGuard huwa attiv waqt li jaħdem fl-isfond.</string>
     <string name="onb_overlay_title">Uri fuq apps oħra</string>
     <string name="onb_overlay_body">SleepGuard juri buttuna żgħira fuq il-vidjow tiegħek. Għal dan hemm bżonn permess biex jidher fuq apps oħra.</string>
+    <string name="onb_overlay_list_hint">Jekk tikklikkja \"%1$s\" u tidher lista ta\' applikazzjonijiet, skrollja għal SleepGuard u agħtih il-permess hemmhekk.</string>
     <string name="onb_admin_title">Issakkar l-iskrin</string>
     <string name="onb_admin_body">Biex jitfi l-iskrin meta torqod — bħall-buttuna tal-power — SleepGuard jeħtieġ permess ta\' amministratur tal-apparat. Jintuża biss biex isakkar l-iskrin.</string>
     <string name="onb_battery_title">Aħdem b\'mod affidabbli</string>

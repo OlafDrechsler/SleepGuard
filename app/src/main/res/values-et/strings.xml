@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Luba teavitused, et saaksid alati näha, et SleepGuard on aktiivne, kui see töötab taustal.</string>
     <string name="onb_overlay_title">Näita teiste rakenduste peal</string>
     <string name="onb_overlay_body">SleepGuard kuvab video peal väikese nupu. Selleks vajab ta luba kuvada teiste rakenduste peal.</string>
+    <string name="onb_overlay_list_hint">Kui puudutad „%1$s“ ja kuvatakse rakenduste nimekiri, kerige nimekirjas alla rakenduseni „SleepGuard“ ja anna sellele seal luba.</string>
     <string name="onb_admin_title">Lukusta ekraan</string>
     <string name="onb_admin_body">Et ekraan magamajäämisel välja lülitada – täpselt nagu toitenupp – vajab SleepGuard seadme administraatori õigusi. Neid kasutatakse ainult ekraani lukustamiseks.</string>
     <string name="onb_battery_title">Usaldusväärne töö</string>

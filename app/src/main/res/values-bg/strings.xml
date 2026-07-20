@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Разрешете известията, за да можете винаги да виждате, че SleepGuard е активен, докато работи на заден план.</string>
     <string name="onb_overlay_title">Показване върху други приложения</string>
     <string name="onb_overlay_body">SleepGuard показва малък бутон върху видеото ви. За целта му е необходимо разрешение да се показва върху други приложения.</string>
+    <string name="onb_overlay_list_hint">Ако натиснете „%1$s“ и се появи списък с приложения, превъртете до SleepGuard и му дайте разрешение оттам.</string>
     <string name="onb_admin_title">Заключване на екрана</string>
     <string name="onb_admin_body">За да изключи екрана, когато заспите — точно като бутона за включване/изключване — SleepGuard се нуждае от разрешение за администратор на устройството. То се използва единствено за заключване на екрана.</string>
     <string name="onb_battery_title">Работи надеждно</string>

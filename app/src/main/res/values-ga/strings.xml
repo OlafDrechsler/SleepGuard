@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Ceadaigh fógraí ionas gur féidir leat a fheiceáil i gcónaí go bhfuil SleepGuard gníomhach agus é ag rith sa chúlra.</string>
     <string name="onb_overlay_title">Taispeáin os cionn aipeanna eile</string>
     <string name="onb_overlay_body">Taispeánann SleepGuard cnaipe beag ar bharr do fhíseáin. Chuige sin, teastaíonn cead uaidh chun taispeáint os cionn aipeanna eile.</string>
+    <string name="onb_overlay_list_hint">Má thapálann tú \"%1$s\" agus go dtaispeántar liosta aipeanna, scrollaigh go SleepGuard agus tabhair an cheadúnas dó ansin.</string>
     <string name="onb_admin_title">Glasáil an scáileán</string>
     <string name="onb_admin_body">Chun an scáileán a mhúchadh nuair a thiteann tú i do chodladh — díreach mar a dhéanfadh an cnaipe cumhachta — teastaíonn cead riarthóra gléis ó SleepGuard. Ní úsáidtear é ach chun an scáileán a ghlasáil.</string>
     <string name="onb_battery_title">Feidhmiú go hiontaofa</string>

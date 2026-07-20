@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Tillad notifikationer, så du altid kan se, at SleepGuard er aktiv, mens den kører i baggrunden.</string>
     <string name="onb_overlay_title">Vis oven på andre apps</string>
     <string name="onb_overlay_body">SleepGuard viser en lille knap oven på din video. Til det har den brug for tilladelse til at vises oven på andre apps.</string>
+    <string name="onb_overlay_list_hint">Hvis du trykker på »%1$s« og der vises en liste over apps, skal du rulle ned til SleepGuard og give appen tilladelsen der.</string>
     <string name="onb_admin_title">Lås skærmen</string>
     <string name="onb_admin_body">For at slukke skærmen, når du falder i søvn – ligesom tænd/sluk-knappen – har SleepGuard brug for enhedsadministratorrettigheder. Det bruges kun til at låse skærmen.</string>
     <string name="onb_battery_title">Kører pålideligt</string>

@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Επιτρέψτε τις ειδοποιήσεις, ώστε να βλέπετε πάντα ότι το SleepGuard είναι ενεργό ενώ εκτελείται στο παρασκήνιο.</string>
     <string name="onb_overlay_title">Εμφάνιση πάνω από άλλες εφαρμογές</string>
     <string name="onb_overlay_body">Το SleepGuard εμφανίζει ένα μικρό κουμπί πάνω από το βίντεό σας. Για αυτό χρειάζεται άδεια να εμφανίζεται πάνω από άλλες εφαρμογές.</string>
+    <string name="onb_overlay_list_hint">Αν πατήσετε το «%1$s» και εμφανιστεί μια λίστα εφαρμογών, μεταβείτε στο SleepGuard και παραχωρήστε του την άδεια από εκεί.</string>
     <string name="onb_admin_title">Κλείδωμα οθόνης</string>
     <string name="onb_admin_body">Για να απενεργοποιεί την οθόνη όταν αποκοιμηθείτε — ακριβώς όπως το κουμπί τροφοδοσίας — το SleepGuard χρειάζεται άδεια διαχειριστή συσκευής. Χρησιμοποιείται μόνο για το κλείδωμα της οθόνης.</string>
     <string name="onb_battery_title">Αξιόπιστη λειτουργία</string>

@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Dovolite obvestila, da boste vedno videli, da je SleepGuard aktiven, medtem ko teče v ozadju.</string>
     <string name="onb_overlay_title">Prikaži nad drugimi aplikacijami</string>
     <string name="onb_overlay_body">SleepGuard prikaže majhen gumb nad videoposnetkom. Za to potrebuje dovoljenje za prikaz nad drugimi aplikacijami.</string>
+    <string name="onb_overlay_list_hint">Če tapnete »%1$s« in se prikaže seznam aplikacij, se pomaknite do aplikacije SleepGuard in ji tam dodelite dovoljenje.</string>
     <string name="onb_admin_title">Zakleni zaslon</string>
     <string name="onb_admin_body">Da bi se zaslon izklopil, ko zaspite – tako kot pri gumbu za vklop/izklop –, SleepGuard potrebuje dovoljenje skrbnika naprave. Uporablja se izključno za zaklepanje zaslona.</string>
     <string name="onb_battery_title">Zanesljivo delovanje</string>

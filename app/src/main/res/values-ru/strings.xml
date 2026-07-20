@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Разреши уведомления, чтобы всегда видеть, что SleepGuard активен, пока он работает в фоновом режиме.</string>
     <string name="onb_overlay_title">Отображать поверх других приложений</string>
     <string name="onb_overlay_body">SleepGuard показывает маленькую кнопку поверх видео. Для этого ему нужно разрешение на отображение поверх других приложений.</string>
+    <string name="onb_overlay_list_hint">Если вы нажмете «%1$s» и появится список приложений, найдите в нем SleepGuard и предоставьте ему разрешение.</string>
     <string name="onb_admin_title">Блокировать экран</string>
     <string name="onb_admin_body">Чтобы выключать экран, когда ты засыпаешь — точно так же, как кнопка питания — SleepGuard нужен доступ администратора устройства. Он используется только для блокировки экрана.</string>
     <string name="onb_battery_title">Надежная работа</string>

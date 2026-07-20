@@ -52,6 +52,7 @@
     <string name="onb_notif_body">Erlaube Benachrichtigungen, damit du jederzeit siehst, dass SleepGuard im Hintergrund aktiv ist.</string>
     <string name="onb_overlay_title">Über anderen Apps anzeigen</string>
     <string name="onb_overlay_body">SleepGuard zeigt einen kleinen Button über deinem Video. Dafür braucht es die Berechtigung, über anderen Apps angezeigt zu werden.</string>
+    <string name="onb_overlay_list_hint">Wenn du auf „%1$s“ tippst und eine Liste von Apps erscheint, scroll zu SleepGuard und gib ihm dort das Recht.</string>
     <string name="onb_admin_title">Bildschirm sperren</string>
     <string name="onb_admin_body">Um den Bildschirm beim Einschlafen auszuschalten — wie die Power-Taste — braucht SleepGuard die Geräteadministrator-Berechtigung. Sie wird ausschließlich zum Sperren verwendet.</string>
     <string name="onb_battery_title">Zuverlässig laufen</string>

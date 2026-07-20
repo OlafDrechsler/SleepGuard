@@ -44,6 +44,7 @@
     <string name="onb_notif_body">允许通知，以便在 SleepGuard 后台运行时，您始终能看到它处于活动状态。</string>
     <string name="onb_overlay_title">显示在其他应用之上</string>
     <string name="onb_overlay_body">SleepGuard 会在视频画面上方显示一个小按钮。为此，它需要“显示在其他应用之上”的权限。</string>
+    <string name="onb_overlay_list_hint">如果您轻点“%1$s”，随后出现应用列表，请滚动至“SleepGuard”，并在该处授予其权限。</string>
     <string name="onb_admin_title">锁定屏幕</string>
     <string name="onb_admin_body">为了在您入睡时关闭屏幕（就像按电源键一样），SleepGuard 需要设备管理员权限。该权限仅用于锁定屏幕。</string>
     <string name="onb_battery_title">稳定运行</string>

@@ -44,6 +44,7 @@
     <string name="onb_notif_body">Salli ilmoitukset, jotta näet aina, että SleepGuard on aktiivinen, kun se toimii taustalla.</string>
     <string name="onb_overlay_title">Näytä muiden sovellusten päällä</string>
     <string name="onb_overlay_body">SleepGuard näyttää pienen painikkeen videosi päällä. Tätä varten se tarvitsee luvan näkyä muiden sovellusten päällä.</string>
+    <string name="onb_overlay_list_hint">Jos napautat ”%1$s” ja sovellusten luettelo tulee näkyviin, selaa luettelossa SleepGuard-sovellukseen ja myönnä sille käyttöoikeus siellä.</string>
     <string name="onb_admin_title">Lukitse näyttö</string>
     <string name="onb_admin_body">Jotta näyttö sammuu, kun nukahdat – aivan kuten virtapainike – SleepGuard tarvitsee laitteen järjestelmänvalvojan oikeudet. Niitä käytetään vain näytön lukitsemiseen.</string>
     <string name="onb_battery_title">Toimii luotettavasti</string>
