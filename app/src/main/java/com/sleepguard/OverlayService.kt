@@ -105,9 +105,8 @@ class OverlayService : Service() {
         if (intent?.action == ACTION_SHOW_OVERLAY) {
             // Der AlarmManager hat den Dienst geweckt.
             if (audioMode) {
-                // Audio-Modus (Einschlaf-Timer): Wiedergabe pausieren und
-                // fertig — unabhaengig vom Bildschirmzustand, kein Button,
-                // keine Sperre.
+                // Audio-Modus (Einschlaf-Timer): Wiedergabe pausieren; ist der
+                // Bildschirm noch an, zusaetzlich sperren. Kein Button.
                 pauseMediaAndFinish()
             } else if (isScreenUsable()) {
                 showOverlay()
@@ -136,12 +135,17 @@ class OverlayService : Service() {
     }
 
     /**
-     * Audio-Modus: Wiedergabe pausieren (Pause-Tastenereignis + Audio-Fokus)
-     * und den Dienst beenden. Kein Overlay, keine Bildschirmsperre.
+     * Audio-Modus: Wiedergabe pausieren (Pause-Tastenereignis + Audio-Fokus).
+     * Ist der Bildschirm noch an, wird er zusaetzlich gesperrt (ausgeschaltet);
+     * ist er bereits aus, gibt es nichts zu tun. Danach den Dienst beenden.
      */
     private fun pauseMediaAndFinish() {
         pauseViaMediaButton()
         pauseOtherMedia()
+        val powerManager = getSystemService(Context.POWER_SERVICE) as PowerManager
+        if (powerManager.isInteractive) {
+            lockScreen()
+        }
         stopSelf()
     }
 
