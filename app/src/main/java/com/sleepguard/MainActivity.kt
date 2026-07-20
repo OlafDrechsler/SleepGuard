@@ -82,11 +82,11 @@ class MainActivity : AppCompatActivity() {
     private var isRunning by mutableStateOf(false)
     private var showOnboarding by mutableStateOf(false)
     private var permissionTick by mutableIntStateOf(0)
+    // Startseite des Welcome-Flows; wird beim Start ohne Rechte auf die
+    // passende Berechtigungs-Seite gesetzt.
+    private var onboardingStartPage by mutableIntStateOf(0)
     // false = Video (Button + Sperre), true = Audio (Einschlaf-Timer, stoppt Wiedergabe)
     private var audioMode by mutableStateOf(false)
-
-    private var batteryOptRequested = false
-    private var pendingStart = false
 
     // Die 8 moeglichen Positionen fuer den roten Kreis
     private val positionKeys = arrayOf(
@@ -106,7 +106,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var batteryOptLauncher: ActivityResultLauncher<Intent>
     private lateinit var notificationPermissionLauncher: ActivityResultLauncher<String>
 
-    // Wie batteryOptRequested: pro Sitzung hoechstens einmal fragen.
+    // Merkt, ob die Benachrichtigungs-Berechtigung schon einmal abgefragt wurde
+    // (zur Erkennung dauerhafter Ablehnung -> dann App-Einstellungen oeffnen).
     private var notificationRequested = false
 
     companion object {
@@ -144,12 +145,13 @@ class MainActivity : AppCompatActivity() {
         isRunning = OverlayService.isRunning
         val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
         showOnboarding = !prefs.getBoolean(KEY_ONBOARDING_DONE, false)
+        onboardingStartPage = if (prefs.getBoolean(KEY_LANG_CHOSEN, false)) 1 else 0
 
         setContent {
             SleepGuardTheme {
                 if (showOnboarding) {
                     OnboardingScreen(
-                        startPage = if (prefs.getBoolean(KEY_LANG_CHOSEN, false)) 1 else 0,
+                        startPage = onboardingStartPage,
                         permissionTick = permissionTick,
                         languageLabels = languageLabelsNative,
                         audioMode = audioMode,
@@ -197,17 +199,9 @@ class MainActivity : AppCompatActivity() {
         permissionTick++ // Berechtigungsstatus im Onboarding aktualisieren
     }
 
-    private fun startServiceDelayed() {
-        window.decorView.postDelayed({ startService() }, 500)
-    }
-
-    /** Nach Rueckkehr aus einer Berechtigungs-Einstellung. */
+    /** Nach Rueckkehr aus einer Berechtigungs-Einstellung: Onboarding-Status aktualisieren. */
     private fun onPermissionResult() {
         permissionTick++
-        if (pendingStart) {
-            pendingStart = false
-            startServiceDelayed()
-        }
     }
 
     private fun isDeviceAdminActive(): Boolean {
@@ -251,10 +245,31 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun requestNotificationPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
-        } else {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {
             permissionTick++
+            return
+        }
+        // Wurde die Berechtigung dauerhaft abgelehnt, zeigt das System keinen
+        // Dialog mehr -> stattdessen die App-Benachrichtigungseinstellungen oeffnen.
+        if (notificationRequested &&
+            !shouldShowRequestPermissionRationale(android.Manifest.permission.POST_NOTIFICATIONS)
+        ) {
+            openAppNotificationSettings()
+            return
+        }
+        notificationRequested = true
+        notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+    }
+
+    private fun openAppNotificationSettings() {
+        val intent = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+            .putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
+        try {
+            startActivity(intent)
+        } catch (e: Exception) {
+            startActivity(
+                Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:$packageName"))
+            )
         }
     }
 
@@ -326,39 +341,13 @@ class MainActivity : AppCompatActivity() {
      * (einmalig) Akku-Berechtigung.
      */
     private fun startService() {
-        if (!Settings.canDrawOverlays(this)) {
-            Toast.makeText(this, R.string.permission_overlay_needed, Toast.LENGTH_LONG).show()
-            pendingStart = true
-            requestOverlayPermission()
-            return
-        }
-
-        if (!isDeviceAdminActive()) {
-            Toast.makeText(this, R.string.permission_admin_needed, Toast.LENGTH_LONG).show()
-            pendingStart = true
-            requestDeviceAdmin()
-            return
-        }
-
-        if (!batteryOptRequested && !isIgnoringBatteryOptimizations()) {
-            batteryOptRequested = true
-            Toast.makeText(this, R.string.permission_battery_needed, Toast.LENGTH_LONG).show()
-            pendingStart = true
-            requestBatteryExemption()
-            return
-        }
-
-        // Ab Android 13 ist die Foreground-Notification nur mit dieser
-        // Laufzeit-Berechtigung sichtbar. Ohne sie merkt der Benutzer nicht,
-        // dass SleepGuard noch aktiv ist -> einmal pro Sitzung anfragen.
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
-            !notificationRequested &&
-            checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS) !=
-            android.content.pm.PackageManager.PERMISSION_GRANTED
-        ) {
-            notificationRequested = true
-            pendingStart = true
-            notificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+        // Fehlt eine Berechtigung, zeigen wir zuerst den passenden Welcome-Flow-
+        // Screen, statt direkt in die Android-Einstellungen zu springen. Das
+        // erklaert das Recht und verhindert die Endlosschleife App-Liste <-> App.
+        val missingPage = firstMissingPermissionPage()
+        if (missingPage != null) {
+            onboardingStartPage = missingPage
+            showOnboarding = true
             return
         }
 
@@ -372,6 +361,21 @@ class MainActivity : AppCompatActivity() {
         }
         startForegroundService(intent)
         isRunning = true
+    }
+
+    /**
+     * Onboarding-Seite der ersten fehlenden Berechtigung – oder null, wenn alle
+     * noetigen Rechte vorhanden sind. Seiten-Indizes wie im Welcome-Flow:
+     * 3 = Overlay, 4 = Geraeteadmin, 5 = Akku, 6 = Benachrichtigung.
+     * Alle vier sind erforderlich: ohne Akku-Ausnahme kann das System den Dienst
+     * beenden, daher blockiert jedes fehlende Recht den Start.
+     */
+    private fun firstMissingPermissionPage(): Int? {
+        if (!Settings.canDrawOverlays(this)) return 3
+        if (!isDeviceAdminActive()) return 4
+        if (!isIgnoringBatteryOptimizations()) return 5
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU && !isNotificationGranted()) return 6
+        return null
     }
 
     private fun stopService() {
