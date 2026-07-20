@@ -50,6 +50,14 @@ def restore_stash(metadata_dir, stash_dir)
   FileUtils.rm_rf(stash_dir)
 end
 
+# Findet die gebaute signierte AAB (CWD-unabhaengig).
+def find_release_aab
+  ["app/build/outputs/bundle/release/app-release.aab",
+   "../app/build/outputs/bundle/release/app-release.aab"]
+    .map { |p| File.expand_path(p) }
+    .find { |p| File.exist?(p) }
+end
+
 # --- Lanes -------------------------------------------------------------------
 
 platform :android do
@@ -116,5 +124,48 @@ platform :android do
     else
       UI.success("Metadaten hochgeladen. Sichtbar unter 'Veroeffentlichungen – Uebersicht' (muss zur Ueberpruefung eingereicht werden).")
     end
+  end
+
+  desc "Neues Release (signierte AAB) in einen Play-Track hochladen, inkl. Release-Notes."
+  desc "Vorher bauen:  .\\gradlew.bat bundleRelease"
+  desc "Standard: Track 'alpha' (geschlossener Test), Status 'completed'."
+  desc "Beispiel:  fastlane upload_release track:\"alpha\" status:completed"
+  lane :upload_release do |options|
+    ENV["LANG"]   = "en_US.UTF-8"
+    ENV["LC_ALL"] = "en_US.UTF-8"
+
+    track  = options.fetch(:track, "alpha")
+    status = options.fetch(:status, "completed")   # completed = nach Google-Review im Track aktiv
+    aab    = options[:aab] ? File.expand_path(options[:aab]) : find_release_aab
+    unless aab && File.exist?(aab.to_s)
+      UI.user_error!("AAB nicht gefunden. Zuerst bauen:  gradlew bundleRelease " \
+                     "(erwartet app/build/outputs/bundle/release/app-release.aab).")
+    end
+
+    metadata_dir = resolve_metadata_dir
+    UI.user_error!("Metadaten-Ordner nicht gefunden (cwd=#{Dir.pwd}).") if metadata_dir.nil?
+    stash_dir = File.expand_path(File.join(metadata_dir, "..", "..", ".play_locale_stash"))
+
+    # ga/mt defensiv ausklammern (falls supply Locales fuer Release-Notes durchgeht).
+    restore_stash(metadata_dir, stash_dir)
+    UNSUPPORTED_PLAY_LOCALES.each { |loc| stash_rel(loc, metadata_dir, stash_dir) }
+
+    begin
+      supply(
+        metadata_path:           metadata_dir,
+        track:                   track,
+        aab:                     aab,
+        release_status:          status,
+        skip_upload_apk:         true,
+        skip_upload_metadata:    true,    # Store-Listing ist bereits aktuell
+        skip_upload_images:      true,
+        skip_upload_screenshots: true,
+        skip_upload_changelogs:  false    # Release-Notes aus changelogs/<versionCode>.txt (9.txt)
+      )
+    ensure
+      restore_stash(metadata_dir, stash_dir)
+    end
+
+    UI.success("Release '#{File.basename(aab)}' auf Track '#{track}' hochgeladen (Status: #{status}).")
   end
 end
