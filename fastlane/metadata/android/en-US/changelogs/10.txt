@@ -1,0 +1,4 @@
+* Setup now opens the right screen for each missing permission
+* Battery and notification permissions are no longer treated as optional
+* Onboarding hint: scroll to SleepGuard in the app list for the overlay permission
+* Audio mode now also locks the screen if it is still on

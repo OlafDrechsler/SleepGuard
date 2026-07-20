@@ -1,0 +1,4 @@
+* Einrichtung öffnet jetzt für jedes fehlende Recht den passenden Bildschirm
+* Akku- und Benachrichtigungsrecht gelten nicht mehr als optional
+* Hinweis: für das Overlay-Recht in der App-Liste zu SleepGuard scrollen
+* Audio-Modus sperrt jetzt auch den Bildschirm, falls er noch an ist
