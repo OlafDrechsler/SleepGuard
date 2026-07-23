@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Српски -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Главни екран -->
+    <string name="title_interval">Интервал (минути)</string>
+    <string name="title_timeout">Временско ограничење (секунде)</string>
+    <string name="title_position">Положај дугмета</string>
+    <string name="title_mode">Режим</string>
+    <string name="hint_interval_video">док се не појави дугме</string>
+    <string name="hint_interval_audio">док се репродукција не паузира</string>
+    <string name="hint_timeout">да додирнете пре него што се екран закључа</string>
+    <string name="mode_video_desc">Појављује се дугме које додирнете да потврдите да сте будни. Ако то не урадите, екран се закључава.</string>
+    <string name="mode_audio_desc">Репродукција се једноставно зауставља након интервала, и када је екран искључен (музика, аудио-књиге, подкасти).</string>
+    <string name="onb_mode_title">Изаберите режим</string>
+    <string name="title_language">Језик</string>
+    <string name="lang_system">Подразумевано системско</string>
+    <string name="btn_start">Покрени</string>
+    <string name="btn_stop">Заустави</string>
+    <string name="btn_support">Подржите развој</string>
+    <string name="support_no_browser">Није пронађен ниједан прегледач за отварање везе.</string>
+    <string name="status_running">SleepGuard је активан</string>
+    <string name="status_stopped">SleepGuard је заустављен</string>
+
+    <!-- Положаји -->
+    <string name="pos_right_center">Десна ивица, средина</string>
+    <string name="pos_left_center">Лева ивица, средина</string>
+    <string name="pos_top_center">Горња ивица, средина</string>
+    <string name="pos_bottom_center">Доња ивица, средина</string>
+    <string name="pos_top_right">Горњи десни угао</string>
+    <string name="pos_top_left">Горњи леви угао</string>
+    <string name="pos_bottom_right">Доњи десни угао</string>
+    <string name="pos_bottom_left">Доњи леви угао</string>
+
+    <!-- Дозволе -->
+    <string name="permission_overlay_needed">Потребна је дозвола за приказ преко других апликација. Омогућите је у подешавањима.</string>
+    <string name="permission_admin_needed">Потребна је дозвола администратора уређаја за закључавање екрана.</string>
+    <string name="permission_battery_needed">Искључите оптимизацију батерије за SleepGuard да би се дугме поуздано појављивало у позадини.</string>
+    <string name="admin_description">SleepGuard-у је ова дозвола потребна искључиво за закључавање екрана (као дугме за напајање) када заспите.</string>
+
+    <!-- Обавештење -->
+    <string name="notification_channel">SleepGuard услуга</string>
+    <string name="notification_title">SleepGuard је активан</string>
+    <string name="notification_text">Провера сваких %d минута</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Изаберите свој језик</string>
+    <string name="onb_welcome_title">Добро дошли у SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard закључава телефон када заспите гледајући видео снимке — да батерија не буде празна ујутру и да никада не изгубите место у филму.\n\nSleepGuard ће вам изнова приказивати дугме које морате да додирнете. Ако га не додирнете, телефон се закључава. Интервал између дугмади подешавате у минутима — а време за додир, у секундама.</string>
+    <string name="onb_notif_title">Прикажи обавештење</string>
+    <string name="onb_notif_body">Дозволите обавештења да бисте увек видели да је SleepGuard активан док ради у позадини.</string>
+    <string name="onb_overlay_title">Приказ преко других апликација</string>
+    <string name="onb_overlay_body">SleepGuard приказује мало дугме преко вашег видеа. За то му је потребна дозвола да се приказује преко других апликација.</string>
+    <string name="onb_overlay_list_hint">Ако додирнете „%1$s“ и појави се листа апликација, померите се до SleepGuard-а и ту му дајте дозволу.</string>
+    <string name="onb_admin_title">Закључај екран</string>
+    <string name="onb_admin_body">Да би искључио екран када заспите — баш као дугме за напајање — SleepGuard-у је потребна дозвола администратора уређаја. Користи се само за закључавање екрана.</string>
+    <string name="onb_battery_title">Поуздан рад</string>
+    <string name="onb_battery_body">Да би се дугме за проверу појавило на време иако је друга апликација у првом плану, дозволите SleepGuard-у да игнорише оптимизацију батерије.</string>
+    <string name="onb_done_title">Све је спремно!</string>
+    <string name="onb_done_body">Спремни сте. Подесите интервал, додирните Покрени и наставите да гледате.</string>
+    <string name="onb_grant">Дозволи</string>
+    <string name="onb_granted">Дозвољено</string>
+    <string name="onb_next">Даље</string>
+    <string name="onb_back">Назад</string>
+    <string name="onb_finish">Започни</string>
+</resources>

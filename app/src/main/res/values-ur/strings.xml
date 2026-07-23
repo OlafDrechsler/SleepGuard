@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- اردو -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- مرکزی اسکرین -->
+    <string name="title_interval">وقفہ (منٹ)</string>
+    <string name="title_timeout">مہلت (سیکنڈ)</string>
+    <string name="title_position">بٹن کی جگہ</string>
+    <string name="title_mode">موڈ</string>
+    <string name="hint_interval_video">جب تک بٹن ظاہر نہ ہو</string>
+    <string name="hint_interval_audio">جب تک پلے بیک رک نہ جائے</string>
+    <string name="hint_timeout">اسکرین لاک ہونے سے پہلے ٹیپ کرنے کے لیے</string>
+    <string name="mode_video_desc">ایک بٹن ظاہر ہوتا ہے جسے آپ ٹیپ کر کے تصدیق کرتے ہیں کہ آپ جاگ رہے ہیں۔ اگر آپ نہ کریں تو اسکرین لاک ہو جاتی ہے۔</string>
+    <string name="mode_audio_desc">وقفے کے بعد پلے بیک بس رک جاتا ہے، اسکرین بند ہونے پر بھی (موسیقی، آڈیو کتابیں، پوڈکاسٹ)۔</string>
+    <string name="onb_mode_title">ایک موڈ منتخب کریں</string>
+    <string name="title_language">زبان</string>
+    <string name="lang_system">سسٹم کا طے شدہ</string>
+    <string name="btn_start">شروع کریں</string>
+    <string name="btn_stop">روکیں</string>
+    <string name="btn_support">ترقی میں معاونت کریں</string>
+    <string name="support_no_browser">لنک کھولنے کے لیے کوئی براؤزر نہیں ملا۔</string>
+    <string name="status_running">SleepGuard فعال ہے</string>
+    <string name="status_stopped">SleepGuard رک گیا ہے</string>
+
+    <!-- مقامات -->
+    <string name="pos_right_center">دایاں کنارہ، درمیان</string>
+    <string name="pos_left_center">بایاں کنارہ، درمیان</string>
+    <string name="pos_top_center">اوپری کنارہ، درمیان</string>
+    <string name="pos_bottom_center">نچلا کنارہ، درمیان</string>
+    <string name="pos_top_right">اوپری دایاں کونا</string>
+    <string name="pos_top_left">اوپری بایاں کونا</string>
+    <string name="pos_bottom_right">نچلا دایاں کونا</string>
+    <string name="pos_bottom_left">نچلا بایاں کونا</string>
+
+    <!-- اجازتیں -->
+    <string name="permission_overlay_needed">دیگر ایپس کے اوپر دکھانے کی اجازت درکار ہے۔ اسے ترتیبات میں دیں۔</string>
+    <string name="permission_admin_needed">اسکرین لاک کرنے کے لیے آلہ منتظم کی اجازت درکار ہے۔</string>
+    <string name="permission_battery_needed">SleepGuard کے لیے بیٹری آپٹیمائزیشن بند کریں تاکہ بٹن پس منظر میں بھروسے کے ساتھ ظاہر ہو۔</string>
+    <string name="admin_description">SleepGuard کو یہ اجازت صرف اسکرین لاک کرنے کے لیے درکار ہے (پاور بٹن کی طرح) جب آپ سو جائیں۔</string>
+
+    <!-- اطلاع -->
+    <string name="notification_channel">SleepGuard سروس</string>
+    <string name="notification_title">SleepGuard فعال ہے</string>
+    <string name="notification_text">ہر %d منٹ بعد جانچ</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">اپنی زبان منتخب کریں</string>
+    <string name="onb_welcome_title">SleepGuard میں خوش آمدید</string>
+    <string name="onb_welcome_body">جب آپ ویڈیوز دیکھتے ہوئے سو جاتے ہیں تو SleepGuard آپ کا فون لاک کر دیتا ہے — تاکہ صبح بیٹری خالی نہ ہو اور آپ فلم میں اپنی جگہ کبھی نہ کھوئیں۔\n\nSleepGuard آپ کو بار بار ایک بٹن دکھاتا رہے گا جسے آپ کو ٹیپ کرنا ہوگا۔ اگر آپ اسے ٹیپ نہ کریں تو فون لاک ہو جاتا ہے۔ بٹنوں کے درمیان وقفہ آپ منٹوں میں مقرر کرتے ہیں — اور ٹیپ کرنے کا وقت سیکنڈوں میں۔</string>
+    <string name="onb_notif_title">اطلاع دکھائیں</string>
+    <string name="onb_notif_body">اطلاعات کی اجازت دیں تاکہ آپ ہمیشہ دیکھ سکیں کہ SleepGuard پس منظر میں چلتے ہوئے فعال ہے۔</string>
+    <string name="onb_overlay_title">دیگر ایپس کے اوپر دکھائیں</string>
+    <string name="onb_overlay_body">SleepGuard آپ کی ویڈیو کے اوپر ایک چھوٹا بٹن دکھاتا ہے۔ اس کے لیے اسے دیگر ایپس کے اوپر دکھانے کی اجازت درکار ہے۔</string>
+    <string name="onb_overlay_list_hint">اگر آپ “%1$s” ٹیپ کریں اور ایپس کی فہرست ظاہر ہو، تو SleepGuard تک اسکرول کریں اور وہیں اسے اجازت دیں۔</string>
+    <string name="onb_admin_title">اسکرین لاک کریں</string>
+    <string name="onb_admin_body">جب آپ سو جائیں تو اسکرین بند کرنے کے لیے — بالکل پاور بٹن کی طرح — SleepGuard کو آلہ منتظم کی اجازت درکار ہے۔ یہ صرف اسکرین لاک کرنے کے لیے استعمال ہوتی ہے۔</string>
+    <string name="onb_battery_title">بھروسے کے ساتھ چلائیں</string>
+    <string name="onb_battery_body">تاکہ کوئی دوسری ایپ سامنے ہونے کے باوجود جانچ کا بٹن بروقت ظاہر ہو، SleepGuard کو بیٹری آپٹیمائزیشن نظر انداز کرنے کی اجازت دیں۔</string>
+    <string name="onb_done_title">سب تیار ہے!</string>
+    <string name="onb_done_body">آپ تیار ہیں۔ اپنا وقفہ مقرر کریں، شروع کریں پر ٹیپ کریں، اور دیکھتے رہیں۔</string>
+    <string name="onb_grant">اجازت دیں</string>
+    <string name="onb_granted">اجازت دی گئی</string>
+    <string name="onb_next">اگلا</string>
+    <string name="onb_back">واپس</string>
+    <string name="onb_finish">شروع کریں</string>
+</resources>

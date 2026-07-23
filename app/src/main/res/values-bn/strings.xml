@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- বাংলা -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- প্রধান স্ক্রিন -->
+    <string name="title_interval">বিরতি (মিনিট)</string>
+    <string name="title_timeout">সময়সীমা (সেকেন্ড)</string>
+    <string name="title_position">বোতামের অবস্থান</string>
+    <string name="title_mode">মোড</string>
+    <string name="hint_interval_video">বোতাম না দেখানো পর্যন্ত</string>
+    <string name="hint_interval_audio">প্লেব্যাক থামা পর্যন্ত</string>
+    <string name="hint_timeout">স্ক্রিন লক হওয়ার আগে ট্যাপ করার জন্য</string>
+    <string name="mode_video_desc">একটি বোতাম দেখা যায় যেটি ট্যাপ করে আপনি নিশ্চিত করেন যে আপনি জেগে আছেন। না করলে স্ক্রিন লক হয়ে যায়।</string>
+    <string name="mode_audio_desc">বিরতির পরে প্লেব্যাক কেবল থেমে যায়, স্ক্রিন বন্ধ থাকলেও (গান, অডিওবুক, পডকাস্ট)।</string>
+    <string name="onb_mode_title">একটি মোড বেছে নিন</string>
+    <string name="title_language">ভাষা</string>
+    <string name="lang_system">সিস্টেম ডিফল্ট</string>
+    <string name="btn_start">শুরু করুন</string>
+    <string name="btn_stop">থামান</string>
+    <string name="btn_support">উন্নয়নে সহায়তা করুন</string>
+    <string name="support_no_browser">লিঙ্ক খোলার জন্য কোনো ব্রাউজার পাওয়া যায়নি।</string>
+    <string name="status_running">SleepGuard সক্রিয়</string>
+    <string name="status_stopped">SleepGuard বন্ধ</string>
+
+    <!-- অবস্থান -->
+    <string name="pos_right_center">ডান প্রান্ত, মাঝখানে</string>
+    <string name="pos_left_center">বাম প্রান্ত, মাঝখানে</string>
+    <string name="pos_top_center">উপরের প্রান্ত, মাঝখানে</string>
+    <string name="pos_bottom_center">নিচের প্রান্ত, মাঝখানে</string>
+    <string name="pos_top_right">উপরের ডান কোণ</string>
+    <string name="pos_top_left">উপরের বাম কোণ</string>
+    <string name="pos_bottom_right">নিচের ডান কোণ</string>
+    <string name="pos_bottom_left">নিচের বাম কোণ</string>
+
+    <!-- অনুমতি -->
+    <string name="permission_overlay_needed">অন্যান্য অ্যাপের উপরে দেখানোর অনুমতি প্রয়োজন। সেটিংসে এটি দিন।</string>
+    <string name="permission_admin_needed">স্ক্রিন লক করতে ডিভাইস অ্যাডমিন অনুমতি প্রয়োজন।</string>
+    <string name="permission_battery_needed">SleepGuard-এর জন্য ব্যাটারি অপ্টিমাইজেশন বন্ধ করুন যাতে বোতামটি পটভূমিতে নির্ভরযোগ্যভাবে দেখা যায়।</string>
+    <string name="admin_description">আপনি ঘুমিয়ে পড়লে স্ক্রিন লক করার জন্য (পাওয়ার বোতামের মতো) SleepGuard-এর কেবল এই অনুমতি প্রয়োজন।</string>
+
+    <!-- বিজ্ঞপ্তি -->
+    <string name="notification_channel">SleepGuard পরিষেবা</string>
+    <string name="notification_title">SleepGuard সক্রিয়</string>
+    <string name="notification_text">প্রতি %d মিনিটে পরীক্ষা</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">আপনার ভাষা বেছে নিন</string>
+    <string name="onb_welcome_title">SleepGuard-এ স্বাগতম</string>
+    <string name="onb_welcome_body">ভিডিও দেখতে দেখতে ঘুমিয়ে পড়লে SleepGuard আপনার ফোন লক করে দেয় — যাতে সকালে ব্যাটারি খালি না হয় এবং আপনি সিনেমায় আপনার জায়গা কখনও হারিয়ে না ফেলেন।\n\nSleepGuard বারবার আপনাকে একটি বোতাম দেখাবে যেটি আপনাকে ট্যাপ করতে হবে। ট্যাপ না করলে ফোন লক হয়ে যায়। বোতামগুলোর মধ্যে বিরতি আপনি মিনিটে ঠিক করেন — আর ট্যাপ করার সময় সেকেন্ডে।</string>
+    <string name="onb_notif_title">বিজ্ঞপ্তি দেখান</string>
+    <string name="onb_notif_body">বিজ্ঞপ্তির অনুমতি দিন যাতে SleepGuard পটভূমিতে চলার সময় সক্রিয় আছে তা আপনি সবসময় দেখতে পান।</string>
+    <string name="onb_overlay_title">অন্যান্য অ্যাপের উপরে দেখান</string>
+    <string name="onb_overlay_body">SleepGuard আপনার ভিডিওর উপরে একটি ছোট বোতাম দেখায়। এর জন্য অন্যান্য অ্যাপের উপরে দেখানোর অনুমতি প্রয়োজন।</string>
+    <string name="onb_overlay_list_hint">আপনি “%1$s” ট্যাপ করলে যদি অ্যাপের একটি তালিকা আসে, তবে SleepGuard পর্যন্ত স্ক্রল করুন এবং সেখানেই এটিকে অনুমতি দিন।</string>
+    <string name="onb_admin_title">স্ক্রিন লক করুন</string>
+    <string name="onb_admin_body">আপনি ঘুমিয়ে পড়লে স্ক্রিন বন্ধ করতে — ঠিক পাওয়ার বোতামের মতো — SleepGuard-এর ডিভাইস অ্যাডমিন অনুমতি প্রয়োজন। এটি কেবল স্ক্রিন লক করতে ব্যবহৃত হয়।</string>
+    <string name="onb_battery_title">নির্ভরযোগ্যভাবে চালান</string>
+    <string name="onb_battery_body">অন্য একটি অ্যাপ সামনে থাকলেও যাতে পরীক্ষার বোতামটি সময়মতো দেখা যায়, SleepGuard-কে ব্যাটারি অপ্টিমাইজেশন উপেক্ষা করার অনুমতি দিন।</string>
+    <string name="onb_done_title">সব প্রস্তুত!</string>
+    <string name="onb_done_body">আপনি প্রস্তুত। আপনার বিরতি সেট করুন, শুরু করুন ট্যাপ করুন এবং দেখতে থাকুন।</string>
+    <string name="onb_grant">অনুমতি দিন</string>
+    <string name="onb_granted">অনুমতি দেওয়া হয়েছে</string>
+    <string name="onb_next">পরবর্তী</string>
+    <string name="onb_back">পিছনে</string>
+    <string name="onb_finish">শুরু করুন</string>
+</resources>

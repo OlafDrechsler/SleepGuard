@@ -1,0 +1,50 @@
+Bạn có thường ngủ gật khi xem video hoặc nghe nhạc trên điện thoại không? SleepGuard sẽ đảm bảo thiết bị của bạn không hoạt động suốt cả đêm.
+
+Theo khoảng thời gian bạn chọn, một vòng tròn nhỏ màu đỏ sẽ xuất hiện phía trên nội dung bạn đang xem. Chạm vào vòng tròn đó để tiếp tục phát lại như bình thường. Nếu bạn không chạm vào vòng tròn trong vòng vài giây — vì bạn đã ngủ thiếp đi — SleepGuard sẽ khóa màn hình, giống như khi bạn nhấn nút nguồn. Video của bạn sẽ dừng lại và điện thoại của bạn được bảo vệ trong suốt phần còn lại của đêm.
+
+Ngoài ra còn có Chế độ Âm thanh dành cho nhạc, sách nói và podcast: thay vì nút bấm, SleepGuard hoạt động như một bộ hẹn giờ ngủ đơn giản, tự động dừng phát lại sau khoảng thời gian bạn chọn — ngay cả khi màn hình đã tắt.
+
+TẠI SAO BẠN CẦN ỨNG DỤNG NÀY
+
+* YouTube và các ứng dụng có tính năng phát tự động: Nếu không có SleepGuard, một video sẽ tự động phát tiếp video khác, rồi lại video khác… cho đến sáng. Trong trường hợp xấu nhất, pin sẽ cạn kiệt và báo thức của bạn sẽ không thể reo khi bạn cần. SleepGuard sẽ ngắt chuỗi phát này ngay khi bạn ngừng phản hồi.
+
+* Netflix, Prime Video và các ứng dụng phát trực tuyến khác: Nếu bạn ngủ gật giữa chừng tập phim, khi thức dậy bạn sẽ không biết mình đã ngủ gật ở đâu. Bạn sẽ lãng phí thời gian tua lại để tìm đúng đoạn — đôi khi phải xem đi xem lại những quảng cáo dài. SleepGuard sẽ khóa màn hình ngay khi bạn không phản hồi, giúp ứng dụng phát trực tuyến biết chính xác điểm cần tiếp tục.
+
+CÁCH HOẠT ĐỘNG
+
+1. Cài đặt tần suất xuất hiện của nút kiểm tra (ví dụ: cứ 5 phút một lần).
+2. Cài đặt số giây bạn có để phản hồi trước khi màn hình bị khóa (ví dụ: 30 giây).
+3. Chọn vị trí xuất hiện của nút trên màn hình.
+4. Khởi động SleepGuard và tiếp tục xem.
+
+TÍNH NĂNG
+
+* Hai chế độ: Video (nút kiểm tra thức tỉnh hiển thị trên bất kỳ ứng dụng nào) và Âm thanh (hẹn giờ ngủ cho nhạc, sách nói và podcast, hoạt động ngay cả khi màn hình tắt)
+* Khoảng thời gian và thời gian phản hồi có thể điều chỉnh
+* Tám vị trí nút để lựa chọn
+* Đo thời gian chính xác ngay cả khi chạy ngầm (sử dụng báo thức hệ thống)
+* Hoàn toàn miễn phí, không quảng cáo, không theo dõi, không yêu cầu tài khoản
+
+QUYỀN RIÊNG TƯ
+
+SleepGuard KHÔNG yêu cầu bất kỳ quyền truy cập internet nào. Ứng dụng không thể gửi hoặc nhận bất kỳ dữ liệu nào. Ứng dụng chỉ thực hiện đúng hai chức năng: hiển thị nút và khóa màn hình. Ứng dụng không thu thập bất kỳ thông tin nào.
+
+GIẢI THÍCH VỀ QUYỀN TRUY CẬP
+
+* Hiển thị trên các ứng dụng khác: để hiển thị vòng tròn màu đỏ trên video của bạn.
+* Quản trị thiết bị (chỉ khóa màn hình): để khóa màn hình giống như nút nguồn.
+* Dịch vụ nền trước & báo thức chính xác: để nút kiểm tra xuất hiện đúng giờ.
+* Bỏ qua tối ưu hóa pin: để nút vẫn hoạt động ổn định khi có ứng dụng khác đang chạy ở chế độ nền.
+* Thông báo (Android 13 trở lên): để hiển thị thông báo liên tục "SleepGuard đang hoạt động".
+
+MÃ NGUỒN MỞ
+
+SleepGuard là phần mềm miễn phí, được cấp phép theo Giấy phép Công cộng GNU phiên bản 3. Toàn bộ mã nguồn được công khai để bất kỳ ai cũng có thể kiểm tra chính xác cách thức hoạt động của ứng dụng: https://github.com/OlafDrechsler/SleepGuard
+
+HỖ TRỢ
+
+SleepGuard là phần mềm miễn phí và sẽ luôn miễn phí. Nếu ứng dụng này giúp ích cho bạn, bạn có thể ủng hộ nhà phát triển bằng cách đóng góp tự nguyện ngay trong ứng dụng. Không có phần thưởng nào được trao lại - đây đơn thuần là lời cảm ơn.
+
+Ý TƯỞNG / TÊN GỌI
+
+Ý tưởng cho ứng dụng này xuất phát từ một hệ thống an toàn được sử dụng trên tàu hỏa. Trong buồng lái, có một nút mà người lái phải nhấn theo các khoảng thời gian đều đặn; nếu không, tàu sẽ tự động dừng lại. Bằng cách nhấn nút này, lái tàu xác nhận rằng mình vẫn đang tỉnh táo. Trong ngôn ngữ thông thường, nút này được gọi là "công tắc người chết", và vì vậy ứng dụng này cũng được gọi là "SleepGuard – công tắc người chết".

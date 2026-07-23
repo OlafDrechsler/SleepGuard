@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tiếng Việt -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Màn hình chính -->
+    <string name="title_interval">Khoảng thời gian (phút)</string>
+    <string name="title_timeout">Thời gian chờ (giây)</string>
+    <string name="title_position">Vị trí nút</string>
+    <string name="title_mode">Chế độ</string>
+    <string name="hint_interval_video">cho đến khi nút xuất hiện</string>
+    <string name="hint_interval_audio">cho đến khi tạm dừng phát</string>
+    <string name="hint_timeout">để chạm trước khi màn hình khóa</string>
+    <string name="mode_video_desc">Một nút xuất hiện để bạn chạm nhằm xác nhận bạn còn thức. Nếu không, màn hình sẽ khóa.</string>
+    <string name="mode_audio_desc">Việc phát chỉ đơn giản dừng lại sau khoảng thời gian, kể cả khi màn hình đã tắt (nhạc, sách nói, podcast).</string>
+    <string name="onb_mode_title">Chọn một chế độ</string>
+    <string name="title_language">Ngôn ngữ</string>
+    <string name="lang_system">Mặc định hệ thống</string>
+    <string name="btn_start">Bắt đầu</string>
+    <string name="btn_stop">Dừng</string>
+    <string name="btn_support">Hỗ trợ phát triển</string>
+    <string name="support_no_browser">Không tìm thấy trình duyệt nào để mở liên kết.</string>
+    <string name="status_running">SleepGuard đang hoạt động</string>
+    <string name="status_stopped">SleepGuard đã dừng</string>
+
+    <!-- Vị trí -->
+    <string name="pos_right_center">Cạnh phải, giữa</string>
+    <string name="pos_left_center">Cạnh trái, giữa</string>
+    <string name="pos_top_center">Cạnh trên, giữa</string>
+    <string name="pos_bottom_center">Cạnh dưới, giữa</string>
+    <string name="pos_top_right">Góc trên bên phải</string>
+    <string name="pos_top_left">Góc trên bên trái</string>
+    <string name="pos_bottom_right">Góc dưới bên phải</string>
+    <string name="pos_bottom_left">Góc dưới bên trái</string>
+
+    <!-- Quyền -->
+    <string name="permission_overlay_needed">Cần quyền hiển thị trên ứng dụng khác. Hãy cấp quyền trong Cài đặt.</string>
+    <string name="permission_admin_needed">Cần quyền quản trị thiết bị để khóa màn hình.</string>
+    <string name="permission_battery_needed">Tắt tối ưu hóa pin cho SleepGuard để nút xuất hiện đáng tin cậy ở chế độ nền.</string>
+    <string name="admin_description">SleepGuard cần quyền này chỉ để khóa màn hình (giống như nút nguồn) khi bạn ngủ thiếp đi.</string>
+
+    <!-- Thông báo -->
+    <string name="notification_channel">Dịch vụ SleepGuard</string>
+    <string name="notification_title">SleepGuard đang hoạt động</string>
+    <string name="notification_text">Kiểm tra mỗi %d phút</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Chọn ngôn ngữ của bạn</string>
+    <string name="onb_welcome_title">Chào mừng đến với SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard khóa điện thoại khi bạn ngủ thiếp đi lúc xem video — để pin không cạn vào buổi sáng và bạn không bao giờ mất vị trí đang xem trong phim.\n\nSleepGuard sẽ liên tục hiển thị một nút mà bạn phải chạm vào. Nếu bạn không chạm, điện thoại sẽ khóa. Bạn đặt khoảng thời gian giữa các nút bằng phút — và thời gian để chạm, bằng giây.</string>
+    <string name="onb_notif_title">Hiển thị thông báo</string>
+    <string name="onb_notif_body">Cho phép thông báo để bạn luôn thấy rằng SleepGuard đang hoạt động khi chạy ở chế độ nền.</string>
+    <string name="onb_overlay_title">Hiển thị trên ứng dụng khác</string>
+    <string name="onb_overlay_body">SleepGuard hiển thị một nút nhỏ trên video của bạn. Để làm vậy, ứng dụng cần quyền hiển thị trên các ứng dụng khác.</string>
+    <string name="onb_overlay_list_hint">Nếu bạn chạm “%1$s” và một danh sách ứng dụng xuất hiện, hãy cuộn đến SleepGuard và cấp quyền cho ứng dụng tại đó.</string>
+    <string name="onb_admin_title">Khóa màn hình</string>
+    <string name="onb_admin_body">Để tắt màn hình khi bạn ngủ thiếp đi — giống như nút nguồn — SleepGuard cần quyền quản trị thiết bị. Quyền này chỉ dùng để khóa màn hình.</string>
+    <string name="onb_battery_title">Chạy đáng tin cậy</string>
+    <string name="onb_battery_body">Để nút kiểm tra vẫn xuất hiện đúng lúc khi một ứng dụng khác đang ở nền trước, hãy cho phép SleepGuard bỏ qua tối ưu hóa pin.</string>
+    <string name="onb_done_title">Đã xong!</string>
+    <string name="onb_done_body">Bạn đã sẵn sàng. Đặt khoảng thời gian, chạm Bắt đầu và tiếp tục xem.</string>
+    <string name="onb_grant">Cấp</string>
+    <string name="onb_granted">Đã cấp</string>
+    <string name="onb_next">Tiếp theo</string>
+    <string name="onb_back">Quay lại</string>
+    <string name="onb_finish">Bắt đầu</string>
+</resources>

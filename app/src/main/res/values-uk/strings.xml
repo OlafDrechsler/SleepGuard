@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Українська -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Головний екран -->
+    <string name="title_interval">Інтервал (хвилини)</string>
+    <string name="title_timeout">Час очікування (секунди)</string>
+    <string name="title_position">Розташування кнопки</string>
+    <string name="title_mode">Режим</string>
+    <string name="hint_interval_video">доки не з\'явиться кнопка</string>
+    <string name="hint_interval_audio">доки відтворення не призупиниться</string>
+    <string name="hint_timeout">щоб торкнутися, перш ніж екран заблокується</string>
+    <string name="mode_video_desc">З\'являється кнопка, якої ви торкаєтеся, щоб підтвердити, що не спите. Якщо ні, екран блокується.</string>
+    <string name="mode_audio_desc">Відтворення просто зупиняється після інтервалу, навіть із вимкненим екраном (музика, аудіокниги, подкасти).</string>
+    <string name="onb_mode_title">Виберіть режим</string>
+    <string name="title_language">Мова</string>
+    <string name="lang_system">Стандартна для системи</string>
+    <string name="btn_start">Почати</string>
+    <string name="btn_stop">Зупинити</string>
+    <string name="btn_support">Підтримати розробку</string>
+    <string name="support_no_browser">Не знайдено браузера для відкриття посилання.</string>
+    <string name="status_running">SleepGuard активний</string>
+    <string name="status_stopped">SleepGuard зупинено</string>
+
+    <!-- Розташування -->
+    <string name="pos_right_center">Правий край, центр</string>
+    <string name="pos_left_center">Лівий край, центр</string>
+    <string name="pos_top_center">Верхній край, центр</string>
+    <string name="pos_bottom_center">Нижній край, центр</string>
+    <string name="pos_top_right">Верхній правий кут</string>
+    <string name="pos_top_left">Верхній лівий кут</string>
+    <string name="pos_bottom_right">Нижній правий кут</string>
+    <string name="pos_bottom_left">Нижній лівий кут</string>
+
+    <!-- Дозволи -->
+    <string name="permission_overlay_needed">Потрібен дозвіл на показ поверх інших додатків. Надайте його в налаштуваннях.</string>
+    <string name="permission_admin_needed">Потрібен дозвіл адміністратора пристрою для блокування екрана.</string>
+    <string name="permission_battery_needed">Вимкніть оптимізацію акумулятора для SleepGuard, щоб кнопка надійно з\'являлася у фоні.</string>
+    <string name="admin_description">SleepGuard потребує цього дозволу виключно для блокування екрана (як кнопка живлення), коли ви засинаєте.</string>
+
+    <!-- Сповіщення -->
+    <string name="notification_channel">Служба SleepGuard</string>
+    <string name="notification_title">SleepGuard активний</string>
+    <string name="notification_text">Перевірка кожні %d хв</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Виберіть свою мову</string>
+    <string name="onb_welcome_title">Ласкаво просимо до SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard блокує телефон, коли ви засинаєте за переглядом відео — щоб уранці акумулятор не був розряджений і ви ніколи не втрачали місце у фільмі.\n\nSleepGuard знову й знову показуватиме кнопку, якої потрібно торкнутися. Якщо ви її не торкнетеся, телефон заблокується. Інтервал між кнопками ви задаєте у хвилинах — а час на дотик, у секундах.</string>
+    <string name="onb_notif_title">Показувати сповіщення</string>
+    <string name="onb_notif_body">Дозвольте сповіщення, щоб завжди бачити, що SleepGuard активний, поки він працює у фоні.</string>
+    <string name="onb_overlay_title">Показ поверх інших додатків</string>
+    <string name="onb_overlay_body">SleepGuard показує невелику кнопку поверх вашого відео. Для цього йому потрібен дозвіл відображатися поверх інших додатків.</string>
+    <string name="onb_overlay_list_hint">Якщо ви торкнетеся «%1$s» і з\'явиться список додатків, прокрутіть до SleepGuard і надайте йому дозвіл там.</string>
+    <string name="onb_admin_title">Заблокувати екран</string>
+    <string name="onb_admin_body">Щоб вимикати екран, коли ви засинаєте — так само, як кнопка живлення — SleepGuard потрібен дозвіл адміністратора пристрою. Він використовується лише для блокування екрана.</string>
+    <string name="onb_battery_title">Надійна робота</string>
+    <string name="onb_battery_body">Щоб кнопка перевірки з\'являлася вчасно, навіть коли інший додаток на передньому плані, дозвольте SleepGuard ігнорувати оптимізацію акумулятора.</string>
+    <string name="onb_done_title">Усе готово!</string>
+    <string name="onb_done_body">Ви готові. Задайте інтервал, торкніться Почати й дивіться далі.</string>
+    <string name="onb_grant">Надати</string>
+    <string name="onb_granted">Надано</string>
+    <string name="onb_next">Далі</string>
+    <string name="onb_back">Назад</string>
+    <string name="onb_finish">Почати</string>
+</resources>

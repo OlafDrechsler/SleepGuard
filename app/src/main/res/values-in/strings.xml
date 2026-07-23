@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Indonesia -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Layar utama -->
+    <string name="title_interval">Interval (menit)</string>
+    <string name="title_timeout">Batas waktu (detik)</string>
+    <string name="title_position">Posisi tombol</string>
+    <string name="title_mode">Mode</string>
+    <string name="hint_interval_video">hingga tombol muncul</string>
+    <string name="hint_interval_audio">hingga pemutaran dijeda</string>
+    <string name="hint_timeout">untuk menekan sebelum layar terkunci</string>
+    <string name="mode_video_desc">Sebuah tombol muncul yang Anda tekan untuk memastikan Anda terjaga. Jika tidak, layar akan terkunci.</string>
+    <string name="mode_audio_desc">Pemutaran cukup berhenti setelah interval, juga saat layar mati (musik, buku audio, podcast).</string>
+    <string name="onb_mode_title">Pilih mode</string>
+    <string name="title_language">Bahasa</string>
+    <string name="lang_system">Bawaan sistem</string>
+    <string name="btn_start">Mulai</string>
+    <string name="btn_stop">Berhenti</string>
+    <string name="btn_support">Dukung pengembangan</string>
+    <string name="support_no_browser">Tidak ada peramban untuk membuka tautan.</string>
+    <string name="status_running">SleepGuard aktif</string>
+    <string name="status_stopped">SleepGuard berhenti</string>
+
+    <!-- Posisi -->
+    <string name="pos_right_center">Tepi kanan, tengah</string>
+    <string name="pos_left_center">Tepi kiri, tengah</string>
+    <string name="pos_top_center">Tepi atas, tengah</string>
+    <string name="pos_bottom_center">Tepi bawah, tengah</string>
+    <string name="pos_top_right">Sudut kanan atas</string>
+    <string name="pos_top_left">Sudut kiri atas</string>
+    <string name="pos_bottom_right">Sudut kanan bawah</string>
+    <string name="pos_bottom_left">Sudut kiri bawah</string>
+
+    <!-- Izin -->
+    <string name="permission_overlay_needed">Izin tampilan di atas aplikasi lain diperlukan. Berikan izin di Pengaturan.</string>
+    <string name="permission_admin_needed">Izin admin perangkat diperlukan untuk mengunci layar.</string>
+    <string name="permission_battery_needed">Nonaktifkan pengoptimalan baterai untuk SleepGuard agar tombol muncul dengan andal di latar belakang.</string>
+    <string name="admin_description">SleepGuard memerlukan izin ini semata-mata untuk mengunci layar (seperti tombol daya) saat Anda tertidur.</string>
+
+    <!-- Notifikasi -->
+    <string name="notification_channel">Layanan SleepGuard</string>
+    <string name="notification_title">SleepGuard aktif</string>
+    <string name="notification_text">Memeriksa setiap %d menit</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Pilih bahasa Anda</string>
+    <string name="onb_welcome_title">Selamat datang di SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard mengunci ponsel Anda saat Anda tertidur menonton video — agar baterai tidak habis di pagi hari dan Anda tidak pernah kehilangan posisi dalam film.\n\nSleepGuard akan terus menampilkan tombol yang harus Anda tekan. Jika tidak Anda tekan, ponsel akan terkunci. Interval antar tombol Anda atur dalam menit — dan waktu untuk menekan, dalam detik.</string>
+    <string name="onb_notif_title">Tampilkan notifikasi</string>
+    <string name="onb_notif_body">Izinkan notifikasi agar Anda selalu melihat bahwa SleepGuard aktif saat berjalan di latar belakang.</string>
+    <string name="onb_overlay_title">Tampilkan di atas aplikasi lain</string>
+    <string name="onb_overlay_body">SleepGuard menampilkan tombol kecil di atas video Anda. Untuk itu diperlukan izin untuk tampil di atas aplikasi lain.</string>
+    <string name="onb_overlay_list_hint">Jika Anda menekan “%1$s” dan daftar aplikasi muncul, gulir ke SleepGuard dan berikan izinnya di sana.</string>
+    <string name="onb_admin_title">Kunci layar</string>
+    <string name="onb_admin_body">Untuk mematikan layar saat Anda tertidur — seperti tombol daya — SleepGuard memerlukan izin administrator perangkat. Izin ini hanya digunakan untuk mengunci layar.</string>
+    <string name="onb_battery_title">Berjalan dengan andal</string>
+    <string name="onb_battery_body">Agar tombol pemeriksaan tetap muncul tepat waktu saat aplikasi lain berada di latar depan, izinkan SleepGuard mengabaikan pengoptimalan baterai.</string>
+    <string name="onb_done_title">Semua siap!</string>
+    <string name="onb_done_body">Anda siap. Atur interval, tekan Mulai, dan lanjutkan menonton.</string>
+    <string name="onb_grant">Berikan</string>
+    <string name="onb_granted">Diberikan</string>
+    <string name="onb_next">Berikutnya</string>
+    <string name="onb_back">Kembali</string>
+    <string name="onb_finish">Mulai</string>
+</resources>

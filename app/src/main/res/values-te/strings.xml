@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- తెలుగు -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- ప్రధాన స్క్రీన్ -->
+    <string name="title_interval">విరామం (నిమిషాలు)</string>
+    <string name="title_timeout">గడువు (సెకన్లు)</string>
+    <string name="title_position">బటన్ స్థానం</string>
+    <string name="title_mode">మోడ్</string>
+    <string name="hint_interval_video">బటన్ కనిపించే వరకు</string>
+    <string name="hint_interval_audio">ప్లేబ్యాక్ ఆగే వరకు</string>
+    <string name="hint_timeout">స్క్రీన్ లాక్ అయ్యే ముందు నొక్కడానికి</string>
+    <string name="mode_video_desc">మీరు మేల్కొని ఉన్నారని నిర్ధారించడానికి నొక్కే బటన్ కనిపిస్తుంది. నొక్కకపోతే స్క్రీన్ లాక్ అవుతుంది.</string>
+    <string name="mode_audio_desc">విరామం తర్వాత ప్లేబ్యాక్ కేవలం ఆగిపోతుంది, స్క్రీన్ ఆఫ్‌లో ఉన్నా కూడా (సంగీతం, ఆడియోబుక్‌లు, పాడ్‌కాస్ట్‌లు).</string>
+    <string name="onb_mode_title">ఒక మోడ్‌ను ఎంచుకోండి</string>
+    <string name="title_language">భాష</string>
+    <string name="lang_system">సిస్టమ్ డిఫాల్ట్</string>
+    <string name="btn_start">ప్రారంభించు</string>
+    <string name="btn_stop">ఆపు</string>
+    <string name="btn_support">అభివృద్ధికి మద్దతు ఇవ్వండి</string>
+    <string name="support_no_browser">లింక్‌ను తెరవడానికి బ్రౌజర్ కనబడలేదు.</string>
+    <string name="status_running">SleepGuard సక్రియంగా ఉంది</string>
+    <string name="status_stopped">SleepGuard ఆగింది</string>
+
+    <!-- స్థానాలు -->
+    <string name="pos_right_center">కుడి అంచు, మధ్య</string>
+    <string name="pos_left_center">ఎడమ అంచు, మధ్య</string>
+    <string name="pos_top_center">పై అంచు, మధ్య</string>
+    <string name="pos_bottom_center">కింది అంచు, మధ్య</string>
+    <string name="pos_top_right">పై కుడి మూల</string>
+    <string name="pos_top_left">పై ఎడమ మూల</string>
+    <string name="pos_bottom_right">కింది కుడి మూల</string>
+    <string name="pos_bottom_left">కింది ఎడమ మూల</string>
+
+    <!-- అనుమతులు -->
+    <string name="permission_overlay_needed">ఇతర యాప్‌ల పైన చూపించే అనుమతి అవసరం. దాన్ని సెట్టింగ్‌లలో ఇవ్వండి.</string>
+    <string name="permission_admin_needed">స్క్రీన్ లాక్ చేయడానికి పరికర అడ్మిన్ అనుమతి అవసరం.</string>
+    <string name="permission_battery_needed">బటన్ నేపథ్యంలో నమ్మకంగా కనిపించేలా SleepGuard కోసం బ్యాటరీ ఆప్టిమైజేషన్‌ను ఆఫ్ చేయండి.</string>
+    <string name="admin_description">మీరు నిద్రపోయినప్పుడు స్క్రీన్‌ను లాక్ చేయడానికి మాత్రమే (పవర్ బటన్ లాగా) SleepGuard కి ఈ అనుమతి అవసరం.</string>
+
+    <!-- నోటిఫికేషన్ -->
+    <string name="notification_channel">SleepGuard సేవ</string>
+    <string name="notification_title">SleepGuard సక్రియంగా ఉంది</string>
+    <string name="notification_text">ప్రతి %d నిమిషాలకు తనిఖీ</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">మీ భాషను ఎంచుకోండి</string>
+    <string name="onb_welcome_title">SleepGuard కి స్వాగతం</string>
+    <string name="onb_welcome_body">వీడియోలు చూస్తూ మీరు నిద్రపోతే SleepGuard మీ ఫోన్‌ను లాక్ చేస్తుంది — ఉదయానికి బ్యాటరీ ఖాళీ కాకుండా, సినిమాలో మీ స్థానాన్ని ఎప్పటికీ కోల్పోకుండా ఉండేలా.\n\nSleepGuard మీకు నొక్కాల్సిన బటన్‌ను పదేపదే చూపిస్తుంది. మీరు నొక్కకపోతే ఫోన్ లాక్ అవుతుంది. బటన్‌ల మధ్య విరామాన్ని మీరు నిమిషాల్లో సెట్ చేస్తారు — నొక్కే సమయాన్ని సెకన్లలో.</string>
+    <string name="onb_notif_title">నోటిఫికేషన్ చూపించు</string>
+    <string name="onb_notif_body">SleepGuard నేపథ్యంలో నడుస్తున్నప్పుడు సక్రియంగా ఉందని మీరు ఎల్లప్పుడూ చూసేలా నోటిఫికేషన్‌లను అనుమతించండి.</string>
+    <string name="onb_overlay_title">ఇతర యాప్‌ల పైన చూపించు</string>
+    <string name="onb_overlay_body">SleepGuard మీ వీడియో పైన చిన్న బటన్‌ను చూపిస్తుంది. దాని కోసం ఇతర యాప్‌ల పైన చూపించే అనుమతి అవసరం.</string>
+    <string name="onb_overlay_list_hint">మీరు “%1$s” నొక్కినప్పుడు యాప్‌ల జాబితా కనిపిస్తే, SleepGuard వరకు స్క్రోల్ చేసి అక్కడే దానికి అనుమతి ఇవ్వండి.</string>
+    <string name="onb_admin_title">స్క్రీన్ లాక్ చేయి</string>
+    <string name="onb_admin_body">మీరు నిద్రపోయినప్పుడు స్క్రీన్‌ను ఆఫ్ చేయడానికి — సరిగ్గా పవర్ బటన్ లాగా — SleepGuard కి పరికర అడ్మిన్ అనుమతి అవసరం. ఇది స్క్రీన్ లాక్ చేయడానికి మాత్రమే ఉపయోగించబడుతుంది.</string>
+    <string name="onb_battery_title">నమ్మకంగా నడుపు</string>
+    <string name="onb_battery_body">మరో యాప్ ముందు ఉన్నా తనిఖీ బటన్ సకాలంలో కనిపించేలా, బ్యాటరీ ఆప్టిమైజేషన్‌ను విస్మరించడానికి SleepGuard కి అనుమతి ఇవ్వండి.</string>
+    <string name="onb_done_title">అంతా సిద్ధం!</string>
+    <string name="onb_done_body">మీరు సిద్ధంగా ఉన్నారు. మీ విరామాన్ని సెట్ చేసి, ప్రారంభించు నొక్కి, చూస్తూ ఉండండి.</string>
+    <string name="onb_grant">అనుమతించు</string>
+    <string name="onb_granted">అనుమతించబడింది</string>
+    <string name="onb_next">తదుపరి</string>
+    <string name="onb_back">వెనుకకు</string>
+    <string name="onb_finish">ప్రారంభించు</string>
+</resources>

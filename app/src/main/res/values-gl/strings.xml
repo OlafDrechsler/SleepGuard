@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Galego -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Pantalla principal -->
+    <string name="title_interval">Intervalo (minutos)</string>
+    <string name="title_timeout">Tempo de espera (segundos)</string>
+    <string name="title_position">Posición do botón</string>
+    <string name="title_mode">Modo</string>
+    <string name="hint_interval_video">ata que apareza o botón</string>
+    <string name="hint_interval_audio">ata que se pause a reprodución</string>
+    <string name="hint_timeout">para tocar antes de que a pantalla se bloquee</string>
+    <string name="mode_video_desc">Aparece un botón que tocas para confirmar que estás esperto. Se non o fas, a pantalla bloquéase.</string>
+    <string name="mode_audio_desc">A reprodución simplemente detense despois do intervalo, tamén coa pantalla apagada (música, audiolibros, podcasts).</string>
+    <string name="onb_mode_title">Escolle un modo</string>
+    <string name="title_language">Idioma</string>
+    <string name="lang_system">Predeterminado do sistema</string>
+    <string name="btn_start">Iniciar</string>
+    <string name="btn_stop">Deter</string>
+    <string name="btn_support">Apoiar o desenvolvemento</string>
+    <string name="support_no_browser">Non se atopou ningún navegador para abrir a ligazón.</string>
+    <string name="status_running">SleepGuard está activo</string>
+    <string name="status_stopped">SleepGuard está detido</string>
+
+    <!-- Posicións -->
+    <string name="pos_right_center">Bordo dereito, centro</string>
+    <string name="pos_left_center">Bordo esquerdo, centro</string>
+    <string name="pos_top_center">Bordo superior, centro</string>
+    <string name="pos_bottom_center">Bordo inferior, centro</string>
+    <string name="pos_top_right">Esquina superior dereita</string>
+    <string name="pos_top_left">Esquina superior esquerda</string>
+    <string name="pos_bottom_right">Esquina inferior dereita</string>
+    <string name="pos_bottom_left">Esquina inferior esquerda</string>
+
+    <!-- Permisos -->
+    <string name="permission_overlay_needed">Requírese permiso de superposición. Actívao na configuración.</string>
+    <string name="permission_admin_needed">Requírese permiso de administrador do dispositivo para bloquear a pantalla.</string>
+    <string name="permission_battery_needed">Desactiva a optimización de batería para SleepGuard para que o botón apareza de forma fiable en segundo plano.</string>
+    <string name="admin_description">SleepGuard necesita este permiso unicamente para bloquear a pantalla (como o botón de acendido) cando quedas durmido.</string>
+
+    <!-- Notificación -->
+    <string name="notification_channel">Servizo SleepGuard</string>
+    <string name="notification_title">SleepGuard está activo</string>
+    <string name="notification_text">Comprobación cada %d minutos</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Escolle o teu idioma</string>
+    <string name="onb_welcome_title">Benvido a SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard bloquea o teu teléfono cando quedas durmido vendo vídeos, para que a batería non estea baleira pola mañá e nunca perdas o punto da película.\n\nSleepGuard mostrarache unha e outra vez un botón que debes tocar. Se non o tocas, o teléfono bloquéase. O intervalo entre os botóns axústalo en minutos — e o tempo para tocar, en segundos.</string>
+    <string name="onb_notif_title">Mostrar notificación</string>
+    <string name="onb_notif_body">Permite as notificacións para ver sempre que SleepGuard está activo mentres se executa en segundo plano.</string>
+    <string name="onb_overlay_title">Mostrar sobre outras aplicacións</string>
+    <string name="onb_overlay_body">SleepGuard mostra un pequeno botón sobre o teu vídeo. Para iso necesita permiso para mostrarse sobre outras aplicacións.</string>
+    <string name="onb_overlay_list_hint">Se tocas «%1$s» e aparece unha lista de aplicacións, desprázate ata SleepGuard e concédelle o permiso alí.</string>
+    <string name="onb_admin_title">Bloquear a pantalla</string>
+    <string name="onb_admin_body">Para apagar a pantalla cando quedas durmido —igual que o botón de acendido— SleepGuard necesita permiso de administrador do dispositivo. Só se usa para bloquear a pantalla.</string>
+    <string name="onb_battery_title">Funcionar de forma fiable</string>
+    <string name="onb_battery_body">Para que o botón de comprobación apareza a tempo aínda que outra aplicación estea en primeiro plano, permite que SleepGuard ignore a optimización de batería.</string>
+    <string name="onb_done_title">Todo listo!</string>
+    <string name="onb_done_body">Xa estás. Axusta o intervalo, toca Iniciar e segue vendo.</string>
+    <string name="onb_grant">Conceder</string>
+    <string name="onb_granted">Concedido</string>
+    <string name="onb_next">Seguinte</string>
+    <string name="onb_back">Atrás</string>
+    <string name="onb_finish">Comezar</string>
+</resources>

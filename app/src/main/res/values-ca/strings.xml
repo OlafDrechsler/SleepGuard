@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Català -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Pantalla principal -->
+    <string name="title_interval">Interval (minuts)</string>
+    <string name="title_timeout">Temps d\'espera (segons)</string>
+    <string name="title_position">Posició del botó</string>
+    <string name="title_mode">Mode</string>
+    <string name="hint_interval_video">fins que aparegui el botó</string>
+    <string name="hint_interval_audio">fins que es pausi la reproducció</string>
+    <string name="hint_timeout">per tocar abans que la pantalla es bloquegi</string>
+    <string name="mode_video_desc">Apareix un botó que toques per confirmar que estàs despert. Si no ho fas, la pantalla es bloqueja.</string>
+    <string name="mode_audio_desc">La reproducció simplement s\'atura després de l\'interval, també amb la pantalla apagada (música, audiollibres, podcasts).</string>
+    <string name="onb_mode_title">Tria un mode</string>
+    <string name="title_language">Idioma</string>
+    <string name="lang_system">Predeterminat del sistema</string>
+    <string name="btn_start">Inicia</string>
+    <string name="btn_stop">Atura</string>
+    <string name="btn_support">Dóna suport al desenvolupament</string>
+    <string name="support_no_browser">No s\'ha trobat cap navegador per obrir l\'enllaç.</string>
+    <string name="status_running">SleepGuard està actiu</string>
+    <string name="status_stopped">SleepGuard està aturat</string>
+
+    <!-- Posicions -->
+    <string name="pos_right_center">Vora dreta, centre</string>
+    <string name="pos_left_center">Vora esquerra, centre</string>
+    <string name="pos_top_center">Vora superior, centre</string>
+    <string name="pos_bottom_center">Vora inferior, centre</string>
+    <string name="pos_top_right">Cantonada superior dreta</string>
+    <string name="pos_top_left">Cantonada superior esquerra</string>
+    <string name="pos_bottom_right">Cantonada inferior dreta</string>
+    <string name="pos_bottom_left">Cantonada inferior esquerra</string>
+
+    <!-- Permisos -->
+    <string name="permission_overlay_needed">Cal permís de superposició. Activa\'l a la configuració.</string>
+    <string name="permission_admin_needed">Cal permís d\'administrador del dispositiu per bloquejar la pantalla.</string>
+    <string name="permission_battery_needed">Desactiva l\'optimització de bateria per a SleepGuard perquè el botó aparegui de manera fiable en segon pla.</string>
+    <string name="admin_description">SleepGuard necessita aquest permís únicament per bloquejar la pantalla (com el botó d\'engegada) quan t\'adorms.</string>
+
+    <!-- Notificació -->
+    <string name="notification_channel">Servei SleepGuard</string>
+    <string name="notification_title">SleepGuard està actiu</string>
+    <string name="notification_text">Comprovació cada %d minuts</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Tria el teu idioma</string>
+    <string name="onb_welcome_title">Benvingut a SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard bloqueja el telèfon quan t\'adorms mirant vídeos, perquè la bateria no estigui buida al matí i mai no perdis el punt de la pel·lícula.\n\nSleepGuard et mostrarà una i altra vegada un botó que has de tocar. Si no el toques, el telèfon es bloqueja. L\'interval entre els botons l\'ajustes en minuts — i el temps per tocar, en segons.</string>
+    <string name="onb_notif_title">Mostra la notificació</string>
+    <string name="onb_notif_body">Permet les notificacions per veure sempre que SleepGuard està actiu mentre s\'executa en segon pla.</string>
+    <string name="onb_overlay_title">Mostra sobre altres aplicacions</string>
+    <string name="onb_overlay_body">SleepGuard mostra un petit botó sobre el teu vídeo. Per això necessita permís per mostrar-se sobre altres aplicacions.</string>
+    <string name="onb_overlay_list_hint">Si toques «%1$s» i apareix una llista d\'aplicacions, desplaça\'t fins a SleepGuard i concedeix-li el permís des d\'allà.</string>
+    <string name="onb_admin_title">Bloqueja la pantalla</string>
+    <string name="onb_admin_body">Per apagar la pantalla quan t\'adorms —igual que el botó d\'engegada— SleepGuard necessita permís d\'administrador del dispositiu. Només s\'utilitza per bloquejar la pantalla.</string>
+    <string name="onb_battery_title">Funciona de manera fiable</string>
+    <string name="onb_battery_body">Perquè el botó de comprovació aparegui a temps encara que una altra aplicació estigui en primer pla, permet que SleepGuard ignori l\'optimització de bateria.</string>
+    <string name="onb_done_title">Tot a punt!</string>
+    <string name="onb_done_body">Ja estàs preparat. Ajusta l\'interval, toca Inicia i continua mirant.</string>
+    <string name="onb_grant">Concedeix</string>
+    <string name="onb_granted">Concedit</string>
+    <string name="onb_next">Següent</string>
+    <string name="onb_back">Enrere</string>
+    <string name="onb_finish">Comença</string>
+</resources>

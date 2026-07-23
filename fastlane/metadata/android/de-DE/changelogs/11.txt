@@ -1,0 +1,3 @@
+* 20 weitere Oberflächensprachen (jetzt 49): u. a. Koreanisch, Arabisch, Hindi, Bengali, Tamil, Telugu, Urdu, Indonesisch, Vietnamesisch, Ukrainisch, Serbisch, Norwegisch, Katalanisch, Isländisch, Albanisch, Suaheli
+* Sprachauswahl jetzt alphabetisch sortiert
+* Nach dem Update öffnet sich einmalig der Willkommensbildschirm zur Sprachauswahl

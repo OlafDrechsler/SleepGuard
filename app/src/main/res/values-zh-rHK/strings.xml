@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 中文 (香港) -->
+    <string name="app_name">SleepGuard</string>
+
+    <string name="title_interval">間隔（分鐘）</string>
+    <string name="title_timeout">逾時（秒）</string>
+    <string name="title_position">按鈕位置</string>
+    <string name="title_mode">模式</string>
+    <string name="hint_interval_video">直到按鈕出現為止</string>
+    <string name="hint_interval_audio">直到播放暫停為止</string>
+    <string name="hint_timeout">在熒幕鎖定前輕觸</string>
+    <string name="mode_video_desc">熒幕上會出現一個按鈕，您需輕觸它以確認自己尚未入睡。若未輕觸，熒幕將鎖定。</string>
+    <string name="mode_audio_desc">間隔結束後，即使熒幕已關閉，播放亦會停止（音樂、有聲書、Podcast）。</string>
+    <string name="onb_mode_title">選擇模式</string>
+    <string name="title_language">語言</string>
+    <string name="lang_system">系統預設</string>
+    <string name="btn_start">開始</string>
+    <string name="btn_stop">停止</string>
+    <string name="btn_support">支持開發</string>
+    <string name="support_no_browser">找不到可開啟此連結的瀏覽器。</string>
+    <string name="status_running">SleepGuard 已啟用</string>
+    <string name="status_stopped">SleepGuard 已停止</string>
+
+    <string name="pos_right_center">右邊緣，置中</string>
+    <string name="pos_left_center">左邊緣，置中</string>
+    <string name="pos_top_center">上邊緣，置中</string>
+    <string name="pos_bottom_center">下邊緣，置中</string>
+    <string name="pos_top_right">右上角</string>
+    <string name="pos_top_left">左上角</string>
+    <string name="pos_bottom_right">右下角</string>
+    <string name="pos_bottom_left">左下角</string>
+
+    <string name="permission_overlay_needed">需要疊加權限。請在「設定」中授予此權限。</string>
+    <string name="permission_admin_needed">鎖定熒幕需要裝置管理員權限。</string>
+    <string name="permission_battery_needed">請為 SleepGuard 停用電池優化功能，以確保按鈕在背景中能穩定顯示。</string>
+    <string name="admin_description">SleepGuard 僅需此權限，以便在您入睡時鎖定熒幕（如同按下電源鍵一樣）。</string>
+
+    <string name="notification_channel">SleepGuard 服務</string>
+    <string name="notification_title">SleepGuard 已啟用</string>
+    <string name="notification_text">每 %d 分鐘檢查一次</string>
+
+    <string name="onb_language_title">選擇您的語言</string>
+    <string name="onb_welcome_title">歡迎使用 SleepGuard</string>
+    <string name="onb_welcome_body">當您在觀看影片時睡著，SleepGuard 會鎖定您的手機——這樣一來，早上醒來時電池不會耗盡，您亦不會錯過影片的觀看進度。\n\nSleepGuard 會持續顯示一個按鈕，您必須輕觸它。若您未輕觸該按鈕，手機便會自動鎖定。您可以自行設定按鈕出現的間隔（以分鐘為單位），以及輕觸持續時間（以秒為單位）。</string>
+    <string name="onb_notif_title">顯示通知</string>
+    <string name="onb_notif_body">請允許通知，以便在 SleepGuard 於背景執行時，您隨時都能看到它正在運作。</string>
+    <string name="onb_overlay_title">顯示於其他應用程式之上</string>
+    <string name="onb_overlay_body">SleepGuard 會在影片畫面上方顯示一個小按鈕。為此，它需要「顯示於其他應用程式之上」的權限。</string>
+    <string name="onb_overlay_list_hint">如果您點選「%1$s」，並出現應用程式清單，請捲動至「SleepGuard」，並在該處授予其權限。</string>
+    <string name="onb_admin_title">鎖定熒幕</string>
+    <string name="onb_admin_body">為了在您睡著時關閉熒幕（就像電源按鈕一樣），SleepGuard 需要裝置管理員權限。此權限僅用於鎖定熒幕。</string>
+    <string name="onb_battery_title">穩定運行</string>
+    <string name="onb_battery_body">為了確保在其他應用程式處於前台時，確認按鈕仍能準時出現，請允許 SleepGuard 忽略電池優化設定。</string>
+    <string name="onb_done_title">一切就緒！</string>
+    <string name="onb_done_body">您已準備就緒。設定間隔時間、點擊「開始」，然後繼續觀看。</string>
+    <string name="onb_grant">授予</string>
+    <string name="onb_granted">已授予</string>
+    <string name="onb_next">下一步</string>
+    <string name="onb_back">返回</string>
+    <string name="onb_finish">開始使用</string>
+</resources>

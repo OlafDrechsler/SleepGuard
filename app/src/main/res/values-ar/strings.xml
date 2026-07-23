@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- العربية -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- الشاشة الرئيسية -->
+    <string name="title_interval">الفاصل الزمني (بالدقائق)</string>
+    <string name="title_timeout">المهلة (بالثواني)</string>
+    <string name="title_position">موضع الزر</string>
+    <string name="title_mode">الوضع</string>
+    <string name="hint_interval_video">حتى يظهر الزر</string>
+    <string name="hint_interval_audio">حتى يتوقف التشغيل مؤقتًا</string>
+    <string name="hint_timeout">للنقر قبل أن تُقفل الشاشة</string>
+    <string name="mode_video_desc">يظهر زر تنقر عليه لتأكيد أنك مستيقظ. إذا لم تفعل، تُقفل الشاشة.</string>
+    <string name="mode_audio_desc">يتوقف التشغيل ببساطة بعد الفاصل الزمني، حتى عندما تكون الشاشة مطفأة (الموسيقى، الكتب الصوتية، البودكاست).</string>
+    <string name="onb_mode_title">اختر وضعًا</string>
+    <string name="title_language">اللغة</string>
+    <string name="lang_system">الإعداد الافتراضي للنظام</string>
+    <string name="btn_start">ابدأ</string>
+    <string name="btn_stop">إيقاف</string>
+    <string name="btn_support">ادعم التطوير</string>
+    <string name="support_no_browser">لم يُعثر على متصفح لفتح الرابط.</string>
+    <string name="status_running">SleepGuard نشط</string>
+    <string name="status_stopped">SleepGuard متوقف</string>
+
+    <!-- المواضع -->
+    <string name="pos_right_center">الحافة اليمنى، الوسط</string>
+    <string name="pos_left_center">الحافة اليسرى، الوسط</string>
+    <string name="pos_top_center">الحافة العلوية، الوسط</string>
+    <string name="pos_bottom_center">الحافة السفلية، الوسط</string>
+    <string name="pos_top_right">الزاوية العلوية اليمنى</string>
+    <string name="pos_top_left">الزاوية العلوية اليسرى</string>
+    <string name="pos_bottom_right">الزاوية السفلية اليمنى</string>
+    <string name="pos_bottom_left">الزاوية السفلية اليسرى</string>
+
+    <!-- الأذونات -->
+    <string name="permission_overlay_needed">إذن العرض فوق التطبيقات الأخرى مطلوب. امنحه من الإعدادات.</string>
+    <string name="permission_admin_needed">إذن مسؤول الجهاز مطلوب لقفل الشاشة.</string>
+    <string name="permission_battery_needed">عطّل تحسين البطارية لـ SleepGuard حتى يظهر الزر بشكل موثوق في الخلفية.</string>
+    <string name="admin_description">يحتاج SleepGuard هذا الإذن فقط لقفل الشاشة (مثل زر الطاقة) عندما تغفو.</string>
+
+    <!-- الإشعار -->
+    <string name="notification_channel">خدمة SleepGuard</string>
+    <string name="notification_title">SleepGuard نشط</string>
+    <string name="notification_text">يفحص كل %d دقيقة</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">اختر لغتك</string>
+    <string name="onb_welcome_title">مرحبًا بك في SleepGuard</string>
+    <string name="onb_welcome_body">يقفل SleepGuard هاتفك عندما تغفو أثناء مشاهدة مقاطع الفيديو — حتى لا تكون البطارية فارغة في الصباح ولا تفقد موضعك في الفيلم أبدًا.\n\nسيعرض لك SleepGuard مرارًا زرًا يجب أن تنقر عليه. إذا لم تنقر عليه، يُقفل الهاتف. تحدد الفاصل الزمني بين الأزرار بالدقائق — ومدة النقر بالثواني.</string>
+    <string name="onb_notif_title">إظهار الإشعار</string>
+    <string name="onb_notif_body">اسمح بالإشعارات لترى دائمًا أن SleepGuard نشط أثناء عمله في الخلفية.</string>
+    <string name="onb_overlay_title">العرض فوق التطبيقات الأخرى</string>
+    <string name="onb_overlay_body">يعرض SleepGuard زرًا صغيرًا فوق الفيديو الخاص بك. لذلك يحتاج إلى إذن للعرض فوق التطبيقات الأخرى.</string>
+    <string name="onb_overlay_list_hint">إذا نقرت على “%1$s” وظهرت قائمة بالتطبيقات، مرّر إلى SleepGuard وامنحه الإذن هناك.</string>
+    <string name="onb_admin_title">قفل الشاشة</string>
+    <string name="onb_admin_body">لإطفاء الشاشة عندما تغفو — تمامًا مثل زر الطاقة — يحتاج SleepGuard إلى إذن مسؤول الجهاز. يُستخدم فقط لقفل الشاشة.</string>
+    <string name="onb_battery_title">تشغيل موثوق</string>
+    <string name="onb_battery_body">حتى يظهر زر التحقق في الوقت المناسب رغم وجود تطبيق آخر في المقدمة، اسمح لـ SleepGuard بتجاهل تحسين البطارية.</string>
+    <string name="onb_done_title">كل شيء جاهز!</string>
+    <string name="onb_done_body">أنت جاهز. اضبط الفاصل الزمني، انقر على ابدأ، وتابع المشاهدة.</string>
+    <string name="onb_grant">منح</string>
+    <string name="onb_granted">مُنح</string>
+    <string name="onb_next">التالي</string>
+    <string name="onb_back">رجوع</string>
+    <string name="onb_finish">ابدأ الآن</string>
+</resources>

@@ -1,0 +1,50 @@
+¿Adórmeste a miúdo mentres ves vídeos ou escoitas música no teu móbil? SleepGuard garante que o teu dispositivo non siga funcionando toda a noite.
+
+Nun intervalo que ti escollas, aparece un pequeno círculo vermello sobre o que esteas a ver. Toca nel e a reprodución continúa con normalidade. Non o toques durante uns segundos —porque te durmiches— e SleepGuard bloquea a pantalla, igual que ao premer o botón de acendido. O teu vídeo detense e o teu móbil queda protexido durante o resto da noite.
+
+Tamén hai un modo de audio para música, audiolibros e podcasts: en lugar dun botón, SleepGuard funciona como un simple temporizador de apagado que detén a reprodución tras o intervalo escollido, mesmo coa pantalla apagada.
+
+POR QUE O NECESITAS
+
+* YouTube e outras aplicacións con reprodución automática: Sen SleepGuard, un vídeo inicia o seguinte e este o seguinte e así sucesivamente... ata a mañá. No peor dos casos, a batería queda completamente descargada e o teu espertador xa non soa cando o necesitas. SleepGuard interrompe a cadea en canto deixas de responder.
+
+* Netflix, Prime Video e outras aplicacións de streaming: Se te durmes a medio episodio, ao espertar non sabes onde te quedaches durmido. Perdes tempo rebobinando para atopar o punto, ás veces tendo que ver de novo anuncios longos unha e outra vez. SleepGuard bloquea a pantalla xusto cando non respondes, para que a túa aplicación de streaming saiba onde continuar.
+
+COMO FUNCIONA
+
+1. Configura con que frecuencia debe aparecer o botón de comprobación (por exemplo, cada 5 minutos).
+2. Configura cantos segundos tes para reaccionar antes de que a pantalla se bloquee (por exemplo, 30 segundos).
+3. Elixe onde na pantalla aparece o botón.
+4. Inicia SleepGuard e segue vendo.
+
+CARACTERÍSTICAS
+
+* Dous modos: Vídeo (botón de comprobación de vixilia sobre calquera aplicación) e Audio (temporizador de durmir para música, audiolibros e podcasts, tamén funciona coa pantalla apagada)
+* Intervalo e tempo de reacción axustables
+* Oito posicións para o botón
+* Cronometraxe fiable incluso en segundo plano (usa a alarma do sistema)
+* Completamente gratuíto, sen anuncios, sen seguimento, sen contas
+
+PRIVACIDADE
+
+SleepGuard NON ten ningún permiso de internet. Non pode enviar nin recibir ningún dato. Fai exactamente dúas cousas: amosar un botón e bloquear a pantalla. Non recolle nada.
+
+EXPLICACIÓN DOS PERMISOS
+
+* Superpoñer outras aplicacións: para mostrar o círculo vermello sobre o teu vídeo.
+* Administrador do dispositivo (só para bloquear a pantalla): para bloquear a pantalla como o botón de enerxía.
+* Servizo en primeiro plano e alarma exacta: para que o botón de comprobación apareza a tempo.
+* Ignorar a optimización da batería: para que o botón siga funcionando de xeito fiable mentres outra aplicación está en primeiro plano.
+* Notificacións (Android 13+): para amosar a notificación permanente "SleepGuard está activo".
+
+CÓDIGO ABERTO
+
+SleepGuard é software libre, licenciado baixo a Licenza Pública Xeral de GNU v3. O código fonte completo está dispoñible para que calquera poida inspeccionar exactamente o que fai a aplicación: https://github.com/OlafDrechsler/SleepGuard
+
+SUPORTE
+
+SleepGuard é gratuíto e seguirá sendo gratuíto. Se che axuda, podes apoiar ao seu desenvolvedor cunha doazón voluntaria desde dentro da aplicación. Deliberadamente non hai ningunha recompensa a cambio: é simplemente un agradecemento.
+
+A IDEA / O NOME
+
+A idea da aplicación provén dun sistema de seguridade que se usa nos trens. Na cabina do maquinista, hai un botón que este debe premer a intervalos regulares; se non o fai, o tren detense automaticamente. Ao premer o botón, o maquinista confirma que está esperto. Coloquialmente, a este botón chámaselle "interruptor de home morto" e, por iso, á aplicación tamén se lle chama "SleepGuard – interruptor de home morto".

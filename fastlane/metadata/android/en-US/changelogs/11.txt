@@ -1,0 +1,3 @@
+* 20 more interface languages (49 total): Korean, Arabic, Hindi, Bengali, Tamil, Telugu, Marathi, Urdu, Indonesian, Vietnamese, Ukrainian, Serbian, Norwegian, Macedonian, Catalan, Icelandic, Galician, Albanian, Swahili, Hong Kong Chinese
+* Language picker is now sorted alphabetically
+* After updating, the welcome screen opens once so you can choose your language

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shqip -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Ekrani kryesor -->
+    <string name="title_interval">Intervali (minuta)</string>
+    <string name="title_timeout">Afati (sekonda)</string>
+    <string name="title_position">Pozicioni i butonit</string>
+    <string name="title_mode">Modaliteti</string>
+    <string name="hint_interval_video">derisa të shfaqet butoni</string>
+    <string name="hint_interval_audio">derisa të ndalojë luajtja</string>
+    <string name="hint_timeout">për të prekur para se ekrani të kyçet</string>
+    <string name="mode_video_desc">Shfaqet një buton që e prekni për të konfirmuar se jeni zgjuar. Nëse nuk e bëni, ekrani kyçet.</string>
+    <string name="mode_audio_desc">Luajtja thjesht ndalon pas intervalit, edhe me ekranin të fikur (muzikë, audiolibra, podkaste).</string>
+    <string name="onb_mode_title">Zgjidhni një modalitet</string>
+    <string name="title_language">Gjuha</string>
+    <string name="lang_system">Parazgjedhja e sistemit</string>
+    <string name="btn_start">Fillo</string>
+    <string name="btn_stop">Ndalo</string>
+    <string name="btn_support">Mbështet zhvillimin</string>
+    <string name="support_no_browser">Nuk u gjet asnjë shfletues për të hapur lidhjen.</string>
+    <string name="status_running">SleepGuard është aktiv</string>
+    <string name="status_stopped">SleepGuard është ndalur</string>
+
+    <!-- Pozicionet -->
+    <string name="pos_right_center">Skaji i djathtë, qendër</string>
+    <string name="pos_left_center">Skaji i majtë, qendër</string>
+    <string name="pos_top_center">Skaji i sipërm, qendër</string>
+    <string name="pos_bottom_center">Skaji i poshtëm, qendër</string>
+    <string name="pos_top_right">Këndi i sipërm djathtas</string>
+    <string name="pos_top_left">Këndi i sipërm majtas</string>
+    <string name="pos_bottom_right">Këndi i poshtëm djathtas</string>
+    <string name="pos_bottom_left">Këndi i poshtëm majtas</string>
+
+    <!-- Lejet -->
+    <string name="permission_overlay_needed">Nevojitet leja e mbivendosjes. Jepeni te cilësimet.</string>
+    <string name="permission_admin_needed">Nevojitet leja e administratorit të pajisjes për të kyçur ekranin.</string>
+    <string name="permission_battery_needed">Çaktivizoni optimizimin e baterisë për SleepGuard që butoni të shfaqet me besueshmëri në sfond.</string>
+    <string name="admin_description">SleepGuard e ka nevojë këtë leje vetëm për të kyçur ekranin (si butoni i ndezjes) kur ju zë gjumi.</string>
+
+    <!-- Njoftimi -->
+    <string name="notification_channel">Shërbimi SleepGuard</string>
+    <string name="notification_title">SleepGuard është aktiv</string>
+    <string name="notification_text">Kontrollon çdo %d minuta</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Zgjidhni gjuhën tuaj</string>
+    <string name="onb_welcome_title">Mirë se vini në SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard e kyç telefonin kur ju zë gjumi duke parë video — që bateria të mos jetë bosh në mëngjes dhe të mos e humbni kurrë vendin në film.\n\nSleepGuard do t\'ju shfaqë vazhdimisht një buton që duhet ta prekni. Nëse nuk e prekni, telefoni kyçet. Intervalin midis butonave e caktoni në minuta — dhe kohën për ta prekur, në sekonda.</string>
+    <string name="onb_notif_title">Shfaq njoftimin</string>
+    <string name="onb_notif_body">Lejoni njoftimet që të shihni gjithmonë se SleepGuard është aktiv ndërsa punon në sfond.</string>
+    <string name="onb_overlay_title">Shfaq mbi aplikacionet e tjera</string>
+    <string name="onb_overlay_body">SleepGuard shfaq një buton të vogël mbi videon tuaj. Për këtë i nevojitet leja për t\'u shfaqur mbi aplikacionet e tjera.</string>
+    <string name="onb_overlay_list_hint">Nëse prekni „%1$s“ dhe shfaqet një listë aplikacionesh, lëvizni te SleepGuard dhe jepini lejen aty.</string>
+    <string name="onb_admin_title">Kyç ekranin</string>
+    <string name="onb_admin_body">Për të fikur ekranin kur ju zë gjumi — njësoj si butoni i ndezjes — SleepGuard ka nevojë për lejen e administratorit të pajisjes. Përdoret vetëm për të kyçur ekranin.</string>
+    <string name="onb_battery_title">Puno me besueshmëri</string>
+    <string name="onb_battery_body">Që butoni i kontrollit të shfaqet në kohë edhe kur një aplikacion tjetër është në plan të parë, lejoni SleepGuard të shpërfillë optimizimin e baterisë.</string>
+    <string name="onb_done_title">Gati!</string>
+    <string name="onb_done_body">Jeni gati. Caktoni intervalin, prekni Fillo dhe vazhdoni të shikoni.</string>
+    <string name="onb_grant">Jep</string>
+    <string name="onb_granted">Dhënë</string>
+    <string name="onb_next">Tjetra</string>
+    <string name="onb_back">Prapa</string>
+    <string name="onb_finish">Fillo tani</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Íslenska -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Aðalskjár -->
+    <string name="title_interval">Millibil (mínútur)</string>
+    <string name="title_timeout">Tímamörk (sekúndur)</string>
+    <string name="title_position">Staðsetning hnapps</string>
+    <string name="title_mode">Hamur</string>
+    <string name="hint_interval_video">þar til hnappurinn birtist</string>
+    <string name="hint_interval_audio">þar til spilun er sett í bið</string>
+    <string name="hint_timeout">til að ýta áður en skjárinn læsist</string>
+    <string name="mode_video_desc">Hnappur birtist sem þú ýtir á til að staðfesta að þú sért vakandi. Ef þú gerir það ekki læsist skjárinn.</string>
+    <string name="mode_audio_desc">Spilun stöðvast einfaldlega eftir millibilið, líka þegar skjárinn er slökktur (tónlist, hljóðbækur, hlaðvörp).</string>
+    <string name="onb_mode_title">Veldu ham</string>
+    <string name="title_language">Tungumál</string>
+    <string name="lang_system">Sjálfgefið kerfismál</string>
+    <string name="btn_start">Byrja</string>
+    <string name="btn_stop">Stöðva</string>
+    <string name="btn_support">Styðja þróunina</string>
+    <string name="support_no_browser">Enginn vafri fannst til að opna tengilinn.</string>
+    <string name="status_running">SleepGuard er virkt</string>
+    <string name="status_stopped">SleepGuard er stöðvað</string>
+
+    <!-- Staðsetningar -->
+    <string name="pos_right_center">Hægri brún, miðja</string>
+    <string name="pos_left_center">Vinstri brún, miðja</string>
+    <string name="pos_top_center">Efri brún, miðja</string>
+    <string name="pos_bottom_center">Neðri brún, miðja</string>
+    <string name="pos_top_right">Efra hægra horn</string>
+    <string name="pos_top_left">Efra vinstra horn</string>
+    <string name="pos_bottom_right">Neðra hægra horn</string>
+    <string name="pos_bottom_left">Neðra vinstra horn</string>
+
+    <!-- Heimildir -->
+    <string name="permission_overlay_needed">Yfirlagsheimild þarf. Veittu hana í stillingum.</string>
+    <string name="permission_admin_needed">Heimild tækisstjóra þarf til að læsa skjánum.</string>
+    <string name="permission_battery_needed">Slökktu á rafhlöðusparnaði fyrir SleepGuard svo hnappurinn birtist áreiðanlega í bakgrunni.</string>
+    <string name="admin_description">SleepGuard þarf þessa heimild eingöngu til að læsa skjánum (eins og aflrofinn) þegar þú sofnar.</string>
+
+    <!-- Tilkynning -->
+    <string name="notification_channel">SleepGuard-þjónusta</string>
+    <string name="notification_title">SleepGuard er virkt</string>
+    <string name="notification_text">Athugar á %d mínútna fresti</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Veldu tungumálið þitt</string>
+    <string name="onb_welcome_title">Velkomin í SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard læsir símanum þegar þú sofnar við að horfa á myndbönd — svo rafhlaðan sé ekki tóm að morgni og þú missir aldrei staðinn í myndinni.\n\nSleepGuard sýnir þér aftur og aftur hnapp sem þú verður að ýta á. Ef þú ýtir ekki á hann læsist síminn. Þú stillir millibilið milli hnappanna í mínútum — og hversu langan tíma þú hefur til að ýta, í sekúndum.</string>
+    <string name="onb_notif_title">Sýna tilkynningu</string>
+    <string name="onb_notif_body">Leyfðu tilkynningar svo þú sjáir alltaf að SleepGuard er virkt á meðan það keyrir í bakgrunni.</string>
+    <string name="onb_overlay_title">Sýna yfir öðrum forritum</string>
+    <string name="onb_overlay_body">SleepGuard sýnir lítinn hnapp yfir myndbandinu þínu. Til þess þarf það heimild til að birtast yfir öðrum forritum.</string>
+    <string name="onb_overlay_list_hint">Ef þú ýtir á „%1$s“ og listi yfir forrit birtist, skrunaðu að SleepGuard og veittu því heimildina þar.</string>
+    <string name="onb_admin_title">Læsa skjánum</string>
+    <string name="onb_admin_body">Til að slökkva á skjánum þegar þú sofnar — alveg eins og aflrofinn — þarf SleepGuard heimild tækisstjóra. Hún er aðeins notuð til að læsa skjánum.</string>
+    <string name="onb_battery_title">Keyra áreiðanlega</string>
+    <string name="onb_battery_body">Til að athugunarhnappurinn birtist á réttum tíma þótt annað forrit sé í forgrunni, leyfðu SleepGuard að hunsa rafhlöðusparnað.</string>
+    <string name="onb_done_title">Allt tilbúið!</string>
+    <string name="onb_done_body">Þú ert klár. Stilltu millibilið, ýttu á Byrja og haltu áfram að horfa.</string>
+    <string name="onb_grant">Veita</string>
+    <string name="onb_granted">Veitt</string>
+    <string name="onb_next">Næst</string>
+    <string name="onb_back">Til baka</string>
+    <string name="onb_finish">Hefjast handa</string>
+</resources>

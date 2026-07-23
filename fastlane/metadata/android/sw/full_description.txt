@@ -1,0 +1,50 @@
+Je, mara nyingi hulala usingizi ukiwa unaangalia video au kusikiliza muziki kwenye simu yako? SleepGuard huhakikisha kifaa chako hakiendelei kufanya kazi usiku kucha.
+
+Baada ya muda unaouchagua, duara dogo jekundu linaonekana juu ya kile unachotazama. Liguse na uchezaji utaendelea kama kawaida. Usiliguse ndani ya sekunde chache - kwa sababu umelala - na SleepGuard itazima skrini, kama vile umebonyeza kitufe cha kuwasha/kuzima. Video yako inasimama na simu yako inalindwa kwa usiku wote uliobaki.
+
+Pia kuna modi ya Sauti kwa ajili ya muziki, vitabu vya kusikiliza na podikasti: badala ya kitufe, SleepGuard hufanya kazi kama kipima muda cha kulala rahisi kinachositisha uchezaji baada ya kipindi ulichochagua — hata skrini ikiwa imezimwa.
+
+KWA NINI UNAKIHITAJI
+
+* YouTube na programu nyingine zenye autoplay: Bila SleepGuard, video moja huanzisha nyingine na nyingine na nyingine ... hadi asubuhi. Katika hali mbaya zaidi betri huchoka kabisa na kengele yako haiwezi kuita tena unapohitaji. SleepGuard huacha mfululizo huo mara tu unapokosa kuonyesha dalili za uhai.
+
+* Netflix, Prime Video na programu nyingine za utiririshaji: Ukipata usingizi katikati ya kipindi, unapoamka hujui ulipoacha. Unapoteza muda kurusha kurusha video nyuma ili kupata sehemu husika - wakati mwingine ukiketi kupitia matangazo marefu tena na tena. SleepGuard hufunga skrini mara tu unapokosa kujibu, ili programu yako ya utiririshaji ijue wapi pa kuendelea.
+
+JINSI INAVYOFANYA KAZI
+
+1. Weka ni mara ngapi kitufe cha ukaguzi kinapaswa kuonekana (k.m. kila baada ya dakika 5).
+2. Weka sekunde ngapi unazo za kujibu kabla ya skrini kufungwa (k.m. sekunde 30).
+3. Chagua mahali kwenye skrini ambapo kitufe kinaonekana.
+4. Anzisha SleepGuard na uendelee kutazama.
+
+VIPENGELE
+
+* Hali mbili: Video (kitufe cha kuamka juu ya programu yoyote) na Sauti (kipima muda cha kulala kwa muziki, vitabu vya kusikiliza na podikasti, hufanya kazi hata skrini ikiwa imezimwa)
+* Kipindi na muda wa kuitikia vinavyoweza kurekebishwa
+* Nafasi nane za kitufe za kuchagua
+* Upimaji wa muda unaoaminika hata ikiwa kwenye 'background' (inatumia kengele ya mfumo)
+* Ni bure kabisa, hakuna matangazo, hakuna ufuatiliaji, hakuna akaunti
+
+USIRI
+
+SleepGuard HAINA idhini ya intaneti hata kidogo. Haiwezi kutuma au kupokea data yoyote. Inafanya kazi mbili tu: kuonyesha kitufe na kufungia skrini. Haikusanyi chochote.
+
+IDHINI ZILIZOELEZWA
+
+* Kuonyesha juu ya programu zingine: ili kuonyesha duara jekundu juu ya video yako.
+* Msimamizi wa kifaa (kufungia skrini tu): ili kufungia skrini kama kitufe cha washa/zima.
+* Huduma ya mbele & kengele sahihi: ili kufanya kitufe cha ukaguzi kionekane kwa wakati.
+* Kupuuza uboreshaji wa betri: ili kitufe kiendelee kufanya kazi kwa uhakika wakati programu nyingine iko mbele.
+* Arifa (Android 13+): ili kuonyesha arifa inayoendelea ya "SleepGuard iko hai".
+
+CHANZO HURU
+
+SleepGuard ni programu huru, yenye leseni chini ya GNU General Public License v3. Msimbo kamili wa chanzo unapatikana ili mtu yeyote aweze kukagua hasa programu inafanya nini: https://github.com/OlafDrechsler/SleepGuard
+
+USAIDIZI
+
+SleepGuard ni programu ya bure na itaendelea kuwa ya bure. Ikiwa inakusaidia, unaweza kumsaidia msanidi wake kwa mchango wa hiari kutoka ndani ya programu. Kwa makusudi hakuna zawadi inayotolewa - ni shukrani tu.
+
+WAZO / JINA
+
+Wazo la programu hii linatokana na mfumo wa usalama unaotumika kwenye treni. Ndani ya kabini ya dereva, kuna kitufe ambacho dereva lazima akibonyeze kwa vipindi vya kawaida, la sivyo treni itasimama kiotomatiki. Kwa kubonyeza kitufe hicho, dereva anathibitisha kuwa yuko macho. Kwa lahaja ya kawaida, kitufe hiki huitwa "swichi ya mtu aliyekufa," na hivyo basi programu pia inaitwa "SleepGuard – swichi ya mtu aliyekufa."

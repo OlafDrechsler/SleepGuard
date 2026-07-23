@@ -1,0 +1,50 @@
+A të ndodh shpesh të biesh në gjumë ndërsa shikon video ose dëgjon muzikë në telefonin tënd? SleepGuard siguron që pajisja jote të mos funksionojë gjithë natën.
+
+Pas një intervali që ju zgjidhni, shfaqet një rreth i vogël i kuq mbi çdo gjë që po shikoni. Prekini atë dhe riprodhimi vazhdon normalisht. Mos e prekni brenda disa sekondash – sepse keni fjetur – dhe SleepGuard bllokon ekranin, ashtu si kur shtypni butonin e fikjes. Videoja juaj ndalet dhe telefoni juaj mbrohet për pjesën tjetër të natës.
+
+Ekziston edhe një modalitet Audio për muzikë, libra audio dhe podkaste: në vend të një butoni, SleepGuard funksionon si një kohëmatës i thjeshtë për gjumë që ndalon riprodhimin pas intervalit që keni zgjedhur — edhe me ekranin fikur.
+
+PËRSE JU NEVOJITET
+
+* YouTube dhe aplikacione të tjera me autoplay: Pa SleepGuard, një video nis tjetrën dhe tjetrën dhe tjetrën ... deri në mëngjes. Në rastin më të keq, bateria shuhet dhe zgjimi juaj nuk mund të bjerë më kur ju nevojitet. SleepGuard ndalon zinxhirin sapo të ndaloni së reaguari.
+
+* Netflix, Prime Video dhe aplikacione të tjera streaming: Nëse flini gjumë në mes të një episodi, zgjoheni pa ditur se ku keni fjetur. Humbni kohë duke kërkuar përpara për të gjetur vendin - ndonjëherë duke u ulur dhe duke parë reklama të gjata përsëri e përsëri. SleepGuard bllokon ekranin pikërisht kur nuk përgjigjeni, në mënyrë që aplikacioni juaj i streaming-ut të dijë ku të vazhdojë.
+
+SI FUNKSIONON
+
+1. Vendosni sa shpesh duhet të shfaqet butoni i kontrollit (p.sh. çdo 5 minuta).
+2. Vendosni sa sekonda keni për të reaguar para se ekrani të bllokohet (p.sh. 30 sekonda).
+3. Zgjidhni se ku në ekran shfaqet butoni.
+4. Nisni SleepGuard dhe vazhdoni të shikoni.
+
+KARAKTERISTIKAT
+
+* Dy mënyra: Video (butoni i kontrollit të zgjimit mbi çdo aplikacion) dhe Audio (kronometër gjumi për muzikë, libra audio dhe podkaste, funksionon edhe me ekranin fikur)
+* Interval dhe kohë reagimi të rregullueshme
+* Tetë pozicione të butonit për t'u zgjedhur
+* Kohëmatje e besueshme edhe në sfond (përdor alarmin e sistemit)
+* Plotësisht falas, pa reklama, pa gjurmim, pa llogari
+
+PRIVATËSIA
+
+SleepGuard nuk ka ASNJË leje interneti. Nuk mund të dërgojë ose marrë asnjë të dhënë. Bën vetëm dy gjëra: tregon një buton dhe bllokon ekranin. Nuk mbledh asgjë.
+
+SHPJEGIME PËR LEJIMET
+
+* Shfaqje mbi aplikacionet e tjera: për të shfaqur rrethin e kuq mbi videon tuaj.
+* Administrator i pajisjes (vetëm për bllokimin e ekranit): për të bllokuar ekranin si butoni i ndezjes/fikjes.
+* Shërbim në plan të parë & alarm i saktë: për të bërë që butoni i kontrollit të shfaqet në kohë.
+* Injoro optimizimin e baterisë: që butoni të funksionojë ende në mënyrë të besueshme ndërsa një aplikacion tjetër është në plan të parë.
+* Njoftimet (Android 13+): për të shfaqur njoftimin e vazhdueshëm "SleepGuard është aktiv".
+
+BURIM I HAPUR
+
+SleepGuard është softuer i lirë, i licencuar nën Licencën e Përgjithshme të GNU-së v3. Kodi i plotë burimor është i disponueshëm në mënyrë që çdokush të mund të inspektojë saktësisht se çfarë bën aplikacioni: https://github.com/OlafDrechsler/SleepGuard
+
+SUPORT
+
+SleepGuard është falas dhe do të mbetet falas. Nëse ju ndihmon, mund të mbështesni zhvilluesin e tij me një donacion vullnetar brenda aplikacionit. Qëllimisht nuk ka asnjë shpërblim në këmbim - është thjesht një falënderim.
+
+IDEA / EMRI
+
+Ideja për aplikacionin vjen nga një sistem sigurie që përdoret në trenat. Në kabinën e makinistit, ka një buton që makinisti duhet ta shtypë në intervale të rregullta, përndryshe treni do të ndalet automatikisht. Duke shtypur butonin, drejtuesi konfirmon se është zgjuar. Në të folurën e përditshme, ky buton quhet "çelësi i të vdekurit", dhe kështu edhe aplikacioni quhet "SleepGuard – çelësi i të vdekurit".

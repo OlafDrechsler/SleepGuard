@@ -17,6 +17,7 @@ import android.os.PowerManager
 import android.provider.Settings
 import android.widget.Toast
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -94,12 +95,8 @@ class MainActivity : AppCompatActivity() {
         "top_right", "top_left", "bottom_right", "bottom_left"
     )
 
-    // BCP-47-Tags parallel zu den Eintraegen im Sprach-Dropdown ("" = System)
-    private val languageTags = arrayOf(
-        "", "de", "en", "es", "fr", "it", "nl", "pl", "tr",
-        "bg", "cs", "da", "el", "et", "fi", "ga", "hr", "hu", "lt", "lv",
-        "mt", "ro", "ru", "sk", "sl", "sv", "ja", "zh-CN", "zh-TW", "pt"
-    )
+    // Die Sprachliste (Tags + native Autonyme) ist zentral am Dateiende
+    // definiert: languageEntries / languageTags / languageLabelsNative.
 
     private lateinit var overlayPermissionLauncher: ActivityResultLauncher<Intent>
     private lateinit var deviceAdminLauncher: ActivityResultLauncher<Intent>
@@ -119,10 +116,20 @@ class MainActivity : AppCompatActivity() {
         private const val KEY_ONBOARDING_DONE = "onboarding_done"
         private const val KEY_LANG_CHOSEN = "onboarding_lang_chosen"
         private const val KEY_LANG_INDEX = "language_index"
+        private const val KEY_WELCOME_VERSION = "welcome_version"
+        // Erhoehen, um nach einem Update den Welcome-Flow (v.a. die Sprachauswahl)
+        // einmalig erneut zu erzwingen. 11 = 20 neue Sprachen + alphabetische
+        // Sortierung: Bestandsnutzer sollen die neue Auswahl praesentiert bekommen.
+        private const val WELCOME_VERSION = 11
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        // Ab targetSdk 36 erzwingt Android 16 Edge-to-Edge. Explizit aktivieren,
+        // damit die System-Bars transparent sind UND ihr Icon-Kontrast automatisch
+        // zum hellen/dunklen Theme passt. Die Insets werden in den Screens ueber
+        // Scaffold/innerPadding konsumiert, daher ueberlappt nichts.
+        enableEdgeToEdge()
 
         overlayPermissionLauncher = registerForActivityResult(
             ActivityResultContracts.StartActivityForResult()
@@ -144,8 +151,18 @@ class MainActivity : AppCompatActivity() {
         loadSettings()
         isRunning = OverlayService.isRunning
         val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        showOnboarding = !prefs.getBoolean(KEY_ONBOARDING_DONE, false)
-        onboardingStartPage = if (prefs.getBoolean(KEY_LANG_CHOSEN, false)) 1 else 0
+        val onboardingDone = prefs.getBoolean(KEY_ONBOARDING_DONE, false)
+        // Nach einem Update aus einer aelteren Version (gespeicherte welcome_version
+        // < aktuell, bei Alt-Nutzern gar nicht gesetzt) den Welcome-Flow einmalig
+        // erzwingen. So bekommt der Bestandsnutzer die neu sortierte Sprachauswahl
+        // gezeigt, statt evtl. eine unpassende Sprache in der Haupt-GUI.
+        val forceLangRepick = onboardingDone &&
+            prefs.getInt(KEY_WELCOME_VERSION, 0) < WELCOME_VERSION
+        showOnboarding = !onboardingDone || forceLangRepick
+        // Beim erzwungenen Re-Pick immer auf der Sprachseite (0) starten; sonst wie
+        // gehabt die Sprachseite ueberspringen, falls schon einmal gewaehlt.
+        onboardingStartPage =
+            if (!forceLangRepick && prefs.getBoolean(KEY_LANG_CHOSEN, false)) 1 else 0
 
         setContent {
             SleepGuardTheme {
@@ -281,7 +298,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun finishOnboarding() {
         getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE).edit()
-            .putBoolean(KEY_ONBOARDING_DONE, true).apply()
+            .putBoolean(KEY_ONBOARDING_DONE, true)
+            .putInt(KEY_WELCOME_VERSION, WELCOME_VERSION)
+            .apply()
         showOnboarding = false
     }
 
@@ -402,15 +421,69 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-// Native Sprachnamen (Autonyme) parallel zu languageTags; sprachunabhaengig.
-private val languageLabelsNative = listOf(
-    "System", "Deutsch", "English", "Español", "Français",
-    "Italiano", "Nederlands", "Polski", "Türkçe",
-    "Български", "Čeština", "Dansk", "Ελληνικά", "Eesti", "Suomi",
-    "Gaeilge", "Hrvatski", "Magyar", "Lietuvių", "Latviešu",
-    "Malti", "Română", "Русский", "Slovenčina", "Slovenščina",
-    "Svenska", "日本語", "中文 (简体)", "中文 (繁體)", "Português"
+// Zentrale Auswahlliste der Sprachen: (BCP-47-Tag, natives Autonym).
+// "" = System-Standard. Reihenfolge: System zuerst, danach alphabetisch nach
+// Autonym — lateinische Namen A–Z, anschliessend nach Schrift gruppiert
+// (Griechisch, Kyrillisch, Arabisch, Devanagari, Bengali, Tamil, Telugu,
+// CJK, Koreanisch). WICHTIG: Der In-App-Umschalter speichert den LISTEN-INDEX
+// (KEY_LANG_INDEX), nicht den Tag. Wird die Reihenfolge geaendert, waehlen
+// bestehende Nutzer ihre Sprache ggf. neu — bewusst in Kauf genommen.
+private val languageEntries: List<Pair<String, String>> = listOf(
+    "" to "System",
+    "ca" to "Català",
+    "cs" to "Čeština",
+    "da" to "Dansk",
+    "de" to "Deutsch",
+    "et" to "Eesti",
+    "en" to "English",
+    "es" to "Español",
+    "fr" to "Français",
+    "ga" to "Gaeilge",
+    "gl" to "Galego",
+    "hr" to "Hrvatski",
+    "id" to "Indonesia",
+    "is" to "Íslenska",
+    "it" to "Italiano",
+    "sw" to "Kiswahili",
+    "lv" to "Latviešu",
+    "lt" to "Lietuvių",
+    "hu" to "Magyar",
+    "mt" to "Malti",
+    "nl" to "Nederlands",
+    "nb" to "Norsk",
+    "pl" to "Polski",
+    "pt" to "Português",
+    "ro" to "Română",
+    "sq" to "Shqip",
+    "sk" to "Slovenčina",
+    "sl" to "Slovenščina",
+    "fi" to "Suomi",
+    "sv" to "Svenska",
+    "vi" to "Tiếng Việt",
+    "tr" to "Türkçe",
+    "el" to "Ελληνικά",
+    "bg" to "Български",
+    "mk" to "Македонски",
+    "ru" to "Русский",
+    "sr" to "Српски",
+    "uk" to "Українська",
+    "ur" to "اردو",
+    "ar" to "العربية",
+    "mr" to "मराठी",
+    "hi" to "हिन्दी",
+    "bn" to "বাংলা",
+    "ta" to "தமிழ்",
+    "te" to "తెలుగు",
+    "zh-CN" to "中文 (简体)",
+    "zh-TW" to "中文 (繁體)",
+    "zh-HK" to "中文 (香港)",
+    "ja" to "日本語",
+    "ko" to "한국어"
 )
+
+// Aus languageEntries abgeleitet — parallele Arrays fuer Dropdown und Onboarding.
+private val languageTags: Array<String> = languageEntries.map { it.first }.toTypedArray()
+private val languageLabelsNative: List<String> = languageEntries.map { it.second }
 
 @Composable
 private fun MainScreen(

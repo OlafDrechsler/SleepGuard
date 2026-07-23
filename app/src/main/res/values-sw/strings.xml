@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Kiswahili -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- Skrini kuu -->
+    <string name="title_interval">Muda wa kipindi (dakika)</string>
+    <string name="title_timeout">Muda wa kuisha (sekunde)</string>
+    <string name="title_position">Nafasi ya kitufe</string>
+    <string name="title_mode">Hali</string>
+    <string name="hint_interval_video">hadi kitufe kitakapoonekana</string>
+    <string name="hint_interval_audio">hadi uchezaji utakaposimama</string>
+    <string name="hint_timeout">kugusa kabla skrini haijafungwa</string>
+    <string name="mode_video_desc">Kitufe huonekana ambacho unagusa ili kuthibitisha kuwa umeamka. Usipofanya hivyo, skrini hufungwa.</string>
+    <string name="mode_audio_desc">Uchezaji husimama tu baada ya kipindi, hata skrini ikiwa imezimwa (muziki, vitabu vya sauti, podikasti).</string>
+    <string name="onb_mode_title">Chagua hali</string>
+    <string name="title_language">Lugha</string>
+    <string name="lang_system">Chaguomsingi la mfumo</string>
+    <string name="btn_start">Anza</string>
+    <string name="btn_stop">Simamisha</string>
+    <string name="btn_support">Saidia maendeleo</string>
+    <string name="support_no_browser">Hakuna kivinjari kilichopatikana cha kufungua kiungo.</string>
+    <string name="status_running">SleepGuard inafanya kazi</string>
+    <string name="status_stopped">SleepGuard imesimamishwa</string>
+
+    <!-- Nafasi -->
+    <string name="pos_right_center">Ukingo wa kulia, katikati</string>
+    <string name="pos_left_center">Ukingo wa kushoto, katikati</string>
+    <string name="pos_top_center">Ukingo wa juu, katikati</string>
+    <string name="pos_bottom_center">Ukingo wa chini, katikati</string>
+    <string name="pos_top_right">Kona ya juu kulia</string>
+    <string name="pos_top_left">Kona ya juu kushoto</string>
+    <string name="pos_bottom_right">Kona ya chini kulia</string>
+    <string name="pos_bottom_left">Kona ya chini kushoto</string>
+
+    <!-- Ruhusa -->
+    <string name="permission_overlay_needed">Ruhusa ya kuonyesha juu ya programu nyingine inahitajika. Iruhusu katika mipangilio.</string>
+    <string name="permission_admin_needed">Ruhusa ya msimamizi wa kifaa inahitajika ili kufunga skrini.</string>
+    <string name="permission_battery_needed">Zima uboreshaji wa betri kwa SleepGuard ili kitufe kionekane kwa uhakika chinichini.</string>
+    <string name="admin_description">SleepGuard inahitaji ruhusa hii kwa ajili ya kufunga skrini pekee (kama kitufe cha kuwasha) unapolala.</string>
+
+    <!-- Arifa -->
+    <string name="notification_channel">Huduma ya SleepGuard</string>
+    <string name="notification_title">SleepGuard inafanya kazi</string>
+    <string name="notification_text">Inakagua kila dakika %d</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">Chagua lugha yako</string>
+    <string name="onb_welcome_title">Karibu SleepGuard</string>
+    <string name="onb_welcome_body">SleepGuard hufunga simu yako unapolala ukitazama video — ili betri isiishe asubuhi na usipoteze mahali ulipofikia kwenye filamu.\n\nSleepGuard itaendelea kukuonyesha kitufe ambacho lazima ukiguse. Usipokigusa, simu hufungwa. Muda kati ya vitufe unauweka kwa dakika — na muda wa kugusa, kwa sekunde.</string>
+    <string name="onb_notif_title">Onyesha arifa</string>
+    <string name="onb_notif_body">Ruhusu arifa ili uone kila wakati kuwa SleepGuard inafanya kazi ikiwa chinichini.</string>
+    <string name="onb_overlay_title">Onyesha juu ya programu nyingine</string>
+    <string name="onb_overlay_body">SleepGuard huonyesha kitufe kidogo juu ya video yako. Kwa hilo inahitaji ruhusa ya kuonekana juu ya programu nyingine.</string>
+    <string name="onb_overlay_list_hint">Ukigusa “%1$s” na orodha ya programu ikatokea, sogeza hadi SleepGuard na uipe ruhusa hapo.</string>
+    <string name="onb_admin_title">Funga skrini</string>
+    <string name="onb_admin_body">Ili kuzima skrini unapolala — kama kitufe cha kuwasha — SleepGuard inahitaji ruhusa ya msimamizi wa kifaa. Inatumika tu kufunga skrini.</string>
+    <string name="onb_battery_title">Fanya kazi kwa uhakika</string>
+    <string name="onb_battery_body">Ili kitufe cha ukaguzi kionekane kwa wakati hata programu nyingine ikiwa mbele, ruhusu SleepGuard kupuuza uboreshaji wa betri.</string>
+    <string name="onb_done_title">Kila kitu tayari!</string>
+    <string name="onb_done_body">Uko tayari. Weka muda wako, gusa Anza, na uendelee kutazama.</string>
+    <string name="onb_grant">Ruhusu</string>
+    <string name="onb_granted">Imeruhusiwa</string>
+    <string name="onb_next">Ifuatayo</string>
+    <string name="onb_back">Nyuma</string>
+    <string name="onb_finish">Anza</string>
+</resources>

@@ -1,0 +1,50 @@
+Hender det ofte at du sovner mens du ser på videoer eller hører på musikk på telefonen? SleepGuard sørger for at enheten din ikke står på hele natten.
+
+Med et intervall du selv velger, vises en liten rød sirkel øverst på det du ser på. Trykk på den, så fortsetter avspillingen som vanlig. Hvis du ikke trykker på den innen noen sekunder – fordi du har sovnet – låser SleepGuard skjermen, akkurat som når du trykker på av/på-knappen. Videoen stopper, og telefonen din er beskyttet resten av natten.
+
+Det finnes også en lydmodus for musikk, lydbøker og podcaster: I stedet for en knapp fungerer SleepGuard som en enkel sovetimer som stopper avspillingen etter det valgte intervallet – selv når skjermen er slått av.
+
+HVORFOR DU TRENGER DET
+
+* YouTube og andre apper med automatisk avspilling: Uten SleepGuard starter én video den neste, og den neste, og den neste … helt til morgenen. I verste fall blir batteriet helt tomt, og alarmen din kan ikke lenger gå av når du trenger den. SleepGuard stopper kjeden så snart du slutter å reagere.
+
+* Netflix, Prime Video og andre strømmeapper: Sovner du midt i en episode, våkner du uten å vite hvor du sovnet. Du kaster bort tid på å spole tilbake for å finne stedet – og må noen ganger se lange reklamer om og om igjen. SleepGuard låser skjermen akkurat når du ikke reagerer, slik at strømmeappen din vet hvor den skal fortsette.
+
+SÅNN FUNGERER DET
+
+1. Angi hvor ofte kontrollknappen skal vises (f.eks. hvert 5. minutt).
+2. Angi hvor mange sekunder du har på deg til å reagere før skjermen låses (f.eks. 30 sekunder).
+3. Velg hvor på skjermen knappen skal vises.
+4. Start SleepGuard og fortsett å se på.
+
+FUNKSJONER
+
+* To moduser: Video (våkenhetskontrollknapp over hvilken som helst app) og Lyd (sovetimer for musikk, lydbøker og podcaster, fungerer også med skjermen slått av)
+* Justerbart intervall og reaksjonstid
+* Åtte knappeposisjoner å velge mellom
+* Pålitelig tidsmåling selv i bakgrunnen (bruker systemalarmen)
+* Helt gratis, ingen annonser, ingen sporing, ingen kontoer
+
+PERSONVERN
+
+SleepGuard har INGEN internettilgang i det hele tatt. Den kan ikke sende eller motta data. Den gjør nøyaktig to ting: viser en knapp og låser skjermen. Den samler ikke inn noe.
+
+FORKLARING AV TILLATELSER
+
+* Vis over andre apper: for å vise den røde sirkelen over videoen din.
+* Enhetsadministrator (kun skjermlås): for å låse skjermen på samme måte som strømknappen.
+* Forgrunnstjeneste og nøyaktig alarm: for å få sjekkknappen til å vises i tide.
+* Ignorer batterioptimalisering: slik at knappen fortsatt fungerer pålitelig mens en annen app er i forgrunnen.
+* Varsler (Android 13+): for å vise det løpende varselet «SleepGuard er aktiv».
+
+ÅPEN KILDEKODE
+
+SleepGuard er fri programvare, lisensiert under GNU General Public License v3. Hele kildekoden er tilgjengelig, slik at alle kan se nøyaktig hva appen gjør: https://github.com/OlafDrechsler/SleepGuard
+
+STØTTE
+
+SleepGuard er gratis og vil forbli gratis. Hvis den hjelper deg, kan du støtte utvikleren med et frivillig bidrag direkte fra appen. Det gis bevisst ingen belønning i retur – det er ganske enkelt en takk.
+
+IDÉEN / NAVNET
+
+Ideen til appen stammer fra et sikkerhetssystem som brukes på tog. I førerhuset finnes det en knapp som føreren må trykke på med jevne mellomrom, ellers stopper toget automatisk. Ved å trykke på knappen bekrefter føreren at han eller hun er våken. I daglig tale kalles denne knappen en «dødmannsknapp», og derfor heter appen også «SleepGuard – dødmannsknapp».

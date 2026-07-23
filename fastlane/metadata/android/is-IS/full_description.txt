@@ -1,0 +1,50 @@
+Sofnar þú oft þegar þú horfir á myndbönd eða hlustar á tónlist í símanum þínum? SleepGuard sér til þess að tækið þitt haldi ekki áfram að keyra alla nóttina.
+
+Eftir tímabil sem þú velur birtist lítill rauður hringur ofan á því sem þú ert að horfa á. Pikkaðu á hann og spilun heldur áfram eins og venjulega. Pikkaðu ekki á hann innan nokkurra sekúndna – því þá gætirðu hafa sofnað – og SleepGuard læsir skjánum, rétt eins og þegar þú ýtir á aflrofa hnappinn. Myndbandið stöðvast og síminn þinn er verndaður út nóttina.
+
+Einnig er hljóðstilling fyrir tónlist, hljóðbækur og hlaðvörp: í stað hnapps virkar SleepGuard sem einfaldur svefnstilli sem stöðvar endurspilun eftir þann tíma sem þú velur — jafnvel þegar skjárinn er slökktur.
+
+AF HVERJU ÞÚ ÞARFT ÞAÐ
+
+* YouTube og önnur forrit með sjálfvirkri endurspilun: Án SleepGuard byrjar eitt myndband næsta og næsta og næsta ... þar til morguninn kemur. Í versta falli tæmist rafhlaðan og vekjarakallið þitt fer ekki af stað þegar þú þarft á því að halda. SleepGuard stöðvar keðjuna um leið og þú hættir að bregðast við.
+
+* Netflix, Prime Video og önnur streymiforrit: Ef þú sofnar mitt í þætti vaknar þú ekki viss um hvar þú sofnaðir. Þú eyðir tíma í að spóla til baka til að finna staðinn – stundum situr þú í gegnum langar auglýsingar aftur og aftur. SleepGuard læsir skjánum um leið og þú bregst ekki við, svo streymiforritið viti hvar á að halda áfram.
+
+HVERNIG ÞAÐ VIRKAR
+
+1. Stilltu hve oft athugunartappið á að birtast (t.d. á 5 mínútna fresti).
+2. Stilltu hversu margar sekúndur þú hefur til að bregðast við áður en skjárinn læsist (t.d. 30 sekúndur).
+3. Veldu hvar á skjánum hnappurinn birtist.
+4. Ræstu SleepGuard og haltu áfram að horfa.
+
+EIGINLEIKAR
+
+* Tveir hamar: Myndband (vakningarhnappur yfir hvaða forriti sem er) og Hljóð (sofntími fyrir tónlist, hljóðbækur og hlaðvörp, virkar einnig með slökktu skjá)
+* Stillanlegt millibili og viðbragðstími
+* Átta hnappastöður til að velja úr
+* Áreiðanlegur tímasetning jafnvel í bakgrunni (notar kerfisviðvörunina)
+* Algjörlega ókeypis, engin auglýsing, engin rekjanleiki, engin notendareikningur
+
+PERSÓNUVERND
+
+SleepGuard hefur EKKI neina heimild til netsamskipta. Forritið getur hvorki sent né tekið á móti neinum gögnum. Það gerir nákvæmlega tvö hlutverk: sýnir hnapp og læsir skjánum. Það safnar engum gögnum.
+
+ÚTSKÝRING Á HEIMILDUM
+
+* Skjááberun yfir önnur forrit: til að sýna rauða hringinn yfir myndbandinu þínu.
+* Stjórnandi tækis (aðeins skjálæsing): til að læsa skjánum eins og aflrofi.
+* Þjónusta í forgrunni & nákvæmur vekjari: til að láta athugunahnappinn birtast á réttum tíma.
+* Yfirgefa rafhlöðuhagræðingu: svo hnappurinn virki áreiðanlega á meðan annað forrit er í forgrunni.
+* Tilkynningar (Android 13+): til að sýna tilkynninguna "SleepGuard er virkt".
+
+OPINN KÓÐI
+
+SleepGuard er ókeypis hugbúnaður, gefinn út undir GNU General Public License v3. Allur upprunalegur kóði er aðgengilegur svo hver sem er geti skoðað nákvæmlega hvað forritið gerir: https://github.com/OlafDrechsler/SleepGuard
+
+STUÐNINGUR
+
+SleepGuard er ókeypis og mun áfram vera ókeypis. Ef það hjálpar þér geturðu stutt forritarann með sjálfviljugu framlagi innan forritsins. Að vísu er engin umbun í boði – þetta er einfaldlega þakkargjöf.
+
+HUGMYNDIN / NAFNIÐ
+
+Hugmyndin að appinu kemur frá öryggiskerfi sem notað er í lestum. Í stýrisal ökumanns er hnappur sem hann þarf að ýta á reglulega, annars stoppar lestin sjálfkrafa. Með því að ýta á hnappinn staðfestir ökumaðurinn að hann eða hún sé vakandi. Almennt er þennan hnapp kallaður "dauðamannsbúnaður", og þess vegna heitir forritið einnig "SleepGuard – dauðamannsbúnaður".

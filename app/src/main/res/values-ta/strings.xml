@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- தமிழ் -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- முதன்மைத் திரை -->
+    <string name="title_interval">இடைவெளி (நிமிடங்கள்)</string>
+    <string name="title_timeout">நேர வரம்பு (வினாடிகள்)</string>
+    <string name="title_position">பொத்தான் இடம்</string>
+    <string name="title_mode">பயன்முறை</string>
+    <string name="hint_interval_video">பொத்தான் தோன்றும் வரை</string>
+    <string name="hint_interval_audio">இயக்கம் இடைநிறுத்தப்படும் வரை</string>
+    <string name="hint_timeout">திரை பூட்டப்படுவதற்கு முன் தட்ட</string>
+    <string name="mode_video_desc">நீங்கள் விழித்திருப்பதை உறுதிப்படுத்த தட்டும் ஒரு பொத்தான் தோன்றும். தட்டவில்லை என்றால் திரை பூட்டப்படும்.</string>
+    <string name="mode_audio_desc">இடைவெளிக்குப் பிறகு இயக்கம் வெறுமனே நிற்கும், திரை அணைந்திருந்தாலும் கூட (இசை, ஆடியோபுக், பாட்காஸ்ட்).</string>
+    <string name="onb_mode_title">ஒரு பயன்முறையைத் தேர்வுசெய்க</string>
+    <string name="title_language">மொழி</string>
+    <string name="lang_system">கணினி இயல்புநிலை</string>
+    <string name="btn_start">தொடங்கு</string>
+    <string name="btn_stop">நிறுத்து</string>
+    <string name="btn_support">மேம்பாட்டை ஆதரிக்கவும்</string>
+    <string name="support_no_browser">இணைப்பைத் திறக்க உலாவி எதுவும் கிடைக்கவில்லை.</string>
+    <string name="status_running">SleepGuard செயலில் உள்ளது</string>
+    <string name="status_stopped">SleepGuard நிறுத்தப்பட்டது</string>
+
+    <!-- இடங்கள் -->
+    <string name="pos_right_center">வலது விளிம்பு, நடுவில்</string>
+    <string name="pos_left_center">இடது விளிம்பு, நடுவில்</string>
+    <string name="pos_top_center">மேல் விளிம்பு, நடுவில்</string>
+    <string name="pos_bottom_center">கீழ் விளிம்பு, நடுவில்</string>
+    <string name="pos_top_right">மேல் வலது மூலை</string>
+    <string name="pos_top_left">மேல் இடது மூலை</string>
+    <string name="pos_bottom_right">கீழ் வலது மூலை</string>
+    <string name="pos_bottom_left">கீழ் இடது மூலை</string>
+
+    <!-- அனுமதிகள் -->
+    <string name="permission_overlay_needed">பிற ஆப்ஸ் மேல் காட்ட அனுமதி தேவை. அதை அமைப்புகளில் வழங்கவும்.</string>
+    <string name="permission_admin_needed">திரையைப் பூட்ட சாதன நிர்வாகி அனுமதி தேவை.</string>
+    <string name="permission_battery_needed">பின்னணியில் பொத்தான் நம்பகமாகத் தோன்ற SleepGuard க்கான பேட்டரி மேம்படுத்தலை அணைக்கவும்.</string>
+    <string name="admin_description">நீங்கள் தூங்கும்போது திரையைப் பூட்ட மட்டுமே (பவர் பொத்தான் போல) SleepGuard க்கு இந்த அனுமதி தேவை.</string>
+
+    <!-- அறிவிப்பு -->
+    <string name="notification_channel">SleepGuard சேவை</string>
+    <string name="notification_title">SleepGuard செயலில் உள்ளது</string>
+    <string name="notification_text">ஒவ்வொரு %d நிமிடத்திற்கும் சரிபார்ப்பு</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">உங்கள் மொழியைத் தேர்வுசெய்க</string>
+    <string name="onb_welcome_title">SleepGuard க்கு வரவேற்கிறோம்</string>
+    <string name="onb_welcome_body">வீடியோக்களைப் பார்த்துக்கொண்டே நீங்கள் தூங்கிவிட்டால் SleepGuard உங்கள் மொபைலைப் பூட்டிவிடும் — காலையில் பேட்டரி காலியாகாமலும், படத்தில் உங்கள் இடத்தை நீங்கள் ஒருபோதும் இழக்காமலும் இருக்க.\n\nSleepGuard நீங்கள் தட்ட வேண்டிய ஒரு பொத்தானை மீண்டும் மீண்டும் காட்டும். தட்டவில்லை என்றால் மொபைல் பூட்டப்படும். பொத்தான்களுக்கு இடையிலான இடைவெளியை நீங்கள் நிமிடங்களில் அமைக்கிறீர்கள் — தட்டுவதற்கான நேரத்தை வினாடிகளில்.</string>
+    <string name="onb_notif_title">அறிவிப்பைக் காட்டு</string>
+    <string name="onb_notif_body">SleepGuard பின்னணியில் இயங்கும்போது செயலில் இருப்பதை நீங்கள் எப்போதும் பார்க்க அறிவிப்புகளை அனுமதிக்கவும்.</string>
+    <string name="onb_overlay_title">பிற ஆப்ஸ் மேல் காட்டு</string>
+    <string name="onb_overlay_body">SleepGuard உங்கள் வீடியோ மேல் ஒரு சிறிய பொத்தானைக் காட்டுகிறது. அதற்கு பிற ஆப்ஸ் மேல் காட்ட அனுமதி தேவை.</string>
+    <string name="onb_overlay_list_hint">நீங்கள் “%1$s” தட்டும்போது ஆப்ஸ் பட்டியல் தோன்றினால், SleepGuard வரை ஸ்க்ரோல் செய்து அங்கேயே அதற்கு அனுமதி வழங்கவும்.</string>
+    <string name="onb_admin_title">திரையைப் பூட்டு</string>
+    <string name="onb_admin_body">நீங்கள் தூங்கும்போது திரையை அணைக்க — சரியாக பவர் பொத்தான் போல — SleepGuard க்கு சாதன நிர்வாகி அனுமதி தேவை. இது திரையைப் பூட்ட மட்டுமே பயன்படுகிறது.</string>
+    <string name="onb_battery_title">நம்பகமாக இயக்கு</string>
+    <string name="onb_battery_body">வேறு ஆப் முன்னணியில் இருந்தாலும் சரிபார்ப்புப் பொத்தான் சரியான நேரத்தில் தோன்ற, பேட்டரி மேம்படுத்தலைப் புறக்கணிக்க SleepGuard க்கு அனுமதி வழங்கவும்.</string>
+    <string name="onb_done_title">எல்லாம் தயார்!</string>
+    <string name="onb_done_body">நீங்கள் தயார். உங்கள் இடைவெளியை அமைத்து, தொடங்கு என்பதைத் தட்டி, தொடர்ந்து பாருங்கள்.</string>
+    <string name="onb_grant">அனுமதி</string>
+    <string name="onb_granted">அனுமதிக்கப்பட்டது</string>
+    <string name="onb_next">அடுத்து</string>
+    <string name="onb_back">பின்</string>
+    <string name="onb_finish">தொடங்கு</string>
+</resources>

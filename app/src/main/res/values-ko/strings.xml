@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 한국어 -->
+    <string name="app_name">SleepGuard</string>
+
+    <!-- 메인 화면 -->
+    <string name="title_interval">간격 (분)</string>
+    <string name="title_timeout">제한 시간 (초)</string>
+    <string name="title_position">버튼 위치</string>
+    <string name="title_mode">모드</string>
+    <string name="hint_interval_video">버튼이 나타날 때까지</string>
+    <string name="hint_interval_audio">재생이 일시정지될 때까지</string>
+    <string name="hint_timeout">화면이 잠기기 전에 탭할 시간</string>
+    <string name="mode_video_desc">깨어 있음을 확인하기 위해 탭하는 버튼이 나타납니다. 탭하지 않으면 화면이 잠깁니다.</string>
+    <string name="mode_audio_desc">설정한 간격 후에 재생이 그냥 멈춥니다. 화면이 꺼져 있어도 작동합니다 (음악, 오디오북, 팟캐스트).</string>
+    <string name="onb_mode_title">모드 선택</string>
+    <string name="title_language">언어</string>
+    <string name="lang_system">시스템 기본값</string>
+    <string name="btn_start">시작</string>
+    <string name="btn_stop">중지</string>
+    <string name="btn_support">개발 지원하기</string>
+    <string name="support_no_browser">링크를 열 브라우저를 찾을 수 없습니다.</string>
+    <string name="status_running">SleepGuard 실행 중</string>
+    <string name="status_stopped">SleepGuard 중지됨</string>
+
+    <!-- 위치 -->
+    <string name="pos_right_center">오른쪽 가장자리, 가운데</string>
+    <string name="pos_left_center">왼쪽 가장자리, 가운데</string>
+    <string name="pos_top_center">위쪽 가장자리, 가운데</string>
+    <string name="pos_bottom_center">아래쪽 가장자리, 가운데</string>
+    <string name="pos_top_right">오른쪽 위 모서리</string>
+    <string name="pos_top_left">왼쪽 위 모서리</string>
+    <string name="pos_bottom_right">오른쪽 아래 모서리</string>
+    <string name="pos_bottom_left">왼쪽 아래 모서리</string>
+
+    <!-- 권한 -->
+    <string name="permission_overlay_needed">다른 앱 위에 표시 권한이 필요합니다. 설정에서 허용해 주세요.</string>
+    <string name="permission_admin_needed">화면을 잠그려면 기기 관리자 권한이 필요합니다.</string>
+    <string name="permission_battery_needed">백그라운드에서 버튼이 안정적으로 표시되도록 SleepGuard의 배터리 최적화를 꺼 주세요.</string>
+    <string name="admin_description">SleepGuard는 잠들었을 때 화면을 잠그기 위해서만 (전원 버튼처럼) 이 권한이 필요합니다.</string>
+
+    <!-- 알림 -->
+    <string name="notification_channel">SleepGuard 서비스</string>
+    <string name="notification_title">SleepGuard 실행 중</string>
+    <string name="notification_text">%d분마다 확인</string>
+
+    <!-- Onboarding -->
+    <string name="onb_language_title">언어를 선택하세요</string>
+    <string name="onb_welcome_title">SleepGuard에 오신 것을 환영합니다</string>
+    <string name="onb_welcome_body">SleepGuard는 동영상을 보다가 잠들면 휴대폰을 잠급니다 — 아침에 배터리가 방전되지 않고, 영화에서 보던 위치를 잃지 않도록 해 줍니다.\n\nSleepGuard는 탭해야 하는 버튼을 계속 보여 줍니다. 탭하지 않으면 휴대폰이 잠깁니다. 버튼 사이의 간격은 분 단위로, 탭할 시간은 초 단위로 설정합니다.</string>
+    <string name="onb_notif_title">알림 표시</string>
+    <string name="onb_notif_body">SleepGuard가 백그라운드에서 실행되는 동안 활성 상태임을 항상 볼 수 있도록 알림을 허용하세요.</string>
+    <string name="onb_overlay_title">다른 앱 위에 표시</string>
+    <string name="onb_overlay_body">SleepGuard는 동영상 위에 작은 버튼을 표시합니다. 이를 위해 다른 앱 위에 표시할 권한이 필요합니다.</string>
+    <string name="onb_overlay_list_hint">“%1$s”을(를) 탭했을 때 앱 목록이 나타나면 SleepGuard로 스크롤하여 거기에서 권한을 부여하세요.</string>
+    <string name="onb_admin_title">화면 잠그기</string>
+    <string name="onb_admin_body">잠들었을 때 화면을 끄기 위해 — 전원 버튼처럼 — SleepGuard는 기기 관리자 권한이 필요합니다. 이 권한은 화면을 잠그는 데에만 사용됩니다.</string>
+    <string name="onb_battery_title">안정적으로 실행</string>
+    <string name="onb_battery_body">다른 앱이 화면 앞에 있어도 확인 버튼이 제때 나타나도록 SleepGuard가 배터리 최적화를 무시하도록 허용하세요.</string>
+    <string name="onb_done_title">모두 완료!</string>
+    <string name="onb_done_body">준비되었습니다. 간격을 설정하고 시작을 탭한 뒤 계속 시청하세요.</string>
+    <string name="onb_grant">허용</string>
+    <string name="onb_granted">허용됨</string>
+    <string name="onb_next">다음</string>
+    <string name="onb_back">뒤로</string>
+    <string name="onb_finish">시작하기</string>
+</resources>

@@ -1,0 +1,50 @@
+Apakah Anda sering tertidur saat menonton video atau mendengarkan musik di ponsel? SleepGuard memastikan perangkat Anda tidak terus menyala sepanjang malam.
+
+Pada interval yang Anda tentukan, sebuah lingkaran merah kecil akan muncul di atas apa pun yang sedang Anda tonton. Ketuk lingkaran tersebut dan pemutaran akan berlanjut seperti biasa. Jika Anda tidak mengetuknya dalam beberapa detik — karena Anda telah tertidur — SleepGuard akan mengunci layar, sama seperti saat Anda menekan tombol daya. Video Anda akan berhenti dan ponsel Anda terlindungi sepanjang sisa malam.
+
+Tersedia juga mode Audio untuk musik, buku audio, dan podcast: alih-alih menggunakan tombol, SleepGuard berfungsi sebagai pengatur waktu tidur sederhana yang menghentikan pemutaran setelah interval yang Anda pilih — bahkan saat layar mati.
+
+MENGAPA ANDA MEMBUTUHKANNYA
+
+* YouTube dan aplikasi lain dengan pemutaran otomatis: Tanpa SleepGuard, satu video akan memutar video berikutnya, lalu berikutnya, dan berikutnya lagi... hingga pagi hari. Dalam kasus terburuk, baterai akan habis total dan alarm Anda tidak bisa berbunyi saat Anda membutuhkannya. SleepGuard menghentikan rantai pemutaran tersebut begitu Anda berhenti merespons.
+
+* Netflix, Prime Video, dan aplikasi streaming lainnya: Tertidur di tengah episode dan Anda bangun tanpa tahu di mana Anda tertidur. Anda membuang-buang waktu untuk menggeser kembali ke bagian tersebut — terkadang harus menonton iklan panjang berulang kali. SleepGuard mengunci layar tepat saat Anda tidak merespons, sehingga aplikasi streaming Anda tahu di mana harus melanjutkan.
+
+CARA KERJANYA
+
+1. Atur seberapa sering tombol pemeriksaan harus muncul (misalnya setiap 5 menit).
+2. Atur berapa detik waktu yang Anda miliki untuk merespons sebelum layar terkunci (misalnya 30 detik).
+3. Pilih di mana tombol tersebut akan muncul di layar.
+4. Jalankan SleepGuard dan lanjutkan menonton.
+
+FITUR
+
+* Dua mode: Video (tombol pengecekan di atas aplikasi apa pun) dan Audio (pengatur waktu tidur untuk musik, buku audio, dan podcast, berfungsi juga saat layar mati)
+* Interval dan waktu reaksi yang dapat disesuaikan
+* Delapan posisi tombol yang dapat dipilih
+* Pengaturan waktu yang andal bahkan saat berjalan di latar belakang (menggunakan alarm sistem)
+* Sepenuhnya gratis, tanpa iklan, tanpa pelacakan, tanpa akun
+
+PRIVASI
+
+SleepGuard TIDAK MEMILIKI izin internet sama sekali. Aplikasi ini tidak dapat mengirim atau menerima data apa pun. Aplikasi ini hanya melakukan dua hal: menampilkan tombol dan mengunci layar. Aplikasi ini tidak mengumpulkan data apa pun.
+
+PENJELASAN IZIN
+
+* Tampil di atas aplikasi lain: untuk menampilkan lingkaran merah di atas video Anda.
+* Admin perangkat (hanya kunci layar): untuk mengunci layar seperti tombol daya.
+* Layanan latar depan & alarm tepat waktu: agar tombol pemeriksaan muncul tepat waktu.
+* Abaikan pengoptimalan baterai: agar tombol tetap berfungsi dengan andal saat aplikasi lain berada di latar depan.
+* Pemberitahuan (Android 13+): untuk menampilkan pemberitahuan berkelanjutan "SleepGuard aktif".
+
+SUMBER TERBUKA
+
+SleepGuard adalah perangkat lunak bebas, dilisensikan di bawah Lisensi Publik Umum GNU v3. Kode sumber lengkap tersedia sehingga siapa pun dapat memeriksa dengan tepat apa yang dilakukan aplikasi ini: https://github.com/OlafDrechsler/SleepGuard
+
+DUKUNGAN
+
+SleepGuard gratis dan akan tetap gratis. Jika aplikasi ini membantu Anda, Anda dapat mendukung pengembangnya dengan donasi sukarela dari dalam aplikasi. Tidak ada imbalan apa pun — ini hanyalah ucapan terima kasih.
+
+IDE / NAMA
+
+Ide aplikasi ini berasal dari sistem keselamatan yang digunakan di kereta api. Di kabin masinis, terdapat tombol yang harus ditekan oleh masinis secara berkala; jika tidak, kereta akan berhenti secara otomatis. Dengan menekan tombol tersebut, masinis menegaskan bahwa ia sedang terjaga. Dalam bahasa sehari-hari, tombol ini disebut "dead man's switch," sehingga aplikasi ini juga dinamai "SleepGuard – Dead Man's Switch".
